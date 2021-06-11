@@ -1,0 +1,418 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+
+
+    <!-- Library libs_ext -->
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>DLG4NLP: EMPIR: Ensembles of Mixed Precision Deep Networks for Increased Robustness Against Adversarial Attacks</title>
+    
+<meta name="citation_title" content="EMPIR: Ensembles of Mixed Precision Deep Networks for Increased Robustness Against Adversarial Attacks"/>
+
+<meta name="citation_author" content="Sanchari Sen"/>
+
+<meta name="citation_author" content="Balaraman Ravindran"/>
+
+<meta name="citation_author" content="Anand Raghunathan"/>
+
+<meta name="citation_publication_date" content=""/>
+<meta name="citation_conference_title"
+      content="Deep Learning On Graphs For Natural Language Processing"/>
+<meta name="citation_inbook_title" content=""/>
+<meta name="citation_abstract" content="Ensuring robustness of Deep Neural Networks (DNNs) is crucial to their adoption in safety-critical applications such as self-driving cars, drones, and healthcare. Notably, DNNs are vulnerable to adversarial attacks in which small input perturbations can produce catastrophic misclassifications. In this work, we propose EMPIR, ensembles of quantized DNN models with different numerical precisions, as a new approach to increase robustness against adversarial attacks. EMPIR is based on the observation that quantized neural networks often demonstrate much higher robustness to adversarial attacks than full precision networks, but at the cost of a substantial loss in accuracy on the original (unperturbed) inputs. EMPIR overcomes this limitation to achieve the ``best of both worlds&#34;, i.e., the higher unperturbed accuracies of the full precision models combined with the higher robustness of the low precision models, by composing them in an ensemble. Further, as low precision DNN models have significantly lower computational and storage requirements than full precision models, EMPIR models only incur modest compute and memory overheads compared to a single full-precision model (&lt;25% in our evaluations). We evaluate EMPIR across a suite of DNNs for 3 different image recognition tasks (MNIST, CIFAR-10 and ImageNet) and under 4 different adversarial attacks. Our results indicate that EMPIR boosts the average adversarial accuracies by 42.6%, 15.2% and 10.5% for the DNN models trained on the MNIST, CIFAR-10 and ImageNet datasets respectively, when compared to single full-precision models, without sacrificing accuracy on the unperturbed inputs."/>
+
+<meta name="citation_keywords" content="adversarial"/>
+
+<meta name="citation_keywords" content="adversarial attacks"/>
+
+<meta name="citation_keywords" content="ensembles"/>
+
+<meta name="citation_keywords" content="imagenet"/>
+
+<meta name="citation_keywords" content="memory"/>
+
+<meta name="citation_keywords" content="perturbation"/>
+
+<meta name="citation_keywords" content="robustness"/>
+
+<meta name="citation_pdf_url" content=""/>
+
+
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/G4L-logo.png"
+                    height="auto"
+            width="200px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Paper</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="workshops.html">Workshop</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view
+">Tutorial</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp_demo">Demo</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="http://saizhuo.wang/g4nlp/index.html">Docs</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp">GitHub</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="blogs.html">Blog</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <h2 class="card-title main-title text-center" style="">
+            EMPIR: Ensembles of Mixed Precision Deep Networks for Increased Robustness Against Adversarial Attacks
+        </h2>
+        <h3 class="card-subtitle mb-2 text-muted text-center">
+            
+            <a href="papers.html?filter=authors&search=Sanchari Sen"
+               class="text-muted"
+            >Sanchari Sen</a
+            >,
+            
+            <a href="papers.html?filter=authors&search=Balaraman Ravindran"
+               class="text-muted"
+            >Balaraman Ravindran</a
+            >,
+            
+            <a href="papers.html?filter=authors&search=Anand Raghunathan"
+               class="text-muted"
+            >Anand Raghunathan</a
+            >
+            
+        </h3>
+        <p class="card-text text-center">
+            <span class="">Keywords:</span>
+            
+            <a
+                    href="papers.html?filter=keywords&search=adversarial"
+                    class="text-secondary text-decoration-none"
+            >adversarial</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=adversarial attacks"
+                    class="text-secondary text-decoration-none"
+            >adversarial attacks</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=ensembles"
+                    class="text-secondary text-decoration-none"
+            >ensembles</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=imagenet"
+                    class="text-secondary text-decoration-none"
+            >imagenet</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=memory"
+                    class="text-secondary text-decoration-none"
+            >memory</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=perturbation"
+                    class="text-secondary text-decoration-none"
+            >perturbation</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=robustness"
+                    class="text-secondary text-decoration-none"
+            >robustness</a
+            >
+            
+        </p>
+        <div class="text-center p-3">
+            <a class="card-link" data-toggle="collapse" role="button"
+               href="#details">
+                Abstract
+            </a>
+            <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238">
+                Paper
+            </a>
+            
+            <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link">
+                Code
+            </a>
+            
+        </div>
+    </div>
+</div>
+<div id="details" class="pp-card m-3 collapse">
+    <div class="card-body">
+        <div class="card-text">
+            <div id="abstractExample">
+                <span class="font-weight-bold">Abstract:</span>
+                Ensuring robustness of Deep Neural Networks (DNNs) is crucial to their adoption in safety-critical applications such as self-driving cars, drones, and healthcare. Notably, DNNs are vulnerable to adversarial attacks in which small input perturbations can produce catastrophic misclassifications. In this work, we propose EMPIR, ensembles of quantized DNN models with different numerical precisions, as a new approach to increase robustness against adversarial attacks. EMPIR is based on the observation that quantized neural networks often demonstrate much higher robustness to adversarial attacks than full precision networks, but at the cost of a substantial loss in accuracy on the original (unperturbed) inputs. EMPIR overcomes this limitation to achieve the ``best of both worlds&#34;, i.e., the higher unperturbed accuracies of the full precision models combined with the higher robustness of the low precision models, by composing them in an ensemble. Further, as low precision DNN models have significantly lower computational and storage requirements than full precision models, EMPIR models only incur modest compute and memory overheads compared to a single full-precision model (&lt;25% in our evaluations). We evaluate EMPIR across a suite of DNNs for 3 different image recognition tasks (MNIST, CIFAR-10 and ImageNet) and under 4 different adversarial attacks. Our results indicate that EMPIR boosts the average adversarial accuracies by 42.6%, 15.2% and 10.5% for the DNN models trained on the MNIST, CIFAR-10 and ImageNet datasets respectively, when compared to single full-precision models, without sacrificing accuracy on the unperturbed inputs.
+            </div>
+        </div>
+        <p></p>
+    </div>
+</div>
+
+<h5 style="color: red;">
+    Add content for posters. This could be a video, embedded pdf, chat room ....
+</h5>
+
+<!-- Chat -->
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example Chat</h2>
+  </div>
+</div>
+
+<div class="col-md-12 col-xs-12 p-2">
+    <div id="gitter" class="slp">
+        <center>
+            <iframe frameborder="0"
+                    src="https:///channel/paper_HJem3yHKwH?layout=embedded"
+                    height="700px" width="100%"></iframe>
+        </center>
+    </div>
+</div>
+
+<!-- Slides Live-->
+
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example SlidesLive</h2>
+  </div>
+</div>
+
+<div class="col-md-12 col-xs-12 my-auto p-2">
+    <div id="presentation-embed" class="slp my-auto"></div>
+    <script src='https://slideslive.com/embed_presentation.js'></script>
+    <script>
+      embed = new SlidesLiveEmbed("presentation-embed", {
+        presentationId:
+          "",
+        autoPlay: false, // change to true to autoplay the embedded presentation
+        verticalEnabled: true,
+        verticalWhenWidthLte: 500,
+        allowHiddenControlsWhenPaused: true,
+        hideTitle: true,
+      });
+    </script>
+</div>
+
+
+<!-- Chat -->
+
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example Poster</h2>
+  </div>
+</div>
+
+<div role="main" id="pdf_view"></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.3.200/build/pdf.min.js"></script>
+<script src="static/js/modules/pdfRender.js"></script>
+<script>
+  $(document).ready(() => {
+    // render first page of PDF to div
+    // PDF name can be bound to variable -- e.g. paper.content.poster_link
+    const pdfFile =
+      " ";
+    initPDFViewer(pdfFile, "#pdf_view");
+  });
+</script>
+
+
+
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 DLG4NLP Team</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

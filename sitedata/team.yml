@@ -1,0 +1,25 @@
+team:
+  - role: Developer
+    name: Lingfei Wu
+    aff: JD.COM Silicon Valley Research Center
+    im: https://sites.google.com/a/email.wm.edu/teddy-lfwu/
+  - role: Developer
+    name: Yu Chen
+    aff: Facebook AI
+    im: http://academic.hugochan.net/
+  - role: Developer
+    name: Kai Shen
+    aff: Zhejiang University
+    im: https://scholar.google.com/citations?user=K91DJhIAAAAJ&hl=en
+  - role: Developer
+    name: Xiaojie Guo
+    aff: JD.COM Silicon Valley Research Center
+    im: https://sites.google.com/view/xiaojie-guo-personal-site
+  - role: Developer
+    name: Hanning Gao
+  - role: Developer
+    name: Shucheng Li
+  - role: Developer
+    name: Saizhuo Wang
+
+

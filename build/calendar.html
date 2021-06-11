@@ -1,0 +1,690 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+
+
+    <!-- Library libs_ext -->
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>DLG4NLP: Schedule</title>
+    
+<script src="https://cdn.jsdelivr.net/npm/ical.js@1.4.0/build/ical.min.js" integrity="sha256-iFbWWsVYU6rIgbq5wJc4mp8zvV3SkqupxgH/7a9PanY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.26.0/dist/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.31/builds/moment-timezone-with-data-10-year-range.min.js" integrity="sha256-Dx3P9LwbB/WuS+7Xv37Y+qcPS/14AwFH653Pw80AOhY=" crossorigin="anonymous"></script>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/tui-calendar@1/dist/tui-calendar.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/tui-code-snippet@1.5.2/dist/tui-code-snippet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tui-dom@3.0.0/dist/tui-dom.min.js" integrity="sha256-Ha3QUAK/d/Z2BMN/hDoBjwP0Q0f5uS9MploTRSLqrLI=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/tui-calendar@1/dist/tui-calendar.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.10/dist/css/bootstrap-select.min.css"
+/>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.10/dist/js/bootstrap-select.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+
+<script src="static/js/modules/lazyLoad.js"></script>
+<script src="static/js/modules/urlParams.js"></script>
+<script type="text/javascript" src="static/js/views/calendar.js"></script>
+
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/G4L-logo.png"
+                    height="auto"
+            width="200px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Paper</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="workshops.html">Workshop</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view
+">Tutorial</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp_demo">Demo</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="http://saizhuo.wang/g4nlp/index.html">Docs</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp">GitHub</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="blogs.html">Blog</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+        
+<ul class="nav nav-pills justify-content-center">
+  
+  <li class="nav-item">
+    <a
+      class="nav-link active text-muted "
+      data-toggle="tab"
+      href="#tab-calendar"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Calendar
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a
+      class="nav-link  text-muted "
+      data-toggle="tab"
+      href="#tab-day"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Example Day
+    </a>
+  </li>
+  
+</ul>
+
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+  <!-- Calender tab -->
+  <div
+    class="tab-pane active"
+    id="tab-calendar"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div class="form-group col">
+      <label for="tzOptions">Timezone:</label>
+      <select id="tzOptions" class="selectpicker" data-live-search="true">
+      </select>
+    </div>
+
+    <!-- full cal for browser-->
+    <div id="calendar" class="d-none d-sm-block"></div>
+
+    <!-- small cal for smart phones-->
+    <div id="calendar_small" class="d-sm-none"></div>
+
+<!--    <script type="text/javascript">-->
+<!--      // console.log(make_cal(),"-&#45;&#45; make_cal()");-->
+<!--      make_cal().then((d) => console.log(d, "-&#45;&#45; d"));-->
+<!--    </script>-->
+  </div>
+
+  <!-- Day Tab -->
+
+  <div
+    class="tab-pane fade"
+    id="tab-day"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div id="day">
+      <!-- Speakers -->
+      <div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Speakers</h2>
+  </div>
+</div>
+      <div class="speakers">
+        
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="https://iclr.cc/virtual_2020/static/images/aisha.jpg" width="100%" class="img-thumbnail" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h3>
+                <a href="speaker_1.html" class="main-title">
+                  AI + Africa = Global Innovation
+                </a>
+              </h3>
+            </div>
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                Dr. Aisha Walcott-Bryant  /  IBM Research Africa, Nairobi
+              </span>
+            </div>
+            <div class="m-3">
+              Artificial Intelligence (AI) has for some time stoked the creative fires of computer scientists and researchers world-wide -- even before the so-called AI winter. After emerging from the winter, with much improved compute, vast amounts of data, and new techniques, AI has ignited our collective imaginations. We have been captivated by its promise while wary of its possible misuse in applications. AI has certainly demonstrated its enormous potential especially in fields such as healthcare. There, it has been used to support radiologists and to further precision medicine; conversely it has been used to generate photorealistic videos which distort our concept of what is real.  Hence, we must thoughtfully harness AI to address the myriad of scientific and societal challenges; and open pathways to opportunities in governance, policy, and management. In this talk, I will share innovative solutions which leverage AI for global health with a focus on Africa. I will present a vision for the collaborations in hopes to inspire our community to join on this journey to transform Africa and impact the world.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="https://iclr.cc/virtual_2020/static/images/Kaelbling-1.jpg" width="100%" class="img-thumbnail" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h3>
+                <a href="speaker_2.html" class="main-title">
+                  Doing for Our Robots What Nature Did For Us
+                </a>
+              </h3>
+            </div>
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                 Prof. Leslie Kaelbling  /  MIT
+              </span>
+            </div>
+            <div class="m-3">
+              We, as robot engineers, have to think hard about our role in the design of robots and how it interacts with learning, both in 'the factory' (that is, at engineering time) and in 'the wild' (that is, when the robot is delivered to a customer). I will share some general thoughts about the strategies for robot design and then talk in detail about some work I have been involved in, both in the design of an overall architecture for an intelligent robot and in strategies for learning to integrate new skills into the repertoire of an already competent robot.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Highlighted Papers</h2>
+  </div>
+</div>
+      <div class="papers">
+        <div class="row my-auto mx-auto">
+  <div
+    id="carouselExample1"
+    class="carousel slide d-none d-md-block"
+    data-interval="false"
+  >
+    <div class="carousel-inner cards" role="listbox">
+      
+      
+      <div class="carousel-item  active">
+        
+        <div class="col-md-4 col-xs-6 fluid">
+          <div class="pp-card">
+            <div class="pp-card-header">
+              <a href="poster_B1xSperKvH.html" class="text-muted">
+                <h5 class="card-title" align="center">
+                  Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation
+                </h5>
+              </a>
+              <h6 class="card-subtitle text-muted" align="center">
+                
+                Nitin Rathi,
+                
+                Gopalakrishnan Srinivasan,
+                
+                Priyadarshini Panda,
+                
+                Kaushik Roy,
+                
+              </h6>
+              <center>
+                <img
+                  class="cards_img lazy-load-img"
+                  data-src="https://iclr.github.io/iclr-images/B1xSperKvH.png"
+                  width="80%"
+                />
+              </center>
+            </div>
+          </div>
+        </div>
+        
+      
+      
+        <div class="col-md-4 col-xs-6 fluid">
+          <div class="pp-card">
+            <div class="pp-card-header">
+              <a href="poster_SygcCnNKwr.html" class="text-muted">
+                <h5 class="card-title" align="center">
+                  Measuring Compositional Generalization: A Comprehensive Method on Realistic Data
+                </h5>
+              </a>
+              <h6 class="card-subtitle text-muted" align="center">
+                
+                Daniel Keysers,
+                
+                Nathanael Schärli,
+                
+                Nathan Scales,
+                
+                Hylke Buisman,
+                
+                Daniel Furrer,
+                
+                Sergii Kashubin,
+                
+                Nikola Momchev,
+                
+                Danila Sinopalnikov,
+                
+                Lukasz Stafiniak,
+                
+                Tibor Tihon,
+                
+                Dmitry Tsarkov,
+                
+                Xiao Wang,
+                
+                Marc van Zee,
+                
+                Olivier Bousquet,
+                
+              </h6>
+              <center>
+                <img
+                  class="cards_img lazy-load-img"
+                  data-src="https://iclr.github.io/iclr-images/SygcCnNKwr.png"
+                  width="80%"
+                />
+              </center>
+            </div>
+          </div>
+        </div>
+        
+      
+      
+        <div class="col-md-4 col-xs-6 fluid">
+          <div class="pp-card">
+            <div class="pp-card-header">
+              <a href="poster_ryg48p4tPH.html" class="text-muted">
+                <h5 class="card-title" align="center">
+                  Action Semantics Network: Considering the Effects of Actions in Multiagent Systems
+                </h5>
+              </a>
+              <h6 class="card-subtitle text-muted" align="center">
+                
+                Weixun Wang,
+                
+                Tianpei Yang,
+                
+                Yong Liu,
+                
+                Jianye Hao,
+                
+                Xiaotian Hao,
+                
+                Yujing Hu,
+                
+                Yingfeng Chen,
+                
+                Changjie Fan,
+                
+                Yang Gao,
+                
+              </h6>
+              <center>
+                <img
+                  class="cards_img lazy-load-img"
+                  data-src="https://iclr.github.io/iclr-images/ryg48p4tPH.png"
+                  width="80%"
+                />
+              </center>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      
+      <div class="carousel-item ">
+        
+        <div class="col-md-4 col-xs-6 fluid">
+          <div class="pp-card">
+            <div class="pp-card-header">
+              <a href="poster_rke7geHtwH.html" class="text-muted">
+                <h5 class="card-title" align="center">
+                  Keep Doing What Worked: Behavior Modelling Priors for Offline Reinforcement Learning
+                </h5>
+              </a>
+              <h6 class="card-subtitle text-muted" align="center">
+                
+                Noah Siegel,
+                
+                Jost Tobias Springenberg,
+                
+                Felix Berkenkamp,
+                
+                Abbas Abdolmaleki,
+                
+                Michael Neunert,
+                
+                Thomas Lampe,
+                
+                Roland Hafner,
+                
+                Nicolas Heess,
+                
+                Martin Riedmiller,
+                
+              </h6>
+              <center>
+                <img
+                  class="cards_img lazy-load-img"
+                  data-src="https://iclr.github.io/iclr-images/rke7geHtwH.png"
+                  width="80%"
+                />
+              </center>
+            </div>
+          </div>
+        </div>
+        
+      
+      
+        <div class="col-md-4 col-xs-6 fluid">
+          <div class="pp-card">
+            <div class="pp-card-header">
+              <a href="poster_Skx82ySYPH.html" class="text-muted">
+                <h5 class="card-title" align="center">
+                  Neural Outlier Rejection for Self-Supervised Keypoint Learning
+                </h5>
+              </a>
+              <h6 class="card-subtitle text-muted" align="center">
+                
+                Jiexiong Tang,
+                
+                Hanme Kim,
+                
+                Vitor Guizilini,
+                
+                Sudeep Pillai,
+                
+                Rares Ambrus,
+                
+              </h6>
+              <center>
+                <img
+                  class="cards_img lazy-load-img"
+                  data-src="https://iclr.github.io/iclr-images/Skx82ySYPH.png"
+                  width="80%"
+                />
+              </center>
+            </div>
+          </div>
+        </div>
+        
+      
+      
+        <div class="col-md-4 col-xs-6 fluid">
+          <div class="pp-card">
+            <div class="pp-card-header">
+              <a href="poster_SyxhVkrYvr.html" class="text-muted">
+                <h5 class="card-title" align="center">
+                  Towards Verified Robustness under Text Deletion Interventions
+                </h5>
+              </a>
+              <h6 class="card-subtitle text-muted" align="center">
+                
+                Johannes Welbl,
+                
+                Po-Sen Huang,
+                
+                Robert Stanforth,
+                
+                Sven Gowal,
+                
+                Krishnamurthy (Dj) Dvijotham,
+                
+                Martin Szummer,
+                
+                Pushmeet Kohli,
+                
+              </h6>
+              <center>
+                <img
+                  class="cards_img lazy-load-img"
+                  data-src="https://iclr.github.io/iclr-images/SyxhVkrYvr.png"
+                  width="80%"
+                />
+              </center>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#carouselExample1"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#carouselExample1"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script type="text/javascript">
+    window.onload = () => {
+      const tabPanes = $(".tab-pane");
+      // Create calendars:
+      make_cal(false).then(({ render }) => {
+        // render cal with all tabs visible
+        tabPanes.css("display", "block");
+        render();
+        tabPanes.css("display", "");
+
+        // re-render cal on resize
+        $(window).on(
+          "resize",
+          _.debounce(() => {
+            tabPanes.css("display", "block");
+            render();
+            tabPanes.css("display", "");
+          }, 500)
+        );
+      });
+      // ----
+      lazyLoader();
+    };
+  </script>
+</div>
+
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 DLG4NLP Team</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

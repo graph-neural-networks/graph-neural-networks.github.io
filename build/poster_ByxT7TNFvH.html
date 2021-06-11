@@ -1,0 +1,410 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+
+
+    <!-- Library libs_ext -->
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>DLG4NLP: Semantically-Guided Representation Learning for Self-Supervised Monocular Depth</title>
+    
+<meta name="citation_title" content="Semantically-Guided Representation Learning for Self-Supervised Monocular Depth"/>
+
+<meta name="citation_author" content="Vitor Guizilini"/>
+
+<meta name="citation_author" content="Rui Hou"/>
+
+<meta name="citation_author" content="Jie Li"/>
+
+<meta name="citation_author" content="Rares Ambrus"/>
+
+<meta name="citation_author" content="Adrien Gaidon"/>
+
+<meta name="citation_publication_date" content=""/>
+<meta name="citation_conference_title"
+      content="Deep Learning On Graphs For Natural Language Processing"/>
+<meta name="citation_inbook_title" content=""/>
+<meta name="citation_abstract" content="Self-supervised learning is showing great promise for monocular depth estimation, using geometry as the only source of supervision. Depth networks are indeed capable of learning representations that relate visual appearance to 3D properties by implicitly leveraging category-level patterns. In this work we investigate how to leverage more directly this semantic structure to guide geometric representation learning, while remaining in the self-supervised regime. Instead of using semantic labels and proxy losses in a multi-task approach, we propose a new architecture leveraging fixed pretrained semantic segmentation networks to guide self-supervised representation learning via pixel-adaptive convolutions. Furthermore, we propose a two-stage training process to overcome a common semantic bias on dynamic objects via resampling. Our method improves upon the state of the art for self-supervised monocular depth prediction over all pixels, fine-grained details, and per semantic categories.
+"/>
+
+<meta name="citation_keywords" content="computer vision"/>
+
+<meta name="citation_keywords" content="representation learning"/>
+
+<meta name="citation_keywords" content="self supervised learning"/>
+
+<meta name="citation_keywords" content="semantic segmentation"/>
+
+<meta name="citation_pdf_url" content=""/>
+
+
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+                    class="logo" src="static/images/G4L-logo.png"
+                    height="auto"
+            width="200px"
+            />
+        </a>
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="papers.html">Paper</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="workshops.html">Workshop</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view
+">Tutorial</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp_demo">Demo</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="http://saizhuo.wang/g4nlp/index.html">Docs</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp">GitHub</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="blogs.html">Blog</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <h2 class="card-title main-title text-center" style="">
+            Semantically-Guided Representation Learning for Self-Supervised Monocular Depth
+        </h2>
+        <h3 class="card-subtitle mb-2 text-muted text-center">
+            
+            <a href="papers.html?filter=authors&search=Vitor Guizilini"
+               class="text-muted"
+            >Vitor Guizilini</a
+            >,
+            
+            <a href="papers.html?filter=authors&search=Rui Hou"
+               class="text-muted"
+            >Rui Hou</a
+            >,
+            
+            <a href="papers.html?filter=authors&search=Jie Li"
+               class="text-muted"
+            >Jie Li</a
+            >,
+            
+            <a href="papers.html?filter=authors&search=Rares Ambrus"
+               class="text-muted"
+            >Rares Ambrus</a
+            >,
+            
+            <a href="papers.html?filter=authors&search=Adrien Gaidon"
+               class="text-muted"
+            >Adrien Gaidon</a
+            >
+            
+        </h3>
+        <p class="card-text text-center">
+            <span class="">Keywords:</span>
+            
+            <a
+                    href="papers.html?filter=keywords&search=computer vision"
+                    class="text-secondary text-decoration-none"
+            >computer vision</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=representation learning"
+                    class="text-secondary text-decoration-none"
+            >representation learning</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=self supervised learning"
+                    class="text-secondary text-decoration-none"
+            >self supervised learning</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=semantic segmentation"
+                    class="text-secondary text-decoration-none"
+            >semantic segmentation</a
+            >
+            
+        </p>
+        <div class="text-center p-3">
+            <a class="card-link" data-toggle="collapse" role="button"
+               href="#details">
+                Abstract
+            </a>
+            <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238">
+                Paper
+            </a>
+            
+            <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link">
+                Code
+            </a>
+            
+        </div>
+    </div>
+</div>
+<div id="details" class="pp-card m-3 collapse">
+    <div class="card-body">
+        <div class="card-text">
+            <div id="abstractExample">
+                <span class="font-weight-bold">Abstract:</span>
+                Self-supervised learning is showing great promise for monocular depth estimation, using geometry as the only source of supervision. Depth networks are indeed capable of learning representations that relate visual appearance to 3D properties by implicitly leveraging category-level patterns. In this work we investigate how to leverage more directly this semantic structure to guide geometric representation learning, while remaining in the self-supervised regime. Instead of using semantic labels and proxy losses in a multi-task approach, we propose a new architecture leveraging fixed pretrained semantic segmentation networks to guide self-supervised representation learning via pixel-adaptive convolutions. Furthermore, we propose a two-stage training process to overcome a common semantic bias on dynamic objects via resampling. Our method improves upon the state of the art for self-supervised monocular depth prediction over all pixels, fine-grained details, and per semantic categories.
+
+            </div>
+        </div>
+        <p></p>
+    </div>
+</div>
+
+<h5 style="color: red;">
+    Add content for posters. This could be a video, embedded pdf, chat room ....
+</h5>
+
+<!-- Chat -->
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example Chat</h2>
+  </div>
+</div>
+
+<div class="col-md-12 col-xs-12 p-2">
+    <div id="gitter" class="slp">
+        <center>
+            <iframe frameborder="0"
+                    src="https:///channel/paper_ByxT7TNFvH?layout=embedded"
+                    height="700px" width="100%"></iframe>
+        </center>
+    </div>
+</div>
+
+<!-- Slides Live-->
+
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example SlidesLive</h2>
+  </div>
+</div>
+
+<div class="col-md-12 col-xs-12 my-auto p-2">
+    <div id="presentation-embed" class="slp my-auto"></div>
+    <script src='https://slideslive.com/embed_presentation.js'></script>
+    <script>
+      embed = new SlidesLiveEmbed("presentation-embed", {
+        presentationId:
+          "",
+        autoPlay: false, // change to true to autoplay the embedded presentation
+        verticalEnabled: true,
+        verticalWhenWidthLte: 500,
+        allowHiddenControlsWhenPaused: true,
+        hideTitle: true,
+      });
+    </script>
+</div>
+
+
+<!-- Chat -->
+
+<div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example Poster</h2>
+  </div>
+</div>
+
+<div role="main" id="pdf_view"></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.3.200/build/pdf.min.js"></script>
+<script src="static/js/modules/pdfRender.js"></script>
+<script>
+  $(document).ready(() => {
+    // render first page of PDF to div
+    // PDF name can be bound to variable -- e.g. paper.content.poster_link
+    const pdfFile =
+      " ";
+    initPDFViewer(pdfFile, "#pdf_view");
+  });
+</script>
+
+
+
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 DLG4NLP Team</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>

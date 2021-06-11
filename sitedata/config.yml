@@ -1,0 +1,31 @@
+name: DLG4NLP
+tagline: Deep Learning on Graphs for Natural Language Processing
+analytics: UA-
+logo:
+  image: static/images/G4L-logo.png
+  width: 200px
+  height: auto
+# uncomment the following line to show the site title next to the logo image
+# site_title: DLG4NLP
+page_title:
+  prefix: 'DLG4NLP'
+  separator: ': '
+background_image: static/images/main.jpg
+organization: DLG4NLP Team
+
+
+# Configuration for auth
+#Test user
+#user: miniconf@miniconf.com
+#pass: mIniconf1_
+
+use_auth0:
+auth0_client_id : JIdr6wi0z27LyLgwkJF0fpk700aj7MNH
+auth0_domain : miniconf.auth0.com
+
+calendar:
+  colors: #  Colors for the different event hashtags:
+    ---: '#bed972'
+    qa: '#4FCAEB'
+    talk: '#ccc'
+  sunday_saturday: false  #  Include Sunday and Saturday
