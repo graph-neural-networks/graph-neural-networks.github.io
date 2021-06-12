@@ -74,6 +74,142 @@ def home():
     data["Authors"] = site_data["Authors"]["Authors"]
     return render_template("index.html", **data)
 
+@app.route("/chapter1.html")
+def chapter1():
+    data = _data()
+    return render_template("chapter1.html", **data)
+
+@app.route("/chapter2.html")
+def chapter2():
+    data = _data()
+    return render_template("chapter2.html", **data)
+
+@app.route("/chapter3.html")
+def chapter3():
+    data = _data()
+    return render_template("chapter3.html", **data)
+
+@app.route("/chapter4.html")
+def chapter4():
+    data = _data()
+    return render_template("chapter4.html", **data)
+
+@app.route("/chapter5.html")
+def chapter5():
+    data = _data()
+    return render_template("chapter5.html", **data)
+
+@app.route("/chapter6.html")
+def chapter6():
+    data = _data()
+    return render_template("chapter6.html", **data)
+
+@app.route("/chapter7.html")
+def chapter7():
+    data = _data()
+    return render_template("chapter7.html", **data)
+
+@app.route("/chapter8.html")
+def chapter8():
+    data = _data()
+    return render_template("chapter8.html", **data)
+
+@app.route("/chapter9.html")
+def chapter9():
+    data = _data()
+    return render_template("chapter9.html", **data)
+
+@app.route("/chapter10.html")
+def chapter10():
+    data = _data()
+    return render_template("chapter10.html", **data)
+
+@app.route("/chapter11.html")
+def chapter11():
+    data = _data()
+    return render_template("chapter11.html", **data)
+
+@app.route("/chapter12.html")
+def chapter12():
+    data = _data()
+    return render_template("chapter12.html", **data)
+
+@app.route("/chapter13.html")
+def chapter13():
+    data = _data()
+    return render_template("chapter13.html", **data)
+
+@app.route("/chapter14.html")
+def chapter14():
+    data = _data()
+    return render_template("chapter14.html", **data)
+
+@app.route("/chapter15.html")
+def chapter15():
+    data = _data()
+    return render_template("chapter15.html", **data)
+
+@app.route("/chapter16.html")
+def chapter16():
+    data = _data()
+    return render_template("chapter16.html", **data)
+
+@app.route("/chapter17.html")
+def chapter17():
+    data = _data()
+    return render_template("chapter17.html", **data)
+
+
+@app.route("/chapter18.html")
+def chapter18():
+    data = _data()
+    return render_template("chapter18.html", **data)
+
+@app.route("/chapter19.html")
+def chapter19():
+    data = _data()
+    return render_template("chapter19.html", **data)
+
+@app.route("/chapter20.html")
+def chapter20():
+    data = _data()
+    return render_template("chapter20.html", **data)
+
+@app.route("/chapter21.html")
+def chapter21():
+    data = _data()
+    return render_template("chapter21.html", **data)
+
+@app.route("/chapter22.html")
+def chapter22():
+    data = _data()
+    return render_template("chapter22.html", **data)
+
+@app.route("/chapter23.html")
+def chapter23():
+    data = _data()
+    return render_template("chapter23.html", **data)
+
+@app.route("/chapter24.html")
+def chapter24():
+    data = _data()
+    return render_template("chapter24.html", **data)
+
+@app.route("/chapter25.html")
+def chapter25():
+    data = _data()
+    return render_template("chapter25.html", **data)
+
+@app.route("/chapter26.html")
+def chapter26():
+    data = _data()
+    return render_template("chapter26.html", **data)
+
+@app.route("/chapter27.html")
+def chapter27():
+    data = _data()
+    return render_template("chapter27.html", **data)
+
 
 #@app.route("/help.html")
 #def about():
