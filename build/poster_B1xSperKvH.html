@@ -74,21 +74,13 @@
     <link rel="stylesheet" href="static/css/lazy_load.css"/>
     <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>DLG4NLP: Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation</title>
+    <title>Graph Neural Networks: Foundations, Frontiers, and Applications: Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation</title>
     
 <meta name="citation_title" content="Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation"/>
 
-<meta name="citation_author" content="Nitin Rathi"/>
-
-<meta name="citation_author" content="Gopalakrishnan Srinivasan"/>
-
-<meta name="citation_author" content="Priyadarshini Panda"/>
-
-<meta name="citation_author" content="Kaushik Roy"/>
-
 <meta name="citation_publication_date" content=""/>
 <meta name="citation_conference_title"
-      content="Deep Learning On Graphs For Natural Language Processing"/>
+      content="Graph Neural Networks: Foundations, Frontiers, And Applications"/>
 <meta name="citation_inbook_title" content=""/>
 <meta name="citation_abstract" content="Spiking Neural Networks (SNNs) operate with asynchronous discrete events (or spikes) which can potentially lead to higher energy-efficiency in neuromorphic hardware implementations. Many works have shown that an SNN for inference can be formed by copying the weights from a trained Artificial Neural Network (ANN) and setting the firing threshold for each layer as the maximum input received in that layer. These type of converted SNNs require a large number of time steps to achieve competitive accuracy which diminishes the energy savings. The number of time steps can be reduced by training SNNs with spike-based backpropagation from scratch, but that is computationally expensive and slow. To address these challenges, we present a computationally-efficient training technique for deep SNNs. We propose a hybrid training methodology: 1) take a converted SNN and use its weights and thresholds as an initialization step for spike-based backpropagation, and 2) perform incremental spike-timing dependent backpropagation (STDB) on this carefully initialized network to obtain an SNN that converges within few epochs and requires fewer time steps for input processing. STDB is performed with a novel surrogate gradient function defined using neuron&#39;s spike time. The weight update is proportional to the difference in spike timing between the current time step and the most recent time step the neuron generated an output spike. The SNNs trained with our hybrid conversion-and-STDB training perform at $10{\times}{-}25{\times}$ fewer number of time steps and achieve similar accuracy compared to purely converted SNNs. The proposed training methodology converges in less than $20$ epochs of spike-based backpropagation for most standard image classification datasets, thereby greatly reducing the training complexity compared to training SNNs from scratch. We perform experiments on CIFAR-10, CIFAR-100 and ImageNet datasets for both VGG and ResNet architectures. We achieve top-1 accuracy of $65.19\%$ for ImageNet dataset on SNN with $250$ time steps, which is $10{\times}$ faster compared to converted SNNs with similar accuracy."/>
 
@@ -108,11 +100,11 @@
 >
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img
-                    class="logo" src="static/images/G4L-logo.png"
-                    height="auto"
-            width="200px"
-            />
+<!--            <img-->
+<!--                    class="logo" src="static/images/G4L-logo.png"-->
+<!--                    height="auto"-->
+<!--            width="200px"-->
+<!--            />-->
         </a>
         
         <button
@@ -137,32 +129,19 @@
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="papers.html">Paper</a>
+                    <a class="nav-link" href="index.html">Book</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="workshops.html">Workshop</a>
+                    <a class="nav-link" href="index.html">Slides</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view
-">Tutorial</a>
+                    <a class="nav-link" href="Authors.html">Authors</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp_demo">Demo</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="http://saizhuo.wang/g4nlp/index.html">Docs</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp">GitHub</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="blogs.html">Blog</a>
+                    <a class="nav-link" href="index.html">Blog</a>
                 </li>
                 
             </ul>
@@ -191,26 +170,6 @@
             Enabling Deep Spiking Neural Networks with Hybrid Conversion and Spike Timing Dependent Backpropagation
         </h2>
         <h3 class="card-subtitle mb-2 text-muted text-center">
-            
-            <a href="papers.html?filter=authors&search=Nitin Rathi"
-               class="text-muted"
-            >Nitin Rathi</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Gopalakrishnan Srinivasan"
-               class="text-muted"
-            >Gopalakrishnan Srinivasan</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Priyadarshini Panda"
-               class="text-muted"
-            >Priyadarshini Panda</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Kaushik Roy"
-               class="text-muted"
-            >Kaushik Roy</a
-            >
             
         </h3>
         <p class="card-text text-center">
@@ -350,7 +309,7 @@
 <footer class="footer bg-light p-4">
     <div class="container">
         <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2020 DLG4NLP Team</p>
+        <p class="text-center">© 2020 GNNBook Team</p>
     </div>
 </footer>
 

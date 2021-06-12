@@ -74,19 +74,13 @@
     <link rel="stylesheet" href="static/css/lazy_load.css"/>
     <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>DLG4NLP: SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards</title>
+    <title>Graph Neural Networks: Foundations, Frontiers, and Applications: SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards</title>
     
 <meta name="citation_title" content="SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards"/>
 
-<meta name="citation_author" content="Siddharth Reddy"/>
-
-<meta name="citation_author" content="Anca D. Dragan"/>
-
-<meta name="citation_author" content="Sergey Levine"/>
-
 <meta name="citation_publication_date" content=""/>
 <meta name="citation_conference_title"
-      content="Deep Learning On Graphs For Natural Language Processing"/>
+      content="Graph Neural Networks: Foundations, Frontiers, And Applications"/>
 <meta name="citation_inbook_title" content=""/>
 <meta name="citation_abstract" content="Learning to imitate expert behavior from demonstrations can be challenging, especially in environments with high-dimensional, continuous observations and unknown dynamics. Supervised learning methods based on behavioral cloning (BC) suffer from distribution shift: because the agent greedily imitates demonstrated actions, it can drift away from demonstrated states due to error accumulation. Recent methods based on reinforcement learning (RL), such as inverse RL and generative adversarial imitation learning (GAIL), overcome this issue by training an RL agent to match the demonstrations over a long horizon. Since the true reward function for the task is unknown, these methods learn a reward function from the demonstrations, often using complex and brittle approximation techniques that involve adversarial training. We propose a simple alternative that still uses RL, but does not require learning a reward function. The key idea is to provide the agent with an incentive to match the demonstrations over a long horizon, by encouraging it to return to demonstrated states upon encountering new, out-of-distribution states. We accomplish this by giving the agent a constant reward of r=+1 for matching the demonstrated action in a demonstrated state, and a constant reward of r=0 for all other behavior. Our method, which we call soft Q imitation learning (SQIL), can be implemented with a handful of minor modifications to any standard Q-learning or off-policy actor-critic algorithm. Theoretically, we show that SQIL can be interpreted as a regularized variant of BC that uses a sparsity prior to encourage long-horizon imitation. Empirically, we show that SQIL outperforms BC and achieves competitive results compared to GAIL, on a variety of image-based and low-dimensional tasks in Box2D, Atari, and MuJoCo. This paper is a proof of concept that illustrates how a simple imitation method based on RL with constant rewards can be as effective as more complex methods that use learned rewards."/>
 
@@ -110,11 +104,11 @@
 >
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img
-                    class="logo" src="static/images/G4L-logo.png"
-                    height="auto"
-            width="200px"
-            />
+<!--            <img-->
+<!--                    class="logo" src="static/images/G4L-logo.png"-->
+<!--                    height="auto"-->
+<!--            width="200px"-->
+<!--            />-->
         </a>
         
         <button
@@ -139,32 +133,19 @@
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="papers.html">Paper</a>
+                    <a class="nav-link" href="index.html">Book</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="workshops.html">Workshop</a>
+                    <a class="nav-link" href="index.html">Slides</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view
-">Tutorial</a>
+                    <a class="nav-link" href="Authors.html">Authors</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp_demo">Demo</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="http://saizhuo.wang/g4nlp/index.html">Docs</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp">GitHub</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="blogs.html">Blog</a>
+                    <a class="nav-link" href="index.html">Blog</a>
                 </li>
                 
             </ul>
@@ -193,21 +174,6 @@
             SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards
         </h2>
         <h3 class="card-subtitle mb-2 text-muted text-center">
-            
-            <a href="papers.html?filter=authors&search=Siddharth Reddy"
-               class="text-muted"
-            >Siddharth Reddy</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Anca D. Dragan"
-               class="text-muted"
-            >Anca D. Dragan</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Sergey Levine"
-               class="text-muted"
-            >Sergey Levine</a
-            >
             
         </h3>
         <p class="card-text text-center">
@@ -359,7 +325,7 @@
 <footer class="footer bg-light p-4">
     <div class="container">
         <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2020 DLG4NLP Team</p>
+        <p class="text-center">© 2020 GNNBook Team</p>
     </div>
 </footer>
 

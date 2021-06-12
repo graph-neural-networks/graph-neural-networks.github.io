@@ -74,21 +74,13 @@
     <link rel="stylesheet" href="static/css/lazy_load.css"/>
     <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>DLG4NLP: SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum</title>
+    <title>Graph Neural Networks: Foundations, Frontiers, and Applications: SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum</title>
     
 <meta name="citation_title" content="SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum"/>
 
-<meta name="citation_author" content="Jianyu Wang"/>
-
-<meta name="citation_author" content="Vinayak Tantia"/>
-
-<meta name="citation_author" content="Nicolas Ballas"/>
-
-<meta name="citation_author" content="Michael Rabbat"/>
-
 <meta name="citation_publication_date" content=""/>
 <meta name="citation_conference_title"
-      content="Deep Learning On Graphs For Natural Language Processing"/>
+      content="Graph Neural Networks: Foundations, Frontiers, And Applications"/>
 <meta name="citation_inbook_title" content=""/>
 <meta name="citation_abstract" content="Distributed optimization is essential for training large models on large datasets. Multiple approaches have been proposed to reduce the communication overhead in distributed training, such as synchronizing only after performing multiple local SGD steps, and decentralized methods (e.g., using gossip algorithms) to decouple communications among workers. Although these methods run faster than AllReduce-based methods, which use blocking communication before every update, the resulting models may be less accurate after the same number of updates. Inspired by the BMUF method of Chen &amp; Huo (2016), we propose a slow momentum (SlowMo) framework, where workers periodically synchronize and perform a momentum update, after multiple iterations of a base optimization algorithm. Experiments on image classification and machine translation tasks demonstrate that SlowMo consistently yields improvements in optimization and generalization performance relative to the base optimizer, even when the additional overhead is amortized over many updates so that the SlowMo runtime is on par with that of the base optimizer. We provide theoretical convergence guarantees showing that SlowMo converges to a stationary point of smooth non-convex losses. Since BMUF can be expressed through the SlowMo framework, our results also correspond to the first theoretical convergence guarantees for BMUF."/>
 
@@ -118,11 +110,11 @@
 >
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img
-                    class="logo" src="static/images/G4L-logo.png"
-                    height="auto"
-            width="200px"
-            />
+<!--            <img-->
+<!--                    class="logo" src="static/images/G4L-logo.png"-->
+<!--                    height="auto"-->
+<!--            width="200px"-->
+<!--            />-->
         </a>
         
         <button
@@ -147,32 +139,19 @@
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="papers.html">Paper</a>
+                    <a class="nav-link" href="index.html">Book</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="workshops.html">Workshop</a>
+                    <a class="nav-link" href="index.html">Slides</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view
-">Tutorial</a>
+                    <a class="nav-link" href="Authors.html">Authors</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp_demo">Demo</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="http://saizhuo.wang/g4nlp/index.html">Docs</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp">GitHub</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="blogs.html">Blog</a>
+                    <a class="nav-link" href="index.html">Blog</a>
                 </li>
                 
             </ul>
@@ -201,26 +180,6 @@
             SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum
         </h2>
         <h3 class="card-subtitle mb-2 text-muted text-center">
-            
-            <a href="papers.html?filter=authors&search=Jianyu Wang"
-               class="text-muted"
-            >Jianyu Wang</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Vinayak Tantia"
-               class="text-muted"
-            >Vinayak Tantia</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Nicolas Ballas"
-               class="text-muted"
-            >Nicolas Ballas</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Michael Rabbat"
-               class="text-muted"
-            >Michael Rabbat</a
-            >
             
         </h3>
         <p class="card-text text-center">
@@ -390,7 +349,7 @@
 <footer class="footer bg-light p-4">
     <div class="container">
         <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2020 DLG4NLP Team</p>
+        <p class="text-center">© 2020 GNNBook Team</p>
     </div>
 </footer>
 

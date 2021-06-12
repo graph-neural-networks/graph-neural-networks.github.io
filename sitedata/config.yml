@@ -1,5 +1,5 @@
-name: DLG4NLP
-tagline: Deep Learning on Graphs for Natural Language Processing
+name: GNN-Book
+tagline: "Graph Neural Networks: Foundations, Frontiers, and Applications"
 analytics: UA-
 logo:
   image: static/images/G4L-logo.png
@@ -8,10 +8,10 @@ logo:
 # uncomment the following line to show the site title next to the logo image
 # site_title: DLG4NLP
 page_title:
-  prefix: 'DLG4NLP'
+  prefix: 'Graph Neural Networks: Foundations, Frontiers, and Applications'
   separator: ': '
 background_image: static/images/main.jpg
-organization: DLG4NLP Team
+organization: GNNBook Team
 
 
 # Configuration for auth

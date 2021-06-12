@@ -88,14 +88,10 @@
 {% block header %}
 {% set navigation_bar = [
 ('index.html', 'Home'),
-('https://github.com/graph4ai/graph4nlp', 'Paper'),
-('https://deep-learning-graphs.bitbucket.io/dlg-kdd21/index.html', 'Workshop'),
-('https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view
-', 'Tutorial'),
-('https://github.com/graph4ai/graph4nlp_demo', 'Demo'),
-('http://saizhuo.wang/g4nlp/index.html', 'Docs'),
-('https://github.com/graph4ai/graph4nlp', 'GitHub'),
-('blogs.html', 'Blog'),
+('index.html', 'Book'),
+('index.html', 'Slides'),
+('Authors.html', 'Authors'),
+('index.html', 'Blog'),
 ] -%}
 
 <nav
@@ -104,11 +100,11 @@
 >
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img
-                    class="logo" src="{{config.logo.image}}"
-                    height={{config.logo.height | default("auto") | tojson}}
-            width={{config.logo.width | default("auto") | tojson}}
-            />
+<!--            <img-->
+<!--                    class="logo" src="{{config.logo.image}}"-->
+<!--                    height={{config.logo.height | default("auto") | tojson}}-->
+<!--            width={{config.logo.width | default("auto") | tojson}}-->
+<!--            />-->
         </a>
         {% if config.site_title %}
         <a class="navbar-brand" href="index.html">{{config.site_title}}</a>

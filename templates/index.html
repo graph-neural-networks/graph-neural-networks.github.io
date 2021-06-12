@@ -2,6 +2,12 @@
 {% extends "base.html" %}
 
 {% block top %}
+<head>
+    <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="/static/css/jemdoc.css" type="text/css" />
+</head>
+
 <style>
   .back {
     background: url("{{config.background_image}}") no-repeat center;
@@ -15,10 +21,10 @@
 
 <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
   <div class="row header p-6 m-5">
-    <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
-      <h2>
+    <div class="toptitle p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+      <h4>
         {{config.tagline|safe}}
-      </h2>
+      </h4>
     </div>
   </div>
 </div>
@@ -26,4 +32,222 @@
 
 {% block content %}
 
+<h2>Introduction</h2>
+
+<h2>Editors</h2>
+<ul>
+    <li><a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">Lingfei Wu</a>, <a href="http://pengcui.thumedialab.com/">Peng Cui</a>, <a href="https://www.sfu.ca/computing/people/faculty/jianpei.html">Jian Pei</a>, and <a href="http://cs.emory.edu/~lzhao41/index.htm">Liang Zhao</a></li>
+</ul>
+
+<h2>Authors</h2>
+
+<h2>Contents</h2>
+
+<h3>Part I: Introduction</h3>
+<ul>
+    <li>Chapter 1: Representation Learning</li>
+    <ul>
+        <li>Representation Learning: An Introduction</li>
+        <li>Representation Learning: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 2: Graph Representation Learning</li>
+    <ul>
+        <li>Graph Representation Learning: An Introduction</li>
+        <li>Graph Representation Learning: Conventional Approaches</li>
+        <li>Graph Representation Learning: Modern Approaches</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 3: Graph Neural Networks</li>
+    <ul>
+        <li>Graph Neural Networks: An Introduction</li>
+        <li>Graph Neural Networks: Overview</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+</ul>
+
+<h3>Part II: Foundations of Graph Neural Networks</h3>
+<ul>
+    <li>Chapter 4: Graph Neural Networks: Node Classification</li>
+    <ul>
+        <li>Graph Neural Networks: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 5: Graph Neural Networks: Theoretical Analysis</li>
+    <ul>
+        <li>How Powerful is Graph Neural Networks</li>
+        <li>Theoretical Analysis of Graph Neural Networks</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 6: Graph Neural Networks: Scalability</li>
+    <ul>
+        <li>Scalable Graph Neural Networks: An Introduction</li>
+        <li>Scalable Graph Neural Networks: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 7: Graph Neural Networks: Explainability</li>
+    <ul>
+        <li>Explainable Graph Neural Networks: An Introduction</li>
+        <li>Explainable Graph Neural Networks: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 8: Graph Neural Networks: Adversarial Robustness</li>
+    <ul>
+        <li>Adversarial Robustness: An Introduction</li>
+        <li>Graph Neural Networks on Adversarial Robustness: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+</ul>
+<h3>Part III: Frontiers of Graph Neural Networks</h3>
+<ul>
+    <li>Chapter 9: Graph Neural Networks: Graph Classification</li>
+    <ul>
+        <li>Graph Classification: An Introduction</li>
+        <li>Deep Graph Classification: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 10: Graph Neural Networks: Link Prediction</li>
+    <ul>
+        <li>Link Prediction: An Introduction</li>
+        <li>Deep Graph-Based Link Prediction: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 11: Graph Neural Networks: Graph Generation</li>
+    <ul>
+        <li>Graph Generation: An Introduction</li>
+        <li>Deep Graph Generation: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 12: Graph Neural Networks: Graph Transformation</li>
+    <ul>
+        <li>Graph Transformation: An Introduction</li>
+        <li>Deep Graph Transformation: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 13: Graph Neural Networks: Graph Matching</li>
+    <ul>
+        <li>Graph Matching: An Introduction</li>
+        <li>Deep Graph Matching: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 14: Graph Neural Networks: Graph Learning</li>
+    <ul>
+        <li>Graph Learning: An Introduction</li>
+        <li>Deep Graph Learning: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 15: Dynamic Graph Neural Networks</li>
+    <ul>
+        <li>Dynamic Graph Embedding: An Introduction</li>
+        <li>Deep Dynamic Graph Embedding: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 16: Heterogeneous Graph Neural Networks</li>
+    <ul>
+        <li>Heterogeneous Graph Embedding: An Introduction</li>
+        <li>Heterogeneous Graph Embedding: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 17: Graph Neural Networks: AutoML</li>
+    <ul>
+        <li>AutoML: An Introduction</li>
+        <li>Graph Neural Networks for AutoML: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 18: Graph Neural Networks: Self-Supervised Learning</li>
+    <ul>
+        <li>AutoML: An Introduction</li>
+        <li>Graph Neural Networks for AutoML: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+</ul>
+<h3>Part IV: Broad and Emerging Applications with Graph Neural Networks</h3>
+<ul>
+    <li>Chapter 19: Graph Neural Networks on Recommendation System</li>
+    <ul>
+        <li>Machine Learning on Recommendation System: An Introduction</li>
+        <li>Graph Neural Networks on Recommendation System: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 20: Graph Neural Networks on Computer Vision</li>
+    <ul>
+        <li>Machine Learning on Computer Vision: An Introduction</li>
+        <li>Graph Neural Networks on Computer Vision: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 21: Graph Neural Networks on Natural Language Processing</li>
+    <ul>
+        <li>Machine Learning on Natural Language Processing: An Introduction</li>
+        <li>Graph Neural Networks on Natural Language Processing: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 22: Graph Neural Networks on Program Analysis</li>
+    <ul>
+        <li>Machine Learning on Program Analysis: An Introduction</li>
+        <li>Graph Neural Networks on Program Analysis: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 23: Graph Neural Networks on Software Mining</li>
+    <ul>
+        <li>Machine Learning on Software Mining: An Introduction</li>
+        <li>Graph Neural Networks on Software Mining: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 24: Graph Neural Networks on Drug Discovery</li>
+    <ul>
+        <li>Machine Learning on Drug Discovery: An Introduction</li>
+        <li>Graph Neural Networks on Drug Discovery: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 25: Graph Neural Networks on Proteins and DNA</li>
+    <ul>
+        <li>Machine Learning on Proteins and DNA: An Introduction</li>
+        <li>Graph Neural Networks on Proteins and DNA: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 26: Graph Neural Networks on Anomaly Detection</li>
+    <ul>
+        <li>Machine Learning on Anomaly Detection: An Introduction</li>
+        <li>Graph Neural Networks on Anomaly Detection: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+    <li>Chapter 27: Graph Neural Networks on Urban Intelligence</li>
+    <ul>
+        <li>Machine Learning on Transportation: An Introduction</li>
+        <li>Graph Neural Networks on Transportation: Methods</li>
+        <li>Summary</li>
+        <li>Further Reading</li>
+    </ul>
+</ul>
+
+<h2>Contact</h2>
+<ui>
+    <li>For any question, please contact </li>
+</ui>
 {% endblock %}

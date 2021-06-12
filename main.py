@@ -59,9 +59,9 @@ def index():
     return redirect("/index.html")
 
 
-@app.route("/favicon.ico")
-def favicon():
-    return send_from_directory(site_data_path, "favicon.ico")
+#@app.route("/favicon.ico")
+#def favicon():
+#    return send_from_directory(site_data_path, "favicon.ico")
 
 
 # TOP LEVEL PAGES
@@ -71,7 +71,7 @@ def favicon():
 def home():
     data = _data()
     data["readme"] = open("README.md").read()
-    data["team"] = site_data["team"]["team"]
+    data["Authors"] = site_data["Authors"]["Authors"]
     return render_template("index.html", **data)
 
 
@@ -81,6 +81,14 @@ def home():
 #    data["FAQ"] = site_data["faq"]["FAQ"]
 #    return render_template("help.html", **data)
 
+@app.route("/Authors.html")
+def Authors():
+    data = _data()
+    data["readme"] = open("README.md").read()
+    data["Authors"] = site_data["Authors"]["Authors"]
+    return render_template("Authors.html", **data)
+
+
 
 @app.route("/papers.html")
 def papers():
@@ -89,14 +97,14 @@ def papers():
 #    return render_template("papers.html", **data)
     data = _data()
     data["readme"] = open("README.md").read()
-    data["team"] = site_data["team"]["team"]
+    data["Authors"] = site_data["Authors"]["Authors"]
     return render_template("index.html", **data)
 
 @app.route("/blogs.html")
 def blogs():
     data = _data()
     data["readme"] = open("README.md").read()
-    data["team"] = site_data["team"]["team"]
+    data["Authors"] = site_data["Authors"]["Authors"]
     return render_template("index.html", **data)
 
 
@@ -127,7 +135,7 @@ def workshops():
 #    return render_template("workshops.html", **data)
     data = _data()
     data["readme"] = open("README.md").read()
-    data["team"] = site_data["team"]["team"]
+    data["Authors"] = site_data["Authors"]["Authors"]
     return render_template("index.html", **data)
 
 
@@ -140,7 +148,7 @@ def extract_list_field(v, key):
 
 
 def format_paper(v):
-    list_keys = ["authors", "keywords", "sessions"]
+    list_keys = ["Authorss", "keywords", "sessions"]
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
@@ -149,7 +157,7 @@ def format_paper(v):
         "UID": v["UID"],
         "title": v["title"],
         "forum": v["UID"],
-        "authors": list_fields["authors"],
+        "Authorss": list_fields["Authorss"],
         "keywords": list_fields["keywords"],
         "abstract": v["abstract"],
         "TLDR": v["abstract"],
@@ -163,7 +171,7 @@ def format_paper(v):
 
 
 def format_workshop(v):
-    list_keys = ["authors"]
+    list_keys = ["Authorss"]
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
@@ -171,7 +179,7 @@ def format_workshop(v):
     return {
         "id": v["UID"],
         "title": v["title"],
-        "organizers": list_fields["authors"],
+        "organizers": list_fields["Authorss"],
         "abstract": v["abstract"],
     }
 

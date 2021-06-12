@@ -1,0 +1,28 @@
+Authors:
+  - role: Editor
+    name: Lingfei Wu
+    aff: JD.COM Silicon Valley Research Center
+    im: static/images/lingfei.jpeg
+    link: https://sites.google.com/a/email.wm.edu/teddy-lfwu/
+  - role: Editor
+    name: Peng Cui
+    aff: Tsinghua University
+    im: static/images/pengcui.jpeg
+    link: http://pengcui.thumedialab.com/
+  - role: Editor
+    name: Jian Pei
+    aff: Simon Fraser University
+    im: static/images/jianpei.jpeg
+    link: https://www.sfu.ca/computing/people/faculty/jianpei.html
+  - role: Editor
+    name: Liang Zhao
+    aff: Emory University
+    im: static/images/liangzhao.jpeg
+    link: http://cs.emory.edu/~lzhao41/index.htm
+  - role: Web Developer
+    name: Yuanqi Du
+    aff: George Mason University
+    im: static/images/yuanqi.jpeg
+    link: https://yuanqidu.github.io/
+
+

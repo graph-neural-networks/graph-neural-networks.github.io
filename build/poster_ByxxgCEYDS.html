@@ -74,17 +74,13 @@
     <link rel="stylesheet" href="static/css/lazy_load.css"/>
     <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>DLG4NLP: Inductive Matrix Completion Based on Graph Neural Networks</title>
+    <title>Graph Neural Networks: Foundations, Frontiers, and Applications: Inductive Matrix Completion Based on Graph Neural Networks</title>
     
 <meta name="citation_title" content="Inductive Matrix Completion Based on Graph Neural Networks"/>
 
-<meta name="citation_author" content="Muhan Zhang"/>
-
-<meta name="citation_author" content="Yixin Chen"/>
-
 <meta name="citation_publication_date" content=""/>
 <meta name="citation_conference_title"
-      content="Deep Learning On Graphs For Natural Language Processing"/>
+      content="Graph Neural Networks: Foundations, Frontiers, And Applications"/>
 <meta name="citation_inbook_title" content=""/>
 <meta name="citation_abstract" content="We propose an inductive matrix completion model without using side information. By factorizing the (rating) matrix into the product of low-dimensional latent embeddings of rows (users) and columns (items), a majority of existing matrix completion methods are transductive, since the learned embeddings cannot generalize to unseen rows/columns or to new matrices. To make matrix completion inductive, most previous works use content (side information), such as user&#39;s age or movie&#39;s genre, to make predictions. However, high-quality content is not always available, and can be hard to extract. Under the extreme setting where not any side information is available other than the matrix to complete, can we still learn an inductive matrix completion model? In this paper, we propose an Inductive Graph-based Matrix Completion (IGMC) model to address this problem. IGMC trains a graph neural network (GNN) based purely on 1-hop subgraphs around (user, item) pairs generated from the rating matrix and maps these subgraphs to their corresponding ratings. It achieves highly competitive performance with state-of-the-art transductive baselines. In addition, IGMC is inductive -- it can generalize to users/items unseen during the training (given that their interactions exist), and can even transfer to new tasks. Our transfer learning experiments show that a model trained out of the MovieLens dataset can be directly used to predict Douban movie ratings with surprisingly good performance. Our work demonstrates that: 1) it is possible to train inductive matrix completion models without using side information while achieving similar or better performances than state-of-the-art transductive methods; 2) local graph patterns around a (user, item) pair are effective predictors of the rating this user gives to the item; and 3) Long-range dependencies might not be necessary for modeling recommender systems."/>
 
@@ -106,11 +102,11 @@
 >
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img
-                    class="logo" src="static/images/G4L-logo.png"
-                    height="auto"
-            width="200px"
-            />
+<!--            <img-->
+<!--                    class="logo" src="static/images/G4L-logo.png"-->
+<!--                    height="auto"-->
+<!--            width="200px"-->
+<!--            />-->
         </a>
         
         <button
@@ -135,32 +131,19 @@
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="papers.html">Paper</a>
+                    <a class="nav-link" href="index.html">Book</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="workshops.html">Workshop</a>
+                    <a class="nav-link" href="index.html">Slides</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view
-">Tutorial</a>
+                    <a class="nav-link" href="Authors.html">Authors</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp_demo">Demo</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="http://saizhuo.wang/g4nlp/index.html">Docs</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp">GitHub</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="blogs.html">Blog</a>
+                    <a class="nav-link" href="index.html">Blog</a>
                 </li>
                 
             </ul>
@@ -189,16 +172,6 @@
             Inductive Matrix Completion Based on Graph Neural Networks
         </h2>
         <h3 class="card-subtitle mb-2 text-muted text-center">
-            
-            <a href="papers.html?filter=authors&search=Muhan Zhang"
-               class="text-muted"
-            >Muhan Zhang</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Yixin Chen"
-               class="text-muted"
-            >Yixin Chen</a
-            >
             
         </h3>
         <p class="card-text text-center">
@@ -344,7 +317,7 @@
 <footer class="footer bg-light p-4">
     <div class="container">
         <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2020 DLG4NLP Team</p>
+        <p class="text-center">© 2020 GNNBook Team</p>
     </div>
 </footer>
 

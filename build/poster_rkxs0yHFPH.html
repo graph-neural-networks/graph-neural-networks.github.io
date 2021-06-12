@@ -74,19 +74,13 @@
     <link rel="stylesheet" href="static/css/lazy_load.css"/>
     <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>DLG4NLP: SpikeGrad: An ANN-equivalent Computation Model for Implementing Backpropagation with Spikes</title>
+    <title>Graph Neural Networks: Foundations, Frontiers, and Applications: SpikeGrad: An ANN-equivalent Computation Model for Implementing Backpropagation with Spikes</title>
     
 <meta name="citation_title" content="SpikeGrad: An ANN-equivalent Computation Model for Implementing Backpropagation with Spikes"/>
 
-<meta name="citation_author" content="Johannes C. Thiele"/>
-
-<meta name="citation_author" content="Olivier Bichler"/>
-
-<meta name="citation_author" content="Antoine Dupret"/>
-
 <meta name="citation_publication_date" content=""/>
 <meta name="citation_conference_title"
-      content="Deep Learning On Graphs For Natural Language Processing"/>
+      content="Graph Neural Networks: Foundations, Frontiers, And Applications"/>
 <meta name="citation_inbook_title" content=""/>
 <meta name="citation_abstract" content="Event-based neuromorphic systems promise to reduce the energy consumption of deep neural networks by replacing expensive floating point operations on dense matrices by low energy, sparse operations on spike events. While these systems can be trained increasingly well using approximations of the backpropagation algorithm, this usually requires high precision errors and is therefore incompatible with the typical communication infrastructure of neuromorphic circuits. In this work, we analyze how the gradient can be discretized into spike events when training a spiking neural network. To accelerate our simulation, we show that using a special implementation of the integrate-and-fire neuron allows us to describe the accumulated activations and errors of the spiking neural network in terms of an equivalent artificial neural network, allowing us to largely speed up training compared to an explicit simulation of all spike events. This way we are able to demonstrate that even for deep networks, the gradients can be discretized sufficiently well with spikes if the gradient is properly rescaled. This form of spike-based backpropagation enables us to achieve equivalent or better accuracies on the MNIST and CIFAR10 datasets than comparable state-of-the-art spiking neural networks trained with full precision gradients. The algorithm, which we call SpikeGrad, is based on only accumulation and comparison operations and can naturally exploit sparsity in the gradient computation, which makes it an interesting choice for a spiking neuromorphic systems with on-chip learning capacities."/>
 
@@ -106,11 +100,11 @@
 >
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img
-                    class="logo" src="static/images/G4L-logo.png"
-                    height="auto"
-            width="200px"
-            />
+<!--            <img-->
+<!--                    class="logo" src="static/images/G4L-logo.png"-->
+<!--                    height="auto"-->
+<!--            width="200px"-->
+<!--            />-->
         </a>
         
         <button
@@ -135,32 +129,19 @@
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="papers.html">Paper</a>
+                    <a class="nav-link" href="index.html">Book</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="workshops.html">Workshop</a>
+                    <a class="nav-link" href="index.html">Slides</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view
-">Tutorial</a>
+                    <a class="nav-link" href="Authors.html">Authors</a>
                 </li>
                 
                 <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp_demo">Demo</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="http://saizhuo.wang/g4nlp/index.html">Docs</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="https://github.com/graph4ai/graph4nlp">GitHub</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="blogs.html">Blog</a>
+                    <a class="nav-link" href="index.html">Blog</a>
                 </li>
                 
             </ul>
@@ -189,21 +170,6 @@
             SpikeGrad: An ANN-equivalent Computation Model for Implementing Backpropagation with Spikes
         </h2>
         <h3 class="card-subtitle mb-2 text-muted text-center">
-            
-            <a href="papers.html?filter=authors&search=Johannes C. Thiele"
-               class="text-muted"
-            >Johannes C. Thiele</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Olivier Bichler"
-               class="text-muted"
-            >Olivier Bichler</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Antoine Dupret"
-               class="text-muted"
-            >Antoine Dupret</a
-            >
             
         </h3>
         <p class="card-text text-center">
@@ -343,7 +309,7 @@
 <footer class="footer bg-light p-4">
     <div class="container">
         <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2020 DLG4NLP Team</p>
+        <p class="text-center">© 2020 GNNBook Team</p>
     </div>
 </footer>
 

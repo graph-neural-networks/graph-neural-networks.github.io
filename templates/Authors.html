@@ -1,0 +1,20 @@
+{% set active_page = "Papers" %}
+{% set page_title = "Papers" %}
+
+{% extends "base.html" %}
+{% block head %}
+{{ super() }}
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+
+<script src="static/js/modules/icons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+{% endblock %}
+
+{% block content %}
+<!-- Organizers -->
+{{ components.section("Authors") }}
+{{ components.organizergroup(Authors) }}
+
+{% endblock %}
