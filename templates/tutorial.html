@@ -1,0 +1,99 @@
+{% set page_title = tutorial.title %}
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Title -->
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+    <h2 class="card-title main-title text-center" style="">
+      {{tutorial.id}}: {{tutorial.title}}
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+      {{ tutorial.organizers }}
+    </h3>
+
+    <div class="text-center p-3">
+    <a class="card-link" data-toggle="collapse" role="button" href="#details">
+      Description
+    </a>
+
+    {% if tutorial.authors %}
+    <a class="card-link" data-toggle="collapse" role="button" href="#author">
+      Author(s)
+    </a>
+    {% endif %}
+    {% if tutorial.id == 'MH8' %}
+      <a href="https://www.slideshare.net/KrishnaramKenthapadi/responsible-ai-in-industry-tutorials-at-aaai-2021-www-2021-and-facct-2021" target="_blank"  class="card-link">
+        Slides
+      </a>
+      <a href="https://sites.google.com/view/ResponsibleAITutorial" target="_blank"  class="card-link">
+        Tutorial Website
+      </a>
+    {% endif %}
+    {% if tutorial.id == 'MH7' %}
+      <a href="https://sites.google.com/view/ml-co-aaai-21/" target="_blank"  class="card-link">
+        Tutorial Website
+      </a>
+    {% endif %}
+    {% if tutorial.id == 'MQ3' %}
+      <a href="https://sites.google.com/site/cgallicch/resources/tutorial_DRNN" target="_blank"  class="card-link">
+        Tutorial Website
+      </a>
+    {% endif %}
+
+{#    {% if tutorial.sessions %}#}
+{#    <a class="card-link" data-toggle="collapse" role="button" href="#schedule">#}
+{#      Schedule#}
+{#    </a>#}
+{#    {% endif %}#}
+
+    {% if tutorial.website %}
+      <a href="{{tutorial.website}}" target="_blank"  class="card-link">
+        Website
+      </a>
+    {% endif %}
+    {% if tutorial.slides %}
+      <a href="{{tutorial.slides}}" target="_blank"  class="card-link">
+        Slides
+      </a>
+    {% endif %}
+    {% if tutorial.material %}
+      <a href="{{tutorial.material}}" target="_blank"  class="card-link">
+        Material
+      </a>
+    {% endif %}
+    </div>
+
+    {{ components.live_sessions(
+        tutorial.blocks,
+        tutorial.title,
+        "https://virtual.2021.aaai.org/tutorial_" + tutorial.id + ".html",
+        false) }}
+
+  </div>
+</div>
+
+<div class="pp-card m-3">
+  <div class="card-body">
+    <div id="details" class="pp-card m-3 collapse show">
+    <div class="card-text">
+      <div id="abstractExample">
+        <span class="font-weight-bold">Abstract:</span>
+        {{tutorial.abstract|safe}}
+      </div>
+    </div>
+    </div>
+    <div id="author" class="pp-card m-3 collapse hide">
+    <div class="card-text">
+      <div id="authorExample">
+        {% for author in tutorial.authors %}
+        <span class="font-weight-bold">{{author.author_name}}</span>
+        {{author.author_description|safe}}<br />
+        {% endfor %}
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

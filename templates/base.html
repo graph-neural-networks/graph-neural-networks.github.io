@@ -1,200 +1,382 @@
 {% import 'components.html' as components %}
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     {% block head %}
     <!-- Required meta tags -->
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <!-- External Javascript libs_ext  -->
+
+    <!-- External Javascript libs  -->
     <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
-            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-    ></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
-            crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
-            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
-            crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
-            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
-            crossorigin="anonymous"></script>
+{#    <script#}
+{#      src="https://cdn.jsd#}
+{#      elivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"#}
+{#      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"#}
+{#      crossorigin="anonymous"#}
+{#    ></script>#}
+    <script src="static/js/popper.min.js"></script>
 
 
-    <!-- Library libs_ext -->
-    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
 
-    <!--    Internal Libs -->
-    <script src="static/js/data/api.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
 
-    {% if config.use_auth0 %}
-    <script>
-      var auth0_domain = "{{config.auth0_domain}}";
-      var auth0_client_id = "{{config.auth0_client_id}}";
-    </script>
-    <script src="https://cdn.auth0.com/js/auth0-spa-js/1.7/auth0-spa-js.production.js"></script>
-    <script src="static/js/modules/auth0protect.js"></script>
-    {% endif %}
+    <!-- https://developer.snapappointments.com/bootstrap-select/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    <script src="static/js/mousetrap.min.js?a4098"></script>
+
+{#    <link rel="stylesheet" href="static/css/all.css">#}
 
     <!-- External CSS -->
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
-          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
 
     <!-- External Fonts (no google for china) -->
     <link
-            href="static/css/Lato.css"
-            rel="stylesheet"
+      href="static/css/Lato.css"
+      rel="stylesheet"
     />
-    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link href="static/css/Exo.css" rel="stylesheet" />
     <link
-            href="static/css/Cuprum.css"
-            rel="stylesheet"
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="static/css/main.css"/>
-<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
-    <link rel="stylesheet" href="static/css/fa_solid.css"/>
-    <link rel="stylesheet" href="static/css/lazy_load.css"/>
-    <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>{{config.page_title.prefix}}{% if page_title
-        %}{{config.page_title.separator}}{{page_title}}{% endif %}</title>
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/chats-modal.css" />
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+
+    <title>{{config.page_title.prefix}}{% if page_title %}{{config.page_title.separator}}{{page_title}}{% endif %}</title>
     {% endblock %}
-</head>
 
-<body>
-<!-- NAV -->
-{% block header %}
-{% set navigation_bar = [
-('index.html', 'Home'),
-('index.html', 'Book'),
-('index.html', 'Slides'),
-('Authors.html', 'Authors'),
-('index.html', 'Blog'),
-] -%}
+    <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">
+    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+{#    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">#}
+{#    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">#}
+{#    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">#}
+{#    <link rel="manifest" href="static/favicon/site.webmanifest">#}
+{#    <link rel="mask-icon" href="static/favicon/safari-pinned-tab.svg" color="#5bbad5">#}
+{#    <link rel="shortcut icon" href="static/favicon/favicon.ico">#}
+{#    <meta name="msapplication-TileColor" content="#2d89ef">#}
+{#    <meta name="msapplication-config" content="static/favicon/browserconfig.xml">#}
+{#    <meta name="theme-color" content="#ffffff">#}
+  </head>
 
-<nav
-        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
-        id="main-nav"
->
-    <div class="container">
+  <body>
+    <!-- NAV -->
+    {% block header %}
+    {% set navigation_bar = [
+    ('index.html', 'Home'),
+    ('index.html', 'Book'),
+    ('index.html', 'Slides'),
+    ('index.html','Resources'),
+    ('teams.html','Teams')
+    ] -%}
+<!--    ('index.html','Blog'),-->
+<!--    ('socials.html', 'Socials'),-->
+<!--    ('http://' + config.chat_server, 'Chat'),-->
+<!--    ('https://2020.emnlp.org/organizers', 'Organizers'),-->
+
+    <!-- Add back ('livestream.html', 'Livestream'),
+    for a new conference
+    -->
+
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark  bg-emnlp mr-auto"
+      id="main-nav"
+    >
+      <div class="container">
         <a class="navbar-brand" href="index.html">
-<!--            <img-->
-<!--                    class="logo" src="{{config.logo.image}}"-->
-<!--                    height={{config.logo.height | default("auto") | tojson}}-->
-<!--            width={{config.logo.width | default("auto") | tojson}}-->
-<!--            />-->
+<!--          <img-->
+<!--             class="logo" src="{{config.logo.image}}"-->
+<!--             height={{config.logo.height | default("auto") | tojson}}-->
+<!--             width={{config.logo.width | default("auto") | tojson}}-->
+<!--          />-->
         </a>
         {% if config.site_title %}
         <a class="navbar-brand" href="index.html">{{config.site_title}}</a>
         {% endif %}
         <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div
-                class="collapse navbar-collapse text-right flex-grow-1"
-                id="navbarNav"
+          class="collapse navbar-collapse text-right flex-grow-1"
+          id="navbarNav"
         >
-            <ul class="navbar-nav ml-auto">
-                {% for href, id in navigation_bar %}
-                <li class="nav-item {% if id == active_page %}active{% endif %}">
-                    <a class="nav-link" href="{{href}}">{{id}}</a>
+          <ul class="navbar-nav ml-auto">
+            {% for href, id in navigation_bar %}
+            
+              {% if id == "Chat" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      href="{{href}}" target="_blank" id="chatNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Chat
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="chatNavbarDropdown">
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#chatsModal">
+                      Active Chats
+                    </a>
+                  </div>
                 </li>
-                {% endfor %}
-            </ul>
+              {% elif id == "Resources" %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                        href="{{href}}" target="_blank" id="chatNavbarDropdown" role="button"
+                        data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="IENavbarDropdown">
+                        <a class="dropdown-item" href="index.html">
+                            Workshops
+                        </a>
+                        <a class="dropdown-item" href="index.html">
+                            Tutorials
+                        </a>
+                        <a class="dropdown-item" href="index.html">
+                            Videos
+                        </a>
+                        <a class="dropdown-item" href="index.html">
+                            Blogs
+                        </a>
+                    </div>
+                </li>
+              {% elif id == "IAAI/EAAI" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="IENavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    IAAI/EAAI
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="IENavbarDropdown">
+                   <a class="dropdown-item" href="iaai.html">
+                      IAAI
+                    </a>
+                    <a class="dropdown-item" href="eaai.html">
+                      EAAI
+                    </a>
+                  </div>
+                </li>
+              {% elif id == "Events" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="eventsNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Events
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="eventsNavbarDropdown">
+                   <a class="dropdown-item" href="workshops.html">
+                      Workshops
+                    </a>
+                    <a class="dropdown-item" href="tutorials.html">
+                      Tutorials
+                    </a>
+                    <a class="dropdown-item" href="doctoral_consortium.html">
+                      Doctoral Consortium
+                    </a>
+                    <a class="dropdown-item" href="undergraduate_consortium.html">
+                      Undergraduate Consortium
+                    </a>
+                    <a class="dropdown-item" href="student_abstract_program.html">
+                      Student Abstract Program
+                    </a>
+                    <a class="dropdown-item" href="demonstrations.html">
+                      Demonstrations
+                    </a>
+                     <a class="dropdown-item" href="ai_in_practice.html">
+                      AI in Practice Panels
+                    </a>
+                    <a class="dropdown-item" href="invited_speaker_program.html">
+                      Invited Speaker Program
+                    </a>
+                    <a class="dropdown-item" href="invited_panels_program.html">
+                      Invited Panels Program
+                    </a>
+{#                    <a class="dropdown-item" href="new_faculty_highlights_program.html">#}
+{#                      New Faculty Highlights Program#}
+{#                    </a>#}
+                  </div>
+                </li>
+              {% elif id == "Community" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="communityNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Community
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="communityNavbarDropdown">
+                   <a class="dropdown-item" href="diversity_programs.html">
+                      Diversity Programs
+                    </a>
+                    <a class="dropdown-item" href="meet_with_a_fellow.html">
+                      Meet with a Fellow
+                    </a>
+                    <a class="dropdown-item" href="awards.html">
+                      AAAI Organization Awards
+                    </a>
+                  </div>
+
+                </li>
+              {% elif id == "Sponsors" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="sponsorsNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sponsors
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="sponsorNavbarDropdown">
+                   <a class="dropdown-item" href="sponsors.html">
+                      Sponsors/Exhibitors
+                    </a>
+                    <a class="dropdown-item" href="ai_job_fair.html">
+                      AI Job Fair
+                    </a>
+                  </div>
+
+                </li>
+              {% elif id == "Help" %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"
+                      id="helpNavbarDropdown" role="button"
+                      data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Help
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="helpNavbarDropdown">
+                   <a class="dropdown-item" href="about.html">
+                      FAQ
+                    </a>
+                    <a class="dropdown-item" href="organizers.html">
+                      Committee
+                    </a>
+                    <a class="dropdown-item" href="help_desk.html">
+                      Help Desk
+                    </a>
+                  </div>
+
+                </li>
+              {% else %}
+                <li class="nav-item {% if id == active_page %}active{% endif %}">
+                  {% if href.startswith("http") %}
+                  <a class="nav-link" href="{{href}}" target="_blank">{{id}}</a>
+                  {% else %}
+                  <a class="nav-link" href="{{href}}">{{id}}</a>
+                  {% endif %}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
         </div>
-    </div>
-</nav>
-{% endblock %}
+      </div>
+    </nav>
+    {% endblock %}
 
-{% block body %}
-<!-- User Overrides -->
-{% block top %} {% endblock %}
+    {% block body %}
+    <!-- User Overrides -->
+    {% block top %} {% endblock %}
 
-<div class="container">
-    <!-- Tabs -->
-    <div class="tabs">
-        {% block tabs %} {% endblock %}
-    </div>
-    <!-- Content -->
-    <div class="content">
-        {% block content %} {% endblock %}
-    </div>
-</div>
-{% endblock %}
-{% block footer %}
-
-<!-- Google Analytics -->
-<script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id={{config.analytics}}"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-
-  gtag("js", new Date());
-  gtag("config", "{{config.analytics}}");
-</script>
-
-<!-- Footer -->
-<footer class="footer bg-light p-4">
     <div class="container">
-        <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2020 {{config.organization}}</p>
+      <!-- Heading -->
+      <div class="heading">
+        {% block heading %} {% endblock %}
+      </div>
+      <div class="tabs pt-3">
+      <!-- Tabs -->
+      <div class="tabs pt-3">
+        {% block tabs %} {% endblock %}
+      </div>
+      <!-- Content -->
+      <div class="content">
+        {% block content %} {% endblock %}
+      </div>
     </div>
-</footer>
+    {% endblock %}
+    {% block footer %}
 
-<!-- Code for hash tags -->
-<script type="text/javascript">
-  $(document).ready(function () {
-    if (window.location.hash !== "") {
-      $(`a[href="${window.location.hash}"]`).tab("show");
-    }
-
-    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
-      const hash = $(e.target).attr("href");
-      if (hash.substr(0, 1) === "#") {
-        const position = $(window).scrollTop();
-        window.location.replace(`#${hash.substr(1)}`);
-        $(window).scrollTop(position);
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id={{config.analytics}}"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    });
-  });
-</script>
-<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
-{% endblock %}
-</body>
+      gtag("js", new Date());
+      gtag("config", "{{config.analytics}}");
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+      <div class="container">
+        <p class="float-left">
+<!--          <img src="{{ config.logo.image }}"-->
+<!--            height={{config.logo.height | default("auto") | tojson}}-->
+<!--            width={{config.logo.width | default("auto") | tojson}} align="center"-->
+<!--          >-->
+          <span class="lead">GNNBook 2021</span>
+        </p>
+        <p class="float-right"><a href="#" class="text-dark">Back to Top</a></p>
+        <p class="text-center">© 2021 {{config.organization}}</p>
+      </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+    {% endblock %}
+{#    {% include "highly_active_chats_modal.html" %}#}
+  </body>
 </html>

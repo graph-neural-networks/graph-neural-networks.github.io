@@ -1,0 +1,583 @@
+- UID: opening_remarks_speaker_by_tuomas_sandholm
+  title: 'Opening Ceremony and Conference Awards and Invited Talk: IAAI-21 Robert S. Engelmore Memorial Award Lecture'
+  day: Feb 4
+  image: static/images/aaai2021/AAAI-logo.png
+  presentation_id: '38952051'
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-04 14:30:00+00:00
+    end_time: 2021-02-04 16:45:00+00:00
+  rocketchat_channel: Plenary_OpeningCeremonyandConferenceAwards_InvitedSpeakersProgram_IAAI21RobertSEngelmoreMemorialAwardLecture
+  abstract: "
+  What Can and Should Humans Contribute to Superhuman AIs?
+<br>
+  I will discuss what humans can and should contribute to superhuman AIs—not general ones intended to
+  be like humans, but ones for specific applications that make the world a better place. I will discuss how
+  the application should drive research. I will present extensive experiences from having fielded
+  superhuman AIs for combinatorial markets, organ exchanges, and imperfect-information game settings.
+  I will discuss inventing and scoping novel AI applications. I will discuss how humans should supply the
+  value framework while leaving policy optimization and combinatorics for AI. I will cover a framework
+  that separates those ends and means, and conducts future-aware optimization in very-large-scale
+  dynamic problems in a scalable way. I will wonder about the future of science when theorems (not just
+  proofs) and empirical theories need to be so long that they are beyond human comprehension. I will
+  discuss human overconfidence in humans over AI. I will discuss what explainability could be and why in
+  many AI applications it should not be required. Finally, I will suggest flipping ethics around from an ex
+  post discussion activity to a system-design discipline that I coin pre-design ethics.
+   "
+  bio: "[Tuomas Sandholm](http://www.cs.cmu.edu/~sandholm/) is Angel Jordan University Professor of Computer Science at Carnegie Mellon University and a serial entrepreneur. His research focuses on the convergence of artificial intelligence, economics, and operations research. He is Co-Director of CMU AI. He is Founder and Director of the Electronic Marketplaces Laboratory.
+
+                                                                             In parallel with his academic career, he was Founder, Chairman, first CEO, and CTO/Chief Scientist of CombineNet, Inc. from 1997 until its acquisition in 2010. During this period the company commercialized over 800 of the world’s largest-scale generalized combinatorial multi-attribute auctions, with over $60 billion in total spend and over $6 billion in generated savings. He is Founder and CEO of Optimized Markets, Inc., which is bringing a new optimization-powered paradigm to advertising campaign sales, scheduling, and pricing in linear and nonlinear TV, display, streaming, and cross-media advertising.
+
+                                                                             Since 2010, his algorithms have been running the national kidney exchange for UNOS, where they make the kidney exchange transplant plan for 80% of U.S. transplant centers together each week. He also co-invented never-ending altruist-donor-initiated chains, which have become the main modality of kidney exchange worldwide and have led to around 10,000 life-saving transplants. He invented liver lobe and multi-organ exchanges, and the first liver-kidney swap took place in 2019.
+                                                                             He has developed the leading algorithms and pipelines for several general game classes. The team he leads is the multi-time world champion in AI-vs-AI heads-up no-limit Texas hold’em, the main benchmark and decades-open challenge problem for application-independent algorithms for imperfect-information games. Their AI Libratus became the first and only AI to beat top humans at that game. Then their AI Pluribus became the first and only AI to beat top humans at the multi-player game. That is the first superhuman milestone in any game beyond two-player zero-sum games. He is Founder and CEO of Strategic Machine, Inc., which provides solutions for strategic reasoning in business and gaming applications. He is Founder and CEO of Strategy Robot, Inc., which focuses on defense, intelligence, and other government applications.
+
+                                                                             Among his honors are the Minsky Medal, Computers and Thought Award, inaugural ACM Autonomous Agents Research Award, CMU’s Allen Newell Award for Research Excellence, Sloan Fellowship, NSF Career Award, Carnegie Science Center Award for Excellence, Edelman Laureateship, and Goldman Sachs 100 Most Intriguing Entrepreneurs. He is Fellow of the ACM, AAAI, and INFORMS. He holds an honorary doctorate from the University of Zurich.
+
+"
+  presenter: Tuomas Sandholm
+
+- UID: opening_remarks
+  title: Opening Ceremony and Conference Awards
+  day: Feb 4
+  image: static/images/aaai2021/AAAI-logo.png
+  presentation_id: '38952051'
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-04 14:30:00+00:00
+    end_time: 2021-02-04 15:30:00+00:00
+  rocketchat_channel: Plenary_OpeningCeremonyandConferenceAwards_InvitedSpeakersProgram_IAAI21RobertSEngelmoreMemorialAwardLecture
+  presenter: Qiang Yang, AAAI-21 General Chair; Kevin Leyton Brown and Mausam, AAAI-21 Program Chairs
+
+- UID: speaker_by_tuomas_sandholm
+  title: '2021 Robert S. Engelmore Memorial Award Lecture'
+  presentation_id: "38952051"
+  day: Feb 4
+  image: static/images/keynotes/tuomas_sandholm.jpeg
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-04 15:30:00+00:00
+    end_time: 2021-02-04 16:45:00+00:00
+  rocketchat_channel: Plenary_OpeningCeremonyandConferenceAwards_InvitedSpeakersProgram_IAAI21RobertSEngelmoreMemorialAwardLecture
+  abstract: "
+  What Can and Should Humans Contribute to Superhuman AIs?
+<br>
+  I will discuss what humans can and should contribute to superhuman AIs—not general ones intended to
+  be like humans, but ones for specific applications that make the world a better place. I will discuss how
+  the application should drive research. I will present extensive experiences from having fielded
+  superhuman AIs for combinatorial markets, organ exchanges, and imperfect-information game settings.
+  I will discuss inventing and scoping novel AI applications. I will discuss how humans should supply the
+  value framework while leaving policy optimization and combinatorics for AI. I will cover a framework
+  that separates those ends and means, and conducts future-aware optimization in very-large-scale
+  dynamic problems in a scalable way. I will wonder about the future of science when theorems (not just
+  proofs) and empirical theories need to be so long that they are beyond human comprehension. I will
+  discuss human overconfidence in humans over AI. I will discuss what explainability could be and why in
+  many AI applications it should not be required. Finally, I will suggest flipping ethics around from an ex
+  post discussion activity to a system-design discipline that I coin pre-design ethics.
+   "
+  bio: "[Tuomas Sandholm](http://www.cs.cmu.edu/~sandholm/) is Angel Jordan University Professor of Computer Science at Carnegie Mellon University and a serial entrepreneur. His research focuses on the convergence of artificial intelligence, economics, and operations research. He is Co-Director of CMU AI. He is Founder and Director of the Electronic Marketplaces Laboratory.
+
+                                                                             In parallel with his academic career, he was Founder, Chairman, first CEO, and CTO/Chief Scientist of CombineNet, Inc. from 1997 until its acquisition in 2010. During this period the company commercialized over 800 of the world’s largest-scale generalized combinatorial multi-attribute auctions, with over $60 billion in total spend and over $6 billion in generated savings. He is Founder and CEO of Optimized Markets, Inc., which is bringing a new optimization-powered paradigm to advertising campaign sales, scheduling, and pricing in linear and nonlinear TV, display, streaming, and cross-media advertising.
+
+                                                                             Since 2010, his algorithms have been running the national kidney exchange for UNOS, where they make the kidney exchange transplant plan for 80% of U.S. transplant centers together each week. He also co-invented never-ending altruist-donor-initiated chains, which have become the main modality of kidney exchange worldwide and have led to around 10,000 life-saving transplants. He invented liver lobe and multi-organ exchanges, and the first liver-kidney swap took place in 2019.
+                                                                             He has developed the leading algorithms and pipelines for several general game classes. The team he leads is the multi-time world champion in AI-vs-AI heads-up no-limit Texas hold’em, the main benchmark and decades-open challenge problem for application-independent algorithms for imperfect-information games. Their AI Libratus became the first and only AI to beat top humans at that game. Then their AI Pluribus became the first and only AI to beat top humans at the multi-player game. That is the first superhuman milestone in any game beyond two-player zero-sum games. He is Founder and CEO of Strategic Machine, Inc., which provides solutions for strategic reasoning in business and gaming applications. He is Founder and CEO of Strategy Robot, Inc., which focuses on defense, intelligence, and other government applications.
+
+                                                                             Among his honors are the Minsky Medal, Computers and Thought Award, inaugural ACM Autonomous Agents Research Award, CMU’s Allen Newell Award for Research Excellence, Sloan Fellowship, NSF Career Award, Carnegie Science Center Award for Excellence, Edelman Laureateship, and Goldman Sachs 100 Most Intriguing Entrepreneurs. He is Fellow of the ACM, AAAI, and INFORMS. He holds an honorary doctorate from the University of Zurich.
+
+"
+  presenter: Tuomas Sandholm
+  introduction: Introduction by Meinolf Sellmann, IAAI-21 Cochair
+
+- UID: panel_ForecastingInUnprecedentedTimes
+  title: 'IAAI-21 AI in Practice Panel: Forecasting in Unprecedented Times'
+  presentation_id:
+  day: Feb 4
+  image: [static/images/aiinpractice/PANEL 1 - moderator.jpg,static/images/aiinpractice/PANEL 1 - Alison Cozad.jpg,static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg]
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-04 18:30:00+00:00
+    end_time: 2021-02-04 19:30:00+00:00
+  rocketchat_channel: Plenary_IAAI21_AIinPracticePanel_ForecastinginUnprecedentedTimes
+  abstract: "
+Moderator: Thiago Serra, AI in Practice Chair
+\n\n
+Panelists: Alison Cozad, Optimization Engineer, Gurobi Optimization; Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
+\n\n
+In a world that is getting more and more used to the abundance and accessibility of historical data as a rich source for modeling, the sudden change of patterns caused by the ongoing pandemic puts in check the conventional way in which forecasting is done. How has industry adapted to that? This panel brings together data scientists, engineers, and business leaders who were at the forefront of such disruptions—delivery, supply chain, and traveling—and witnessed those challenges first hand. They will share their perspectives and lessons learned from an unusual year.
+  "
+  bio: "
+Thiago Serra is an assistant professor at Bucknell University's Freeman College of Management. Previously, he was a visiting research scientist at Mitsubishi Electric Research Labs and an operations research analyst at Petrobras. He holds a B.S. from Unicamp and a PhD from Carnegie Mellon University.
+\n\n
+Alison Cozad is an Optimization Engineer at Gurobi Optimization.  Previously, she was a Senior Data Science Lead and Optimization Engineer at ExxonMobil.  She worked on real-time optimization, predictive analytics, and production planning teams. She has a Ph.D. in Chemical Engineering from Carnegie Mellon University.  She specialized in applying tried-and-true optimization techniques to advanced machine learning methods.
+\n\n
+Ruben Lobel is the Data Science Lead for Airbnb°Øs Emerging Businesses team, which is composed of three sub-teams dedicated to business travel, long stays and hosting services. Previously, he was Assistant Professor of Operations, Information and Decisions at The Wharton School.
+\n\n
+
+Polly Mitchell-Guthrie is the VP of Industry Outreach and Thought Leadership at Kinaxis. Previously, she served as Director of Analytical Consulting at the University of North Carolina Health Care System and in various roles at SAS Institute. She has a BA and MBA from the University of North Carolina at Chapel Hill.
+\n\n
+
+Jagannath is the Engineering Lead for the Marketplace Optimization team at Instacart that comprises three subteams - Logistics, Delivery Options Optimization and, Batch Pricing. He has a Masters in Operations Research from Georgia Institute of Technology.
+\n\n
+
+Chi Zhang is a Senior Data Scientist in DoorDash. Chi has more than 10 years of experience working on real-world problems from operation optimization, predictive maintenance to robotics, all with machine learning. Chi has a Ph.D in Computer Science from University of Tennessee, Knoxville.
+"
+  presenter: "
+Panelists: Alison Cozad, Optimization Engineer, Gurobi Optimization; Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
+  "
+
+- UID: organizational_awards_ceremony
+  title: AAAI Organizational Awards Ceremony
+  day: Feb 4
+  image: static/images/aaai2021/AAAI-logo.png
+  presentation_id: '38952053'
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-04 22:00:00+00:00
+    end_time: 2021-02-04 23:00:00+00:00
+  rocketchat_channel: Plenary_AAAIOrganizationalAwardsCeremony
+  presenter: "Moderators: Yolanda Gil, AAAI Past President and Awards Committee Chair, and Bart Selman, AAAI President"
+
+- UID: speaker_by_regina_barzilay
+  title: 'AAAI-21 Invited Talk: A Tale of Two Translations'
+  day: Feb 4
+  image: static/images/keynotes/regina_barzilay.png
+  presentation_id: '38952076'
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-04 23:30:00+00:00
+    end_time: 2021-02-05 00:45:00+00:00
+  rocketchat_channel: Plenary_InvitedSpeakersProgram_ATaleofTwoTranslations
+  abstract: "
+  In this talk, I will describe our experience in developing and deploying machine learning methods in two areas of healthcare: cancer diagnosis and drug design. The talk will focus on the algorithms that enable these functionalities,  while highlighting unsolved technical challenges.  In addition, I will share lessons learned during this outreach and conclude with recommendations to the AI community on how to magnify our collective impact on healthcare.
+"
+  bio: "[ Regina Barzilay ](https://www.regina.csail.mit.edu/) is a professor in the Department of Electrical Engineering and \
+    Computer Science and a member of the Computer Science and Artificial Intelligence Laboratory\
+    at the Massachusetts Institute of Technology. Her research interests are in natural language\
+    processing. Currently, Prof. Barzilay is focused on bringing the power of machine learning to oncology. \
+    In collaboration with physicians and her students, she is devising deep learning models that utilize imaging,\
+    free text, and structured data to identify trends that affect early diagnosis, treatment, and disease prevention.\
+    Prof. Barzilay is poised to play a leading role in creating new models that advance the capacity of computers to \
+    harness the power of human language data.
+  \n\n
+      Regina Barzilay is a recipient of various awards including the MacArthur Fellowship, NSF Career Award, the MIT \
+    Technology Review TR-35 Award, Microsoft Faculty Fellowship and several Best Paper Awards in top NLP conferences. \
+    In 2017, she received a MacArthur fellowship, an ACL fellowship and an AAAI fellowship. Most recently, in 2020, she \
+    is the first recipient of the AAAI Squirrel AI Award for Artificial Intelligence for the Benefit of Humanity.
+    \n\n
+  Prof. Barzilay received her MS and BS from Ben-Gurion \
+  University of the Negev. She received her PhD in Computer Science from Columbia University, and spent a year as a \
+  postdoc at Cornell University.
+"
+  presenter: Regina Barzilay
+  introduction: Introduction by Fei Fang, AI for Social Impact Cochair
+
+- UID: speaker_by_luke_zettlemoyer
+  title: 'AAAI-21 Invited Talk: Recent Advances in Language Model Pretraining'
+  presentation_id: "38952077"
+  day: Feb 4
+  image: static/images/keynotes/luke_zettlemoyer.jpg
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-05 7:30:00+00:00
+    end_time: 2021-02-05 8:45:00+00:00
+  rocketchat_channel: Plenary_InvitedSpeakersProgram_RecentAdvancesinLanguageModelPretraining
+  abstract: "In recent years, large language models pretrained on vast quantities of raw text have revolutionized NLP. Existing methods, based on variations of causal or masked languages models, now provide the de facto methods for every NLP task. In this talk, I will discuss recent work on language model pretraining, from ELMo, GPT, and BERT to more recent models.  I will aim for broad coverage of the overall trends but provide more details on the models we have been developing recently at Facebook AI and the University of Washington. These include in particular pre-training methods for sequence-to-sequence models, such as BART, mBART, and MARGE, which provide some of the most generally applicable approaches to date.
+"
+  bio: "[Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz) is a Professor in the Paul G. Allen School of Computer Science & Engineering at the University of Washington, and a Research Scientist at Facebook. His research focuses on empirical methods for natural language semantics, and involves designing machine learning algorithms, introducing new tasks and datasets, and, most recently, studying how to best develop self-supervision signals for pre-training. Honors include multiple paper awards, a PECASE award, and an Allen Distinguished Investigator Award. Luke received his PhD from MIT and was a postdoc at the University of Edinburgh.
+
+"
+  presenter: Luke Zettlemoyer
+  introduction: Introduction by Mausam, AAAI-21 Program Cochair
+
+
+- UID: panel_gov_1
+  title: 'AAAI-21 Governments 1 Panel: Government AI Strategy Panel'
+  presentation_id: "38952054"
+  day: Feb 5
+  image: [static/images/gov_1/gov_3.jpg,static/images/gov_1/gov_2.jpg,static/images/gov_1/gov_1.jpg]
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-05 15:30:00+00:00
+    end_time: 2021-02-05 16:45:00+00:00
+  rocketchat_channel: Plenary_InvitedPanelsProgram_Governments1Panel_GovernmentAIStrategyPanel
+  abstract: "
+Panelists: Dragoș Tudorache (Member of European Parliament (Romania), Chair, Special Committee on Artificial Intelligence in a Digital Age); Sana Khareghani (The Office for Artificial Intelligence, UK); Gabriela Ramos (Assistant Director-General for the Social and Human Sciences of UNESCO)
+\n\n
+
+  "
+  bio: "
+Dragoș Tudorache is a Member of the European Parliament (Renew Europe) and the Executive President of the PLUS party in Romania. He is the Chair of the AIDA (Artificial Intelligence in the Digital Age) special committee and sits in LIBE, AFET, SEDE, and the European Parliament¡¯s delegation with the United States.
+\n\n
+Sana Khareghani is currently the Head of the UK Government¡¯s Office for AI ¨C a joint DCMS/BEIS unit. Holding a BSc in Computer Science and MBA from Massachusetts Institute of Technology, Sana has over 20 years¡¯ experience in technology and business across the private and public sectors in corporate, software engineering and management consulting roles.
+\n\n
+Gabriela Ramos is the Assistant Director-General for the Social and Human Sciences of UNESCO, where she oversees the contributions of the institution to build inclusive and peaceful societies. Her agenda includes the achievement of social inclusion and gender equality, advancing youth development; promotion of values through sports;  anti-racism and antidiscriminatory agenda and ethics of artificial inteligence. Her appointment at UNESCO allows her to continue supporting an agenda of inclusive growth, and the respect of human rights and human dignity. Prior to this position, Ms. Ramos served as the Chief of Staff and Sherpa to the G20/G7/APEC in the OECD, contributing to the global agenda as well as leading the OECD's New Approaches to Economic Challenges, Inclusive Growth Initiative, Gender Strategy and the work on well-being and children. In 2019, she launched the Business for Inclusive Growth (B4IG) platform, bringing together 40 major multinational companies committed to reducing inequalities. Previously, she was Director of the OECD Office in Mexico and Latin America and a member of the Mexican foreign service. In 2013, she was decorated with the Ordre du Merit by the President of France. Her work to promote gender equality earned her the 2017 and 2018 Forbes Excellence award as well as being included as part of Apolitical¡¯s 100 Most Influential People in Gender Policy in both 2018 and 2019. A Fulbright and Ford McArthur fellow, she is member of the board of the Paris Peace Forum, UNICEF Advisory Board, Steering Group of the International Gender Champions Paris Hub, Multi-Stakeholder Council to the Global Solutions Initiative, Lancet Commission on Gender-Based Violence and Maltreatment of Young People, and Lancet Commission on COVID-19.
+\n\n
+"
+  presenter: "
+Panelists: Dragoș Tudorache, Sana Khareghani, Gabriela Ramos
+  "
+  introduction: Introduction by Mausam, AAAI-21 Program Cochair
+
+
+- UID: panel_EmergingUsesOfAIInReal-TimeAutomation
+  title: 'IAAI-21 AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
+  presentation_id: '38952055'
+  day: Feb 5
+  image: [static/images/aiinpractice/PANEL 2 - moderator.jpg,static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Ethan McCreadie.jpg , static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg, static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg, static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg,static/images/aiinpractice/PANEL 2 - Rebecca Taft.jpg]
+  sessions:
+  - name: P-Live Presentation
+    start_time:  2021-02-05 18:30:00+00:00
+    end_time: 2021-02-05 19:30:00+00:00
+  rocketchat_channel: Plenary_IAAI21_AIinPracticePanel_EmergingUsesofAIinRealTimeAutomation
+  abstract: "
+Moderator: Ryan J. O'Neil, CTO, nextmv
+\n\n
+Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre; Rebecca Taft, Engineer, Cockroach Labs
+\n\n
+The world economy is becoming more and more on-demand and real-time. As consumers demand immediate access to everything from meals to electronics, software systems are tasked with managing our homes, businesses, and lives in mere seconds or milliseconds. We will discuss the challenges of building, using, and deploying decision automation using optimization and AI technologies given ever-increasing urgency, complexity, and problem dimensions.
+  "
+  bio: "
+Ryan O'Neil is CTO of nextmv. Before this, he led the Decision Engineering departments at Zoomer and Grubhub. He likes early music and cats.
+\n\n
+Apeksha Kumavat is the co-founder and chief engineer at Gatik, a Palo Alto based start-up developing autonomous vehicles for business-to-business short-haul logistics. Prior to this, Apeksha was the Perception Lead at Ford Motor Company's self-driving car unit where she designed effective and efficient feature detection methods to assist with online localization and developed perception algorithms for autonomous vehicles. She has also held the position of Lead Machine Learning Engineer at Otsaw Digital. Apeksha earned her M.S. (with a focus on Machine/Deep Learning) from Purdue University and has contributed towards research in areas including machine learning, cognitive science, and robotics.
+\n\n
+Ethan McCreadle is the lead engineer at goPuff, the go-to solution for immediate everyday needs, where he oversees its innovative routing platform. Recognized for his expertise in cloud computing, automation and continuous delivery, Ethan spearheads core customer pipeline initiatives on the dispatch & logistics. Prior to his work at goPuff, Ethan held positions in website architecture and full stack development. He attended Washington University in St. Louis where he studied electrical engineering.
+\n\n
+Brandon Minor is a roboticist and founder of Tangram Vision, which makes sensor integration software for vision-enabled products. He is passionate about the startup ecosystem in all its forms, and takes pride in building the community.
+\n\n
+Carolyn Mooney is the CEO and co-founder of nextmv. Prior to this, she analyzed simulations at Lockheed (missiles) and Zoomer (pizzas) before running Grubhub’s Systems Engineering team. While not starting companies, she coaches volleyball or plays with nextmv’s CDO, Wally, at the park.
+\n\n
+Sebastian Quintero Rojas is Colombian and passionate about Operations Research. Experienced in developing and deploying OR models into production with industry leading best software practices. Sebastian holds titles in both mechanical and industrial engineering. Recently completed a master's in OR from Universidad de Los Andes, focusing his thesis on the Meal Delivery Routing Problem.
+\n\n
+Rebecca Taft (Becca) is an engineer on the SQL query optimizer team at Cockroach Labs. Prior to joining Cockroach Labs, she was a graduate student at MIT, where she worked with Professor Michael Stonebraker researching database elasticity and multi-tenancy. Becca holds a B.S. from Yale University and a Ph.D. from MIT.
+"
+  presenter: "
+Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre
+  "
+#- UID: panel_EmergingUsesOfAIInReal-TimeAutomation
+#  title: 'AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
+#  presentation_id: ""
+#  day: Feb 5
+#  image: [static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg,static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg,static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg]
+#  sessions:
+#  - name: P-Live Presentation
+#    start_time: 2021-02-05 18:30:00+00:00
+#    end_time: 2021-02-05 19:30:00+00:00
+#  rocketchat_channel: keynote-gov-2
+#  abstract: "
+#The world economy is becoming more and more on-demand and real-time. As consumers demand immediate access to everything from meals to electronics, software systems are tasked with managing our homes, businesses, and lives in mere seconds or milliseconds. We will discuss the challenges of building, using, and deploying decision automation using optimization and AI technologies given ever-increasing urgency, complexity, and problem dimensions.
+#  "
+#  bio: "
+#Apeksha Kumavat is the co-founder and chief engineer at Gatik, a Palo Alto based start-up developing autonomous vehicles for business-to-business short-haul logistics. Prior to this, Apeksha was the Perception Lead at Ford Motor Company's self-driving car unit where she designed effective and efficient feature detection methods to assist with online localization and developed perception algorithms for autonomous vehicles. She has also held the position of Lead Machine Learning Engineer at Otsaw Digital. Apeksha earned her M.S. (with a focus on Machine/Deep Learning) from Purdue University and has contributed towards research in areas including machine learning, cognitive science, and robotics.
+#\n\n
+#
+#Brandon Minor is a roboticist and founder of Tangram Vision, which makes sensor integration software for vision-enabled products. He is passionate about the startup ecosystem in all its forms, and takes pride in building the community.
+#\n\n
+#
+#Carolyn Mooney is the CEO and co-founder of nextmv. Prior to this, she analyzed simulations at Lockheed (missiles) and Zoomer (pizzas) before running Grubhub's Systems Engineering team. While not starting companies, she coaches volleyball or plays with nextmv's CDO, Wally, at the park.
+#\n\n
+#
+#Sebasti®¢n Quintero Rojas is Colombian and passionate about Operations Research. Experienced in developing and deploying OR models into production with industry leading best software practices. Sebasti®¢n holds titles in both mechanical and industrial engineering. Recently completed a master's in OR from Universidad de Los Andes, focusing his thesis on the Meal Delivery Routing Problem.
+#"
+#  presenter: "
+#Moderator: Ryan J. O'Neil, CTO, nextmv
+#\n\n
+#Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre
+#  "
+
+- UID: panel_gov_2
+  title: 'AAAI-21 Governments 2 Panel: Government AI Strategy Panel'
+  presentation_id: "38952056"
+  day: Feb 5
+  image: [static/images/gov_2/gov_2.jpg,static/images/gov_2/gov_3.jpg,static/images/gov_2/gov_1.jpg]
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-05 23:30:00+00:00
+    end_time: 2021-02-06 00:45:00+00:00
+  rocketchat_channel: Plenary_InvitedPanelsProgram_Governments2Panel_GovernmentAIStrategyPanel
+  abstract: "
+Panelists: Lynne Parker (Director, National AI Initiative Office); Elissa Strome (Canadian Institute for Advanced Research (CIFAR)); Sukyung Park (Office of the President, The Republic of Korea)
+\n\n
+  "
+  bio: "
+Dr. Lynne Parker is Director of the National Artificial Intelligence Initiative Office in the White House.  She has led the development of many U.S. AI policy initiatives in the areas of research, governance, education, and international engagement. She received her PhD from MIT and is a Fellow of AAAS and IEEE.
+\n\n
+
+Elissa Strome is the Executive Director of the CIFAR Pan-Canadian AI Strategy, working closely with Canada¡¯s three national AI Institutes in Edmonton (Amii), Montreal (Mila), and Toronto (Vector Institute) and researchers across the country to advance Canada¡¯s leadership in AI research and Innovation. She has a PhD in Neuroscience from the University of British Columbia.
+\n\n
+Sukyung (Sue) Park is a professor in the Department of Mechanical Engineering at KAIST, Korea. Her research interests are the biomechanics of human motion and its monitoring systems using IMUs and/or machine learning technology. She was appointed as an Adviser to the President for Science and Technology.
+
+"
+  presenter: "
+Panelists: Lynne Parker, Elissa Strome, Sukyung Park
+  "
+  introduction: Introduction by Kevin Leyton-Brown, AAAI-21 Program Cochair
+
+- UID: panel_gov_3
+  title: 'AAAI-21 Governments 3 Panel: Government AI Strategy Panel'
+  presentation_id: "38952078"
+  day: Feb 5
+  image: [static/images/gov_3/gov_1.jpg,static/images/gov_3/gov_3.jpg,static/images/gov_3/gov_2.jpg]
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-06 7:30:00+00:00
+    end_time: 2021-02-06 8:45:00+00:00
+  rocketchat_channel: Plenary_InvitedPanelsProgram_Governments3Panel_GovernmentAIStrategyPanel
+  abstract: "
+Panelists: Fuchun Sun (Vice President of the Chinese Association of AI (CAAI), China); Anna Roy (Senior Adviser, National Institution for Transforming India (NITI Aayog)); Isaac Ben-Israel (Israeli Space Agency and Tel Aviv University)
+\n\n
+  "
+  bio: "
+Fuchun Sun is a full professor in the Department of Computer Science and Technology, Tsinghua University, Beijing, China. His research interests include robot active sensing, cross modal learning and skill learning for robot manipulations. In the past ten years, he has published two books and over 300 papers. He received Andy Chi best paper award by IEEE Instrumentation & Measurement Society in 2017. His team won the first place in track 2 of IROS 2016 and 2019 robotic grasping and manipulation competition.
+He was elected as IEEE Fellow in 2018 and CAAI Fellow in 2019. He is now the Vice-Chairman of Chinese Association of Artificial Intelligence, EIC of the international journal of Cognitive Computation and Systems, and also serves as AEs in IEEE Trans. On Fuzzy Systems, IEEE Trans. On Systems, Mans and Cybernetics: Systems and IEEE Transaction on Cognitive and Development Systems.
+\n\n
+Ms. Roy is from Indian Economic Service and currently leads the Frontier Technologies and data management verticals at NITI Aayog, the government of India's premier policy think-tank. She led the development of the National Strategy on Artificial Intelligence, approach paper on AIRAWAT at NITI Aayog. Currently, she is drafting an approach paper on Responsible AI. In the government, she has worked at the Ministry of Finance, civil Aviation and has experience of contributing to sectors such as infrastructure reforms, public-private partnerships, and finance. She is passionate about driving new initiatives and AI-based projects in Health, agriculture and education sectors in the Indian context. Ms. Roy received her education from Shri Ram College of Commerce, University of Delhi, India
+\n\n
+[Prof. Isaac Ben-Israel](https://english.tau.ac.il/profile/itzik) graduated from Tel Aviv University with degrees in mathematics, physics and philosophy, earning his PhD in 1988. A retired major-general in the Israel Air Force, Prof. Ben-Israel has served as Director of Defence R&D Directorate of the Ministry of Defense. He is a recipient of the Israel Defense Award (twice). He was a member of Knesset from 2007 to 2009. Currently he is the Chairman of the Israeli Space Agency and Head of the Blavatnik Interdisciplinary Cyber Research Center and the Yuval Ne'eman workshop for Science, Technology and Security at Tel Aviv University. In 2010 he was appointed by Israel PM to lead a task force that submitted to the Government a plan which made Israel a major player in Cyber Security. In 2018 he was appointed again by the PM to lead the next revolution in Israel: Secured Artificial Intelligence.
+"
+  presenter: "
+Panelists: Fuchun Sun, Anna Roy, Isaac Ben-Israel
+  "
+  introduction: Introduction by Qiang Yang, AAAI-21 General Chair
+
+
+- UID: speaker_by_michael_wooldridge
+  title: '2021 AAAI/EAAI-21 Outstanding Educator Award Lecture--Talking to the Public about AI'
+  presentation_id: "38951738" #38951738
+  day: Feb 6
+  image: static/images/keynotes/michael_wooldridge.jpg
+  sessions:
+  - name: Presentation
+    start_time: 2021-02-06 14:30:00+00:00
+    end_time: 2021-02-06 15:45:00+00:00
+  rocketchat_channel: Plenary_InvitedSpeakersProgram_2021AAAIEAAI21OutstandingEducatorAwardLecture_TalkingtothePublicaboutAI
+  abstract: "Since everything went crazy in AI, around 2012, I, like many other members of our community,\
+   have frequently found myself put in the position of having to talk about our field to a non-specialist audience. \
+   I’ve been interviewed on TV and radio, and spoken to endless university committees, government committees, and industrial \
+   conferences. More recently, following the publication of my two popular science books (the Ladybird Expert Guide to \
+   AI [2018], and The Road to Conscious Machines [2020]), I’ve even begun speaking at a literary festivals (believe me, \
+   I never expected to be doing this as a PhD student studying multiagent systems back in 1989). In this talk, I will \
+   relate these experiences, the mistakes I made, and what I learned from them – how our field is perceived, what people\
+    fear, hope, and expect from it, and how best to communicate excitement about the very real progress we’ve made recently\
+     with a realistic understanding of where we are and where we are going.
+"
+  bio: "[Michael Wooldridge](https://www.cs.ox.ac.uk/people/michael.wooldridge/) is a Professor of Computer\
+   Science and Head of Department of Computer Science at the University of Oxford, and a programme director for AI at\
+    the Alan Turing Institute. He is a Fellow of the ACM, the Association for the Advancement of AI (AAAI), and the European\
+     Association for AI (EurAI). From 2014-16, he was President of the European Association for AI, and from 2015-17 he was\
+      President of the International Joint Conference on AI (IJCAI). As well as more than 400 technical articles on AI, he\
+       has published two popular science introductions to the field: The Ladybird Expert Guide to AI (2018), and The Road to\
+        Conscious Machines (Pelican, 2020).
+"
+  presenter: Michael Wooldridge
+
+- UID: speaker_latanya_sweeney
+  title: 'AAAI-21 Invited Talk: How AI and Technology Design will Dictate Our Civic Future'
+  day: Feb 6
+  image: static/images/aiinpractice/Invited Talk - Latanya Sweeney.jpg
+  presentation_id: '38952057'
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-06 15:30:00+00:00
+    end_time: 2021-02-06 16:45:00+00:00
+  rocketchat_channel: Plenary_InvitedSpeakersProgram_byLatanyaSweeney
+  presenter: Latanya Sweeney
+  introduction: Introduction by Gabriele Röger, AAAI-21 Associate Cochair
+  abstract: "
+Data-driven algorithms and technology designers are the new policymakers. No one elected them, and most people do not know their names, but the decisions they make dictate the code by which we conduct our daily lives and govern our country. Challenges to the privacy of our personal data were the first wave of this change; as technology progresses, every demographic value and every law has come up for grabs and will likely be redefined by what technology does or does not enable. How will it all fit together or fall apart?
+  "
+  bio: "
+  Latanya Sweeney pioneered the field known as data privacy, launched the area known as algorithmic fairness, and her work is cited in government regulations worldwide. She was CTO of the FTC and earned her PhD in CS from MIT in 2001, being the first black woman to do so. latanyasweeney.org
+  "
+- UID: panel_AIApplicationsInFinance
+  title: 'IAAI-21 AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
+  presentation_id:
+  day: Feb 6
+  image: [static/images/aiinpractice/PANEL 3 - moderator.jpg,static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg,static/images/aiinpractice/PANEL 3 - Rajesh T. Krishnamachari.jpg,static/images/aiinpractice/PANEL 3 - unknown.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg]
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-06 18:30:00+00:00
+    end_time: 2021-02-06 19:30:00+00:00
+  rocketchat_channel: Plenary_IAAI21_AIinPracticePanel_AIApplicationsinFinanceRisksandChallengesinDeployingRealWorldBusinessesSolutions
+  abstract: "
+Moderator: Tharsis Souza, VP, Two Sigma Investments
+\n\n
+Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
+\n\n
+In recent years, the application of artificial intelligence in finance has received increased interest both as an academic research field and as a solution for real-world business problems. However, the deployment of AI models in production systems can present a number of issues and concerns. This panel discusses key risks and challenges in deploying AI applications in the financial services industry and approaches to address these challenges.
+"
+  bio: "
+Tharsis Souza is a computer scientist passionate about data-driven products. He is Vice President of Products at Two Sigma Investments with the goal of applying cutting-edge technology to the data-rich world of finance. Prior to Two Sigma, he spent 10 years delivering new products in a variety of companies from start-ups to Fortune 500’s in the U.S., Brazil, and the U.K. He’s also an author of scholarly publications Financial Computing and a regular speaker in academic and business conferences. Tharsis holds a Ph.D. in Computer Science from UCL, University of London following an M.Phil. and M.Sc. in Computer Science and a B.Sc. in Computer Engineering.
+\n\n
+Alexander Denev leads AI and Data Science team for Financial Services - Risk Advisory. His responsibilities include development of AI products and advisory around risks and ethical implementation of AI. He also focusses on Alternative Data, AI for Data Quality and AI for Retail Banking. He is the former Head of Quantitative Research & Advanced Analytics at IHS Markit. He recently published The Book of Alternative Data ®C the first of its kind on this topic, and previously two other books on application of machine learning in Finance.
+\n\n
+Rajesh T. Krishnamachari, Ph.D. is responsible for leading Data Science initiatives within the Global Markets division of Bank of America. Prior to joining the firm in 2018, he was an investment strategist at JP Morgan, where he served on the Quant Council for Research and specialized on the application of machine learning algorithms to cross-asset systematic investing. He also serves as adjunct faculty for machine learning at New York University. Dr. Krishnamachari is a widely cited researcher with 2 books and 25 refereed publications across quantitative finance, applied mathematics and the social sciences.
+\n\n
+Before his role as a Professor at NYU Courant, Petter Kolm worked at Goldman Sachs Asset Management where his responsibilities included developing investment strategies. Petter has coauthored numerous articles and books on quantitative finance and financial data science, serves on several editorial boards for academic journals, professional associations, and company advisory boards. He holds a Ph.D. in Mathematics from Yale, an M.Phil. in Applied Mathematics from the Royal Institute of Technology, and an M.S. in Mathematics from ETH Zurich.
+\n\n
+Adriano Koshiyama is a Research Fellow at Computer Science at University College London. He is co-founder of Holistic AI, a startup focused on Auditing and Assurance of AI Systems. His interests include: Machine Learning, Finance, and Trustworthy AI.
+"
+  presenter: "
+Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
+  "
+
+#- UID: panel_AIApplicationsInFinance
+#  title: 'AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
+#  presentation_id: ""
+#  day: Feb 6
+#  image: [static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg,static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg]
+#  sessions:
+#  - name: P-Live Presentation
+#    start_time: 2021-02-06 18:30:00+00:00
+#    end_time: 2021-02-06 19:30:00+00:00
+#  rocketchat_channel:
+#  abstract: "
+#In recent years, the application of artificial intelligence in finance has received increased interest both as an academic research field and as a solution for real-world business problems. However, the deployment of AI models in production systems can present a number of issues and concerns. This panel discusses key risks and challenges in deploying AI applications in the financial services industry and approaches to address these challenges.
+#  "
+#  bio: "
+#Alexander Denev leads AI and Data Science team for Financial Services - Risk Advisory. His responsibilities include development of AI products and advisory around risks and ethical implementation of AI. He also focusses on Alternative Data, AI for Data Quality and AI for Retail Banking. He is the former Head of Quantitative Research & Advanced Analytics at IHS Markit. He recently published The Book of Alternative Data ®C the first of its kind on this topic, and previously two other books on application of machine learning in Finance.
+#\n\n
+#
+#Adriano Koshiyama is a Research Fellow at Computer Science at University College London. He is co-founder of Holistic AI, a startup focused on Auditing and Assurance of AI Systems. His interests include: Machine Learning, Finance, and Trustworthy AI."
+#  presenter: "
+#Moderator: Tharsis Souza, VP, Two Sigma Investments
+#\n\n
+#Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
+#  "
+- UID: speaker_sanjeev_arora
+  title: 'AAAI-21 Invited Talk: Opening the Black Box of Deep Learning (+ Takeaways for AI)'
+  day: Feb 6
+  image: static/images/keynotes/sanjeev_arora.jpg
+  presentation_id: '38952059'
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-06 23:30:00+00:00
+    end_time: 2021-02-07 00:40:00+00:00
+  rocketchat_channel: Plenary_InvitedSpeakersProgram_bySanjeevArora
+  abstract: "Deep learning's successes have led to dramatic progress in some classic AI tasks. Can it take us all the way to full AI? We argue that the current black box view of deep learning will prove a big hurdle.  Via a tour d'horizon of recent theoretical analyses of  deep learning in some concrete settings,  we illustrate how the black box view can miss out on special phenomena going on during training that are not captured by the training objective. We argue that understanding such phenomena via mathematical understanding will be crucial for enabling the full range of AI applications."
+  bio: "[Sanjeev Arora](https://www.cs.princeton.edu/~arora/) is Charles C. Fitzmorris Professor of Computer Science at Princeton University. He has received Packard Fellowship (1997), Simons Investigator Award (2012), Gödel Prize (2001 and 2010), ACM Prize in Computing (2012), and the Fulkerson Prize (2012). He is a Fellow of the AAAS and Member of NAS."
+  presenter: Sanjeev Arora
+  introduction: Introduction by Kevin Leyton-Brown, AAAI-21 Program Cochair
+
+- UID: speaker_by_kaifu_lee
+  title: 'AAAI-21/IAAI-21 Joint Invited Talk: AI Infusion Investment Outlook'
+  presentation_id: "38952079"
+  day: Feb 6
+  image: static/images/keynotes/kaifu_lee.jpg
+  sessions:
+   - name: P-Live Presentation
+     start_time: 2021-02-07 7:30:00+00:00
+     end_time: 2021-02-07 8:45:00+00:00
+  rocketchat_channel: Plenary_InvitedSpeakersProgram_AIInfusionInvestmentOutlook
+  abstract: "With over 35 years of researching, developing, building and now investing in AI, in this presentation Dr. Kai-Fu Lee will givie his unique perspectives on how AI is now moving from the age of major scientific discovery since deep learning breakthrough, into the age of commercial implementations. He will deep dive into how business world would expect material economic benefits ushering in the new phase infusing AI into traditional industries. Under the AI Infusion outlook, he would elaborate how businesses may adopt AI to achieve productivity enhancements and digital transformation with insights, real world examples, and implications to the research community."
+  bio: "[Dr. Kai-Fu Lee](https://sinovationventures.com/index.php/home/aboutus/teams.html) is a former artificial intelligence researcher, former head of Google China and Microsoft Research Asia, and a long time investor in Chinese tech startups. Currently Chairman and CEO of Sinovation Ventures, he is one of the world’s leading AI expert in particular the fields of commercialization and application of AI.
+
+  "
+  presenter: Kai-Fu Lee
+  introduction: Introduction by Yan Liu, AAAI-21 Associate Program Cochair
+
+- UID: panel_neuro_symbolic_AI_panel
+  title: 'AAAI-21 Neuro-Symbolic AI Panel'
+  presentation_id: "38952063"
+  day: Feb 7
+  image: [static/images/neuro_panel/neuro_1.jpg,static/images/neuro_panel/neuro_2.jpg,static/images/neuro_panel/neuro_3.jpg,static/images/neuro_panel/neuro_4.jpg,static/images/neuro_panel/neuro_5.jpg]
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-07 15:30:00+00:00
+    end_time: 2021-02-07 16:45:00+00:00
+  rocketchat_channel: Plenary_InvitedPanelsProgram_NeuroSymbolicAIPanel
+  abstract: "
+Panelists: Matthew Botvinick (DeepMind and University College London), Leslie Pack Kaelbling (Massachusetts Institute of Technology), Marta Kwiatkowska (University of Oxford), Guy Van den Broeck (University of California), Luis Lamb (Federal University of Rio Grande do Sul, Brazil)
+\n\n
+
+  "
+  bio: "
+  [Matthew Botvinick](https://hai.stanford.edu/people/matthew-botvinick) is Director of Neuroscience Research and Team Lead in AI research at DeepMind and Honorary Professor at the Gatsby Computational Neuroscience Unit at University College London.
+\n\n
+
+  [Leslie Pack Kaelbling](https://people.csail.mit.edu/lpk/) is a Professor at MIT. She has an undergraduate degree in Philosophy and a PhD in Computer Science from Stanford, and was previously on the faculty at Brown University. She was the founding editor-in-chief of the Journal of Machine Learning Research. Her goal is to make robots that are as smart as you are.   She is a fellow of the AAAI.
+\n\n
+
+  [Guy Van den Broeck](https://web.cs.ucla.edu/~guyvdb/) is an Associate Professor at UCLA, where he directs the Statistical and Relational Artificial Intelligence (StarAI) lab. His work has been recognized with best paper awards from key artificial intelligence venues, and he is the recipient of the IJCAI-19 Computers and Thought Award.
+\n\n
+
+  [Marta Kwiatkowska](https://www.cs.ox.ac.uk/people/marta.kwiatkowska/) is a leading expert working on automated verification and synthesis for probabilistic systems. Her research draws on symbolic, numerical and statistical methods, with application to safety and robustness of AI systems. She is a Fellow of ELLIS, ACM, Royal Society and a member of Academia Europea.
+\n\n
+
+  [Luis Lamb](http://www.inf.ufrgs.br/~lamb/) - Ph.D. in Computer Science, Imperial College London (2000) -
+               Professor and Secretary of Innovation, Science and Technology of the State of Rio Grande do Sul, Brazil. He has been working on Neurosymbolic AI for two decades, and published foundational works with Artur Garcez, including 'Neural-Symbolic Cognitive Reasoning' (Springer, 2009).
+
+"
+  presenter: "
+Panelists: Matthew Botvinick, Leslie Pack Kaelbling, Marta Kwiatkowska, Guy Van den Broeck, Luis Lamb
+  "
+  introduction: Introduction by Kristian Kersting, AAAI-21 Focus Area Cochair on Neuro-Symbolic AI
+
+- UID: speaker_by_daphne_koller
+  title: "AAAI-21 Invited Talk: Digital Learning Coming to Life"
+  day: Feb 7
+  image: static/images/keynotes/daphne_koller.jpg
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-07 23:30:00+00:00
+    end_time: 2021-02-08 0:45:00+00:00
+  rocketchat_channel: Plenary_InvitedSpeakersProgram_DigitalLearningComingtoLife
+  abstract: "The global pandemic that engulfed the world in 2020 gave rise to an immediate imperative to transition many of our activities to a digital format. One of the more significant of these activities was the sudden transition to the use of online platforms for providing education. This online transition caught the vast majority of academic institutions unprepared, and most defaulted to an approach of “let’s do what we’ve always done, just over video”. This paradigm led to a considerable decline in student satisfaction and achievement. In this talk, I will argue that this challenge is also an unprecedented opportunity that can help us transform the way in which we teach. By building innovative digital learning platforms that implement best practices from teaching and learning, we can enable active learning and collaboration, measure and enhance student engagement, and increase student success. In fact, some of these interventions are considerably easier to deploy on a digital platform than they are in traditional classrooms. Moreover, this new way of teaching can be more inclusive than traditional approaches, and disproportionately benefit students from less advantaged backgrounds. Finally, digital learning opens the door to the collection of massive amounts of data about teaching and learning, which will enable us to develop and deploy human-driven or AI-driven interventions that can further enhance student engagement and  success.
+"
+  bio: "[Daphne Koller](https://ai.stanford.edu/users/koller/) is CEO and Founder of insitro, \
+  a machine-learning enabled drug discovery company, and the co-founder of the online education platforms Engageli and Coursera.\
+   Daphne was the Rajeev Motwani Professor of Computer Science at Stanford University, the co-CEO and President of Coursera and Chief\
+    Computing Officer of Calico. Daphne was recognized as one of TIME Magazine’s 100 most influential people in 2012. She received the \
+    MacArthur Foundation Fellowship in 2004 and the ACM Prize in Computing in 2008. She was inducted into the National Academy of Engineering\
+     in 2011 and elected a fellow of the American Association for Artificial Intelligence in 2004, the American Academy of Arts and Sciences\
+      in 2014 and of the International Society of Computational Biology in 2017."
+  presenter: Daphne Koller
+  introduction: Introduction by Nisarg Shah, AAAI-21 Focus Area Cochair for Conference Organization and Delivery
+  presentation_id: "38952061"
+
+- UID: panel_AI_response_covid_19
+  title: 'AAAI-21 AI Responses to the Covid-19 Pandemic Panel'
+  presentation_id: "38952060"
+  day: Feb 7
+  image: [static/images/covid_panel/covid_2.jpg,static/images/covid_panel/covid_4.jpg,static/images/covid_panel/covid_1.jpg,static/images/covid_panel/covid_3.jpg]
+  sessions:
+  - name: P-Live Presentation
+    start_time: 2021-02-08 7:30:00+00:00
+    end_time: 2021-02-08 8:45:00+00:00
+  rocketchat_channel: Plenary_InvitedPanelsProgram_AIResponsestotheCovid19Pandemic
+  abstract: "
+             Panelists: Prof. Dinggang Shen (Shanghai Tech University & United Imaging Intelligence), Prof. Ben Goldacre (Oxford University), Dr. Kizzmekia Corbett (National Institutes of Health), Prof. Eili Klein (Johns Hopkins University)
+\n\n
+
+             The intent of this panel is to promote knowledge and share the latest technologies that are directly related to fighting the COVID-19 pandemic, whether addressing its medical, social, or economic consequences. The panel consists of world-renown experts on medical imaging, epidemiology, testing, and vaccine, who will share their insights in how technologies are evolved to address the pandemic and how AI can help in this critical task.
+  "
+  bio: "[Prof. Dinggang Shen](https://shen.web.unc.edu/) is Professor and Dean of School of Biomedical Engineering, ShanghaiTech University, and also Co-CEO of United Imaging Intelligence (UII). He was Jeffrey Houpt Distinguished Investigator and (Tenured) Full Professor of Radiology at University of North Carolina at Chapel Hill (UNC-CH). Prof. Shen is Fellow of IEEE, Fellow of The American Institute for Medical and Biological Engineering (AIMBE), Fellow of The International Association for Pattern Recognition (IAPR), and also Fellow of The Medical Image Computing and Computer Assisted Intervention (MICCAI) Society. His research interests include medical image analysis, computer vision, and pattern recognition. He has published more than 1100 peer-reviewed papers in the international journals and conference proceedings, with H-index 107 and more than 40,000 citations. He serves as an editorial board member for eight international journals. Also, he has served in the Board of Directors, MICCAI Society, in 2012-2015, and was General Chair for MICCAI 2019.
+\n\n
+
+[Dr. Ben Goldacre](https://www.badscience.net/about-dr-ben-goldacre/) is a doctor, academic, writer, and broadcaster. He trained in medicine at Oxford and University College London, in psychiatry at the Maudsley, and in epidemiology at The London School of Hygiene and Tropical Medicine (LSHTM). He runs the DATALab at Oxford. His academic and policy work is in informatics, epidemiology and evidence based medicine, where he works on various problems including variation in care, better uses of routinely collected electronic health data (e.g. the COVID-19 OpenSAFELY project), evidence-based social policy, access to clinical trial data, efficient trial design, and retracted papers. Alongside he also works in public engagement, writing and broadcasting for a general audience on problems in evidence based medicine. His books have sold over 600,000 copies and his TED talks have had over 4 million views.
+\n\n
+
+[Dr. Kizzmekia (Kizzy) Shanta Corbett](https://en.wikipedia.org/wiki/Kizzmekia_Corbett) is an American viral immunologist at the Vaccine Research Center (VRC) at the National Institute of Allergy and Infectious Diseases, National Institutes of Health (NIAID NIH) based in Bethesda, Maryland. Appointed to the VRC in 2014, she is currently the scientific lead of the VRC's Coronavirus Team, with research efforts aimed at propelling novel coronavirus vaccines, including a COVID-19 vaccine. In December 2020, the Institute's Director Anthony Fauci, said: 'Kizzy is an African American scientist who is right at the forefront of the development of the vaccine.'
+\n\n
+
+[Prof. Eili Klein](https://www.hopkinsmedicine.org/profiles/results/directory/profile/9514751/eili-klein) is an Associate Professor in the Department of Emergency Medicine at Johns Hopkins University. He is also a fellow at the Center for Disease Dynamics, Economics and Policy in Washington, D.C. Upon finishing his Ph.D. in ecology and evolutionary biology from Princeton University, Dr. Klein joined the Johns Hopkins faculty in 2012. His research focuses on the role of behavior in the spread of infectious diseases. Examining how individuals respond to incentives for both healthy and unhealthy behavior and how this then impacts the spread disease can improve policy responses to epidemic diseases, by giving policymakers and health-care providers clear tools for thinking about how certain actions can influence the spread of disease transmission.
+
+"
+  presenter: "
+  Panelists: Dinggang Shen, Ben Goldacre, Kizzmekia Corbett, Eili Klein
+  "
+  introduction: Introduction by Yan Liu, AAAI-21 Associate Cochair; S. Kevin Zhou, Le Lu, and B. Aditya Prakash, AAAI-21 Focus Area Chairs for AI Responses for Covid-19
+
+
+
+#- UID: best_paper_awards_and_closing
+#  title: Best Paper Awards and Closing
+#  presentation_id: "38942830"
+#  day: Feb 7
+#  image: static/images/emnlp2020/acl-logo.png
+#  sessions:
+#  - name: P-Live Presentation
+#    start_time: 2020-11-19 01:50:00+00:00
+#    end_time: 2020-11-19 02:20:00+00:00
+#  rocketchat_channel: plenary-best-paper-awards-and-closing
+#
+

@@ -3,3 +3,6 @@ frozen-flask
 Flask-Markdown
 tqdm
 PyYAML
+icalendar
+pytz
+jsons

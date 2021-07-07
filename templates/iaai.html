@@ -1,0 +1,215 @@
+{% set active_page = "IAAI" %}
+{% extends "base.html" %}
+
+
+
+{#{% block content %}#}
+{#{% endblock %}#}
+
+
+{% set page_title = "IAAI" %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+
+{% block heading %}
+{{ components.section("The Thirty-Third Annual Conference on Innovative Applications of Artificial Intelligence (IAAI)") }}
+{#<div class="row">#}
+
+<div class="pp-card m-3" style="">
+<div class="card-header">
+
+    <p class="lead">
+Welcome to the Thirty-Third Annual Conference on Innovative Applications of Artificial Intelligence (IAAI-21)!
+<br><br>
+Thursday - Saturday, February 4 - 6, 2021
+        <br><br><br>
+
+The Thirty-Third Annual Conference on Innovative Applications of Artificial Intelligence (IAAI-21) is a venue for papers describing highly innovative realizations of AI technology. The objective of the conference is to showcase successful applications and novel uses of AI. The conference will use technical papers, best practice papers, invited talks, and panel discussions to explore issues, methods, and lessons learned in the development and deployment of AI applications; and to promote an interchange of ideas between basic and applied AI and the discourse on the actual deployment of AI in practice.
+
+        <br><br>
+        Prerecording of accepted IAAI-21 papers are available and all IAAI authors have been asked to participate in the conference-wide poster session. The schedule of posters is listed below. Each poster will be available during all three time segments on the day it is scheduled, although authors will select the timezones most convenient for them to be present.
+        <br><br>
+
+IAAI also features the Robert S. Engelmore Memorial Award Lecture by Tuomas Sandholm and the IAAI-21 / AAAI-21 Joint Invited Talk by Kai-Fu Lee.
+
+        <br><br>
+        Finally, IAAI is pleased to present the 2021 edition of AI in Practice, comprising three plenary session panels on February 4-6. For more information, please see the <a href="https://virtual.2021.aaai.org/ai_in_practice.html">AI in Practice Program Schedule</a>.
+<br><br>
+        Neil Yorke-Smith and Meinolf Sellmann<br>
+IAAI-21 Conference Cochairs<br>
+    Thiago Serra<br>
+AI in Practice Chair</p>
+{#    {{ components.section("EAAI-21 Program Schedule") }}#}
+{#      <p style="text-align: center"><em>last updated: January 7, 2021</em></p>#}
+</div>
+</div>
+<br>
+    <div class="col-12 pb-4" role="main">
+<h1 style="text-align: center" id="iaai-21-program-schedule">IAAI-21 Program Schedule</h1>
+{#<p style="text-align: center"><em>last updated: January 19, 2021</em></p>#}
+<h2 id="saturday-february-6-2021">Thursday, February 4, 2021</h2>
+{#<p>**am - **pm EST </p>#}
+<p><strong>[Feb 4 7:30 - 8:45 AM PST]  Robert S. Engelmore Memorial Award Lecture
+</strong><br>
+<em>Tuomas Sandholm
+ - Carnegie Mellon University, Optimized Markets, Inc., Strategy Robot, Inc., Strategic Machine, Inc.
+</em></p>
+<p><em>Tuomas Sandholm is Angel Jordan University Professor of Computer Science at Carnegie Mellon University and a serial entrepreneur. His research focuses on the convergence of artificial intelligence, economics, and operations research. He is Co-Director of CMU AI. He is Founder and Director of the Electronic Marketplaces Laboratory.
+<br>
+    In parallel with his academic career, he was Founder, Chairman, first CEO, and CTO/Chief Scientist of CombineNet, Inc. from 1997 until its acquisition in 2010. During this period the company commercialized over 800 of the world's largest-scale generalized combinatorial multi-attribute auctions, with over $60 billion in total spend and over $6 billion in generated savings. He is Founder and CEO of Optimized Markets, Inc., which is bringing a new optimization-powered paradigm to advertising campaign sales, scheduling, and pricing in linear and nonlinear TV, display, streaming, and cross-media advertising.
+<br>
+    Since 2010, his algorithms have been running the national kidney exchange for UNOS, where they make the kidney exchange transplant plan for 80% of U.S. transplant centers together each week. He also co-invented never-ending altruist-donor-initiated chains, which have become the main modality of kidney exchange worldwide and have led to around 10,000 life-saving transplants. He invented liver lobe and multi-organ exchanges, and the first liver-kidney swap took place in 2019.
+<br>
+    He has developed the leading algorithms and pipelines for several general game classes. The team he leads is the multi-time world champion in AI-vs-AI heads-up no-limit Texas hold¡¯em, the main benchmark and decades-open challenge problem for application-independent algorithms for imperfect-information games. Their AI Libratus became the first and only AI to beat top humans at that game. Then their AI Pluribus became the first and only AI to beat top humans at the multi-player game. That is the first superhuman milestone in any game beyond two-player zero-sum games. He is Founder and CEO of Strategic Machine, Inc., which provides solutions for strategic reasoning in business and gaming applications. He is Founder and CEO of Strategy Robot, Inc., which focuses on defense, intelligence, and other government applications.
+<br>
+    Among his honors are the Minsky Medal, Computers and Thought Award, inaugural ACM Autonomous Agents Research Award, CMU¡¯s Allen Newell Award for Research Excellence, Sloan Fellowship, NSF Career Award, Carnegie Science Center Award for Excellence, Edelman Laureateship, and Goldman Sachs 100 Most Intriguing Entrepreneurs. He is Fellow of the ACM, AAAI, and INFORMS. He holds an honorary doctorate from the University of Zurich.
+</em></p>
+<p><strong>[Feb 6 11:30 PM - 00:45 AM PST] IAAI-21/AAAI-21 Joint Invited Speaker: AI Infusion Investment Outlook
+</strong><br>
+<em>Dr. Kai-Fu Lee  - Sinoventures, China</em><br>
+    <p>
+With over 35 years of researching, developing, building and now investing in AI, in this presentation Dr. Kai-Fu Lee will givie his unique perspectives on how AI is now moving from the age of major scientific discovery since deep learning breakthrough, into the age of commercial implementations. He will deep dive into how business world would expect material economic benefits ushering in the new phase infusing AI into traditional industries. Under the "AI Infusion" outlook, he would elaborate how businesses may adopt AI to achieve productivity enhancements and digital transformation with insights, real world examples, and implications to the research community.
+</p>
+
+<p><em>
+Dr. Kai-Fu Lee is a former artificial intelligence researcher, former head of Google China and Microsoft Research Asia, and a long time investor in Chinese tech startups. Currently Chairman and CEO of Sinovation Ventures, he is one of the world¡¯s leading AI expert in particular the fields of commercialization and application of AI.
+</em></p>
+
+
+{#{{ iaai_poster_schedule_days }}#}
+{#    <br>#}
+{#    {{ iaai_poster_schedule }}#}
+    {% endblock %}
+
+
+
+{% block tabs %}
+        <div id="schedule" aria-labelledby="schedule">
+  <h2 class="card-title main-title text-center" style="">
+      IAAI-21 Poster Presentation Schedule
+  </h2>
+    </div>
+{{ components.tabs(iaai_poster_schedule_days) }}
+    <br>
+{% endblock %}
+    <br>
+{% block content %}
+<div class="tab-content" id="nav-tabContent">
+  {% for (tab_id, day, active) in iaai_poster_schedule_days %}
+  <div
+    class="tab-pane fade {{ 'active show' if active else '' }}"
+    id="tab-{{ tab_id }}"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div id="{{ tab_id }}">
+      <div class="plenary_sessions">
+            <div class="row">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 8%;">Paper ID</th>
+          <th scope="col" style="width: 60%;">Title</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+            {% for theme in iaai_poster_schedule[day] %}
+                            <tr> <td colspan="3" align="center">{{ theme }}</td>      </tr>
+                    {% for paper in iaai_poster_schedule[day][theme] %}
+        <tr>
+            <td>
+              IAAI-{{paper}}
+{#                <span class="session_times">{{}}</span>#}
+            </td>
+            {% for mypaper in IAAI_papers %}
+                {% if 'IAAI-'+paper.__str__() == mypaper.UID %}
+                   <td scope="row">  <a href="paper_{{mypaper.UID }}.html">
+{#                       <a href={{ mypaper.pdf_url }}>#}
+    <div style="height:100%;width:100%">
+      {{mypaper.title}}
+    </div>
+  </a></td>
+{#                    <td scope="row">{{mypaper.title}}</td>#}
+                    <td style="white-space: pre-wrap;">{{ mypaper.authors | replace("|",', ') }}</td>
+                {% endif %}
+            {% endfor %}
+        </tr>
+                {% endfor %}
+              {% endfor %}
+
+      </tbody>
+    </table>
+
+
+{#        {{ components.plenarysessiongroup(plenary_sessions[day]) }}#}
+      </div>
+    </div>
+  </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+<br>
+{#<div id="schedule" aria-labelledby="schedule">#}
+{#  <h2 class="card-title main-title text-center" style="">#}
+{#      IAAI-21 Poster Presentation Schedule#}
+{#  </h2>#}
+{#  <h3 class="card-subtitle mb-2 text-muted text-center">#}
+{#      February 4-6, 2021#}
+{#  </h3>#}
+{#      {% for myday in iaai_poster_schedule %}#}
+{#                <h3 class="card-subtitle mb-2 text-muted text-center" style="text-align: center">#}
+{#                     <br>  <p style="text-align: center">  {{ myday}}</p><br>#}
+{#  </h3>#}
+{#  <div class="row">#}
+{#    <table class="table table-bordered table-striped" style="font-size: small;">#}
+{#      <thead>#}
+{#        <tr>#}
+{#          <th scope="col" style="width: 8%;">Paper ID</th>#}
+{#          <th scope="col" style="width: 60%;">Title</th>#}
+{#          <th scope="col">Authors</th>#}
+{#        </tr>#}
+{#      </thead>#}
+{#      <tbody>#}
+{#            {% for theme in iaai_poster_schedule[myday] %}#}
+{#                            <tr> <td colspan="3" align="center">{{ theme }}</td>      </tr>#}
+{#                    {% for paper in iaai_poster_schedule[myday][theme] %}#}
+{#        <tr>#}
+{#            <td>#}
+{#              IAAI-{{paper}}#}
+{#                <span class="session_times">{{}}</span>#}
+{#            </td>#}
+{#            {% for mypaper in IAAI_papers %}#}
+{#                {% if 'IAAI-'+paper.__str__() == mypaper.UID %}#}
+{#                   <td scope="row">   <a href={{ mypaper.pdf_url }}>#}
+{#    <div style="height:100%;width:100%">#}
+{#      {{mypaper.title}}#}
+{#    </div>#}
+{#  </a></td>#}
+{#                    <td scope="row">{{mypaper.title}}</td>#}
+{#                    <td style="white-space: pre-wrap;">{{ mypaper.authors | replace("|",', ') }}</td>#}
+{#                {% endif %}#}
+{#            {% endfor %}#}
+{#        </tr>#}
+{#        {% endfor %}#}
+{#              {% endfor %}#}
+{##}
+{#      </tbody>#}
+{#    </table>#}
+{##}
+{##}
+{#  </div>#}
+{#{% endfor %}#}
+{#</div>#}
+
+
+{% endblock %}
+
+
+
+
+

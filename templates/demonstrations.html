@@ -1,0 +1,424 @@
+{% extends "base.html" %}
+{% set active_page = "Demonstrations" %}
+{% set page_title = "Demonstrations" %}
+
+{% block heading %}
+{{ components.section("Demonstrations") }}
+
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <p>Welcome to the AAAI-21 Demonstration Program!</p>
+        <p>The AAAI-21 Demonstrations Program is intended to foster discussion and exchange of ideas among researchers and practitioners from academia and industry by presenting software and hardware systems and research prototypes of such systems, including their capabilities and workings. All accepted demos are scheduled for presentation February 4-7. Accepted demonstrations also have a short paper available for viewing throughout the conference.</p>
+        <p>Demo presentations will fall in the conference-wide poster/demo session time slots:</p>
+        <p>
+            8:45 - 10:30 AM PST <br />
+            4:45 - 6:30 PM PST <br />
+            12:45 - 2:30 AM PST
+        </p>
+        <p>Each demo poster will be available during all three time segments on the day it is scheduled. We have encouraged presenters to be present in at least two of the three presentation windows.</p>
+        <p>Kartik Talamadupula and Cynthia Matuszek</p>
+        <p>Demonstrations Program Cochairs</p>
+    </div>
+</div>
+
+<h2 class="card-title main-title text-center" style="">
+      AAAI-21 Demonstration Schedule
+</h2>
+
+{% endblock %}
+
+{#<div class="accordion" id="accordionExample">#}
+{#    <div class="text-center p-3">#}
+{#    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">#}
+{#        February 4#}
+{#    </button>#}
+{#    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">#}
+{#        February 5#}
+{#    </button>#}
+{#    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">#}
+{#        February 6#}
+{#    </button>#}
+{#    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">#}
+{#        February 7#}
+{#    </button>#}
+{#</div>#}
+
+{% block tabs %}
+<ul class="nav nav-pills justify-content-center">
+  <li class="nav-item">
+    <a
+      class="nav-link active"
+      data-toggle="tab"
+      href="#tab-4"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 4
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-5"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 5
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-6"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 6
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-7"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 7
+    </a>
+  </li>
+</ul>
+{% endblock %}
+
+{% block content %}
+{#    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">#}
+{#  <h3 class="card-title main-title text-center">#}
+{#      February 4#}
+{#  </h3>#}
+<div class="tab-content" id="nav-tabContent">
+
+<div
+class="tab-pane fade active show"
+id="tab-4"
+role="tabpanel"
+aria-labelledby="nav-profile-tab"
+>
+
+<div id="tab-4">
+<div class="plenary_sessions">
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-12.html">Fashion Focus: Multi-Modal Retrieval System for Video Commodity Localization in E-Commerce</a></td>
+          <td style="white-space: pre-wrap;">Yanhao Zhang, Qiang Wang, Pan Pan, Yun Zheng, Cheng Da, Siyang Sun, Yinghui Xu</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-91.html">Interactive Video Object Mask Annotation</a></td>
+          <td style="white-space: pre-wrap;">Trung-Nghia Le, Tam V. Nguyen, Quoc-Cuong Tran, Lam Nguyen, Trung-Hieu Hoang, Minh-Quan Le, Minh-Triet Tran</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-105.html">OPRA: An Open-Source Online Preference Reporting and Aggregation System</a></td>
+          <td style="white-space: pre-wrap;">Yiwei Chen, Jingwen Qian, Junming Wang, Lirong Xia, Gavriel Zahavi</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-124.html">Business Entity Matching with Siamese Graph Convolutional Networks</a></td>
+          <td style="white-space: pre-wrap;">Evgeny Krivosheev, Mattia Atzeni, Katsiaryna Mirylenka, Paolo Scotton, Christoph Miksovic, Anton Zorin</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-134.html">Integrating Pre-trained Model into Rule-Based Dialogue Management</a></td>
+          <td style="white-space: pre-wrap;">Jun Quan, Meng Yang, Qiang Gan, Deyi Xiong, Yiming Liu, Yuchen Dong, Fangxin Ouyang, Jun Tian, Ruiling Deng, Yongzhi Li, Yang Yang, Daxin Jiang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-159.html">DeepRobust: A Platform for Adversarial Attacks and Defenses</a></td>
+          <td style="white-space: pre-wrap;">Yaxin Li, Wei Jin, Han Xu, Jiliang Tang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-174.html">A Health-Friendly Speaker Verification System Supporting Mask Wearing</a></td>
+          <td style="white-space: pre-wrap;">Chaotao Chen, Di Jiang, Jinhua Peng, Rongzhong Lian, Chen Jason Zhang, Qian Xu, Lixin Fan, Qiang Yang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-232.html">MMKE: A Multi-Model Knowledge Extraction System from Unstructured Texts</a></td>
+          <td style="white-space: pre-wrap;">Qian-Wen Zhang, Zhao Yan, Tianyang Zhao, Shi-Wei Zhang, Meng Yao, Mengliang Rao, Yunbo Cao</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-265.html">A Novel Mountain Driving Unity Simulated Environment for Autonomous Vehicles</a></td>
+          <td style="white-space: pre-wrap;">Xiaohu Li, Zehong Cao, Quan Bai</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-313.html">AutoText: An End-to-End AutoAI Framework for Text</a></td>
+          <td style="white-space: pre-wrap;">Arunima Chaudhary, Alayt Issak, Kiran Kate, Yannis Katsis, Abel Valente, Dakuo Wang, Alexandre Evfimievski, Sairam Gurajada, Ban Kawas, Cristiano Malossi, Lucian Popa, Tejaswini Pedapati, Horst Samulowitz, Martin Wistuba, Yunyao Li</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-355.html">ACAT-G: An Interactive Learning Framework for Assisted Response Generation</a></td>
+          <td style="white-space: pre-wrap;">Xueyuan Lu, Saurav Sahay, Zhou Yu, Lama Nachman</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+</div>
+
+{#    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">#}
+{#  <h3 class="card-title main-title text-center">#}
+{#      February 5#}
+{#  </h3>#}
+<div
+class="tab-pane fade"
+id="tab-5"
+role="tabpanel"
+aria-labelledby="nav-profile-tab"
+>
+
+<div id="tab-5">
+  <div class="plenary_sessions">
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-97.html">i-Parser: Interactive Parser Development Kit for Natural Language Processing</a></td>
+          <td style="white-space: pre-wrap;">Gaku Morio, Hiroaki Ozaki, Yuta Koreeda, Terufumi Morishita, Toshinori Miyoshi</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-104.html">RadarMath: An Intelligent Tutoring System for Math Education</a></td>
+          <td style="white-space: pre-wrap;">Yu Lu, Yang Pian, Penghe Chen, Qinggang Meng, Yunbo Cao</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-157.html">Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains (Demo)</a></td>
+          <td style="white-space: pre-wrap;">Yixiao Lan, Yuan Liu, Boyang Li, Chunyan Miao</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-175.html">NEO: A System for Identifying New Emerging Occupation from Job Ads</a></td>
+          <td style="white-space: pre-wrap;">Anna Giabelli, Lorenzo Malandri, Fabio Mercorio, Mario Mezzanzanica, Andrea Seveso</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-219.html">Bootstrapping Dialog Models from Human to Human Conversation Logs</a></td>
+          <td style="white-space: pre-wrap;">Pankaj Dhoolia, Vineet Kumar, Danish Contractor, Sachindra Joshi</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-227.html">AI-Empowered Decision Support for COVID-19 Social Distancing</a></td>
+          <td style="white-space: pre-wrap;">Hongchao Jiang, Wei Yang Bryan Lim, Jer Shyuan Ng, Harold Ze Chie Teng, Han Yu, Zehui Xiong, Dusit Niyato, Chunyan Miao</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-233.html">The Adapter-Bot: All-In-One Controllable Conversational Model</a></td>
+          <td style="white-space: pre-wrap;">Zhaojiang Lin, Andrea Madotto, Yejin Bang, Pascale Fung</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-252.html">IBM Scenario Planning Advisor: A Neuro-Symbolic ERM Solution</a></td>
+          <td style="white-space: pre-wrap;">Mark Feblowitz, Oktie Hassanzadeh, Michael Katz, Shirin Sohrabi, Kavitha Srinivas, Octavian Udrea</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-268.html">CogNet: Bridging Linguistic Knowledge, World Knowledge and Commonsense Knowledge</a></td>
+          <td style="white-space: pre-wrap;">Chenhao Wang, Yubo Chen, Zhipeng Xue, Yang Zhou, Jun Zhao</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-284.html">Exploring the Efficacy of Generic Drugs in Treating Cancer</a></td>
+          <td style="white-space: pre-wrap;">Ioana Baldini, Mariana Bernagozzi, Sulbha Aggarwal, Mihaela Bornea, Saksham Chawla, Joppe Geluykens, Dmitriy A. Katz-Rogozhnikov, Pratik Mukherjee, Smruthi Ramesh, Sara Rosenthal, Jagrati Sharma, Kush R. Varshney, Laura B. Kleinman, Pradeep Mangalath, Catherine Del Vecchio Fitz</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-319.html">Demonstration of the EMPATHIC Framework for Task Learning from Implicit Human Feedback</a></td>
+          <td style="white-space: pre-wrap;">Yuchen Cui, Qiping Zhang, Sahil Jain, Alessandro Allievi, Peter Stone, Scott Niekum, W. Bradley Knox</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-324.html">The Active Sensing Testbed</a></td>
+          <td style="white-space: pre-wrap;">Lee Stearns, Neil Fendley, Ashley J. Llorens</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+</div>
+
+<div
+class="tab-pane fade"
+id="tab-6"
+role="tabpanel"
+aria-labelledby="nav-profile-tab"
+>
+
+<div id="tab-6">
+  <div class="plenary_sessions">
+{#    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">#}
+{#  <h3 class="card-title main-title text-center">#}
+{#      February 6#}
+{#  </h3>#}
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-135.html">TAILOR: Teaching with Active and Incremental Learning for Object Registration</a></td>
+          <td style="white-space: pre-wrap;">Qianli Xu, Nicolas Gauthier, Wenyu Liang, Fen Fang, Hui Li Tan, Ying Sun, Yan Wu, Liyuan Li, Joo Hwee Lim</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-153.html">ESO-MAPF: Bridging Discrete Planning and Continuous Execution in Multi-Agent Pathfinding</a></td>
+          <td style="white-space: pre-wrap;">J®¢n Chudy, Pavel Surynek</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-170.html">KAAPA: Knowledge Aware Answers from PDF Analysis</a></td>
+          <td style="white-space: pre-wrap;">Nicolas Fauceglia, Mustafa Canim, Alfio Gliozzo, Jennifer J. Liang, Nancy Xin Ru Wang, Douglas Burdick, Nandana Mihindukulasooriya, Vittorio Castelli, Guy Feigenblat, David Konopnicki, Yannis Katsis, Radu Florian, Yunyao Li, Salim Roukos, Avirup Sil</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-196.html">An Intelligent Assistant for Problem Behavior Management</a></td>
+          <td style="white-space: pre-wrap;">Penghe Chen, Yu Lu, Jiefei Liu, Qi Xu</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-298.html">SkeletonVis: Interactive Visualization for Understanding Adversarial Attacks on Human Action Recognition Models</a></td>
+          <td style="white-space: pre-wrap;">Haekyu Park, Zijie J. Wang, Nilaksh Das, Anindya S. Paul, Pruthvi Perumalla, Zhiyan Zhou, Duen Horng Chau</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-321.html">A Compression-Compilation Co-Design Framework Towards Real-Time Object Detection on Mobile Devices</a></td>
+          <td style="white-space: pre-wrap;">Yuxuan Cai, Geng Yuan, Hongjia Li, Wei Niu, Yanyu Li, Xulong Tang, Bin Ren, Yanzhi Wang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-336.html">ITRIX - An AI Enabled Solution for Orchestration of Recovery Instructions</a></td>
+          <td style="white-space: pre-wrap;">Wanita Sherchan, Garfield Vaughn, Shaila Pervin, Bryan Barone</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-338.html">Dialog Router: Automated Dialog Transition via Multi-Task Learning</a></td>
+          <td style="white-space: pre-wrap;">Ziming Huang, Zhuoxuan Jiang, Hao Chen, Xue Han, Yabin Dang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-344.html">Accelerating Data Discovery with an Ontology-Driven Tool for an Enterprise-Scale Data Lake Environment</a></td>
+          <td style="white-space: pre-wrap;">Satyajeet Raje, Karina Kervin, Nergal Issaie, Madhu Channapatna</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-363.html">VEGA: A Virtual Environment for Exploring Gender Bias vs. Accuracy Trade-Offs in AI Translation Services</a></td>
+          <td style="white-space: pre-wrap;">Mariana Bernagozzi, Biplav Srivastava, Francesca Rossi, Sheema Usmani</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-404.html">Software for Agent-Based Network Simulation and Visualization</a></td>
+          <td style="white-space: pre-wrap;">Patrick Shepherd, Isaac Batts, Judy Goldsmith, Emory Hufbauer, Mia Weaver, Angela Zhang</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+</div>
+
+{#    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">#}
+{#  <h3 class="card-title main-title text-center">#}
+{#      February 7#}
+{#  </h3>#}
+<div
+class="tab-pane fade"
+id="tab-7"
+role="tabpanel"
+aria-labelledby="nav-profile-tab"
+>
+
+<div id="tab-7">
+  <div class="plenary_sessions">
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-6.html">EasyRL: A Simple and Extensible Reinforcement Learning Framework</a></td>
+          <td style="white-space: pre-wrap;">Neil Hulbert, Sam Spillers, Brandon Francis, James Haines-Temons, Ken Gil Romero, Benjamin De Jager, Sam Wong, Kevin Flora, Bowei Huang, Athirai A. Irissappane</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-93.html">CamouFinder: Finding Camouflaged Instances in Images</a></td>
+          <td style="white-space: pre-wrap;">Trung-Nghia Le, Vuong Nguyen, Cong Le, Tan-Cong Nguyen, Minh-Triet Tran, Tam V. Nguyen</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-109.html">EasyASR: A Distributed Machine Learning Platform for End-to-End Automatic Speech Recognition</a></td>
+          <td style="white-space: pre-wrap;">Chengyu Wang, Mengli Cheng, Xu Hu, Jun Huang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-155.html">OzoMorph: Demonstrating Colored Multi-Agent Path Finding on Real Robots</a></td>
+          <td style="white-space: pre-wrap;">Roman Bart®¢k, Jakub Mestek</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-172.html">Democratizing Constraint Satisfaction Problems through Machine Learning</a></td>
+          <td style="white-space: pre-wrap;">Mohit Kumar, Samuel Kolb, Clement Gautrais, Luc De Raedt</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-178.html">IFDDS: An Anti-Fraud Outbound Robot</a></td>
+          <td style="white-space: pre-wrap;">Zihao Wang, Minghui Yang, Chunxiang Jing, Jia Liu, Zujie Wen, Saishuai Liu, Zhe Zhang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-212.html">TODS: An Automated Time Series Outlier Detection System</a></td>
+          <td style="white-space: pre-wrap;">Kwei-Herng Lai, Daochen Zha, Guanchu Wang, Junjie Xu, Yue Zhao, Devesh Kumar, Yile Chen, Purav Zumkhawaka, Minyang Wan, Diego Martinez, Xia Ben Hu</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-278.html">Doc2Bot: A Document Grounded Bot Framework</a></td>
+          <td style="white-space: pre-wrap;">Kshitij Fadnis, Pankaj Dhoolia, Li Zhu, Q. Vera Liao, Steven Ross, Nathaniel Mills, Sachindra Joshi, Luis Lastras</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-367.html">Mobile-Based Clock Drawing Test for Detecting Early Signs of Dementia</a></td>
+          <td style="white-space: pre-wrap;">Hongchao Jiang, Yanci Zhang, Zhiwei Zeng, Jun Ji, Yu Wang, Ying Chi, Chunyan Miao</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-394.html">A Semantic Parsing and Reasoning-Based Approach to Knowledge Base Question Answering</a></td>
+          <td style="white-space: pre-wrap;">Ibrahim Abdelaziz, Srinivas Ravishankar, Pavan Kapanipathi, Salim Roukos, Alexander Gray</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-395.html">RADAR-X: An Interactive Interface Pairing Contrastive Explanations with Revised Plan Suggestions</a></td>
+          <td style="white-space: pre-wrap;">Valmeekam Karthik, Sarath Sreedharan, Sailik Sengupta, Subbarao Kambhampati</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_DEMO-398.html">Juice: A Julia Package for Logic and Probabilistic Circuits</a></td>
+          <td style="white-space: pre-wrap;">Meihua Dang, Pasha Khosravi, Yitao Liang, Antonio Vergari, Guy Van den Broeck</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+<div class="row m-2">
+<div id="rocketchat_div" class="col-md-5 col-xs-12 p-2">
+    <div class="text-muted text-center">
+        You can open <a href="https://{{config.chat_server}}/channel/AAAI21Demonstrations" target="_blank">AAAI21Demonstrations</a>
+        channel in a separate window.
+      </div>
+      <div id="gitter" class="slp">
+        <iframe frameborder="0" onload="change_col();return false;" src="https://aaai-21.rocket.chat/channel/AAAI21Demonstrations?layout=embedded" height="700px" width="100%" ></iframe>
+      </div>
+  </div>
+</div>
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+function change_col(){
+      $("#rocketchat_div").removeClass("col-md-5");
+      $("#rocketchat_div").addClass("col-md-12");
+}
+</script>
+
+{% endblock %}

@@ -1,0 +1,3750 @@
+AB-D1-R1-A:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Constraint Satisfaction and Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-5018
+    - AAAI-9826
+    - AAAI-9940
+    - AAAI-5608
+    - AAAI-2415
+    - AAAI-2417
+    - AAAI-4620
+    - AAAI-6418
+AB-D1-R1-G:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Ethics'
+    gather_town_link: 
+    papers:
+    - AAAI-3907
+    - AAAI-8972
+    - AAAI-5436
+    - AAAI-10161
+    - AAAI-400
+    - AAAI-7954
+AB-D1-R1-E:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Intelligent Robots / Vision for Robotics'
+    gather_town_link: 
+    papers:
+    - AAAI-8016
+    - AAAI-4601
+    - AAAI-3454
+    - AAAI-606
+    - AAAI-6462
+    - AAAI-6763
+    - AAAI-9933
+    - AAAI-5154
+AB-D1-R1-B:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Constraints and Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-4971
+    - AAAI-634
+    - AAAI-9549
+    - AAAI-1302
+    - AAAI-7047
+AB-D1-R1-J:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-6951
+    - AAAI-3399
+    - AAAI-5328
+    - AAAI-7907
+    - AAAI-1214
+    - AAAI-2360
+    - AAAI-7051
+    - AAAI-5334
+AB-D1-R1-D:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Scheduling and Temporal Planning'
+    gather_town_link: 
+    papers:
+    - AAAI-7531
+    - AAAI-4895
+    - AAAI-7061
+    - AAAI-2666
+    - AAAI-7844
+    - AAAI-1445
+    - AAAI-7147
+    - AAAI-5219
+AB-D1-R1-F:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Philosophy and Ethics of AI'
+    gather_town_link: 
+    papers:
+    - AAAI-997
+    - AAAI-9330
+    - AAAI-10323
+    - AAAI-9452
+    - AAAI-8279
+    - AAAI-678
+    - AAAI-8207
+    - AAAI-3196
+AB-D1-R1-H:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Ethics'
+    gather_town_link: 
+    papers:
+    - AAAI-5089
+    - AAAI-9727
+    - AAAI-3850
+    - AAAI-8566
+AB-D1-R1-C:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Deterministic Planning'
+    gather_town_link: 
+    papers:
+    - AAAI-380
+    - AAAI-5087
+    - AAAI-6956
+    - AAAI-5044
+    - AAAI-5695
+    - AAAI-6612
+    - AAAI-67
+    - AAAI-655
+AB-D1-R2-C:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Neural Network Algorithms'
+    gather_town_link: 
+    papers:
+    - AAAI-1057
+    - AAAI-9354
+    - AAAI-6491
+    - AAAI-6471
+    - AAAI-6476
+    - AAAI-409
+    - AAAI-8707
+    - AAAI-1813
+AB-D1-R2-D:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+    gather_town_link: 
+    papers:
+    - AAAI-5893
+    - AAAI-7644
+    - AAAI-2280
+    - AAAI-8615
+    - AAAI-6159
+    - AAAI-8608
+    - AAAI-6932
+    - AAAI-8793
+AB-D1-R2-E:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Neuro-Symbolic AI'
+    gather_town_link: 
+    papers:
+    - AAAI-3840
+    - AAAI-1952
+    - AAAI-2970
+    - AAAI-9929
+    - AAAI-5167
+    - AAAI-9938
+AB-D1-R2-F:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-4317
+    - AAAI-2751
+    - AAAI-9942
+    - AAAI-6758
+    - AAAI-1373
+    - AAAI-5551
+    - AAAI-10119
+    - AAAI-1074
+AB-D1-R2-H:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Image and Video Retrieval'
+    gather_town_link: 
+    papers:
+    - AAAI-1109
+    - AAAI-4306
+    - AAAI-1274
+    - AAAI-1596
+    - AAAI-6643
+AB-D1-R2-B:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Information Extraction'
+    gather_town_link: 
+    papers:
+    - AAAI-5454
+    - AAAI-6725
+    - AAAI-566
+    - AAAI-9907
+    - AAAI-1289
+AB-D1-R2-A:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Interpretaility & Analysis of Models'
+    gather_town_link: 
+    papers:
+    - AAAI-9365
+    - AAAI-3507
+    - AAAI-3755
+    - AAAI-8401
+    - AAAI-63
+    - AAAI-5282
+    - AAAI-10289
+AB-D1-R2-G:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-1060
+    - AAAI-7526
+    - AAAI-946
+    - AAAI-5298
+    - AAAI-2662
+    - AAAI-3530
+    - AAAI-278
+    - AAAI-10108
+AB-D1-R2-J:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Object Detection & Categorization'
+    gather_town_link: 
+    papers:
+    - AAAI-3285
+    - AAAI-8700
+    - AAAI-6914
+    - AAAI-3154
+    - AAAI-9815
+AB-D1-R2-K:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Language and Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-5111
+    - AAAI-3635
+    - AAAI-9104
+    - AAAI-6072
+    - AAAI-405
+    - AAAI-3951
+    - AAAI-69
+    - AAAI-6293
+AB-D2-R1-D:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Fair Division'
+    gather_town_link: 
+    papers:
+    - AAAI-5401
+    - AAAI-1346
+    - AAAI-943
+    - AAAI-6121
+    - AAAI-829
+    - AAAI-8106
+AB-D2-R1-A:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Heuristic and Greedy Search'
+    gather_town_link: 
+    papers:
+    - AAAI-8488
+    - AAAI-2782
+    - AAAI-2912
+    - AAAI-1745
+    - AAAI-8154
+    - AAAI-6811
+    - AAAI-83
+    - AAAI-7892
+AB-D2-R1-K:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'AI for Conference Organization and Delivery'
+    gather_town_link: 
+    papers:
+    - AAAI-4992
+    - AAAI-4960
+    - AAAI-3310
+    - AAAI-5638
+AB-D2-R1-E:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Game Theory'
+    gather_town_link: 
+    papers:
+    - AAAI-6910
+    - AAAI-4870
+    - AAAI-4968
+    - AAAI-1436
+    - AAAI-7443
+    - AAAI-4616
+    - AAAI-5056
+    - AAAI-397
+AB-D2-R1-J:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-437
+    - AAAI-8771
+    - AAAI-5292
+    - AAAI-5694
+    - AAAI-7297
+    - AAAI-6008
+    - AAAI-9018
+    - AAAI-6180
+AB-D2-R1-H:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Healthcare & Covid Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-86
+    - AAAI-7072
+    - AAAI-4224
+    - AAAI-5245
+    - AAAI-4986
+AB-D2-R1-G:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-6351
+    - AAAI-5131
+    - AAAI-9078
+    - AAAI-10118
+    - AAAI-7565
+    - AAAI-7945
+AB-D2-R1-C:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Planning'
+    gather_town_link: 
+    papers:
+    - AAAI-7938
+    - AAAI-5487
+    - AAAI-5012
+    - AAAI-4859
+    - AAAI-8081
+    - AAAI-5230
+    - AAAI-5474
+    - AAAI-5837
+AB-D2-R1-B:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Multiagent Systems'
+    gather_town_link: 
+    papers:
+    - AAAI-7929
+    - AAAI-710
+    - AAAI-5046
+    - AAAI-5995
+    - AAAI-5712
+    - AAAI-3326
+AB-D2-R1-F:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Philosophy and Ethics of AI'
+    gather_town_link: 
+    papers:
+    - AAAI-4349
+    - AAAI-2334
+    - AAAI-9225
+    - AAAI-10193
+    - AAAI-7570
+    - AAAI-2721
+    - AAAI-2862
+    - AAAI-8118
+AB-D2-R2-K:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Object Detection & Categorization'
+    gather_town_link: 
+    papers:
+    - AAAI-949
+    - AAAI-195
+    - AAAI-3337
+    - AAAI-9153
+    - AAAI-3370
+    - AAAI-9807
+AB-D2-R2-C:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Generation'
+    gather_town_link: 
+    papers:
+    - AAAI-9291
+    - AAAI-2386
+    - AAAI-3193
+    - AAAI-179
+    - AAAI-4481
+    - AAAI-1991
+AB-D2-R2-E:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Reinforcement Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-2352
+    - AAAI-7812
+    - AAAI-5674
+    - AAAI-7657
+    - AAAI-2971
+    - AAAI-9905
+    - AAAI-9871
+    - AAAI-10043
+AB-D2-R2-F:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Clustering'
+    gather_town_link: 
+    papers:
+    - AAAI-5031
+    - AAAI-2608
+    - AAAI-5725
+    - AAAI-830
+    - AAAI-2808
+AB-D2-R2-A:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'AI for Social Impact'
+    gather_town_link: 
+    papers:
+    - AISI-4304
+    - AISI-7578
+    - AISI-8315
+    - AISI-8710
+    - AISI-2361
+    - AISI-9334
+AB-D2-R2-H:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Relational / Graph-Based Machine Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-5077
+    - AAAI-7576
+    - AAAI-4267
+    - AAAI-8113
+    - AAAI-9870
+    - AAAI-110
+    - AAAI-9999
+    - AAAI-4382
+AB-D2-R2-J:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Image and Video Retrieval'
+    gather_town_link: 
+    papers:
+    - AAAI-283
+    - AAAI-3211
+    - AAAI-4186
+    - AAAI-3897
+    - AAAI-996
+    - AAAI-2585
+AB-D2-R2-G:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Time-Series/Data Streams'
+    gather_town_link: 
+    papers:
+    - AAAI-9863
+    - AAAI-7739
+    - AAAI-8153
+    - AAAI-1404
+    - AAAI-2681
+    - AAAI-2939
+AB-D2-R2-D:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Unsupervised & Self-Supervised Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-4322
+    - AAAI-6503
+    - AAAI-8365
+    - AAAI-3520
+    - AAAI-10136
+    - AAAI-2308
+    - AAAI-1895
+    - AAAI-3708
+AB-D2-R2-B:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'AI for Social Impact'
+    gather_town_link: 
+    papers:
+    - AISI-1438
+    - AISI-5196
+    - AISI-6699
+    - AISI-6902
+    - AISI-3785
+    - AISI-7467
+    - AISI-9414
+AB-D3-R1-F:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Reasoning under Uncertainty'
+    gather_town_link: 
+    papers:
+    - AAAI-7741
+    - AAAI-7971
+    - AAAI-4640
+    - AAAI-9928
+    - AAAI-676
+    - AAAI-7289
+    - AAAI-2127
+    - AAAI-2239
+AB-D3-R1-J:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-10019
+    - AAAI-1864
+    - AAAI-6821
+AB-D3-R1-D:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Social Choice / Voting/Fair Division'
+    gather_town_link: 
+    papers:
+    - AAAI-2414
+    - AAAI-2327
+    - AAAI-2303
+    - AAAI-7731
+    - AAAI-412
+    - AAAI-1625
+    - AAAI-5368
+AB-D3-R1-C:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Satisfiability'
+    gather_town_link: 
+    papers:
+    - AAAI-4681
+    - AAAI-1066
+    - AAAI-7481
+    - AAAI-7201
+    - AAAI-7956
+    - AAAI-7025
+    - AAAI-9326
+    - AAAI-9332
+AB-D3-R1-E:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Humans and AI'
+    gather_town_link: 
+    papers:
+    - AAAI-1408
+    - AAAI-7173
+    - AAAI-5210
+    - AAAI-2989
+    - AAAI-9192
+    - AAAI-10130
+AB-D3-R1-K:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Motion, Tracking & Video Understading'
+    gather_town_link: 
+    papers:
+    - AAAI-797
+    - AAAI-4901
+    - AAAI-6469
+    - AAAI-1613
+    - AAAI-1970
+    - AAAI-2568
+    - AAAI-1201
+    - AAAI-1085
+AB-D3-R1-B:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'KR&R: Description Logics'
+    gather_town_link: 
+    papers:
+    - AAAI-2642
+    - AAAI-1314
+    - AAAI-8111
+    - AAAI-5620
+    - AAAI-5678
+AB-D3-R1-G:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-4255
+    - AAAI-10336
+    - AAAI-1122
+    - AAAI-1855
+    - AAAI-6302
+    - AAAI-6939
+    - AAAI-9242
+    - AAAI-4927
+AB-D3-R1-A:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'KR&R: Argumentation and Non-monotonic Reasoning'
+    gather_town_link: 
+    papers:
+    - AAAI-1657
+    - AAAI-2881
+    - AAAI-6871
+    - AAAI-623
+    - AAAI-8192
+    - AAAI-994
+    - AAAI-7798
+AB-D3-R1-H:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-2261
+    - AAAI-7940
+    - AAAI-1413
+    - AAAI-7695
+    - AAAI-3245
+    - AAAI-2698
+AB-D3-R2-B:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Discourse / Dialog / Summarization'
+    gather_town_link: 
+    papers:
+    - AAAI-7281
+    - AAAI-3767
+    - AAAI-10211
+    - AAAI-6954
+    - AAAI-9980
+    - AAAI-2358
+    - AAAI-9724
+    - AAAI-10131
+AB-D3-R2-A:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Semantics'
+    gather_town_link: 
+    papers:
+    - AAAI-5476
+    - AAAI-9719
+    - AAAI-7853
+    - AAAI-9971
+    - AAAI-10237
+    - AAAI-704
+    - AAAI-9374
+AB-D3-R2-E:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Learning Theory / ML Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-9097
+    - AAAI-1442
+    - AAAI-2191
+    - AAAI-7710
+    - AAAI-6872
+    - AAAI-5303
+AB-D3-R2-K:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Adversarial Learning, Attacks & Robustness'
+    gather_town_link: 
+    papers:
+    - AAAI-7104
+    - AAAI-9392
+    - AAAI-645
+    - AAAI-10153
+    - AAAI-10338
+    - AAAI-2606
+    - AAAI-726
+AB-D3-R2-F:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-421
+    - AAAI-8206
+    - AAAI-5135
+    - AAAI-2556
+    - AAAI-1637
+    - AAAI-7556
+    - AAAI-7361
+AB-D3-R2-H:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: '3D Computer Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-43
+    - AAAI-3467
+    - AAAI-10029
+    - AAAI-2549
+    - AAAI-351
+    - AAAI-3692
+    - AAAI-1178
+AB-D3-R2-G:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Online Learning & Bandits'
+    gather_town_link: 
+    papers:
+    - AAAI-9199
+    - AAAI-9877
+    - AAAI-10145
+    - AAAI-5574
+    - AAAI-6446
+    - AAAI-2325
+AB-D3-R2-D:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Neural Network Algorithms'
+    gather_town_link: 
+    papers:
+    - AAAI-8787
+    - AAAI-10292
+    - AAAI-3622
+    - AAAI-9856
+    - AAAI-9785
+    - AAAI-3823
+    - AAAI-2696
+    - AAAI-9254
+AB-D3-R2-J:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Computational Photography, Image & Video Synthesis'
+    gather_town_link: 
+    papers:
+    - AAAI-1020
+    - AAAI-1379
+    - AAAI-809
+    - AAAI-7616
+    - AAAI-995
+    - AAAI-6049
+    - AAAI-1900
+    - AAAI-866
+AB-D3-R2-C:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Semi-Supervised / Weakly-Supervised Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-564
+    - AAAI-5922
+    - AAAI-8903
+    - AAAI-404
+    - AAAI-2372
+    - AAAI-2687
+    - AAAI-2365
+AB-D4-R1-H:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-2797
+    - AAAI-4676
+    - AAAI-5611
+    - AAAI-5266
+    - AAAI-920
+    - AAAI-9032
+AB-D4-R1-A:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'KR&R: Action, Change, and Causality'
+    gather_town_link: 
+    papers:
+    - AAAI-8309
+    - AAAI-3468
+    - AAAI-5915
+    - AAAI-3460
+    - AAAI-9427
+    - AAAI-2649
+AB-D4-R1-B:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Knowledge Representation and Reasoning'
+    gather_town_link: 
+    papers:
+    - AAAI-4972
+    - AAAI-5178
+    - AAAI-3231
+    - AAAI-2742
+    - AAAI-5084
+AB-D4-R1-F:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Cognitive Systems / Crowdsourcing'
+    gather_town_link: 
+    papers:
+    - AAAI-7520
+    - AAAI-2790
+    - AAAI-2183
+AB-D4-R1-D:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Game Theory and Economic Paradigms'
+    gather_town_link: 
+    papers:
+    - AAAI-7335
+    - AAAI-8253
+    - AAAI-1078
+    - AAAI-2839
+    - AAAI-2059
+    - AAAI-7359
+    - AAAI-6610
+    - AAAI-2948
+AB-D4-R1-E:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Social Choice / Voting'
+    gather_town_link: 
+    papers:
+    - AAAI-4662
+    - AAAI-7700
+    - AAAI-3843
+    - AAAI-5542
+    - AAAI-2846
+    - AAAI-3720
+    - AAAI-6879
+    - AAAI-6781
+AB-D4-R1-G:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-6867
+    - AAAI-8692
+    - AAAI-9475
+    - AAAI-10116
+    - AAAI-9890
+    - AAAI-5505
+    - AAAI-9385
+    - AAAI-1939
+AB-D4-R1-C:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Social Choice / Voting'
+    gather_town_link: 
+    papers:
+    - AAAI-6343
+    - AAAI-5623
+    - AAAI-3331
+    - AAAI-1839
+    - AAAI-5693
+    - AAAI-2450
+AB-D4-R2-E:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+    gather_town_link: 
+    papers:
+    - AAAI-3684
+    - AAAI-10192
+    - AAAI-8990
+    - AAAI-5543
+    - AAAI-44
+    - AAAI-6617
+    - AAAI-1079
+AB-D4-R2-G:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Reinforcement Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-5320
+    - AAAI-10098
+    - AAAI-3820
+    - AAAI-10339
+    - AAAI-5737
+    - AAAI-5101
+    - AAAI-2715
+    - AAAI-10160
+AB-D4-R2-H:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: '3D Computer Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-1163
+    - AAAI-9108
+    - AAAI-5186
+    - AAAI-7911
+    - AAAI-1951
+    - AAAI-4302
+    - AAAI-2164
+    - AAAI-8202
+AB-D4-R2-J:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Biometrics, Face, Gesture & Pose'
+    gather_town_link: 
+    papers:
+    - AAAI-831
+    - AAAI-567
+    - AAAI-6128
+    - AAAI-2079
+    - AAAI-2832
+    - AAAI-4553
+    - AAAI-2107
+    - AAAI-799
+AB-D4-R2-A:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Text Classification & Sentiment Mining'
+    gather_town_link: 
+    papers:
+    - AAAI-4324
+    - AAAI-3697
+    - AAAI-9880
+    - AAAI-10215
+    - AAAI-9972
+    - AAAI-7838
+    - AAAI-9910
+AB-D4-R2-F:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Probabilistic Models'
+    gather_town_link: 
+    papers:
+    - AAAI-7681
+    - AAAI-9986
+    - AAAI-2162
+    - AAAI-8004
+AB-D4-R2-B:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Deep Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-5935
+    - AAAI-5369
+    - AAAI-10297
+    - AAAI-1912
+    - AAAI-3262
+AB-D4-R2-C:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Neuro-Symbolic AI'
+    gather_town_link: 
+    papers:
+    - AAAI-4715
+    - AAAI-10322
+    - AAAI-7686
+    - AAAI-7014
+    - AAAI-10094
+    - AAAI-9459
+AB-D4-R2-D:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-7200
+    - AAAI-3270
+    - AAAI-9248
+    - AAAI-738
+    - AAAI-8589
+    - AAAI-6366
+    - AAAI-9859
+    - AAAI-374
+AC-D1-R1-A:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Constraint Satisfaction and Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-1205
+    - AAAI-4024
+    - AAAI-7492
+    - AAAI-9774
+    - AAAI-8542
+    - AAAI-8406
+    - AAAI-1212
+    - AAAI-2969
+AC-D1-R1-E:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Philosophy and Ethics of AI'
+    gather_town_link: 
+    papers:
+    - AAAI-9984
+    - AAAI-611
+    - AAAI-2538
+    - AAAI-838
+    - AAAI-2937
+    - AAAI-9866
+    - AAAI-3967
+    - AAAI-4998
+AC-D1-R1-J:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Machine Translation & Multilinguality'
+    gather_town_link: 
+    papers:
+    - AAAI-6514
+    - AAAI-9845
+    - AAAI-4465
+    - AAAI-6502
+    - AAAI-10344
+    - AAAI-4156
+    - AAAI-4527
+    - AAAI-3677
+AC-D1-R1-D:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Intelligent Robots / Vision for Robotics'
+    gather_town_link: 
+    papers:
+    - AAAI-2235
+    - AAAI-1121
+    - AAAI-9831
+    - AAAI-299
+    - AAAI-6429
+    - AAAI-1140
+    - AAAI-2179
+AC-D1-R1-B:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Planning, Routing and Scheduling'
+    gather_town_link: 
+    papers:
+    - AAAI-9457
+    - AAAI-132
+    - AAAI-8042
+    - AAAI-9708
+    - AAAI-7381
+    - AAAI-4876
+    - AAAI-6211
+    - AAAI-4284
+AC-D1-R1-H:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Summarization / Discourse'
+    gather_town_link: 
+    papers:
+    - AAAI-240
+    - AAAI-9842
+    - AAAI-8523
+    - AAAI-68
+    - AAAI-2281
+    - AAAI-8912
+    - AAAI-1471
+    - AAAI-3014
+AC-D1-R1-F:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Ethics'
+    gather_town_link: 
+    papers:
+    - AAAI-6311
+    - AAAI-4838
+    - AAAI-8686
+    - AAAI-6897
+    - AAAI-3805
+    - AAAI-10069
+    - AAAI-5802
+    - AAAI-8475
+AC-D1-R1-G:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-6825
+    - AAAI-155
+    - AAAI-4984
+    - AAAI-955
+    - AAAI-8963
+    - AAAI-6218
+    - AAAI-8983
+    - AAAI-4766
+AC-D1-R2-D:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+    gather_town_link: 
+    papers:
+    - AAAI-9943
+    - AAAI-7120
+    - AAAI-10266
+    - AAAI-9436
+    - AAAI-9770
+    - AAAI-2050
+    - AAAI-4279
+    - AAAI-9721
+AC-D1-R2-A:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-1282
+    - AAAI-9700
+    - AAAI-3416
+    - AAAI-4182
+    - AAAI-6531
+    - AAAI-384
+    - AAAI-4847
+    - AAAI-2186
+AC-D1-R2-E:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Multi-Class / Multi-label / Multi-view  Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-3365
+    - AAAI-9401
+    - AAAI-6937
+    - AAAI-9663
+    - AAAI-4269
+    - AAAI-6033
+    - AAAI-6281
+AC-D1-R2-B:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Representation Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-2249
+    - AAAI-1041
+    - AAAI-1808
+    - AAAI-5618
+    - AAAI-959
+    - AAAI-393
+    - AAAI-1931
+    - AAAI-3486
+AC-D1-R2-C:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Reinforcement Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-9654
+    - AAAI-2136
+    - AAAI-176
+    - AAAI-3011
+    - AAAI-9862
+    - AAAI-5008
+    - AAAI-5058
+    - AAAI-3607
+AC-D1-R2-H:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: '3D Computer Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-6950
+    - AAAI-3653
+    - AAAI-4979
+    - AAAI-1173
+    - AAAI-605
+    - AAAI-4341
+    - AAAI-3606
+    - AAAI-1571
+AC-D1-R2-F:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Image and Video Retrieval'
+    gather_town_link: 
+    papers:
+    - AAAI-3459
+    - AAAI-1275
+    - AAAI-3066
+    - AAAI-267
+    - AAAI-328
+    - AAAI-3735
+    - AAAI-578
+    - AAAI-1633
+AC-D1-R2-J:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Biometrics, Face, Gesture & Pose'
+    gather_town_link: 
+    papers:
+    - AAAI-1250
+    - AAAI-5421
+    - AAAI-1364
+    - AAAI-1964
+    - AAAI-7196
+    - AAAI-807
+    - AAAI-483
+    - AAAI-5908
+AC-D1-R2-G:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Object Detection & Categorization'
+    gather_town_link: 
+    papers:
+    - AAAI-589
+    - AAAI-364
+    - AAAI-2571
+    - AAAI-4658
+    - AAAI-8813
+    - AAAI-2764
+    - AAAI-1612
+    - AAAI-869
+AC-D1-R2-K:
+    time1: '4-Feb 04:45PM-06:30PM'
+    time2: '5-Feb 12:45AM-02:30AM'
+    cluster_name: 'Language and Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-885
+    - AAAI-861
+    - AAAI-1370
+    - AAAI-7071
+    - AAAI-3254
+    - AAAI-5323
+    - AAAI-5036
+    - AAAI-4875
+AC-D2-R1-D:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-7257
+    - AAAI-5009
+    - AAAI-8617
+    - AAAI-7491
+    - AAAI-3640
+    - AAAI-5076
+    - AAAI-1611
+    - AAAI-9069
+AC-D2-R1-F:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-9767
+    - AAAI-1759
+    - AAAI-4221
+    - AAAI-4333
+    - AAAI-3339
+    - AAAI-1706
+AC-D2-R1-J:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'AI for Social Impact'
+    gather_town_link: 
+    papers:
+    - AISI-3133
+    - AISI-8961
+    - AISI-3032
+    - AISI-7256
+    - AISI-1081
+AC-D2-R1-E:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Recommender Systems & Collaborative Filtering'
+    gather_town_link: 
+    papers:
+    - AAAI-1169
+    - AAAI-3639
+    - AAAI-2116
+    - AAAI-1975
+    - AAAI-9265
+    - AAAI-2711
+    - AAAI-444
+    - AAAI-8970
+AC-D2-R1-G:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-572
+    - AAAI-5501
+    - AAAI-4313
+    - AAAI-315
+    - AAAI-3617
+    - AAAI-7399
+    - AAAI-8716
+AC-D2-R1-K:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Speech & Signal Processing'
+    gather_town_link: 
+    papers:
+    - AAAI-6011
+    - AAAI-10331
+    - AAAI-4295
+    - AAAI-1536
+    - AAAI-10343
+    - AAAI-8942
+    - AAAI-9512
+AC-D2-R1-B:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Multiagent Systems'
+    gather_town_link: 
+    papers:
+    - AAAI-3952
+    - AAAI-813
+    - AAAI-1353
+    - AAAI-10167
+    - AAAI-8524
+    - AAAI-2294
+    - AAAI-7985
+    - AAAI-7673
+AC-D2-R1-A:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Search and Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-5278
+    - AAAI-7267
+    - AAAI-1139
+    - AAAI-1329
+    - AAAI-6966
+    - AAAI-7109
+    - AAAI-7040
+    - AAAI-8413
+AC-D2-R1-H:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'AI for Social Impact'
+    gather_town_link: 
+    papers:
+    - AISI-6513
+    - AISI-8731
+    - AISI-2820
+    - AISI-8774
+    - AISI-9345
+    - AISI-3105
+AC-D2-R1-C:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Game Theory and Economic Paradigms'
+    gather_town_link: 
+    papers:
+    - AAAI-765
+    - AAAI-498
+    - AAAI-7677
+    - AAAI-2210
+    - AAAI-354
+    - AAAI-3527
+    - AAAI-2277
+    - AAAI-4463
+AC-D2-R2-C:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Information Extraction'
+    gather_town_link: 
+    papers:
+    - AAAI-5035
+    - AAAI-8795
+    - AAAI-9155
+    - AAAI-6288
+    - AAAI-4394
+    - AAAI-2753
+    - AAAI-3290
+    - AAAI-2758
+AC-D2-R2-H:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: '3D Computer Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-2105
+    - AAAI-4433
+    - AAAI-3197
+    - AAAI-5966
+    - AAAI-1315
+    - AAAI-4214
+    - AAAI-241
+    - AAAI-2650
+AC-D2-R2-F:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Neural Network Algorithms / Ensemble Methods'
+    gather_town_link: 
+    papers:
+    - AAAI-3667
+    - AAAI-2475
+    - AAAI-5937
+    - AAAI-2460
+    - AAAI-9994
+    - AAAI-3050
+AC-D2-R2-K:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Low Level & Physics-based Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-36
+    - AAAI-3085
+    - AAAI-631
+    - AAAI-7270
+    - AAAI-228
+    - AAAI-2034
+    - AAAI-5007
+    - AAAI-5340
+AC-D2-R2-B:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Text Classification & Sentiment Analysis'
+    gather_town_link: 
+    papers:
+    - AAAI-2184
+    - AAAI-2371
+    - AAAI-7955
+    - AAAI-4726
+    - AAAI-3064
+    - AAAI-2224
+    - AAAI-9150
+    - AAAI-10340
+AC-D2-R2-G:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Bandits / RL / Imitation Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-7413
+    - AAAI-8398
+    - AAAI-896
+    - AAAI-5200
+    - AAAI-1291
+    - AAAI-5994
+    - AAAI-863
+    - AAAI-9913
+AC-D2-R2-E:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Unsupervised & Self-Supervised Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-9625
+    - AAAI-4067
+    - AAAI-780
+    - AAAI-7017
+    - AAAI-4809
+    - AAAI-4167
+    - AAAI-9295
+    - AAAI-477
+AC-D2-R2-D:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-257
+    - AAAI-4767
+    - AAAI-540
+    - AAAI-639
+    - AAAI-6327
+    - AAAI-4541
+    - AAAI-3648
+    - AAAI-4761
+AC-D2-R2-A:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Conversational AI/Dialog Systems'
+    gather_town_link: 
+    papers:
+    - AAAI-6278
+    - AAAI-7065
+    - AAAI-5417
+    - AAAI-8769
+    - AAAI-10083
+    - AAAI-8834
+    - AAAI-2247
+    - AAAI-6746
+AC-D2-R2-J:
+    time1: '5-Feb 04:45PM-06:30PM'
+    time2: '6-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Object Detection & Categorization'
+    gather_town_link: 
+    papers:
+    - AAAI-3516
+    - AAAI-898
+    - AAAI-1620
+    - AAAI-7292
+    - AAAI-1095
+    - AAAI-2665
+    - AAAI-3018
+    - AAAI-3345
+AC-D3-R1-F:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-3200
+    - AAAI-233
+    - AAAI-6977
+    - AAAI-3927
+    - AAAI-8216
+    - AAAI-10122
+    - AAAI-2849
+AC-D3-R1-J:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Semantics'
+    gather_town_link: 
+    papers:
+    - AAAI-5110
+    - AAAI-1588
+    - AAAI-10087
+    - AAAI-1479
+    - AAAI-6199
+    - AAAI-10277
+    - AAAI-6324
+AC-D3-R1-B:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Reasoning under Uncertainty/Bayesian Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-5941
+    - AAAI-1489
+    - AAAI-10223
+    - AAAI-9884
+    - AAAI-5072
+    - AAAI-1726
+    - AAAI-1894
+    - AAAI-10021
+AC-D3-R1-D:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Humans and AI'
+    gather_town_link: 
+    papers:
+    - AAAI-10238
+    - AAAI-542
+    - AAAI-4110
+    - AAAI-1692
+    - AAAI-4902
+    - AAAI-9241
+    - AAAI-10202
+    - AAAI-2671
+AC-D3-R1-E:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-10300
+    - AAAI-821
+    - AAAI-3500
+    - AAAI-6839
+    - AAAI-2258
+    - AAAI-2863
+    - AAAI-7572
+    - AAAI-7672
+AC-D3-R1-H:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Conversational AI/Dialog Systems'
+    gather_town_link: 
+    papers:
+    - AAAI-3376
+    - AAAI-8746
+    - AAAI-6700
+    - AAAI-10152
+    - AAAI-10255
+    - AAAI-10062
+    - AAAI-9723
+    - AAAI-2262
+AC-D3-R1-C:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-5761
+    - AAAI-2206
+    - AAAI-7194
+    - AAAI-3976
+    - AAAI-279
+    - AAAI-7228
+    - AAAI-2002
+    - AAAI-766
+AC-D3-R1-K:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Language and Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-1029
+    - AAAI-6207
+    - AAAI-1619
+    - AAAI-7315
+    - AAAI-1630
+    - AAAI-376
+    - AAAI-9714
+    - AAAI-3268
+AC-D3-R1-A:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Knowledge Representation and Reasoning'
+    gather_town_link: 
+    papers:
+    - AAAI-2141
+    - AAAI-2874
+    - AAAI-3263
+    - AAAI-707
+    - AAAI-5171
+    - AAAI-3885
+    - AAAI-6310
+AC-D3-R1-G:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Learning & Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-8335
+    - AAAI-8419
+    - AAAI-1396
+    - AAAI-6162
+    - AAAI-4335
+    - AAAI-9726
+    - AAAI-6493
+    - AAAI-10333
+AC-D3-R2-C:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Learning Theory / Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-2670
+    - AAAI-588
+    - AAAI-2266
+    - AAAI-1123
+    - AAAI-4019
+    - AAAI-10143
+    - AAAI-6682
+    - AAAI-4043
+AC-D3-R2-G:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Scene Analysis & Understanding'
+    gather_town_link: 
+    papers:
+    - AAAI-592
+    - AAAI-7182
+    - AAAI-3496
+    - AAAI-3138
+    - AAAI-7178
+    - AAAI-2633
+    - AAAI-2329
+    - AAAI-636
+AC-D3-R2-E:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Reinforcement Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-10033
+    - AAAI-3679
+    - AAAI-5971
+    - AAAI-3412
+    - AAAI-9290
+    - AAAI-8181
+    - AAAI-1409
+    - AAAI-4919
+AC-D3-R2-B:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Online Learning & Bandits'
+    gather_town_link: 
+    papers:
+    - AAAI-9759
+    - AAAI-10328
+    - AAAI-2878
+    - AAAI-4202
+    - AAAI-1335
+    - AAAI-5220
+    - AAAI-3726
+AC-D3-R2-A:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Clustering'
+    gather_town_link: 
+    papers:
+    - AAAI-3446
+    - AAAI-2600
+    - AAAI-1352
+    - AAAI-1361
+    - AAAI-4492
+    - AAAI-3913
+    - AAAI-1136
+AC-D3-R2-J:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Segmentation'
+    gather_town_link: 
+    papers:
+    - AAAI-197
+    - AAAI-5023
+    - AAAI-10288
+    - AAAI-2581
+    - AAAI-4531
+    - AAAI-4841
+    - AAAI-2807
+    - AAAI-1322
+AC-D3-R2-B:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Bandits / RL / Imitation Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-9759
+    - AAAI-10328
+    - AAAI-2878
+    - AAAI-4202
+    - AAAI-1335
+    - AAAI-5220
+    - AAAI-3726
+AC-D3-R2-H:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Object Detection & Categorization'
+    gather_town_link: 
+    papers:
+    - AAAI-4473
+    - AAAI-514
+    - AAAI-582
+    - AAAI-205
+    - AAAI-4296
+    - AAAI-727
+    - AAAI-216
+    - AAAI-4197
+AC-D3-R2-D:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Generative Models / Graph-based ML'
+    gather_town_link: 
+    papers:
+    - AAAI-5668
+    - AAAI-5963
+    - AAAI-9686
+    - AAAI-8648
+    - AAAI-4822
+    - AAAI-10037
+    - AAAI-5078
+AC-D3-R2-K:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Learning & Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-4536
+    - AAAI-7144
+    - AAAI-2593
+    - AAAI-8677
+    - AAAI-8575
+    - AAAI-6611
+    - AAAI-5116
+    - AAAI-6716
+AC-D3-R2-F:
+    time1: '6-Feb 04:45PM-06:30PM'
+    time2: '7-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Computational Photography, Image & Video Synthesis'
+    gather_town_link: 
+    papers:
+    - AAAI-6850
+    - AAAI-4848
+    - AAAI-3203
+    - AAAI-2345
+    - AAAI-6790
+    - AAAI-6627
+    - AAAI-3343
+    - AAAI-844
+AC-D4-R1-G:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Information Extraction / Question Answering'
+    gather_town_link: 
+    papers:
+    - AAAI-647
+    - AAAI-761
+    - AAAI-6577
+    - AAAI-1640
+    - AAAI-4940
+    - AAAI-9753
+    - AAAI-6416
+AC-D4-R1-K:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Active / Weakly-Supervised / Semi-Supervised Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-9440
+    - AAAI-10180
+    - AAAI-39
+    - AAAI-286
+    - AAAI-7402
+    - AAAI-7574
+    - AAAI-479
+    - AAAI-6317
+AC-D4-R1-A:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Cognitive Modeling & Cognitive Systems'
+    gather_town_link: 
+    papers:
+    - AAAI-3742
+    - AAAI-3021
+    - AAAI-5696
+    - AAAI-2554
+    - AAAI-7688
+    - AAAI-3588
+    - AAAI-1995
+    - AAAI-4693
+AC-D4-R1-E:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-9535
+    - AAAI-6669
+    - AAAI-2030
+    - AAAI-3110
+    - AAAI-4958
+    - AAAI-5132
+    - AAAI-4524
+    - AAAI-10063
+AC-D4-R1-H:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Generation'
+    gather_town_link: 
+    papers:
+    - AAAI-5176
+    - AAAI-1654
+    - AAAI-9810
+    - AAAI-4049
+    - AAAI-3696
+    - AAAI-10024
+    - AAAI-1770
+    - AAAI-9766
+AC-D4-R1-F:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Language Models'
+    gather_town_link: 
+    papers:
+    - AAAI-9541
+    - AAAI-8418
+    - AAAI-1666
+    - AAAI-2270
+    - AAAI-4301
+    - AAAI-10151
+    - AAAI-9161
+AC-D4-R1-J:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Conversational AI / Dialog Systems'
+    gather_town_link: 
+    papers:
+    - AAAI-106
+    - AAAI-5095
+    - AAAI-10301
+    - AAAI-9925
+    - AAAI-9758
+    - AAAI-5296
+    - AAAI-10138
+    - AAAI-501
+AC-D4-R1-C:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-9722
+    - AAAI-9602
+    - AAAI-2755
+    - AAAI-6681
+    - AAAI-4146
+    - AAAI-2796
+    - AAAI-3389
+AC-D4-R1-D:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Healthcare & Covid Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-5571
+    - AAAI-2900
+    - AAAI-5083
+    - AAAI-5002
+    - AAAI-7405
+    - AAAI-1252
+    - AAAI-1368
+    - AAAI-262
+AC-D4-R1-B:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-10304
+    - AAAI-5654
+    - AAAI-2504
+    - AAAI-5262
+    - AAAI-1365
+    - AAAI-9137
+    - AAAI-3071
+    - AAAI-5948
+AC-D4-R2-K:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Image and Video Retrieval'
+    gather_town_link: 
+    papers:
+    - AAAI-4639
+    - AAAI-487
+    - AAAI-2076
+    - AAAI-3917
+    - AAAI-698
+AC-D4-R2-A:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'NLP: Language Grounding & Multi-modal NLP'
+    gather_town_link: 
+    papers:
+    - AAAI-1627
+    - AAAI-2589
+    - AAAI-4673
+    - AAAI-4278
+    - AAAI-1507
+    - AAAI-415
+    - AAAI-6544
+    - AAAI-9839
+AC-D4-R2-H:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+    gather_town_link: 
+    papers:
+    - AAAI-10011
+    - AAAI-8922
+    - AAAI-3955
+    - AAAI-3323
+    - AAAI-3447
+    - AAAI-2700
+    - AAAI-329
+    - AAAI-4344
+AC-D4-R2-B:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Graph Mining, Social Network Analysis & Community'
+    gather_town_link: 
+    papers:
+    - AAAI-9941
+    - AAAI-6859
+    - AAAI-10106
+    - AAAI-2858
+    - AAAI-8541
+    - AAAI-2842
+    - AAAI-5238
+AC-D4-R2-C:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Matrix & Tensor Methods'
+    gather_town_link: 
+    papers:
+    - AAAI-3402
+    - AAAI-1103
+    - AAAI-9784
+    - AAAI-3898
+    - AAAI-8144
+    - AAAI-4990
+    - AAAI-5174
+AC-D4-R2-F:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Video Understanding & Activity Analysis'
+    gather_town_link: 
+    papers:
+    - AAAI-3094
+    - AAAI-1493
+    - AAAI-1534
+    - AAAI-1546
+    - AAAI-120
+    - AAAI-5162
+    - AAAI-1532
+    - AAAI-3644
+AC-D4-R2-E:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Neural Network Algorithms'
+    gather_town_link: 
+    papers:
+    - AAAI-3116
+    - AAAI-9088
+    - AAAI-4138
+    - AAAI-495
+    - AAAI-6989
+    - AAAI-1891
+    - AAAI-1054
+    - AAAI-2192
+AC-D4-R2-J:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Multi-modal Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-871
+    - AAAI-2562
+    - AAAI-5159
+    - AAAI-1324
+    - AAAI-3177
+    - AAAI-2323
+    - AAAI-2754
+    - AAAI-3652
+AC-D4-R2-D:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'ML: Time-Series/Data Streams'
+    gather_town_link: 
+    papers:
+    - AAAI-6256
+    - AAAI-5277
+    - AAAI-7346
+    - AAAI-2017
+    - AAAI-3899
+    - AAAI-7015
+    - AAAI-1757
+    - AAAI-5139
+AC-D4-R2-G:
+    time1: '7-Feb 04:45PM-06:30PM'
+    time2: '8-Feb 12:45AM-02:30AM'
+    cluster_name: 'Vision: Segmentation'
+    gather_town_link: 
+    papers:
+    - AAAI-8431
+    - AAAI-5920
+    - AAAI-4464
+    - AAAI-5105
+    - AAAI-103
+    - AAAI-4583
+    - AAAI-2890
+    - AAAI-200
+BC-D1-R1-A:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Constraint Satisfaction and Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-38
+    - AAAI-111
+    - AAAI-7868
+    - AAAI-10022
+    - AAAI-5390
+    - AAAI-8606
+    - AAAI-370
+    - AAAI-9813
+BC-D1-R1-E:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Philosophy and Ethics of AI'
+    gather_town_link: 
+    papers:
+    - AAAI-5767
+    - AAAI-353
+    - AAAI-10120
+    - AAAI-7724
+    - AAAI-3535
+    - AAAI-9099
+    - AAAI-8636
+    - AAAI-5755
+BC-D1-R1-K:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Senior Member Track (Blue Sky)'
+    gather_town_link: 
+    papers:
+    - SMT-128
+    - SMT-282
+    - SMT-351
+    - SMT-362
+    - SMT-427
+BC-D1-R1-G:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Healthcare & Covid Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-3800
+    - AAAI-5870
+    - AAAI-4272
+    - AAAI-621
+    - AAAI-8472
+    - AAAI-6737
+    - AAAI-9030
+    - AAAI-1069
+BC-D1-R1-F:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Ethics'
+    gather_town_link: 
+    papers:
+    - AAAI-10273
+    - AAAI-6406
+    - AAAI-8474
+    - AAAI-3129
+BC-D1-R1-D:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Intelligent Robots'
+    gather_town_link: 
+    papers:
+    - AAAI-7408
+    - AAAI-2998
+    - AAAI-8483
+    - AAAI-3996
+    - AAAI-5830
+    - AAAI-1924
+    - AAAI-7498
+    - AAAI-1677
+BC-D1-R1-B:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Reinforcement Learning / Planning'
+    gather_town_link: 
+    papers:
+    - AAAI-2431
+    - AAAI-8619
+    - AAAI-6428
+    - AAAI-5284
+    - AAAI-3812
+    - AAAI-2088
+    - AAAI-5811
+BC-D1-R1-C:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Planning and Scheduling'
+    gather_town_link: 
+    papers:
+    - AAAI-5363
+    - AAAI-1672
+    - AAAI-4999
+    - AAAI-3217
+    - AAAI-8289
+    - AAAI-3665
+    - AAAI-3569
+    - AAAI-10263
+BC-D1-R1-J:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'AI Responses to the COVID-19 Pandemic'
+    gather_town_link: 
+    papers:
+    - AAAI-6155
+    - AAAI-2377
+    - AAAI-4951
+    - AAAI-8373
+    - AAAI-7133
+    - AAAI-8343
+    - AAAI-8325
+    - AAAI-5045
+BC-D1-R1-H:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-258
+    - AAAI-6618
+    - AAAI-5502
+    - AAAI-4386
+    - AAAI-5461
+    - AAAI-1504
+    - AAAI-8954
+    - AAAI-6437
+BC-D1-R2-G:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Reinforcement Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-9350
+    - AAAI-2453
+    - AAAI-3090
+    - AAAI-416
+    - AAAI-8323
+    - AAAI-7952
+    - AAAI-10346
+    - AAAI-8352
+BC-D1-R2-A:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Discourse / Dialog / Summarization'
+    gather_town_link: 
+    papers:
+    - AAAI-10137
+    - AAAI-5676
+    - AAAI-5439
+    - AAAI-867
+    - AAAI-9086
+    - AAAI-3838
+    - AAAI-10099
+    - AAAI-7747
+BC-D1-R2-K:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Vision: Scene Analysis & Understanding'
+    gather_town_link: 
+    papers:
+    - AAAI-6098
+    - AAAI-7767
+    - AAAI-8236
+    - AAAI-2999
+    - AAAI-6452
+    - AAAI-9214
+    - AAAI-1523
+    - AAAI-5835
+BC-D1-R2-D:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Clustering'
+    gather_town_link: 
+    papers:
+    - AAAI-3769
+    - AAAI-7729
+    - AAAI-3047
+    - AAAI-5091
+    - AAAI-5413
+    - AAAI-3022
+    - AAAI-1538
+    - AAAI-5771
+BC-D1-R2-F:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Learning Theory'
+    gather_town_link: 
+    papers:
+    - AAAI-8554
+    - AAAI-2983
+    - AAAI-10195
+    - AAAI-10016
+    - AAAI-2005
+    - AAAI-9028
+    - AAAI-9906
+    - AAAI-5824
+BC-D1-R2-B:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Information Extraction'
+    gather_town_link: 
+    papers:
+    - AAAI-10207
+    - AAAI-2635
+    - AAAI-7857
+    - AAAI-9740
+    - AAAI-9917
+    - AAAI-6269
+    - AAAI-7791
+    - AAAI-8308
+BC-D1-R2-E:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-465
+    - AAAI-8020
+    - AAAI-239
+    - AAAI-80
+    - AAAI-9720
+    - AAAI-7186
+    - AAAI-1909
+    - AAAI-117
+BC-D1-R2-H:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'Vision: Learning & Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-724
+    - AAAI-1310
+    - AAAI-296
+    - AAAI-6019
+    - AAAI-9486
+    - AAAI-2240
+    - AAAI-3041
+BC-D1-R2-C:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Machine Translation & Multilinguality'
+    gather_town_link: 
+    papers:
+    - AAAI-520
+    - AAAI-9950
+    - AAAI-452
+    - AAAI-7260
+    - AAAI-10177
+BC-D1-R2-J:
+    time1: '4-Feb 08:45AM-10:30AM'
+    time2: '4-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Reinforcement Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-5546
+    - AAAI-8186
+    - AAAI-9869
+    - AAAI-430
+    - AAAI-8545
+    - AAAI-8556
+    - AAAI-5906
+    - AAAI-10028
+BC-D2-R1-E:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-7052
+    - AAAI-4093
+    - AAAI-6224
+    - AAAI-5365
+    - AAAI-1889
+    - AAAI-6112
+BC-D2-R1-H:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'Game Theory and Economic Paradigms'
+    gather_town_link: 
+    papers:
+    - AAAI-5804
+    - AAAI-764
+    - AAAI-5202
+    - AAAI-9893
+    - AAAI-9221
+    - AAAI-6122
+    - AAAI-10013
+    - AAAI-6087
+BC-D2-R1-J:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'AI for Social Impact'
+    gather_town_link: 
+    papers:
+    - AISI-8975
+    - AISI-6126
+    - AISI-3849
+    - AISI-3631
+    - AISI-5504
+    - AISI-1058
+    - AISI-5972
+    - AISI-4906
+BC-D2-R1-D:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'Philosophy and Ethics of AI'
+    gather_town_link: 
+    papers:
+    - AAAI-146
+    - AAAI-147
+    - AAAI-1624
+    - AAAI-3534
+    - AAAI-149
+    - AAAI-10228
+    - AAAI-8720
+    - AAAI-5641
+BC-D2-R1-K:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'AI for Social Impact'
+    gather_town_link: 
+    papers:
+    - AISI-8076
+    - AISI-6289
+    - AISI-2462
+    - AISI-9362
+    - AISI-6172
+    - AISI-3750
+    - AISI-8682
+    - AISI-843
+BC-D2-R1-G:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-7930
+    - AAAI-2441
+    - AAAI-3738
+    - AAAI-3650
+    - AAAI-8540
+    - AAAI-9746
+    - AAAI-2189
+    - AAAI-5518
+BC-D2-R1-F:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Ethics'
+    gather_town_link: 
+    papers:
+    - AAAI-3670
+    - AAAI-7394
+    - AAAI-7247
+    - AAAI-1503
+    - AAAI-5701
+    - AAAI-4445
+    - AAAI-1172
+    - AAAI-5724
+BC-D2-R1-B:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'Multiagent Systems'
+    gather_town_link: 
+    papers:
+    - AAAI-5918
+    - AAAI-6374
+    - AAAI-2412
+    - AAAI-3056
+    - AAAI-1869
+    - AAAI-6070
+    - AAAI-10060
+    - AAAI-563
+BC-D2-R1-A:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'Search and Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-7765
+    - AAAI-9429
+    - AAAI-8546
+    - AAAI-10332
+    - AAAI-4252
+    - AAAI-2583
+    - AAAI-8907
+BC-D2-R1-C:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'Social Choice / Voting'
+    gather_town_link: 
+    papers:
+    - AAAI-2160
+    - AAAI-4056
+    - AAAI-7527
+    - AAAI-10165
+    - AAAI-3004
+    - AAAI-9257
+BC-D2-R2-E:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+    gather_town_link: 
+    papers:
+    - AAAI-9985
+    - AAAI-5050
+    - AAAI-447
+    - AAAI-5772
+    - AAAI-3010
+    - AAAI-7722
+BC-D2-R2-G:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Neural Network Algorithms'
+    gather_town_link: 
+    papers:
+    - AAAI-3214
+    - AAAI-4849
+    - AAAI-1063
+    - AAAI-1083
+    - AAAI-8526
+    - AAAI-7807
+    - AAAI-2015
+    - AAAI-7890
+BC-D2-R2-H:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Graph-based Machine Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-5774
+    - AAAI-1965
+    - AAAI-10012
+    - AAAI-2355
+    - AAAI-6237
+    - AAAI-9835
+    - AAAI-9998
+BC-D2-R2-J:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'Language and Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-6079
+    - AAAI-9134
+    - AAAI-3382
+    - AAAI-1398
+    - AAAI-1559
+    - AAAI-7721
+    - AAAI-9749
+    - AAAI-6208
+BC-D2-R2-K:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: '3D Computer Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-1239
+    - AAAI-9044
+    - AAAI-122
+    - AAAI-3727
+    - AAAI-938
+    - AAAI-870
+BC-D2-R2-A:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Question Answering'
+    gather_town_link: 
+    papers:
+    - AAAI-10252
+    - AAAI-1059
+    - AAAI-5357
+    - AAAI-6350
+    - AAAI-7833
+    - AAAI-6415
+    - AAAI-5790
+BC-D2-R2-C:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Semantics'
+    gather_town_link: 
+    papers:
+    - AAAI-3949
+    - AAAI-706
+    - AAAI-7771
+    - AAAI-4461
+    - AAAI-1807
+    - AAAI-5681
+    - AAAI-10089
+    - AAAI-911
+BC-D2-R2-F:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Neural Generative Models & Autoencoders'
+    gather_town_link: 
+    papers:
+    - AAAI-5797
+    - AAAI-9817
+    - AAAI-2916
+    - AAAI-5374
+    - AAAI-1376
+    - AAAI-2035
+    - AAAI-3802
+    - AAAI-2963
+BC-D2-R2-D:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Bayesian Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-855
+    - AAAI-3279
+    - AAAI-2226
+    - AAAI-5338
+    - AAAI-9822
+    - AAAI-10040
+    - AAAI-8537
+BC-D2-R2-B:
+    time1: '5-Feb 08:45AM-10:30AM'
+    time2: '5-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Generation'
+    gather_town_link: 
+    papers:
+    - AAAI-10321
+    - AAAI-907
+    - AAAI-7740
+    - AAAI-10105
+    - AAAI-9737
+    - AAAI-1068
+    - AAAI-8469
+BC-D3-R1-B:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Game Theory and Economic Paradigms'
+    gather_town_link: 
+    papers:
+    - AAAI-897
+    - AAAI-10256
+    - AAAI-2930
+    - AAAI-5847
+    - AAAI-7152
+    - AAAI-3807
+    - AAAI-5256
+    - AAAI-10233
+BC-D3-R1-E:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Humans and AI'
+    gather_town_link: 
+    papers:
+    - AAAI-5923
+    - AAAI-5719
+    - AAAI-6381
+    - AAAI-8145
+    - AAAI-8069
+    - AAAI-9953
+    - AAAI-3167
+    - AAAI-1506
+BC-D3-R1-F:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-6912
+    - AAAI-1174
+    - AAAI-9868
+    - AAAI-4111
+    - AAAI-1434
+    - AAAI-3030
+    - AAAI-181
+    - AAAI-9208
+BC-D3-R1-G:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-8213
+    - AAAI-9948
+    - AAAI-8779
+    - AAAI-4491
+    - AAAI-6512
+    - AAAI-10056
+    - AAAI-8428
+    - AAAI-932
+BC-D3-R1-D:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Healthcare & Covid Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-8168
+    - AAAI-8293
+    - AAAI-3857
+    - AAAI-1693
+    - AAAI-8417
+    - AAAI-3049
+    - AAAI-4355
+BC-D3-R1-C:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Reasoning under Uncertainty'
+    gather_town_link: 
+    papers:
+    - AAAI-8666
+    - AAAI-8987
+    - AAAI-3651
+    - AAAI-5807
+    - AAAI-7936
+    - AAAI-3803
+    - AAAI-9891
+    - AAAI-10169
+BC-D3-R1-J:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Conversational AI/Dialog Systems'
+    gather_town_link: 
+    papers:
+    - AAAI-4678
+    - AAAI-3013
+    - AAAI-8367
+    - AAAI-1260
+    - AAAI-8027
+    - AAAI-10147
+    - AAAI-1236
+    - AAAI-8003
+BC-D3-R1-A:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Knowledge Representation and Reasoning'
+    gather_town_link: 
+    papers:
+    - AAAI-8119
+    - AAAI-7855
+    - AAAI-8265
+    - AAAI-4293
+    - AAAI-7778
+    - AAAI-6740
+    - AAAI-6557
+    - AAAI-6001
+BC-D3-R1-K:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Information Extraction'
+    gather_town_link: 
+    papers:
+    - AAAI-8013
+    - AAAI-2155
+    - AAAI-4619
+    - AAAI-3163
+    - AAAI-2584
+    - AAAI-7273
+    - AAAI-2215
+    - AAAI-7653
+BC-D3-R1-H:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-3780
+    - AAAI-6698
+    - AAAI-8452
+    - AAAI-833
+    - AAAI-8654
+    - AAAI-10232
+BC-D3-R2-C:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Learning Theory / Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-1049
+    - AAAI-10128
+    - AAAI-1094
+    - AAAI-9205
+    - AAAI-1191
+    - AAAI-5322
+    - AAAI-7991
+    - AAAI-2046
+BC-D3-R2-B:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Neural Network Algorithms'
+    gather_town_link: 
+    papers:
+    - AAAI-2806
+    - AAAI-5889
+    - AAAI-1162
+    - AAAI-3390
+    - AAAI-260
+    - AAAI-10197
+    - AAAI-7030
+    - AAAI-4723
+BC-D3-R2-H:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Vision: Video Understanding & Activity Analysis'
+    gather_town_link: 
+    papers:
+    - AAAI-4120
+    - AAAI-9783
+    - AAAI-5287
+    - AAAI-2380
+    - AAAI-1143
+    - AAAI-3224
+    - AAAI-7321
+    - AAAI-2446
+BC-D3-R2-D:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Low Resource ML'
+    gather_town_link: 
+    papers:
+    - AAAI-1263
+    - AAAI-1845
+    - AAAI-419
+    - AAAI-9772
+    - AAAI-4220
+    - AAAI-5617
+    - AAAI-9903
+BC-D3-R2-A:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Reinforcement Learning / Imitation / Active Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-10000
+    - AAAI-6031
+    - AAAI-5535
+    - AAAI-5930
+    - AAAI-1137
+    - AAAI-5637
+    - AAAI-2495
+    - AAAI-2757
+BC-D3-R2-E:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Online Learning & Bandits'
+    gather_town_link: 
+    papers:
+    - AAAI-2135
+    - AAAI-5657
+    - AAAI-8558
+    - AAAI-9820
+    - AAAI-6013
+    - AAAI-2200
+    - AAAI-5929
+    - AAAI-9103
+BC-D3-R2-G:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Time-Series/Data Streams'
+    gather_town_link: 
+    papers:
+    - AAAI-9976
+    - AAAI-4139
+    - AAAI-3796
+    - AAAI-5192
+    - AAAI-7391
+    - AAAI-9957
+    - AAAI-2044
+    - AAAI-151
+BC-D3-R2-J:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Vision: Computational Photography, Image & Video Synthesis'
+    gather_town_link: 
+    papers:
+    - AAAI-942
+    - AAAI-1663
+    - AAAI-2158
+    - AAAI-9702
+    - AAAI-2148
+    - AAAI-2915
+    - AAAI-7475
+    - AAAI-2123
+BC-D3-R2-F:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+    gather_town_link: 
+    papers:
+    - AAAI-471
+    - AAAI-5677
+    - AAAI-1431
+    - AAAI-7923
+    - AAAI-8603
+    - AAAI-5716
+BC-D3-R2-K:
+    time1: '6-Feb 08:45AM-10:30AM'
+    time2: '6-Feb 04:45PM-06:30PM'
+    cluster_name: 'Language and Vision'
+    gather_town_link: 
+    papers:
+    - AAAI-3680
+    - AAAI-7769
+    - AAAI-1426
+    - AAAI-9821
+    - AAAI-1343
+    - AAAI-6267
+    - AAAI-2885
+BC-D4-R1-K:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Vision: Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-6067
+    - AAAI-418
+    - AAAI-1412
+    - AAAI-26
+    - AAAI-222
+BC-D4-R1-F:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-4950
+    - AAAI-1026
+    - AAAI-4570
+    - AAAI-6027
+    - AAAI-4450
+    - AAAI-2461
+    - AAAI-10027
+    - AAAI-4917
+BC-D4-R1-A:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Mechanism Design'
+    gather_town_link: 
+    papers:
+    - AAAI-5738
+    - AAAI-2378
+    - AAAI-6887
+    - AAAI-8353
+    - AAAI-8029
+    - AAAI-3766
+    - AAAI-8437
+BC-D4-R1-G:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Healthcare Applications'
+    gather_town_link: 
+    papers:
+    - AAAI-2411
+    - AAAI-3751
+    - AAAI-7535
+    - AAAI-73
+    - AAAI-8804
+    - AAAI-1645
+    - AAAI-10302
+    - AAAI-109
+BC-D4-R1-B:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Game Theory and Economic Paradigms'
+    gather_town_link: 
+    papers:
+    - AAAI-5472
+    - AAAI-3734
+    - AAAI-8882
+    - AAAI-9997
+    - AAAI-4719
+    - AAAI-9071
+    - AAAI-10284
+    - AAAI-7879
+BC-D4-R1-E:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Data Mining & Knowledge Management'
+    gather_town_link: 
+    papers:
+    - AAAI-3883
+    - AAAI-1883
+    - AAAI-8267
+    - AAAI-10103
+    - AAAI-10091
+    - AAAI-3135
+    - AAAI-5096
+    - AAAI-4967
+BC-D4-R1-C:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Cognitive Modeling & Cognitive Systems'
+    gather_town_link: 
+    papers:
+    - AAAI-6323
+    - AAAI-9500
+    - AAAI-8577
+    - AAAI-6347
+    - AAAI-8159
+    - AAAI-1264
+    - AAAI-8610
+BC-D4-R1-J:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Generation'
+    gather_town_link: 
+    papers:
+    - AAAI-10224
+    - AAAI-4046
+    - AAAI-7220
+    - AAAI-4515
+    - AAAI-8233
+    - AAAI-6672
+    - AAAI-8780
+    - AAAI-3433
+BC-D4-R1-H:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'NLP: Text Classification & Sentiment Analysis'
+    gather_town_link: 
+    papers:
+    - AAAI-5126
+    - AAAI-7505
+    - AAAI-5353
+    - AAAI-7756
+    - AAAI-10076
+    - AAAI-9567
+    - AAAI-10194
+    - AAAI-1432
+BC-D4-R1-D:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Recommender Systems & Collaborative Filtering'
+    gather_town_link: 
+    papers:
+    - AAAI-3182
+    - AAAI-5410
+    - AAAI-615
+    - AAAI-5970
+    - AAAI-7018
+    - AAAI-2287
+    - AAAI-7500
+    - AAAI-3435
+BC-D4-R2-E:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Unsupervised / Semi-Supervised / Active Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-2750
+    - AAAI-2967
+    - AAAI-9979
+    - AAAI-1292
+    - AAAI-6357
+    - AAAI-6393
+    - AAAI-2950
+    - AAAI-10185
+BC-D4-R2-B:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-3806
+    - AAAI-199
+    - AAAI-9988
+    - AAAI-10141
+    - AAAI-4981
+    - AAAI-10188
+    - AAAI-1528
+    - AAAI-4
+BC-D4-R2-F:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Distributed Machine Learning & Federated Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-3649
+    - AAAI-1473
+    - AAAI-9952
+    - AAAI-9798
+    - AAAI-5082
+    - AAAI-5309
+    - AAAI-740
+BC-D4-R2-H:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Neuro-Symbolic AI'
+    gather_town_link: 
+    papers:
+    - AAAI-8179
+    - AAAI-10290
+    - AAAI-6489
+    - AAAI-2439
+    - AAAI-6933
+    - AAAI-8166
+    - AAAI-9743
+BC-D4-R2-C:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Multi-class / Multi-label / Multi-view Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-6941
+    - AAAI-3025
+    - AAAI-4027
+    - AAAI-4893
+    - AAAI-1872
+    - AAAI-8358
+    - AAAI-2638
+BC-D4-R2-G:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Optimization'
+    gather_town_link: 
+    papers:
+    - AAAI-10014
+    - AAAI-1351
+    - AAAI-5593
+    - AAAI-5711
+    - AAAI-9962
+    - AAAI-10146
+    - AAAI-1942
+    - AAAI-1446
+BC-D4-R2-J:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'Vision: Object Detection & Categorization'
+    gather_town_link: 
+    papers:
+    - AAAI-3972
+    - AAAI-3209
+    - AAAI-3509
+    - AAAI-2893
+    - AAAI-7561
+    - AAAI-7562
+    - AAAI-9885
+BC-D4-R2-D:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Graph-based Machine Learning'
+    gather_town_link: 
+    papers:
+    - AAAI-7641
+    - AAAI-3084
+    - AAAI-8484
+    - AAAI-2805
+    - AAAI-3441
+    - AAAI-8662
+    - AAAI-2037
+    - AAAI-2669
+BC-D4-R2-A:
+    time1: '7-Feb 08:45AM-10:30AM'
+    time2: '7-Feb 04:45PM-06:30PM'
+    cluster_name: 'ML: Online Learning & Bandits'
+    gather_town_link: 
+    papers:
+    - AAAI-2977
+    - AAAI-8642
+    - AAAI-142
+    - AAAI-420
+    - AAAI-3431
+    - AAAI-8124
+    - AAAI-9262
+    - AAAI-9983
+IAAI-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: commerce/aerospace
+     gather_town_link: 
+     papers:
+     - IAAI-23
+     - IAAI-74
+     - IAAI-132
+     - IAAI-171
+IAAI-D3-C:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: bioscience
+     gather_town_link: 
+     papers:
+     - IAAI-124
+     - IAAI-145
+     - IAAI-149
+IAAI-D2-B:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: knowledge
+     gather_town_link: 
+     papers:
+     - IAAI-21
+     - IAAI-59
+     - IAAI-119
+     - IAAI-157
+IAAI-D1-C:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: commerce
+     gather_town_link: 
+     papers:
+     - IAAI-84
+     - IAAI-92
+     - IAAI-93
+     - IAAI-140
+IAAI-D2-A:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: engineering
+     gather_town_link: 
+     papers:
+     - IAAI-100
+     - IAAI-105
+     - IAAI-165
+     - IAAI-176
+IAAI-D3-A:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: AI
+     gather_town_link: 
+     papers:
+     - IAAI-31
+     - IAAI-60
+     - IAAI-73
+     - IAAI-167
+IAAI-D2-C:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: knowledge
+     gather_town_link: 
+     papers:
+     - IAAI-37
+     - IAAI-65
+     - IAAI-151
+     - IAAI-174
+IAAI-D2-D:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: prediction/NLP
+     gather_town_link: 
+     papers:
+     - IAAI-43
+     - IAAI-55
+     - IAAI-89
+     - IAAI-104
+IAAI-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: commerce
+     gather_town_link: 
+     papers:
+     - IAAI-87
+     - IAAI-101
+     - IAAI-179
+     - IAAI-190
+IAAI-D1-D:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: security
+     gather_town_link: 
+     papers:
+     - IAAI-98
+     - IAAI-113
+     - IAAI-142
+IAAI-D3-B:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: AI/bioscience
+     gather_town_link: 
+     papers:
+     - IAAI-17
+     - IAAI-76
+     - IAAI-77
+     - IAAI-146
+IAAI-D3-D:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: driving/IT/covid
+     gather_town_link: 
+     papers:
+     - IAAI-34
+     - IAAI-99
+     - IAAI-152
+     - IAAI-154
+UC-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Undergraduate Consortium
+     gather_town_link: 
+     papers:
+     - UC-10
+     - UC-29
+     - UC-30
+     - UC-34
+     - UC-40
+     - UC-46
+     - UC-47
+UC-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Undergraduate Consortium
+     gather_town_link: 
+     papers:
+     - UC-49
+     - UC-56
+     - UC-59
+     - UC-66
+     - UC-71
+     - UC-76
+     - UC-77
+SA-D3-D:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-290
+     - SA-302
+     - SA-333
+     - SA-356
+SA-D2-F:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-213
+     - SA-237
+     - SA-258
+     - SA-279
+SA-D3-E:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-292
+     - SA-305
+     - SA-345
+     - SA-357
+SA-D3-A:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-285
+     - SA-297
+     - SA-308
+     - SA-349
+     - SA-360
+SA-D2-D:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-207
+     - SA-234
+     - SA-251
+     - SA-274
+SA-D2-E:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-210
+     - SA-235
+     - SA-256
+     - SA-277
+SA-D4-B:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-374
+     - SA-385
+     - SA-397
+     - SA-413
+     - SA-436
+SA-D1-D:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-129
+     - SA-144
+     - SA-165
+     - SA-186
+SA-D1-C:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-117
+     - SA-143
+     - SA-163
+     - SA-177
+SA-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-11
+     - SA-140
+     - SA-156
+     - SA-168
+     - SA-192
+SA-D4-E:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-379
+     - SA-390
+     - SA-406
+     - SA-417
+SA-D3-B:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-286
+     - SA-299
+     - SA-309
+     - SA-353
+     - SA-368
+SA-D4-C:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-375
+     - SA-386
+     - SA-400
+     - SA-414
+SA-D2-A:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-197
+     - SA-215
+     - SA-239
+     - SA-263
+     - SA-280
+SA-D3-C:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-287
+     - SA-300
+     - SA-315
+     - SA-354
+     - SA-370
+SA-D3-F:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-293
+     - SA-306
+     - SA-346
+     - SA-358
+SA-D4-D:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-376
+     - SA-388
+     - SA-403
+     - SA-416
+SA-D2-C:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-206
+     - SA-229
+     - SA-249
+     - SA-273
+SA-D4-A:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-372
+     - SA-381
+     - SA-396
+     - SA-411
+     - SA-421
+SA-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-69
+     - SA-141
+     - SA-161
+     - SA-171
+     - SA-193
+SA-D1-E:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-131
+     - SA-148
+     - SA-166
+     - SA-187
+SA-D2-B:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-201
+     - SA-223
+     - SA-242
+     - SA-267
+     - SA-283
+SA-D1-F:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-138
+     - SA-149
+     - SA-167
+     - SA-188
+SA-D4-F:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Student Abstracts
+     gather_town_link: 
+     papers:
+     - SA-380
+     - SA-392
+     - SA-407
+     - SA-418
+DC-D1-D:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Doctoral Consortium
+     gather_town_link: 
+     papers:
+     - DC-169
+     - DC-276
+     - DC-314
+     - DC-415
+DC-D1-C:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Doctoral Consortium
+     gather_town_link: 
+     papers:
+     - DC-127
+     - DC-260
+     - DC-311
+     - DC-340
+DC-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Doctoral Consortium
+     gather_town_link: 
+     papers:
+     - DC-79
+     - DC-200
+     - DC-281
+     - DC-317
+     - DC-423
+DC-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Doctoral Consortium
+     gather_town_link: 
+     papers:
+     - DC-118
+     - DC-246
+     - DC-304
+     - DC-318
+     - DC-429
+DEMO-D4-D:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-155
+     - DEMO-394
+DEMO-D2-D:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-175
+     - DEMO-284
+DEMO-D3-F:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-321
+DEMO-D2-E:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-219
+     - DEMO-319
+DEMO-D4-E:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-172
+     - DEMO-395
+DEMO-D1-C:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-105
+     - DEMO-265
+DEMO-D3-B:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-153
+     - DEMO-338
+DEMO-D3-E:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-298
+     - DEMO-404
+DEMO-D1-A:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-12
+     - DEMO-174
+DEMO-D1-E:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-134
+     - DEMO-355
+DEMO-D4-F:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-178
+     - DEMO-398
+DEMO-D1-B:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-91
+     - DEMO-232
+DEMO-D3-C:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-170
+     - DEMO-344
+DEMO-D2-F:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-227
+     - DEMO-324
+DEMO-D4-A:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-6
+     - DEMO-212
+DEMO-D4-B:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-93
+     - DEMO-278
+DEMO-D2-B:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-104
+     - DEMO-252
+DEMO-D1-F:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-159
+DEMO-D4-C:
+     time1: '7-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-109
+     - DEMO-367
+DEMO-D1-D:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-124
+     - DEMO-313
+DEMO-D2-A:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-97
+     - DEMO-233
+DEMO-D3-D:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-196
+     - DEMO-363
+DEMO-D2-C:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-157
+     - DEMO-268
+DEMO-D3-A:
+     time1: '6-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: Demonstrations
+     gather_town_link: 
+     papers:
+     - DEMO-135
+     - DEMO-336
+Award-D1-:
+     time1: '4-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: 2021 AAAI Classic Paper Award
+     gather_town_link: 
+     papers:
+     - CLASSIC-2021
+Award-D2-:
+     time1: '5-Feb 00:00AM-23:59PM'
+     time2: 
+     cluster_name: 2019 AAAI/ACM SIGAI Dissertation Award
+     gather_town_link: 
+     papers:
+     - DISS-2019

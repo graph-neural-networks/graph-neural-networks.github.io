@@ -1,0 +1,107 @@
+- UID: Schedule
+  title:  Doctoral Consortium
+  organizers:
+  info: |-
+    to be continued
+  rocketchat_channel: Events_DoctoralConsortium
+  alias: Events_DoctoralConsortium
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    xxx
+    </p>
+  sessions:
+    - name: "Welcome and Logistics"
+      start_time: 2021-02-02 07:00:00-08:00
+      end_time: 2021-02-02 07:30:00-08:00
+      zoom_link:
+      hosts: "Anna Helena Reali Costa and Shiwali Mohan"
+    - name: "Session 1"
+      start_time: 2021-02-02 07:30:00-08:00
+      end_time: 2021-02-02 09:00:00-08:00
+      zoom_link:
+      hosts: "xxx"
+    - name: "Break and Interactions with the Speakers"
+      start_time: 2021-02-02 09:00:00-08:00
+      end_time: 2021-02-02 09:30:00-08:00
+      zoom_link:
+      hosts: " "
+    - name: "Invited Lecture: Computational Models of Narrative and Social Justice"
+      start_time: 2021-02-02 09:30:00-08:00
+      end_time: 2021-02-02 10:30:00-08:00
+      zoom_link:
+      hosts: "Rogelio E. Cardona-Rivera"
+    - name: "Session 2"
+      start_time: 2021-02-02 11:00:00-08:00
+      end_time: 2021-02-02 12:00:00-08:00
+      zoom_link:
+      hosts: "xxx"
+    - name: "Break and Interactions with the Speakers"
+      start_time: 2021-02-02 12:00:00-08:00
+      end_time: 2021-02-02 12:30:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Introductions and DC Mixer"
+      start_time: 2021-02-02 12:30:00-08:00
+      end_time: 2021-02-02 13:30:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Break"
+      start_time: 2021-02-02 13:30:00-08:00
+      end_time: 2021-02-02 14:00:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Session 3"
+      start_time: 2021-02-02 14:00:00-08:00
+      end_time: 2021-02-02 15:30:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Break and Interactions with the Speakers"
+      start_time: 2021-02-02 15:30:00-08:00
+      end_time: 2021-02-02 16:00:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Career Panel : “What do professional scientists do?” Interactions with Yolanda Gil, Matthew Taylor, Sven Koenig, and Maria Chang."
+      start_time: 2021-02-02 16:00:00-08:00
+      end_time: 2021-02-02 17:30:00-08:00
+      zoom_link:
+      hosts: "Yolanda Gil, Matthew Taylor, Sven Koenig, and Maria Chang"
+    - name: "Welcome and Logistics"
+      start_time: 2021-02-03 07:00:00-08:00
+      end_time: 2021-02-03 07:30:00-08:00
+      zoom_link:
+      hosts: "Anna Helena Reali Costa and Shiwali Mohan"
+    - name: "Session 1"
+      start_time: 2021-02-03 07:30:00-08:00
+      end_time: 2021-02-03 09:30:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Break and Interactions with the Speakers"
+      start_time: 2021-02-03 09:30:00-08:00
+      end_time: 2021-02-03 10:00:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Session 2"
+      start_time: 2021-02-03 10:00:00-08:00
+      end_time: 2021-02-03 11:30:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Break and Interactions with the Speakers"
+      start_time: 2021-02-03 11:30:00-08:00
+      end_time: 2021-02-03 12:00:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Session 3"
+      start_time: 2021-02-03 12:00:00-08:00
+      end_time: 2021-02-03 13:30:00-08:00
+      zoom_link:
+      hosts: ""
+    - name: "Break and Interactions with the Speakers"
+      start_time: 2021-02-03 13:30:00-08:00
+      end_time: 2021-02-03 14:00:00-08:00
+      zoom_link:
+      hosts: ""
+  authors:
+    - name: xxx
+      description: |+
+        to be continued

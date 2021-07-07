@@ -1,0 +1,28 @@
+teams:
+- aff: JD.COM Silicon Valley Research Center
+  image: static/images/lingfei.jpeg
+  name: Lingfei Wu
+  role: Editor
+  pweb: https://sites.google.com/a/email.wm.edu/teddy-lfwu/
+- aff: Tsinghua University
+  image: static/images/pengcui.jpeg
+  name: Peng Cui
+  role: Editor
+  pweb: http://pengcui.thumedialab.com/
+- aff: Simon Fraser University
+  image: static/images/jianpei.jpeg
+  name: Jian Pei
+  role: Editor
+  pweb: https://www.sfu.ca/computing/people/faculty/jianpei.html
+- aff: Emory University
+  image: static/images/liangzhao.jpeg
+  name: Liang Zhao
+  role: Editor
+  pweb: http://cs.emory.edu/~lzhao41/index.htm
+- aff: George Mason University
+  image: static/images/yuanqi.jpeg
+  name: Yuanqi Du
+  role: Web Developer
+  pweb: https://yuanqidu.github.io/
+
+

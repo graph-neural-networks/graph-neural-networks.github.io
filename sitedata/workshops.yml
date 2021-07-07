@@ -1,0 +1,611 @@
+- UID: WS-2
+  title: "W2: AI for Behavior Change"
+  organizers: "Lyle Ungar, Sendhil Mullainathan, Eric Tchetgen Tchetgen, Rahul Ladhania, and Tony Liu"
+  abstract: "This workshop will focus on AI and ML-based approaches that can (1) identify individuals in need of behavioral interventions, and/or predict when they need them; (2) help design and target optimal interventions; and (3) exploit observational and/or experimental datasets in domains including social media, health records, claims data, fitness apps, etc. for causal estimation in the behavior science world."
+  website: https://ai4bc.github.io/ai4bc21/
+  rocketchat_channel: W2AIforBehaviorChange
+  alias: W2AIforBehaviorChange
+  day: Feb 8
+  sessions:
+    - start_time: 2021-2-8 08:00:00-08:00
+      end_time: 2021-2-8 16:00:00-08:00
+      name: None
+      hosts: None
+  zoom_links:
+  - https://zoom.us/j/97843509448?pwd=QlhJWUNvQzlOZFpjUldXcHg4RDhMdz09
+  prerecorded_talks:
+  - title: '"Low-resourcedness" Beyond Data'
+    speakers: Masakhane
+    presentation_id: '38940745'
+
+- UID: WS-1
+  title: "W1: Affective Content Analysis (AffCon)"
+  organizers: "Niyati Chhaya, Kokil Jaidka, Jennifer Healey, Lyle Ungar and Atanu R Sinha"
+  abstract: "AffCon-2021 is the fourth Affective Content Analysis workshop @ AAAI. The workshop series (i) builds upon the state of the art in neural and AI methods, for modeling affect in interpersonal interactions and behaviors and (ii) brings a confluence of research viewpoints representing several disciplines."
+  website: https://sites.google.com/view/affcon2021
+  rocketchat_channel: W1AffectiveContentAnalysis
+  alias: W1AffectiveContentAnalysis
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 05:00:00-08:00
+    end_time: 2021-2-9 10:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/2630266651
+  prerecorded_talks:
+  - title: 'Learning Language Like Infants Do: Self Supervised Learning From Raw Audio'
+    speakers: Emmanuel Dupoux
+    presentation_id: '38940786'
+
+
+- UID: WS-3
+  title: "W3: AI for Urban Mobility"
+  organizers: "Lukas Chrpa , Mauro Vallati, Scott Sanner, Stephen S. Smith and Baher Abdulhai"
+  abstract: "This workshop aims to provide a forum for bringing together experts from the different fields of AI to discuss the challenges related to any area of Urban Mobility, from the perspective of how AI techniques can be leveraged to address these challenges and whether novel AI techniques have to be developed."
+  website: http://aium2021.felk.cvut.cz/
+  rocketchat_channel: W3AIforUrbanMobility
+  alias: W3AIforUrbanMobility
+  day: Feb 8
+  sessions:
+    - start_time: 2021-2-8 8:30:00-08:00
+      end_time: 2021-2-8 17:00:00-08:00
+      name: None
+      hosts: None
+  zoom_links:
+  - https://zoom.us/j/98224246862?pwd=cG5hQzB2eGdKUXVwMUxjVHdzNUlRZz09
+  prerecorded_talks:
+  - title: "Negative results yield interesting questions, or: A bunch of stuff that\
+      \ didn't work"
+    speakers: Byron C. Wallace
+    presentation_id: '38940632'
+
+- UID: WS-4
+  title: "W4: Artificial Intelligence Safety (SafeAI 2021)"
+  organizers: "Huáscar Espinoza, José Hernández-Orallo, Cynthia Chen, Seán Ó hÉigeartaigh, Xiaowei Huang, Mauricio Castillo-Effen, Richard Mallah and John McDermid"
+  abstract: "The main interest of the proposed workshop is to look at a new perspective of system engineering where multiple disciplines such as AI and safety engineering are viewed as a larger whole, while considering ethical and legal issues, in order to build trustable intelligent autonomy."
+  website: http://safeaiw.org/
+  rocketchat_channel: W4ArtificialIntelligenceSafety
+  alias: W4ArtificialIntelligenceSafety
+  day: Feb 8
+  sessions:
+    - start_time: 2021-2-8 00:00:00-08:00
+      end_time: 2021-2-8 8:30:00-08:00
+      name: None
+      hosts: None
+  zoom_links:
+  - https://zoom.us/j/96752632442?pwd=MitQWFNKeDIrS2NsZHA5eWladU5JUT09
+  prerecorded_talks:
+  - title: Clarifying Questions in Conversations with Augmented Syntax Features and
+      Side Information
+    speakers: Hang Li, Tianqiao Liu, Yu Kang, Guowei Xu, Wenbiao Ding, Zitao Liu
+    presentation_id: '38940066'
+
+- UID: WS-5
+  title: "W5: Combating Online Hostile Posts in Regional Languages during Emergency Situations (CONSTRAINT-2021)"
+  organizers: "Tanmoy Chakraborty, Kai Shu, H. Russell Bernard, Huan Liu, and Md Shad Akhtar"
+  abstract: "Online hostile posts (e.g., hate speech, fake news, etc.) can have severe consequences, and therefore, its detection is of paramount importance for societal causes. Another important aspect is early detection and prevention of hostile posts in response to a critical/emergency situation (e.g., COVID-19, US presidential election) where the (mis)information spreads rapidly. Moreover, hostile posts are not limited to English; instead, they are available in a variety of regional/local languages (e.g., Indian, some European languages, etc.). The challenges in automatic identification of the hostile posts are more critical in case of these regional languages - primarily because of the lack of resources for such languages. With the CONSTRAINT-2021 workshop, we aim to attract the attention of the research communities to these important aspects of the hostile posts detection and provide a platform for the high-quality research in this domain."
+  website: http://lcs2.iiitd.edu.in/CONSTRAINT-2021/
+  rocketchat_channel: W5CONSTRAINT2021
+  alias: W5CONSTRAINT2021
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 4:30:00-08:00
+    end_time: 2021-2-8 9:40:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/94470518368?pwd=S2ZYaFZCRVN1TGcwOG9kazhmMkRpdz09
+  prerecorded_talks:
+  - title: 'How Languages Carve Up the World: Cognitive Explanation through Computational
+      Modeling'
+    speakers: Suzanne Stevenson
+    presentation_id: '38939684'
+
+- UID: WS-6
+  title: "W6: Commonsense Knowledge Graphs (CSKGs)"
+  organizers: Filip Ilievski, Alessandro Oltramari, Deborah McGuinness and Pedro Szekely
+  abstract: "Commonsense knowledge graphs (CSKGs) are sources of background knowledge that are expected to contribute to downstream tasks like question answering, robot manipulation, and planning. The knowledge covered in CSKGs varies greatly, spanning procedural, conceptual, and syntactic knowledge, among others. CSKGs come in a wider variety of forms compared to traditional knowledge graphs, ranging from (semi-)structured knowledge graphs, such as ConceptNet, ATOMIC, and FrameNet, to the recent idea to use language models as knowledge graphs. As a consequence, traditional methods of integration and usage of knowledge graphs might need to be expanded when dealing with CSKGs. Understanding how to best integrate and represent CSKGs, leverage them on a downstream task, and tailor their knowledge to the particularities of the task, are open challenges today. The workshop on CSKGs addresses these challenges, by focusing on the creation of commonsense knowledge graphs and their usage on downstream commonsense reasoning tasks."
+  website: https://usc-isi-i2.github.io/AAAI21workshop/
+  rocketchat_channel: W6CommonsenseKnowledgeGraphs
+  alias: W6CommonsenseKnowledgeGraphs
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 8:30:00-08:00
+    end_time: 2021-2-8 16:30:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/98850070031?pwd=RGdjYURVNFJNTkFZNzhCbCtzck9UQT09
+  prerecorded_talks:
+  - title: 'Invited Talk: Jacob Andreas'
+    speakers: Jacob Andreas
+    presentation_id: '38939462'
+
+- UID: WS-7
+  title: "W7: Workshop on Content Authoring and Design (CAD2021)"
+  organizers: Thamar Solorio, Franck Dernoncourt, Amirreza Shirani, Nedim Lipka, Paul Asente and Jose Echevarria
+  abstract: "The goal of the Content Authoring and Design (CAD2021) workshop at AAAI is to engage the AI and NLP community around the open problems in authoring, reformatting, optimization, enhancement and beautification of different forms of contents ranging from articles, news, presentation slides, flyers, posters to any material one can find online such as social media posts and advertisement. Content Authoring and Design refers to the interdisciplinary research area of Artificial Intelligence, Computational Linguistics, and Graphic Design. The area addresses open problems in leveraging AI models to assist users during their creative process by estimating the author and audience needs so that the outcome is aesthetically appealing and effectively communicates its intent."
+  website: https://ritual.uh.edu/aaai-21-workshop-on-content-authoring-and-design/
+  rocketchat_channel: W7ContentAuthoringandDesign
+  alias: W7ContentAuthoringandDesign
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 09:00:00-08:00
+    end_time: 2021-2-8 15:20:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/92584933293?pwd=K0taL3dibTk3TGZ6bXlYWkFRWHFYZz09
+  prerecorded_talks: []
+
+- UID: WS-8
+  title: "W8: Deep Learning on Graphs: Method and Applications (DLG-AAAI’21)"
+  organizers: Lingfei Wu, Jiliang Tang, Yinglong Xia and Jian Pei
+  abstract: "Deep Learning models are at the core of research in Artificial Intelligence research today. It is well-known that deep learning techniques that were disruptive for Euclidean data such as images or sequence data such as text are not immediately applicable to graph-structured data. This gap has driven a tide in research for deep learning on graphs on various tasks such as graph representation learning, graph generation, and graph classification. This wave of research at the intersection of graph theory and deep learning has also influenced other fields of science, including computer vision, natural language processing, inductive logic programming, program synthesis and analysis, automated planning, reinforcement learning, and financial security. Despite these successes, graph neural networks (GNNs) still face many challenges. This one-day workshop aims to bring together both academic researchers and industrial practitioners from different backgrounds and perspectives to above challenges. This workshop intends to share visions of investigating new approaches and methods at the intersection of Graph Neural Networks and real-world applications."
+  website: http://deep-learning-graphs.bitbucket.io/dlg-aaai21/
+  rocketchat_channel: W8DeepLearningonGraphs
+  alias: W8DeepLearningonGraphs
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 08:00:00-08:00
+    end_time: 2021-2-8 17:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/92231659376?pwd=dTFULzVXRXJnMkRHUS9pYXZRQ1BhUT09
+  prerecorded_talks:
+  - title: (To be confirmed) Invited Talk 1 - Chip Huyen
+    speakers: Chip Huyen
+    presentation_id: '38939735'
+
+- UID: WS-9
+  title: "W9: Designing AI for Telehealth"
+  organizers: Ted Metzler, Lundy Lewis and Elizabeth Diener
+  abstract: "Although telehealth technology has been present for years, appearance of the Covid-19 pandemic dramatically has accelerated its growth. This workshop clearly is timely. Investment currently is strong for numerous types of telehealth systems, many including AI components, and leading enterprises in this work are now recognizing the important need for participatory design. Accordingly, the main objective of this workshop is specifically to gather representatives of AI research and development with those of other stakeholder domains to create a community for sustaining valuable participatory design dialogue."
+  website: http://shapingsmarttechnology.org
+  rocketchat_channel: W9DesigningAIforTelehealth
+  alias: W9DesigningAIforTelehealth
+  day: Feb 8
+  sessions:
+    - start_time: 2021-2-8 12:00:00-08:00
+      end_time: 2021-2-8 21:00:00-08:00
+      name: None
+      hosts: None
+  zoom_links:
+  - https://zoom.us/j/98031602420?pwd=Rk9YdU5zaWdldDM0MS85UXZlQ1lnZz09
+  prerecorded_talks:
+  - title: (To be confirmed) Invited Talk 1 - Chip Huyen
+    speakers: Chip Huyen
+    presentation_id: '38939735'
+
+- UID: WS-10
+  title: "W10: 9th Dialog System Technology Challenge (DSTC-9)"
+  organizers: "Abhinav Rastogi, Yun-Nung (Vivian) Chen, Chulaka Gunasekara, Seokhwan Kim and Luis Fernando D'Haro"
+  abstract: "DSTC, the Dialog System Technology Challenge, has been a premier research competition for dialog systems since its inception in 2013. Given the remarkable success of the first eight challenges, we are organizing the ninth edition of DSTC this year and we will have a wrap-up workshop at AAAI-21."
+  website: https://sites.google.com/dstc.community/dstc9/
+  rocketchat_channel: W10DialogSystemTechnologyChallenge
+  alias: W10DialogSystemTechnologyChallenge
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 13:00:00-08:00
+    end_time: 2021-2-8 21:00:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 13:00:00-08:00
+    end_time: 2021-2-9 21:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/97618625752?pwd=b1NoaFhyUDJ4RlBTTVY3T3B1TjBjQT09
+  prerecorded_talks:
+  - title: "\tVisualizing Meaning: Semantic Simulation of Actions and Events"
+    speakers: James Pustejovsky, Brandeis University
+    presentation_id: '38940086'
+
+- UID: WS-10
+  title: "W10: 9th Dialog System Technology Challenge (DSTC-9)"
+  organizers: "Abhinav Rastogi, Yun-Nung (Vivian) Chen, Chulaka Gunasekara, Seokhwan Kim and Luis Fernando D'Haro"
+  abstract: "DSTC, the Dialog System Technology Challenge, has been a premier research competition for dialog systems since its inception in 2013. Given the remarkable success of the first eight challenges, we are organizing the ninth edition of DSTC this year and we will have a wrap-up workshop at AAAI-21."
+  website: https://sites.google.com/dstc.community/dstc9/
+  rocketchat_channel: W10DialogSystemTechnologyChallenge
+  alias: W10DialogSystemTechnologyChallenge
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 13:00:00-08:00
+    end_time: 2021-2-8 21:00:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 13:00:00-08:00
+    end_time: 2021-2-9 21:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/97618625752?pwd=b1NoaFhyUDJ4RlBTTVY3T3B1TjBjQT09
+  prerecorded_talks:
+  - title: "\tVisualizing Meaning: Semantic Simulation of Actions and Events"
+    speakers: James Pustejovsky, Brandeis University
+    presentation_id: '38940086'
+
+- UID: WS-11
+  title: "W11: Explainable Agency in Artificial Intelligence"
+  organizers: "Prashan Madumal, Silvia Tulli, David Aha and Rosina Weber"
+  abstract: "As AI-enabled systems have become increasingly applied to critical societal problems with tangible consequences and influence, calls for explainability and interpretability of these systems have also become increasingly prevalent. Explainable AI (XAI) attempts to alleviate concerns of transparency, trust, and ethics in AI by making them accountable, interpretable, and explainable to humans. This workshop aims to address these concepts from the perspective of Explainable Agency, and bring together researchers and practitioners working in different facets of XAI from diverse backgrounds to share challenges, new directions, and recent research in the field. We especially welcome research from fields including (but not limited to) AI, human‐computer interaction, human-robot interaction, cognitive science, human factors, and philosophy."
+  website: https://sites.google.com/view/xaiworkshop/topic
+  rocketchat_channel: W11ExplainableAgencyinArtificialIntelligence
+  alias: W11ExplainableAgencyinArtificialIntelligence
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 07:00:00-08:00
+    end_time: 2021-2-8 17:40:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 07:00:00-08:00
+    end_time: 2021-2-9 17:40:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/94912916849?pwd=SHdCZytNNlpJVXJGVlRuV05KRHI1QT09
+  prerecorded_talks:
+  - title: Invited talk
+    speakers: Miriam Butt
+    presentation_id: '38939785'
+
+- UID: WS-11
+  title: "W11: Explainable Agency in Artificial Intelligence"
+  organizers: "Prashan Madumal, Silvia Tulli, David Aha and Rosina Weber"
+  abstract: "As AI-enabled systems have become increasingly applied to critical societal problems with tangible consequences and influence, calls for explainability and interpretability of these systems have also become increasingly prevalent. Explainable AI (XAI) attempts to alleviate concerns of transparency, trust, and ethics in AI by making them accountable, interpretable, and explainable to humans. This workshop aims to address these concepts from the perspective of Explainable Agency, and bring together researchers and practitioners working in different facets of XAI from diverse backgrounds to share challenges, new directions, and recent research in the field. We especially welcome research from fields including (but not limited to) AI, human‐computer interaction, human-robot interaction, cognitive science, human factors, and philosophy."
+  website: https://sites.google.com/view/xaiworkshop/topic
+  rocketchat_channel: W11ExplainableAgencyinArtificialIntelligence
+  alias: W11ExplainableAgencyinArtificialIntelligence
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 07:00:00-08:00
+    end_time: 2021-2-8 17:40:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 07:00:00-08:00
+    end_time: 2021-2-9 17:40:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/94912916849?pwd=SHdCZytNNlpJVXJGVlRuV05KRHI1QT09
+  prerecorded_talks:
+  - title: Invited talk
+    speakers: Miriam Butt
+    presentation_id: '38939785'
+
+- UID: WS-12
+  title: "W12: Graphs and More Complex Structures for Learning and Reasoning (GCLR)"
+  organizers: Balaraman Ravindran, Kristian Kersting, Sarika Jalan, Partha Pratim Talukdar, Sriraam Natarajan, Tarun Kumar, Deepak Maurya, Nikita Moghe, Naganand Yadati, Jeshuren Chelladurai and Aparna Rai
+  abstract: "The study of complex graphs is a highly interdisciplinary field that aims to study complex systems using mathematical models, physical laws, inference and learning algorithms, etc. Complex systems are often characterized by several components that interact in multiple ways among each other. Such systems are better modeled by complex graph structures such as edge and vertex labeled graphs (e.g., knowledge graphs), attributed graphs, multilayer graphs, hypergraphs, etc. This workshop is focused on inference and learning algorithms on various complex structures, which is an active area of research in ML and network science community. This workshop aims to bring researchers from these diverse but related fields together and enable interesting discussions on new challenging applications that require complex system modeling and discovering ingenious reasoning methods. We have invited several distinguished speakers with their research interests spanning the theoretical and experimental aspects of complex networks."
+  website: https://sites.google.com/view/gclr2021/
+  rocketchat_channel: W12GraphsandMoreComplexStructuresforLearningandReasoning
+  alias: W12GraphsandMoreComplexStructuresforLearningandReasoning
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 14:30:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/97078477638?pwd=bDgrQ0J1TXBobFA1bXd2UkFraWlTQT09
+  prerecorded_talks:
+  - title: Keynote 3rd Clinical Natural Language Processing Workshop
+    speakers: Hong Yu
+    presentation_id: '38939840'
+
+- UID: WS-13
+  title: 'W13: 5th International Workshop on Health Intelligence (W3PHIAI-21)'
+  organizers: "Martin Michalowski, Arash Shaban-Nejad, Cochair, Simone Bianco, Szymon Wilk, David L. Buckeridge, John S. Brownstein, and Byron C. Wallace"
+  abstract: "Public health authorities and researchers collect data from many sources and analyze these data together to estimate the incidence and prevalence of different health conditions, as well as related risk factors. Modern surveillance systems employ tools and techniques from artificial intelligence and machine learning to monitor direct and indirect signals and indicators of disease activities for early, automatic detection of emerging outbreaks and other health-relevant patterns. The advances in web science and technology for data management, integration, mining, classification, filtering, and visualization has given rise to a variety of applications representing real-time data on epidemics. Moreover, to tackle and overcome several issues in personalized healthcare, information technology will need to evolve to improve communication, collaboration, and teamwork among patients, their families, healthcare communities, and care teams involving practitioners from different fields and specialties. All of these changes require novel solutions and the AI community is well-positioned to provide both theoretical- and application-based methods and frameworks."
+  website: http://w3phiai2021.w3phi.com/
+  rocketchat_channel: W13InternationalWorkshoponHealthIntelligence
+  alias: W13InternationalWorkshoponHealthIntelligence
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 08:00:00-08:00
+    end_time: 2021-2-8 16:00:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 08:00:00-08:00
+    end_time: 2021-2-9 16:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://umn-private.zoom.us/j/91933179732?pwd=aDdOTGk0WVhLbmJvOGd2YXd6VWVuUT09
+  - https://umn-private.zoom.us/j/99963085986?pwd=azZLZFdLQm1lNUJtWk0vUFl3bGc1Zz09
+  prerecorded_talks:
+  - title: Keynote talk by Eduard Hovy
+    speakers: Eduard Hovy
+    presentation_id: '38940164'
+
+- UID: WS-13
+  title: 'W13: 5th International Workshop on Health Intelligence (W3PHIAI-21)'
+  organizers: "Martin Michalowski, Arash Shaban-Nejad, Cochair, Simone Bianco, Szymon Wilk, David L. Buckeridge, John S. Brownstein, and Byron C. Wallace"
+  abstract: "Public health authorities and researchers collect data from many sources and analyze these data together to estimate the incidence and prevalence of different health conditions, as well as related risk factors. Modern surveillance systems employ tools and techniques from artificial intelligence and machine learning to monitor direct and indirect signals and indicators of disease activities for early, automatic detection of emerging outbreaks and other health-relevant patterns. The advances in web science and technology for data management, integration, mining, classification, filtering, and visualization has given rise to a variety of applications representing real-time data on epidemics. Moreover, to tackle and overcome several issues in personalized healthcare, information technology will need to evolve to improve communication, collaboration, and teamwork among patients, their families, healthcare communities, and care teams involving practitioners from different fields and specialties. All of these changes require novel solutions and the AI community is well-positioned to provide both theoretical- and application-based methods and frameworks."
+  website: http://w3phiai2021.w3phi.com/
+  rocketchat_channel: W13InternationalWorkshoponHealthIntelligence
+  alias: W13InternationalWorkshoponHealthIntelligence
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 08:00:00-08:00
+    end_time: 2021-2-8 16:00:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 08:00:00-08:00
+    end_time: 2021-2-9 16:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://umn-private.zoom.us/j/91933179732?pwd=aDdOTGk0WVhLbmJvOGd2YXd6VWVuUT09
+  - https://umn-private.zoom.us/j/99963085986?pwd=azZLZFdLQm1lNUJtWk0vUFl3bGc1Zz09
+  prerecorded_talks:
+  - title: Keynote talk by Eduard Hovy
+    speakers: Eduard Hovy
+    presentation_id: '38940164'
+
+- UID: WS-14
+  title: "W14: Hybrid Artificial Intelligence"
+  organizers: Charles Ortiz, Sven Dickinson, Ron Kaplan and Michael Thielscher
+  abstract: "Increased specialization in the sub-fields of AI has led to extreme fragmentation of the field. This has inhibited research on more complete AI systems that will require the coordination of multiple cognitive faculties (language, vision and reasoning) coupled with an ability to act and effect changes in the real world. This workshop will bring together researchers from NLP, computer vision, reasoning and action/robotics to explore end-to-end HAI."
+  website: https://sites.google.com/view/aaai2021workshop/home
+  rocketchat_channel: W14HybridArtificialIntelligence
+  alias: W14HybridArtificialIntelligence
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 09:00:00-08:00
+    end_time: 2021-2-8 16:45:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/92977281482?pwd=V2VWUUpqOHF0T2xETGFiZGM0UGpLUT09
+  prerecorded_talks: []
+
+- UID: WS-15
+  title: 'W15: Imagining Post-COVID Education with AI'
+  organizers: "Paul Kim, Neil Hefferman, Jineon Baek, Hoonpyo Jeon, Byungsoo Kim, Jamin Shin, Dongmin Shin and Youngduck Choi"
+  abstract: "COVID-19 has brought upon us the inevitable transformation towards virtual education. The ensuing need for scalable, personalized learning systems has led to an unprecedented demand for understanding large-scale educational data. In this workshop, we invited AIEd enthusiasts from all around the world through three different channels. First, we called for papers related to important AIEd topics that can help us imagine what new education will look like. Second, we proposed various AIEd shared tasks using the largest public education dataset, EdNet, which contains 123M interactions from 1M+ students. Finally, we hosted a global challenge on Kaggle for a fair comparison of state-of-the-art Knowledge Tracing models and invited technical reports from winning teams. Through these initiatives, we aim to provide a common ground for researchers to share their cutting-edge insights on AIEd and encourage the development of practical and large-scale AIEd methods of lasting impact."
+  website: https://sites.google.com/view/tipce-2021/home
+  rocketchat_channel: W15ImaginingPostCOVIDEducationwithAI
+  alias: W15ImaginingPostCOVIDEducationwithAI
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/2573203947
+  prerecorded_talks:
+  - title: Invited Talk
+    speakers: Mona Diab
+    presentation_id: '38940099'
+
+- UID: WS-16
+  title: "W16: Knowledge Discovery from Unstructured Data in Financial Services (KDF)"
+  organizers: "Xiaomo Liu, Zhiqiang Ma, Manuela M. Veloso, Sameena Shah, Armineh Nourbakhsh, Gerard de Melo, Le Song and Quanzhi Li"
+  abstract: "Knowledge discovery from various data sources has gained the attention of many practitioners over the past decades. Its capabilities have expanded from processing structured data (e.g. DB transactions) to unstructured data (e.g. text, images, and videos). In spite of substantial research focusing on discovery from news, web, and social media data, its application to data in professional settings such as legal documents, financial filings, and government reports, still present huge challenges. Possible reasons are that the precision and recall requirements for extracted knowledge to be used in business processes are fastidious, and signals gathered from these knowledge discovery tasks are usually very sparse and thus the generation of supervision signals is quite challenging."
+  website: https://aaai-kdf.github.io/kdf2021
+  rocketchat_channel: W16KnowledgeDiscoveryfromUnstructuredDatainFinancialServices
+  alias: W16KnowledgeDiscoveryfromUnstructuredDatainFinancialServices
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 05:15:00-08:00
+    end_time: 2021-2-9 14:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/5915430335?pwd=a1RFRnc5dENDZ1pDdGpKdnNWOFNCUT09
+  prerecorded_talks: []
+
+- UID: WS-17
+  title: "W17: Learning Network Architecture during Training"
+  organizers: Scott E. Fahlman, Kate Farrahi, George Magoulas, Edouard Oyallon, Bhiksha Raj Ramakrishnan and Dean Alderucci
+  abstract: "A fundamental problem in the use of artificial neural networks is that the first step is to guess the network architecture. Fine tuning a neural network is very time consuming and far from optimal. Hyperparameters such as the number of layers, the number of nodes in each layer, the pattern of connectivity, and the presence and placement of elements such as memory cells, recurrent connections, and convolutional elements are all manually selected. If it turns out that the architecture is not appropriate for the task, the user must repeatedly adjust the architecture and retrain the network until an acceptable architecture has been obtained."
+  website: https://www.cs.cmu.edu/~sef/AAAI-2021-Workshop.htm
+  rocketchat_channel: W17LearningNetworkArchitectureDuringTraining
+  alias: W17LearningNetworkArchitectureDuringTraining
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 06:00:00-08:00
+    end_time: 2021-2-8 13:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/97231744878?pwd=OHpnQTl3RFZNWHIyTlE3b0FHZDBTQT09
+  prerecorded_talks:
+  - title: Keynote1
+    speakers: "Andr\xE9 Brock"
+    presentation_id: '38939540'
+
+- UID: WS-18
+  title: "W18: Meta-Learning and Co-Hosted Competition"
+  organizers: Adrian El Baz, Isabelle Guyon, Zhengying Liu, Jan N. van Rijn, Sebastien Treguer and Joaquin Vanschoren
+  abstract: "The performance of many machine learning algorithms depends highly upon the quality and quantity of available data, and (hyper)-parameter settings. In particular, deep learning methods, including convolutional neural networks, are known to be ‘data-hungry,’ and require properly tuned hyper-parameters. Meta-Learning is a way to address both issues. Simple, but effective approaches reported recently include pre-training models on similar datasets. This way, a good model or good hyperparameters can be pre-determined or learned model parameters can be transferred to the new dataset. As such, higher performance can be achieved with the same amount of data, or similar performance with less data (few shot learning). This workshop, with a co-hosted competition, will focus on meta-learning and few shot learning."
+  website: https://metalearning.chalearn.org/
+  rocketchat_channel: W18MetaLearningandCoHostedCompetition
+  alias: W18MetaLearningandCoHostedCompetition
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 08:00:00-08:00
+    end_time: 2021-2-9 18:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/93792387492?pwd=RE11dHVOdGQyeVhUeC9qSU1FK0E5Zz09
+  prerecorded_talks: []
+
+- UID: WS-19
+  title: "W19: Meta-Learning for Computer Vision (ML4CV)"
+  organizers: Mayank Vatsa, Richa Singh, Nalini Ratha, Vishal Patel and Surbhi Mittal
+  abstract: "Machine learning and in particular deep learning has shown significant boost in performance on various computer vision tasks such as object recognition, face recognition, and semantic segmentation in the last decade. Despite this success, the learning mechanism of modern systems remains surprisingly narrow as compared to the way humans learn. For example, contrary to the most current systems which learn just a single model from just a single data set, we humans acquire knowledge from diverse experiences over many years. As an alternative, meta-learning and life-long learning aka never-ending learning has been emerging as a new paradigm in the machine learning literature."
+  website: http://iab-rubric.org/mel4cv/
+  rocketchat_channel: W19MetaLearningforComputerVision
+  alias: W19MetaLearningforComputerVision
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 06:00:00-08:00
+    end_time: 2021-2-8 13:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/93187916761?pwd=bVZHc1Y3M1JLVHdma1R0ZmpVUkE5Zz09
+  prerecorded_talks: []
+
+- UID: WS-20
+  title: "W20: Plan, Activity, and Intent Recognition (PAIR) 2021"
+  organizers: "Sarah Keren, Reuth Mirsky and Christopher Geib"
+  abstract: "Plan recognition, activity recognition, and intent recognition all involve making inferences about other actors from observations of their behavior, i.e., their interaction with the environment and with each other. The observed actors may be software agents, robots, or humans. This synergistic area of research combines and unifies techniques from user modeling, planning, machine vision, intelligent user interfaces, human/computer interaction, autonomous and multi-agent systems, natural language understanding, and machine learning. It plays a crucial role in a wide variety of applications including assistive technology, computer and network security, human-robot collaboration and e-commerce. This workshop seeks to bring together researchers and practitioners from diverse backgrounds, to share ideas and recent results in recognition research."
+  website: http://www.planrec.org/PAIR/Resources.html
+  rocketchat_channel: W20PlanActivityandIntentRecognition
+  alias: W20PlanActivityandIntentRecognition
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 07:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/94622715325?pwd=eTlaSVBwVWxQZ0FaSE45NVBpeXZNZz09
+  prerecorded_talks: []
+
+- UID: WS-21
+  title: "W21: Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21)"
+  organizers: "Ferdinando Fioretto, Pascal Van Hentenryck and Richard W. Evans"
+  abstract: "The second AAAI Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21) builds on the success of last year’s AAAI PPAI to provide a platform for researchers, AI practitioners, and policymakers to discuss technical and societal issues and present solutions related to privacy in AI applications. The workshop will focus on both the theoretical and practical challenges related to the design of privacy-preserving AI systems and algorithms. In addition to the outstanding technical program, PPAI-21 provides a number of prominent invited speakers (including, John M. Abowd, Aswin Machanavajjhala, Steven Wu, Nicolas Papernot, and Reza Shokri), two exciting tutorials on recent advances of differential privacy (by Audra McMillan) and on private federated learning (by Brendan McMahan, Kallista Bonawitz, and Peter Kairouz) as well as a panel discussion."
+  website: https://ppai21.github.io/
+  rocketchat_channel: W21PrivacyPreservingArtificialIntelligence
+  alias: W21PrivacyPreservingArtificialIntelligence
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 05:50:00-08:00
+    end_time: 2021-2-8 14:30:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/3878088001?pwd=Y3IrWERGM1VjMUZ1TG4yb0EvUFJxdz09
+  prerecorded_talks:
+  - title: Invited talk by Isabelle Augenstein
+    speakers: Isabelle Augenstein
+    presentation_id: '38940145'
+
+- UID: WS-21
+  title: "W21: Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21)"
+  organizers: "Ferdinando Fioretto, Pascal Van Hentenryck and Richard W. Evans"
+  abstract: "The second AAAI Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21) builds on the success of last year’s AAAI PPAI to provide a platform for researchers, AI practitioners, and policymakers to discuss technical and societal issues and present solutions related to privacy in AI applications. The workshop will focus on both the theoretical and practical challenges related to the design of privacy-preserving AI systems and algorithms. In addition to the outstanding technical program, PPAI-21 provides a number of prominent invited speakers (including, John M. Abowd, Aswin Machanavajjhala, Steven Wu, Nicolas Papernot, and Reza Shokri), two exciting tutorials on recent advances of differential privacy (by Audra McMillan) and on private federated learning (by Brendan McMahan, Kallista Bonawitz, and Peter Kairouz) as well as a panel discussion."
+  website: https://ppai21.github.io/
+  rocketchat_channel: W21PrivacyPreservingArtificialIntelligence
+  alias: W21PrivacyPreservingArtificialIntelligence
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-8 05:50:00-08:00
+    end_time: 2021-2-8 14:30:00-08:00
+    name: None
+    hosts: None
+  - start_time: 2021-2-9 06:00:00-08:00
+    end_time: 2021-2-9 15:30:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/3878088001?pwd=Y3IrWERGM1VjMUZ1TG4yb0EvUFJxdz09
+  prerecorded_talks:
+  - title: Invited talk by Isabelle Augenstein
+    speakers: Isabelle Augenstein
+    presentation_id: '38940145'
+
+- UID: WS-22
+  title: "W22: Reasoning and Learning for Human-Machine Dialogs (DEEP-DIAL21)"
+  organizers: "Sathyanarayanan N. Aakur, Ullas Nambiar, Imed Zitouni and Biplav Srivastava"
+  abstract: "Natural conversation is a hallmark of intelligent systems and thus dialog systems have been a key sub-area of Artificial Intelligence research for decades. Chatbots are their most recent incarnation and have been widely adopted, particularly in the recent COVID-19 pandemic, as sources of information. Given the increasing interest, there has been a surge in the development of easy-to-use platforms to rapidly create dialog agents at different levels of sophistication. Further, with the rapid advances in natural language generation models, there is a need to foster and guide the research on the development and deployment of dialog systems with what users actually value."
+  website: https://sites.google.com/view/deep-dial2021
+  rocketchat_channel: W22DEEPDIAL21
+  alias: W22DEEPDIAL21
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 05:45:00-08:00
+    end_time: 2021-2-9 14:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/98165547077?pwd=bVl5RGphM05ra3VDY1pXWWM4WTNudz09
+  prerecorded_talks: []
+
+- UID: WS-23
+  title: "W23: Reinforcement Learning in Games"
+  organizers: Marc Lanctot, Julien Perolat and Martin Schmid
+  abstract: "Games provide an abstract and formal model of environments in which multiple agents interact: each player has a well-defined goal and rules to describe the effects of interactions among the players. The first achievements in playing these games at super-human level were attained with methods that relied on and exploited domain expertise that was designed manually (e.g. chess, checkers). In recent years, we have seen examples of general approaches that learn to play these games via self-play reinforcement learning (RL), as first demonstrated in Backgammon. While progress has been impressive, we believe we have just scratched the surface of what is capable, and much work remains to be done in order to truly understand the algorithms and learning processes within these environments."
+  website: http://aaai-rlg.mlanctot.info/
+  rocketchat_channel: W23ReinforcementLearninginGames
+  alias: W23ReinforcementLearninginGames
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 06:00:00-08:00
+    end_time: 2021-2-8 14:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/95153763410?pwd=WXhwQ3hKeHpZcU4vOHA3YXFNeGQ0Zz09
+  prerecorded_talks: []
+
+- UID: WS-24
+  title: "W24: Scientific Document Understanding"
+  organizers: Thien Huu Nguyen, Walter Chang, Amir Pouran Ben Veyseh, Leo Anthony Celi and Franck Dernoncourt
+  abstract: 'Scientific documents such as research papers, patents, books, or technical reports are one of the most valuable resources of human knowledge. At the AAAI-21 Workshop on Scientific Document Understanding (SDU@AAAI-21), we aim to gather insights into the recent advances and remaining challenges on scientific document understanding. Researchers from related fields are invited to submit papers on the recent advances, resources, tools, and upcoming challenges for SDU. In addition to that, we propose a shared task on one of the challenging SDU tasks, i.e., acronym identification and disambiguation in scientific text.'
+  website: https://sites.google.com/view/sdu-aaai21/home
+  rocketchat_channel: W24ScientificDocumentUnderstanding
+  alias: W24ScientificDocumentUnderstanding
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 09:00:00-08:00
+    end_time: 2021-2-9 16:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/97870284397?pwd=QjJWb0RnR1lCc3FzeDJINjVwV29UQT09
+  prerecorded_talks:
+  - title: invited1
+    speakers: Aaron Roth
+    presentation_id: '38939775'
+
+- UID: WS-25
+  title: 'W25: Toward Robust, Secure and Efficient Machine Learning'
+  organizers: "Dawn Song, Song Han, Han Yu, Lixin Fan and KamWoh Ng"
+  abstract: "This one-day workshop intends to bring experts from machine learning, security communities, and federated learning together to work more closely in addressing concerns in robustness, security and efficiency of machine learning. Specifically, we seek to study threats and defenses to machine learning not only in a single node setting but also in a distributed setting. In summary, we seek solutions to achieve a wholistic solution for robust, secure and efficient machine learning."
+  website: http://federated-learning.org/rseml2021/
+  rocketchat_channel: W25TowardsRobustSecureandEfficientMachineLearning
+  alias: W25TowardsRobustSecureandEfficientMachineLearning
+  day: Feb 8
+  sessions:
+  - start_time: 2021-2-8 16:00:00-08:00
+    end_time: 2021-2-8 21:00:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+  - https://zoom.us/j/93678598207?pwd=NnFDTWlHUzIvSWdWalZUZG45bzB5Zz09
+  prerecorded_talks:
+  - title: Evaluating and calibrating neural language models for human-like language
+      processing
+    speakers: Roger Levy
+    presentation_id: '38939760'
+
+- UID: WS-26
+  title: "W26: Trustworthy AI for Healthcare"
+  organizers: Pengtao Xie, Marinka Zitnik, Byron Wallace, Jennifer G. Dy and Eric Xing
+  abstract: "AI for healthcare has emerged into a very active research area in the past few years and has made significant progress. While existing results are encouraging, not too many clinical AI solutions are deployed in hospitals or actively utilized by physicians. A major problem is that existing clinical AI methods are less trustworthy. For example, existing approaches make clinical decisions in a black-box way, which renders the decisions difficult to understand and less transparent. Existing solutions are not robust to small perturbations or potentially adversarial attacks, which raises security and privacy concerns. All these problems render the existing solutions less trustworthy. In this workshop, we aim to address the trustworthy issues of clinical AI solutions and facilitate discussions and collaborations in developing trustworthy AI methods that are reliable and more acceptable to physicians."
+  website: https://taih20.github.io/
+  rocketchat_channel: W26TrustworthyAIforHealthcare
+  alias: W26TrustworthyAIforHealthcare
+  day: Feb 9
+  sessions:
+  - start_time: 2021-2-9 08:30:00-08:00
+    end_time: 2021-2-9 18:50:00-08:00
+    name: None
+    hosts: None
+  zoom_links:
+    - https://zoom.us/j/3305983771?pwd=d0xoc0RpL1J5MmJocnlvL1Rkd1VPQT09
+  prerecorded_talks: []

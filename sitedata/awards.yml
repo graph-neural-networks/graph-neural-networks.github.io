@@ -1,0 +1,334 @@
+- name: 2021 AAAI Fellows
+  id: a1
+  description: something
+  awardees:
+    - name: Michael Bowling
+      link: https://webdocs.cs.ualberta.ca/~bowling/
+      id: ae1
+      image: michael_bowling.png
+      organization: University of Alberta and DeepMind, Canada
+      description: For significant contributions to game-playing theory and practice and to machine learning
+    - name: Ashok Goel
+      link: http://dilab.gatech.edu/ashok-k-goel/
+      id: ae2
+      image: ashok_goel.jpg
+      organization: Georgia Institute of Technology, USA
+      description: For significant contributions to research on cognitive systems, design, and education, and for distinguished leadership and teaching
+    - name: Malte Helmert
+      id: ae3
+      link: https://ai.dmi.unibas.ch/people/helmert/
+      image: malte_helmert.jpg
+      organization: University of Basel, Switzerland
+      description: For significant contributions to the theory and practice of automated planning and combinatorial search
+    - name: Jörg Hoffmann
+      id: ae4
+      link: http://fai.cs.uni-saarland.de/hoffmann/
+      image: joerg_hoffmann.jpg
+      organization: Saarland University, Germany
+      description: For significant contributions to AI planning and related areas, particularly in the design and analysis of heuristic functions and other search methods
+    - name: Ayanna Howard
+      id: ae5
+      link: https://howard.ece.gatech.edu/
+      organization: Georgia Institute of Technology, USA
+      description: For significant contributions to human-robot interaction and for improving access and equity through artificial intelligence technologies
+    - name: Odest Chadwicke Jenkins
+      id: ae6
+      link: https://web.eecs.umich.edu/~ocj/
+      image: chad_jenkins.jpg
+      organization: University of Michigan, USA
+      description: For significant contributions to the field of human-robot interaction and extensive service in broadening participation in artificial intelligence
+    - name: Hiroaki Kitano
+      id: ae7
+      organization: Sony Computer Science Laboratories, Inc., Sony AI Inc. and Okinawa Institute of Science and Technology Graduate School, Japan
+      description: For significant contributions and leadership in robotics, massively parallel AI, and the use of AI for scientific discovery and systems biology
+    - name: Rada Mihalcea
+      id: ae8
+      link: https://web.eecs.umich.edu/~mihalcea/
+      image: rada_mihalcea.jpg
+      organization: University of Michigan, USA
+      description: For significant contributions to natural language processing and computational social science 
+    - name: Antonio Torralba
+      id: ae9
+      image: antonio_torralba.jpg
+      link: https://groups.csail.mit.edu/vision/torralbalab/
+      organization: Massachusetts Institute of Technology, USA
+      description: For significant contributions to scene recognition, large-scale visual datasets, and transfer learning
+    - name: Holly Yanco
+      link: https://www.cs.uml.edu/~holly/
+      id: ae10
+      image: holly_yanco.jpg
+      organization: University of Massachusetts Lowell, USA
+      description: For foundational contributions to the field of human-robot interaction and for exceptional leadership in education and broadening participation
+
+- name: 2021 AAAI Senior Members
+  id: a2
+  description: something
+  awardees:
+    - name: Haris Aziz
+      id: ae1
+      link: https://sites.google.com/site/harisaziz/
+      image: haris_aziz.jpg
+      organization: University of New South Wales Sydney, Australia
+    - name: Ece Kamar
+      id: ae2
+      link: https://www.ecekamar.com/
+      image: ece_kamar.webp
+      organization: Microsoft Research, USA
+    - name: Akshat Kumar
+      id: ae3
+      link: http://www.mysmu.edu/faculty/akshatkumar/
+      image: akshat_kumar.jpg
+      organization: Singapore Management University, Singapore
+    - name: Sriraam Natarajan
+      id: ae4
+      link: https://personal.utdallas.edu/~sriraam.natarajan/
+      image: sriraam_natarajan.jpg
+      organization: University of Texas at Dallas, USA
+    - name: Siddharth Srivastava
+      id: ae5
+      link: http://siddharthsrivastava.net/
+      image: siddharth_srivastava.jpg
+      organization: Arizona State University, USA
+    - name: Gita Sukthankar
+      id: ae6
+      link: https://www.eecs.ucf.edu/~gitars/
+      image: gita_sukthankar.jpg
+      organization: University of Central Florida, USA
+    - name: Kartik Talamadupula
+      id: ae7
+      link: http://www.ktalamad.com/
+      image: kartik_talamadupula.jpg
+      organization: IBM Research, USA
+    - name: William Yeoh
+      id: ae8
+      link: https://sites.wustl.edu/wyeoh/
+      image: william_yeoh.jpg
+      organization: Washington University in St. Louis, USA
+    - name: Neil Yorke-Smith
+      id: ae9
+      link: http://homepage.tudelft.nl/0p6y8/
+      image: neil_yorke_smith.jpg
+      organization: Delft University of Technology, Netherlands
+
+- name: 2021 AAAI Squirrel AI Award for Artificial Intelligence for the Benefit of Humanity
+  id: a3
+  description: something
+  awardees:
+    - name: Regina Barzilay
+      id: ae1
+      link: https://www.regina.csail.mit.edu/
+      image: regina_barzilay.webp
+      organization: Massachusetts Institute of Technology, USA
+      description: For fundamental advances in AI for healthcare, being a proactive community builder and role model, and demonstrating significant impact in people's lives through cancer diagnosis, drug-resistant microbe antibiotics, and drug discovery.
+      talk:
+        - session_name: Invited Talk
+          start_time: 2021-02-04 15:30:00-08:00
+          end_time: 2021-02-04 16:45:00-08:00
+          link: https://virtual.2021.aaai.org/plenary_session_speaker_by_regina_barzilay.html
+
+- name: 2021 Feigenbaum Prize
+  id: a4
+  description: something
+  awardees:
+    - name: Carla P. Gomes
+      id: ae1
+      link: https://www.cs.cornell.edu/gomes/
+      image: carla_gomes.png
+      organization: Cornell University, USA
+      description: For high-impact contributions to the field of artificial intelligence through innovations in constraint reasoning, optimization, the integration of reasoning and learning, and through founding the field of Computational Sustainability with impactful AI applications in ecology, species conservation, environmental sustainability, and materials discovery for clean energy.
+
+- name: 2021 AAAI Distinguished Service Award
+  id: a5
+  description: something
+  awardees:
+    - name: Charles Isbell
+      id: ae1
+      link: https://www.cc.gatech.edu/~isbell/
+      image: charles_isbell.jpg
+      organization: Georgia Institute of Technology, USA
+      description: For significant contributions to the field of artificial intelligence and computing education through sustained service to AAAI and other core computing organizations and tirelessly working to increase access and diversity in AI and computing.
+
+- name: 2021 Robert S. Engelmore Memorial Award
+  id: a6
+  description: something
+  awardees:
+    - name: Tuomas Sandholm
+      id: ae1
+      link: http://www.cs.cmu.edu/~sandholm/
+      image: tuomas_sandholm.jpg
+      organization: Carnegie Mellon University, Optimized Markets, Inc., Strategy Robot, Inc., Strategic Machine, Inc., USA
+      description: For outstanding research contributions in Artificial Intelligence, its application to electronic market places, the highly original use of AI in strategic multi-player games, and the application of AI to optimize organ exchanges
+      talk:
+        - session_name: Invited Talk
+          start_time: 2021-02-04 07:30:00-08:00
+          end_time: 2021-02-04 08:45:00-08:00
+          link: https://virtual.2021.aaai.org/plenary_session_opening_remarks_and_speaker_by_tuomas_sandholm.html
+
+- name: 2021 AAAI/EAAI Outstanding Educator Award
+  id: a7
+  description: something
+  awardees:
+    - name: Michael Wooldridge
+      link: https://www.cs.ox.ac.uk/people/michael.wooldridge/
+      image: michael_wooldridge.jpg
+      id: ae1
+      organization: University of Oxford and Alan Turing Institute, London
+      description: For outstanding global leadership in AI education and public awareness, including publishing broadly adopted books and textbooks, establishing the European Agent Systems Summer School, and inspiring public dialogue on AI and multi-agent systems.
+      talk:
+        - session_name: Invited Talk
+          start_time: 2021-02-06 06:30:00-08:00
+          end_time: 2021-02-06 07:45:00-08:00
+          link: https://virtual.2021.aaai.org/plenary_session_speaker_by_michael_wooldridge.html
+- name: 2021 AAAI Classic Paper Award
+  id: a8
+  description: something
+  awardees:
+    - name: "DL-Lite: Tractable Description Logics for Ontologies"
+      id: ae1
+      link: https://virtual.2021.aaai.org/paper_CLASSIC-2021.html
+      organization: Diego Calvanese, Giuseppe De Giacomo, Domenico Lembo, Maurizio Lenzerini, and Riccardo Rosati
+      description: For proposing basic knowledge representation languages with low complexity of reasoning that have had significant impact beyond AI into semantic foundations for the Web
+        
+
+- name: 2019 AAAI/ACM SIGAI Dissertation Award
+  id: a9
+  description: something
+  awardees:
+    - name: Jiajun Wu
+      link: https://jiajunwu.com/
+      image: jiajun_wu.jpg
+      id: ae1
+      organization: Massachusetts Institute of Technology, USA
+      description: For his work entitled Learning to See the Physical World
+      paperlink: https://virtual.2021.aaai.org/paper_DISS-2019.html
+    - name: Aishwarya Agrawal (Honorable Mention)
+      id: ae1
+      link: https://www.cc.gatech.edu/grads/a/aagrawal307/
+      image: aishwarya_agrawal.jpg
+      organization: Georgia Institute of Technology
+      description: For her work entitled Visual Question Answering and Beyond
+    - name: Li Dong (Honorable Mention)
+      link: http://dong.li/
+      id: ae2
+      organization: University of Edinburgh
+      description: For his work entitled Learning Natural Language Interfaces with Neural Models
+
+# - name: 2021 AAAI Fellows
+#   id: a1
+#   description: something
+#   awardees:
+#     - name: Mike John
+#       id: ae1
+#       organization: Jane Doe University
+#       description: For some reasons
+#       talk:
+#         - name: tbd1
+#           start_time: 2021-01-01 01:00:00+00:00
+#           end_time: 2021-01-01 02:00:00+00:00
+#           link: /
+
+# - name: 2021 AAAI Fellows
+#   id: a1
+#   description: something
+#   awardees:
+#     - name: Mike John
+#       id: ae1
+#       organization: Jane Doe University
+#       description: For some reasons
+#       talk:
+#         - name: tbd1
+#           start_time: 2021-01-01 01:00:00+00:00
+#           end_time: 2021-01-01 02:00:00+00:00
+#           link: /
+
+# - name: 2021 AAAI Fellows
+#   id: a1
+#   description: something
+#   awardees:
+#     - name: Mike John
+#       id: ae1
+#       organization: Jane Doe University
+#       description: For some reasons
+#       talk:
+#         - name: tbd1
+#           start_time: 2021-01-01 01:00:00+00:00
+#           end_time: 2021-01-01 02:00:00+00:00
+#           link: /
+
+#   - name: 2021 AAAI Fellows
+#   id: a1
+#   description: something
+#   awardees:
+#     - name: Mike John
+#       id: ae1
+#       organization: Jane Doe University
+#       description: For some reasons
+#       talk:
+#         - name: tbd1
+#           start_time: 2021-01-01 01:00:00+00:00
+#           end_time: 2021-01-01 02:00:00+00:00
+#           link: /
+
+
+# - name: 2021 AAAI Fellows
+#   id: a1
+#   description: something
+#   awardees:
+#     - name: Mike John
+#       id: ae1
+#       organization: Jane Doe University
+#       description: For some reasons
+#       talk:
+#         - name: tbd1
+#           start_time: 2021-01-01 01:00:00+00:00
+#           end_time: 2021-01-01 02:00:00+00:00
+#           link: /
+
+# - name: 2021 AAAI Fellows
+#   id: a1
+#   description: something
+#   awardees:
+#     - name: Mike John
+#       id: ae1
+#       organization: Jane Doe University
+#       description: For some reasons
+#       talk:
+#         - name: tbd1
+#           start_time: 2021-01-01 01:00:00+00:00
+#           end_time: 2021-01-01 02:00:00+00:00
+#           link: /
+
+# - name: 2021 AAAI Fellows
+#   id: a1
+#   description: something
+#   awardees:
+#     - name: Mike John
+#       id: ae1
+#       organization: Jane Doe University
+#       description: For some reasons
+#       talk:
+#         - name: tbd1
+#           start_time: 2021-01-01 01:00:00+00:00
+#           end_time: 2021-01-01 02:00:00+00:00
+#           link: /
+
+  
+
+
+# - name: AI for Business and Economics Workshop
+#   id: a2
+#   description: something
+#   awardees:
+#     - name: Mike John
+#       id: ae1
+#       organization: Jane Doe University
+#       description: For some reasons
+#       talk:
+#         - title: tbd1
+#           start_time: 2021-01-01 01:00:00+00:00
+#           end_time: 2021-01-01 02:00:00+00:00
+#           link: /
+#     - name: John Mike
+#       id: ae2
+#       organization: Jane Doe University 2
+#       description: For some reasons 2

@@ -1,0 +1,230 @@
+{% extends "base.html" %}
+{% set active_page = "Papers" %}
+{% set page_title = "Paper Explorer" %}
+
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" href="static/css/typeahead.css" />
+<link rel="stylesheet" href="static/css/paper_vis_keywords.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script> -->
+{#
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+#}
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6.2.3/dist/tippy-bundle.umd.min.js"></script>
+
+<script src="static/js/typeahead.bundle.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tgdwyer/WebCola/WebCola/cola.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+{% endblock %}
+
+{% block tabs %}
+
+<ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" href="papers.html">Browse</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="papers_vis.html">Visualization</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="papers_keyword_vis.html">Browse Keywords</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="papers.html?showFavs=1" id="tabFavs"><i class="fas fa-star"></i> Favorites</a>
+  </li>
+</ul>
+<div class="card" style="margin-bottom: 2.5em;">
+  <div class="card-body" style="margin-bottom: -1em;">
+
+    <div id="papers_options" class="row" role="toolbar" aria-label="Toolbar with button groups">  
+      <!-- Search bar -->
+        <div class="col-lg-7">
+          <div class="input-group flex-fill">
+            <input
+              type="text"
+              class="form-control typeahead_all"
+              placeholder="Search"
+            />
+            <div class="input-group-append btn-group-toggle filter_option">
+              <!-- <label class="btn btn-outline-primary" data-tippy-content="Search for papers titles">
+                <input type="radio" name="options" value="titles" autocomplete="off" checked />
+                by title
+              </label>
+
+              <label class="btn btn-outline-primary" data-tippy-content="Search for papers from specific authors">
+                <input type="radio" name="options" value="authors" autocomplete="off" />
+                by author
+              </label> -->
+    
+
+              <label class="btn btn-outline-secondary" data-tippy-content="Search for papers from specific keywords">
+                <input type="radio" name="options" value="keywords" autocomplete="off" checked />
+                by keywords
+              </label>
+              <button class="btn btn btn-outline-secondary typeahead_all_clear" type="button">
+                &times;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-5">
+          <div class="form-group">
+            <select id="track_selector" class="selectpicker form-control" data-live-search="true" data-style="btn-light">
+              <option>All tracks</option>
+            {% for track in tracks %}
+              <option>{{ track }}</option>
+            {% endfor %}
+            </select>
+          </div>
+        </div> -->
+
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}
+
+
+
+{% block content %}
+<!-- <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="input-group mr-3">
+    <input
+      type="text"
+      class="form-control typeahead_all"
+      placeholder="Search"
+    /> -->
+    <!-- <div class="input-group-append mr-3 btn-group-toggle filter_option">
+      <label class="btn btn-outline-primary" data-tippy-content="Search for papers titles">
+        <input type="radio" name="options" value="titles" autocomplete="off"/>
+        by title
+      </label>
+      <label class="btn btn-outline-primary" data-tippy-content="Search for papers from specific authors">
+        <input type="radio" name="options" value="authors" autocomplete="off" checked />
+        by author
+      </label>
+
+      <button class="btn btn btn-outline-danger typeahead_all_clear" type="button">
+        &times;
+      </button>
+    </div>
+  </div>
+  <div class="bootstrap-select">
+    <select id="track_selector" class="selectpicker" data-live-search="true" data-style="btn-light">
+      <option>All tracks</option>
+      {% for track in tracks %}
+      <option>{{ track }}</option>
+      {% endfor %}
+    </select>
+  </div> -->
+
+  
+
+  <!-- Papers/Visualization -->
+  <!--
+  <div
+    class="btn-group btn-group-toggle mr-3 render_option"
+    data-toggle="buttons">
+
+    <label class="btn btn-outline-secondary active">
+      <input
+        type="radio"
+        name="options"
+        value="paper"
+        autocomplete="off"
+      />
+      <a href="papers.html" class="deco-none">paper</a>
+    </label>
+    <label class="btn btn-outline-secondary">
+      <input
+        type="radio"
+        name="options"
+        value="visualization"
+        autocomplete="off"
+        checked
+      />
+      <a href="papers_vis.html" class="deco-none">visualization</a>
+    </label>
+  </div>
+  -->
+
+</div>
+
+<!-- Visualization -->
+<div id="container" position: relative; >
+  <div id="explain_text_plot">
+    <p>
+      Each rectangle represents a keyword in an EMNLP track.
+      Keywords not represented by more than one paper within the track have been filtered out.
+    </p>
+    <p>If you <b>hover</b> over a rectangle, you see the keyword reflected across all tracks.</p>
+    <p>
+      If you <b>click</b> on a rectangle, you see a list of papers that include that keyword across all tracks. You can differentiate the track of the paper by color.
+    </p>
+    <!-- <p>
+      You can <b>search</b> for papers by author, keyword, or title
+    </p> TODO -->
+  </div>
+  <div style="overflow-y: auto; bottom: 0; margin-top: 5pt;">
+   
+    <div id="table_info">
+
+      <div id="summary_selection"></div>
+      <div id="sel_papers"></div>
+
+    </div>
+  </div>
+  <div class="card" style="margin-right: -40px; float:left">
+    <div class="card-header">
+      <div id="outer_svg" style="display: inline-block; vertical-align: top;">
+        <svg class="plot" id="heatmap" style="display: block;"></svg>
+      </div>
+
+    </div> 
+</div>
+
+
+<script src="static/js/little_helpers.js"></script>
+
+<script src="static/js/persistor.js"></script>
+<script src="static/js/paper_vis_keywords.js"></script>
+
+<script>
+  $(document).ready(function () {
+    tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
+    const track = getUrlParameter("track") || "All tracks";
+
+    start(track);
+    $('#track_selector').selectpicker('val', track);
+  });
+
+  $('#track_selector').on('changed.bs.select', function (e, clickedIndex, isSelected, previousValue) {
+    let track = e.target.value;
+    setQueryStringParameter("track", track);
+    start(track);
+  });
+</script>
+{% endblock %}
+
+{% block footer %}
+
+<div
+  class="gdpr bg-dark text-light"
+  style="padding: 10pt; position: fixed; bottom: 0; display: none;"
+>
+  We use cookies to store which papers have been visited.
+  <div class="gdpr-btn btn btn-sm btn-info" style="margin-left: 15pt;">
+    I agree
+  </div>
+</div>
+<script src="static/js/gdpr_cookies.js"></script>
+
+{% endblock %}

@@ -1,0 +1,130 @@
+{% set active_page = "Awards" %}
+{% extends "base.html" %}
+
+{% block heading %}
+{{ components.section("AAAI Organization Awards") }}
+{% endblock %}
+{% block content %}
+
+
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+    <p>Welcome to the AAAI Awards Ceremony!</p>
+
+    <p>AAAI organizational awards are presented each year at the AAAI Conference on Artificial Intelligence. They comprise a host of lifetime honors and individual awards for significant achievements by AAAI members. Several committees review nominations for the various categories of awards, including the AAAI Fellows Committee, the AAAI Awards Committee, the IAAI/AI Magazine Engelmore Awards Committee, the AAAI/EAAI Outstanding Educator Award Committee, and a joint committee for the AAAI/ACM-SIGAI Dissertation Award.</p>
+    
+  <p>(AAAI annual conference awards for outstanding papers and program committee members are overseen by a subcommittee of the 2021 program committee, and are recapped here <URL LINK>.)</p>
+    
+    <p>We are delighted to honor the following individuals for their achievements and contributions to the AI community.</p>
+    
+  <p>Bart Selman<br>
+    President, AAAI</p>
+    
+    <p>Yolanda Gil<br>
+    Chair, Fellows and Awards Committees</p>
+    </div>
+  </div>
+    <h2 style="margin-bottom:20px"> Awards </h2>
+    
+    {% for award in awards %}
+    <!-- <a href="#"class="card-title" >
+      {{award.name}}
+    <a> -->
+      <div class="col-md-9 col-sm-9 pr-3 lead">
+    <p><a href="#{{ award.name }}">{{ award.name }}</a></p>
+    </div>
+    {% endfor %}
+  </div>
+  
+  <div class="col-md-12 col-sm-12 pr-5 lead">
+    <h2 style="margin-top: 30px"> Recipients </h2>
+
+    {% for award in awards %}
+    
+    <h4  id="{{ award.name }}" style="padding-top: 80px; margin-top: -70px;">{{ award.name }}</h4>
+    {% for ae in award.awardees %}
+
+    <div class="row p-4">
+      <div class="col-md-12">
+        <div class="card p-3 shadow bg-light rounded">
+            <div class="row">
+              <div class="col-md-2 col-sm-5">
+                {% if ae.image %}
+                <img src="static/images/awards/{{ ae.image }}" width="100%" class="mt-3">
+                {% else %}
+                <img src="static/images/aaai2021/AAAI-logo.png" width="100%" class="mt-3">
+                {% endif %}
+              </div>
+              <div class="col-md-10 col-sm-6">
+                <div class="m-3 text-muted">
+                  <h4>
+                    {% if ae.link %}
+                    <a href={{ae.link}}>
+                    <p class="main-title">
+                      {{ ae.name }}
+                    </p></a>
+                    {% else %}
+                    <p class="main-title">
+                      {{ ae.name }}
+                    </p>
+                    {% endif%}
+                  </h4>
+                </div>
+                <div class="m-3 text-muted">
+                  <span class="card-title h3">
+                    {{ ae.organization }}
+                  </span>
+                </div>
+                {% if ae.description %}
+                <div class="m-3 text-muted">
+                <p>{{ ae.description }}
+                {% if ae.paperlink %}
+                  <a href='{{ae.paperlink}}'> [Paper] </a>
+                {% endif %}
+              </p>
+              </div>
+                {% endif %}
+                
+                {% if ae.talk %}
+                <div class="m-3 text-muted">
+                  {% if ae.talk|length > 1%}
+                  {{ae.talk[0].session_name}}:
+                  {% for talk in ae.talk%}
+                  
+                  <br>
+                  <p style="margin-left: 40px; margin-bottom: 0px">{{ talk.start_time.strftime("%b")}} {{talk.start_time.day}}
+                  <span class="session_times">{{"({}-{} PST)".format(talk.start_time.strftime("%H:%M"), talk.end_time.strftime("%H:%M"))}}</span>
+                  
+                    [<a href="{{talk.link}}" class="card-link">Link</a>]
+                  {% endfor %}
+                  {% else %}
+                  {% for talk in ae.talk%}
+                  <a href="{{talk.link}}" class="card-link">{{talk.session_name}}:</a>
+                  {{ talk.start_time.strftime("%b")}} {{talk.start_time.day}}
+                    <span class="session_times">{{"({}-{} PST)".format(talk.start_time.strftime("%H:%M"), talk.end_time.strftime("%H:%M"))}}</span>
+                  {% endfor %}
+                  {% endif%}
+                  
+                  
+                </div>
+                {% endif %}
+    
+                
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+<!--     
+      <p> {{ ae.name }}</p>
+      <p> {{ ae.orgnaization }}</p>
+      <p> {{ ae.description}} </p> -->
+    {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

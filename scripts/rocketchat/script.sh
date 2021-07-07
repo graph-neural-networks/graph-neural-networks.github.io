@@ -1,0 +1,10 @@
+python make_paper_rooms.py --papers '../../sitedata/Main Track_papers.csv'
+python make_paper_rooms.py --papers '../../sitedata/AI for Social Impact Track_papers.csv'
+python make_paper_rooms.py --papers '../../sitedata/Senior Member Track_papers.csv'
+python make_paper_rooms.py --papers '../../sitedata/Demos_papers.csv'
+python make_paper_rooms.py --papers '../../sitedata/Student Abstracts_papers.csv'
+python make_paper_rooms.py --papers '../../sitedata/Doctoral Consortium_papers.csv'
+python make_paper_rooms.py --papers '../../sitedata/Undergraduate Consortium_papers.csv'
+python make_paper_rooms.py --papers '../../sitedata/IAAI_papers.csv'
+python make_paper_rooms.py --papers '../../sitedata/EAAI_papers.csv'
+

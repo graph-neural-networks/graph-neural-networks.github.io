@@ -1,264 +1,317 @@
-<p align="center">
-<img src="static/images/G4L-logo.png" width="800" class="center" alt="logo"/>
-    <br/>
-</p>
- 
-[pypi-image]: https://badge.fury.io/py/graph4nlp.svg
+## EMNLP 2020 Virtual Conference
 
-[pypi-url]: https://pypi.org/project/graph4nlp
-
-[license-image]:https://img.shields.io/badge/License-Apache%202.0-blue.svg
-
-[license-url]:https://github.com/graph4ai/graph4nlp/blob/master/LICENSE
-
-[contributor-image]:https://img.shields.io/github/contributors/graph4ai/graph4nlp
-
-[contributor-url]:https://github.com/graph4ai/graph4nlp/contributors
-
-[contributing-image]:https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
-
-[contributing-url]:to_be_add
-
-[issues-image]:https://img.shields.io/github/issues/graph4ai/graph4nlp
-
-[issues-url]:https://github.com/graph4ai/graph4nlp/issues
-
-[forks-image]:https://img.shields.io/github/forks/graph4ai/graph4nlp
-
-[forks-url]:https://github.com/graph4ai/graph4nlp/fork
-
-[stars-image]:https://img.shields.io/github/stars/graph4ai/graph4nlp
-
-[stars-url]:https://github.com/graph4ai/graph4nlp/stars
-
-![Last Commit](https://img.shields.io/github/last-commit/graph4ai/graph4nlp)
-[![pypi][pypi-image]][pypi-url]
-[![Contributors][contributor-image]][contributor-url]
-[![Contributing][contributing-image]][contributing-url]
-[![License][license-image]][license-url]
-[![Issues][issues-image]][issues-url]
-[![Fork][forks-image]][forks-url]
-[![Star][stars-image]][stars-url]
-
-# Graph4NLP
-
-***Graph4NLP*** is an easy-to-use library for R&D at the intersection of **Deep Learning on Graphs** and
-**Natural Language Processing** (i.e., DLG4NLP). It provides both **full implementations** of state-of-the-art models for data scientists and also **flexible interfaces** to build customized models for researchers and developers with whole-pipeline support. Built upon highly-optimized runtime libraries including [DGL](https://github.com/dmlc/dgl) , ***Graph4NLP*** has both high running efficiency and great extensibility. The architecture of ***Graph4NLP*** is shown in the following figure, where boxes with dashed lines represents the features under development. Graph4NLP consists of four different layers: 1) Data Layer, 2) Module Layer, 3) Model Layer, and 4) Application Layer.
+This virtual conference page is based on [MiniConf](http://www.mini-conf.org/) by Alexander Rush
+and Hendrik Strobelt. It was extended by the [amazing team of ACL 2020](https://github.com/acl-org/acl-2020-virtual-conference).
+The ACL version is the base for this repository.
 
 <p align="center">
-    <img src="static/images/arch.png" alt="architecture" width="700" />
-    <br>
-    <b>Figure</b>: Graph4NLP Overall Architecture
+  <img width="460" src="doc/img/emnlp2020_index.jpg">
 </p>
 
-## <img src="static/images/new.png" alt='new' width=30 /> Graph4NLP news
-**06/05/2021:** The **v0.4.1 release**. Try it out!
+The website is based on [Flask](https://flask.palletsprojects.com/) and [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/). 
+It uses data files like `.csv`, `.yaml` or `.json` that contains the information about events, papers, ... to populate the
+HTML templates. From this it generates a static website which can then deployed easily via an HTTP server. We strongly 
+recommend deploying it via Amazon CloudFront and using Amazon Cognito as the authentication provider. See 
+[here](doc/deployment_aws.md) for a guide to do this.
 
-## Quick tour
+## Quick Start
 
-***Graph4nlp*** aims to make it incredibly easy to use GNNs in NLP tasks (check out [Graph4NLP Documentation](http://saizhuo.wang/g4nlp/index.html)). Here is an example of how to use the [*Graph2seq*](http://saizhuo.wang/g4nlp/index.html) model (widely used in machine translation, question answering,
-semantic parsing, and various other NLP tasks that can be abstracted as graph-to-sequence problem and has shown superior
-performance).
+    pip install -r requirements.txt
+    pip install -r requirements-dev.txt
+    make run
 
-<!-- If you want to further improve model performance, we also support pre-trained models including [BERT](https://arxiv.org/abs/1810.04805), etc.
- -->
-We also offer other high-level model APIs such as graph-to-tree models. If you are interested in DLG4NLP related research problems, you are very welcome to use our library and refer to our [graph4nlp survey](to_be_add).
+When you are ready to deploy run `make freeze` to get a static version of the site in the `build` folder.
 
-```python
-from graph4nlp.pytorch.datasets.jobs import JobsDataset
-from graph4nlp.pytorch.modules.graph_construction.dependency_graph_construction import DependencyBasedGraphConstruction
-from graph4nlp.pytorch.modules.config import get_basic_args
-from graph4nlp.pytorch.models.graph2seq import Graph2Seq
-from graph4nlp.pytorch.modules.utils.config_utils import update_values, get_yaml_config
+## Project Structure
 
-# build dataset
-jobs_dataset = JobsDataset(root_dir='graph4nlp/pytorch/test/dataset/jobs',
-                           topology_builder=DependencyBasedGraphConstruction,
-                           topology_subdir='DependencyGraph')  # You should run stanfordcorenlp at background
-vocab_model = jobs_dataset.vocab_model
+The repository consists of the following main components:
 
-# build model
-user_args = get_yaml_config("examples/pytorch/semantic_parsing/graph2seq/config/dependency_gcn_bi_sep_demo.yaml")
-args = get_basic_args(graph_construction_name="node_emb", graph_embedding_name="gat", decoder_name="stdrnn")
-update_values(to_args=args, from_args_list=[user_args])
-graph2seq = Graph2Seq.from_args(args, vocab_model)
+1) *Datastore* [sitedata](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/sitedata)
 
-# calculation
-batch_data = JobsDataset.collate_fn(jobs_dataset.train[0:12])
+Collection of data files representing the papers, speakers, workshops, and other important information for the conference.
 
-scores = graph2seq(batch_data["graph_data"], batch_data["tgt_seq"])  # [Batch_size, seq_len, Vocab_size]
-```
+2) *Routing* [main.py](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/main.py)
 
-## Overview
+This file contains defines the Flask app and the routes
 
-Our Graph4NLP computing flow is shown as below.
-<p align="center">
-<img src="static/images/graph4nlp_flow.png" width="1000" class="center" alt="logo"/>
-    <br/>
+3) *Templates* [templates](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/templates)
+
+Contains all the pages for the site. See `base.html` for the master page and `components.html` for core components.
+
+4) *Frontend* [static](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/static)
+
+Contains frontend components like the default css, images, and JavaCcript libs.
+
+5) *Scripts* [scripts](https://github.com/acl-org/emnlp-2020-virtual-conference/tree/master/scripts)
+
+Contains additional preprocessing to add visualizations, recommendations, schedules to the conference. 
+
+## Pages
+
+This section describes all pages that are in this version of MiniConf and how to customize them.
+
+### Index
+
+This page is mainly configured via `sitedata/config.yml`. One mainly needs to change the conference name, date,
+number of workshops/tutorials and help documents here. Before the conference starts, also update the
+acknowledgements. In `static/js/time-extend.js`, you also need to change start and end times of the conference to 
+make sure that daylight saving is handled correctly.
+
+### Schedule
+
+The schedule is based on [FullCalendar](https://fullcalendar.io/). The entries are automatically generated from
+the data of the paper sessions/workshops/plenary. For the weekly view, we compute blocks of events and show only a
+generic name, on the day view, they are shown as is. Additional events can be added via `sitedata/overall_calendar.yml`.
+If you add new event types, make sure to assign them a color in `load_site_data::build_schedule`.
+
+### Plenary
+
+Plenary make up the official program of the conference. For EMNLP, we had live events and prerecorded keynote talks. Keynotes
+were prerecorded but livestreamed via SlidesLive. Panels were fully live and used CART real-time captioning. We did not 
+add the prerecorded talks to the plenary page before the talk was done. Each plenary details page can either have one 
+video or a list of videos. It can also have a RocketChat channel. The default is to just show one SlidesLive video. Refer to 
+[the ACL2020 repo](https://raw.githubusercontent.com/acl-org/acl-2020-virtual-conference/master/sitedata_acl2020/business_meeting.csv)
+for how multiple videos can be shown on a plenary details page. 
+
+### Livestream
+
+Plenary events were livestreamed via SlidesLive. Make sure that your contract with them covers this.
+Panels were fully live and used CART real-time captioning.
+
+For EMNLP, we had prerecorded presentations and keynote speakers and live panels. Recordings were streamed live. For keynotes, after the 
+prerecorded talk was shown, the keynote speaker, a volunteer and a SlidesLive person were in a Zoom call, this Zoom call was 
+streamed after seamlessly after the keynote recording. Then the volunteer took questions from the `#live` RocketChat channel 
+and asked the keynote speaker.
+
+Before the livestream starts, change the livestream ID and CART URL on `livestream.html`. The Livestream SlidesLive IDs 
+are different from the actual ID for the recording, e.g. if a keynote is livestreamed,
+then the livestream ID is different from the prerecorded ID. Make sure to update the ID before the stream start
+and ask SlidesLive to show a `Livestream will start soon` message. After the livestream is done, add the ID
+to the plenary event itself. You can use the livestream ID as a slideslive ID for the player, it will then show
+a recording of the livestream.
+
+### Papers
+
+EMNLP hat 4 types of papers, main conference papers (long/short), CL, TACL, demo, workshop and findings papers.
+See below for the kind of things each paper had.
+
+| Type         | Page | Video | Chat | Visualization |
+|--------------|------|-------|------|---------------|
+| main/CL/TACL | x    | x     | x    | x             |
+| demo         | x    |       | x    |               |
+| workshop     | x    |       | x    |               |
+| findings     | x    |       |      |               |
+
+Demo papers can have arbitrary markdown under `material` to add info like code repo or screencast,
+see our `demo_papers.csv` for it.
+
+For *ACL style conferences, we recommend to ask publication chairs **early** to give out a list of accepted papers with
+SoftConf ids, title, authors, paper type (long/short) and anthology IDs. Also ask them to give out the proceedings
+as soon as they are done, **do not** wait for them to be published in the ACL anthology page. We do not store PDFs 
+directly, but link to the ACL anthology.
+
+#### Visualization
+
+We use [SPECTER](https://github.com/allenai/specter) to generate document embeddings from abstracts and
+[DyGIE++](https://github.com/dwadden/dygiepp) to generate keywords. For the embeddings, we then use `umap`
+to project them to 2D. Recommentations are generated by using n-nearest neighbours.
+
+We provide `scripts/dataentry/projections.py` to generate the projections, please
+refer to the respective repositories to find out how to install them. Install them in their seperate `virtualenv`,
+they all have conflicting dependencies.
+
+#### Images
+
+We extract images from the PDFs and upload them to Amazon S3. You can use our bad script under
+`scripts/dataentry/extract_images.py` to extract them. In order to allow authors to change their images,
+we set up [an additional Github repository](https://github.com/acl-org/emnlp-2020-virtual-conference-images) that 
+contains the images. Pull requests there automatically deploy the update images to S3. Look at the Github workflow
+there and set the respective secrets for the autodeploy.
+
+#### ConnectedPapers
+
+[Connected Papers](https://www.connectedpapers.com/) is a visual tool to help researchers and applied scientists find 
+academic papers relevant to their field of work. In addition to linking to the connected papers for each main paper, 
+they built a custom page for EMNLP which is shown below every main paper presentation. If you want that also, then 
+conference papers need to be indexed by SemanticScholar before the conference. Contact them via their website and ask 
+nicely, then they will also help you.
+
+### Tutorials
+
+Tutorials simply contain a schedule of the events, website, Zoom links, RocketChat and optional a prerecorded SlivesLive
+video. We asked tutorial organizers to fill in the information into Google Sheets and then use a script to download that
+sheet and parse it. You can refer to `scripts/dataentry/tutorials.py` and see how we loaded tutorials. We used 
+[this template](https://docs.google.com/spreadsheets/d/1jvAU8yNLFqQj8-iehjYwxdRsopQq78NUk0cwl2zW6ak/edit?usp=sharing) for 
+tutorial organizers to fill in. Tutorial blocks on the tutorial overview page and in the main schedule are computed 
+automatically.
+
+### Workshops
+
+Workshops contain a schedule of the events (can use markdown in there, website, Zoom links, RocketChat, a list of prerecorded
+SlivesLive videos for invited talks and a link to workshop papers. We asked workshop organizers to fill in the information 
+into Google Sheets and then use a script to download that sheet and parse it. You can refer to `scripts/dataentry/workshop.py`
+and see how we loaded workshops. We used 
+[this template](https://docs.google.com/spreadsheets/d/1LePFp66Q5v9LLNgkyQmHlzEvwFo21YJrvpvydf28yBs/edit?usp=sharing) for 
+workshop organizers to fill in. Workshop blocks on the workshop overview page and in the main schedule are computed automatically.
+We gave each workshop up to 5 Zoom links, but did not schedule events for them. Instead, we linked the personal meeting ID
+on our website.
+
+### Socials
+
+We asked social organizers to fill in the information into Google Sheets and then use a script to download that sheet and parse 
+it. You can refer to `scripts/dataentry/socials.py` and see how we loaded socials. We used 
+[this template](https://docs.google.com/spreadsheets/d/1IDk3K1JD1hvH_hvyMy6TeRuE2F6DQDfpgwNpTIP9KgI/edit?usp=sharing) for 
+social organizers to fill in. Social blocks in the main schedule are computed automatically.
+We gave each social event one Zoom link or they could get a Gather room, but did not schedule events for them. Instead, we 
+linked the personal meeting ID on our website.
+
+### Sponsors
+
+Each sponsor has a booth that is handmade just for him. We assigned one volunteer to each sponsor to write their YAML.
+We collected them via Dropbox file request. Then we merged them into one file via `scripts/dataentry/sponsors.py`.
+The file format is the following:
+
+<details><summary>Sponsor File Format</summary>
+<p>
+
+- name: `<sponsor name>`
+- logo: `<sponsor logo>`
+- level: `<Name of the sponsorship level, e.g. Gold. If there is more than one level, use levels and a list>`
+- levels: `<List of sponsorship levels if there is more than one e.g. Gold and diversity.`>
+- logoontop: `<boolean that says whether logo should be shown also on the booth, default is false, see Apple for an example>`  
+- website: `<external website of sponsor>`
+- channel: `<RocketChat channel name>`
+- description: `<description in markdown>`
+- contacts: `<List of contacts to reach out for more information>`
+  - name: `<Name/Label of the contact>`
+    email: `<Valid mail address>`  
+- video: `<link to a mp4 video (optional)>`
+- youtube: `<link to a Youtube video. Make sure that you use the link from 'Share -> Embed' (optional)>`
+- youtubes: `<List of links to Youtube videos. Make sure that you use the link from 'Share -> Embed' (optional)>`
+- vimeo: `<link to a youtube video. Make sure that you use the link from 'Share -> Embed' (optional)>`
+- gdrive: `<link to a Video on Google Drive. Make sure that you use the link from 'Click "More Actions" and Select Embed Code' (optional)>`
+- zoom_link: `<link, one per sponsor not one per event! You can also use links to other meetings if sponsors want that. e.g. Webex or Google Meet>`
+- zoom_schedule: `<list of zoom sessions>`
+    - start: `<start as ISO time with time zone>`
+    - duration|end: `<Either set duration in hours OR end time>`
+    - label: `<label of  the room>`
+- gather_schedule: `<list of Gather sessions>`
+    - start: `<start as ISO time with time zone>`
+    - duration|end: `<Either set duration in hours OR end time>`
+    - label: `<label of  the room>`
+- resources: `<list of links to external web resources>`
+    - label: `<label of the resource>`
+    - website: `<URL to resource>`
+- downloads: `<list of links to resources that are hosted in this repo, e.g. PDFs>`
+    - label: `<label of the resource>`
+    - website: `<path to this resource>`
+- papers: `<list of paper IDs so that sponsors can show accepted papers of themselves>`
+
 </p>
+</details>
 
-## Graph4NLP Models and Applications
+Most of these are optional. If the sponsor should not get a booth, then you can link to their page via `landingpage`:
 
-### Graph4NLP models
-
-- [Graph2Seq](https://github.com/graph4ai/graph4nlp/blob/master/graph4nlp/pytorch/models/graph2seq.py): a general end-to-end neural encoder-decoder model that maps an input graph to a sequence of tokens.  
-- [Graph2Tree](https://github.com/graph4ai/graph4nlp/blob/master/graph4nlp/pytorch/models/graph2tree.py): a general end-to-end neural encoder-decoder model that maps an input graph to a tree structure.
-
-### Graph4NLP applications
-
-We provide a comprehensive collection of NLP applications, together with detailed examples as follows:
-
-- [Text classification](https://github.com/graph4ai/graph4nlp/tree/master/examples/pytorch/text_classification): to give the sentence or document an appropriate label.
-- [Semantic parsing](https://github.com/graph4ai/graph4nlp/tree/master/examples/pytorch/semantic_parsing): to translate natural language into a machine-interpretable formal meaning representation.
-- [Neural machine translation](https://github.com/graph4ai/graph4nlp/tree/master/examples/pytorch/nmt): to translate a sentence in a source language to a different target language.
-- [summarization](https://github.com/graph4ai/graph4nlp/tree/master/examples/pytorch/summarization): to generate a shorter version of input texts which could preserve major meaning.
-- [KG completion](https://github.com/graph4ai/graph4nlp/tree/master/examples/pytorch/kg_completion): to predict missing relations between two existing entities in konwledge graphs.
-- [Math word problem solving](https://github.com/graph4ai/graph4nlp/tree/master/examples/pytorch/math_word_problem): to automatically solve mathematical exercises that provide background information about a problem in easy-to-understand language.
-- [Name entity recognition](https://github.com/graph4ai/graph4nlp/tree/master/examples/pytorch/name_entity_recognition): to tag entities in input texts with their corresponding type.
-- [Question generation](https://github.com/graph4ai/graph4nlp/tree/master/examples/pytorch/question_generation): to generate an valid and fluent question based on the given passage and target answer (optional).
+    name: ISI
+    level: Bronze
+    logo: isi.png
+    website: https://www.isi.edu
+    channel: example_sponsor
+    landingpage: https://www.isi.edu/
 
 
-## Performance
+#### Sponsor Accounts
 
-| Task                       |              Dataset             |   GNN    Model      | Graph construction                           | Evaluation         |          Performance          |
-|----------------------------|:--------------------------------:|:-------------------:|----------------------------------------------|--------------------|:-----------------------------:|
-| Text classification        | TRECT<br> CAirline<br> CNSST<br> |           GAT       | Dependency                                   |        Accuracy    | 0.948<br> 0.769<br> 0.538<br> |
-| Semantic Parsing           |               JOBS               |           SAGE      | Constituency                                 | Execution accuracy |             0.936             |
-| Question generation        |               SQuAD             |           GGNN       | Dependency                                      | BLEU-4             |             0.15175	            |
-| Machine translation        |              IWSLT14             |           GCN       | Dynamic                                      | BLEU-4             |             0.3212            |
-| Summarization              |             CNN(30k)             |           GCN       | Dependency                                   | ROUGE-1            |              26.4             |
-| Knowledge graph completion | Kinship                          |           GCN      | Dependency                                    | MRR                | 82.4                          |
-| Math word problem          | MAWPS  <br> MATHQA               | SAGE                | Dynamic                                      | Solution accuracy <br> Exact match  | 76.4<br>  61.07  |
+Sponsors a number of visitor accounts based on their sponsor tier. They also can register 3 people that only exhibit.
+We recommend also creating one account per sponsor early enough so that they can see their booth live. We recommend naming
+it after the sponsor and not binding it to a specific person, e.g. better call it `sponsor.deepmind`. This account will
+then not be removed before the conference. Additional exhibitors need to register and can usually register for free.
 
-## Installation
+#### Relevant documents
 
-Currently, users can install Graph4NLP via **pip** or **source code**. Graph4NLP supports the following OSes:
+- [Invitation to Dry Run](https://docs.google.com/document/d/1f0ScAG_tUNZry4F5cVBkfwtKaftnKJfZEn7nJZvkxd0/edit?usp=sharing)
+- [EMNLP Instructions to sponsors](https://docs.google.com/document/d/1p6ZsN8WmtZiHG0Oyh2zY8eQmSNxH8lzMDHGIWr36LZI/edit?usp=sharing)
 
-- Linux-based systems (tested on Ubuntu 18.04 and later)
-- macOS (only CPU version)
-- Windows 10 (only support pytorch >= 1.8)
+### Chat
 
-### Installation via pip (binaries)
-We provide pip wheels for all major OS/PyTorch/CUDA combinations. Note that we highly recommend `Windows` users refer to `Installation via source code` due to compatibility.
+We use RocketChat throughout this page to have channels for keynotes, plenaries, live, papers, workshops, tutorials
+and many more. You can host RocketChat yourself, e.g. on AWS (refer to [their guide](https://docs.rocket.chat/installation))
+or pay them to host it. We normally first create a demo workspace and then upgrade it to full for one month with the 
+number of anticipated users during the conference.
 
-#### Ensure that at least PyTorch (>=1.6.0) is installed:
-Note that `>=1.6.0` is ok.
-``` bash
-$ python -c "import torch; print(torch.__version__)"
->>> 1.6.0
-```
-#### Find the CUDA version PyTorch was installed with (for GPU users):
-```bash
-$ python -c "import torch; print(torch.version.cuda)"
->>> 10.2
-```
+We integrate RocketChat via SSO into our Amazon Cognito user repository so that only one set of username and password 
+is needed. For that, you can refer to [this guide](https://github.com/acl-org/acl-2020-virtual-conference/issues/53).
+You do not need to change the Lambda functions if you set up the project correctly when creating the AWS app. 
 
-#### Install the relevant dependencies:
-`torchtext` is needed since Graph4NLP relies on it to implement embeddings.
-Please pay attention to the PyTorch requirements before installing `torchtext` with the following script! For detailed version matching please refer [here](https://pypi.org/project/torchtext/).
-``` bash
-pip install torchtext # >=0.7.0
-```
+You can refer to our [checklist for RocketChat](https://github.com/acl-org/emnlp-2020-virtual-conference/issues/49) to
+have an idea what needs to be done. 
 
+We have scripts for RocketChat setup in `scripts\rocketchat` and [here](https://github.com/acl-org/acl-2020-virtual-conference-tools).
 
-#### Install Graph4NLP
-```bash
-pip install graph4nlp${CUDA}
-```
-where `${CUDA}` should be replaced by the specific CUDA version (`none` (CPU version), `"-cu92"`, `"-cu101"`, `"-cu102"`, `"-cu110"`). The following table shows the concrete command lines. For CUDA 11.1 users, please refer to `Installation via source code`.
+In order to use the `Active Chat` feature, you need to use RocketChat and host the statistics server. Please refer to
+`scripts/channels-stats` to see how. If you do not want it, remove it from `base.html`.
 
-| Platform  | Command                       |
-| --------- | ----------------------------- |
-| CPU       | `pip install graph4nlp`   |
-| CUDA 9.2  | `pip install graph4nlp-cu92`  |
-| CUDA 10.1 | `pip install graph4nlp-cu101` |
-| CUDA 10.2 | `pip install graph4nlp-cu102` |
-| CUDA 11.0 | `pip install graph4nlp-cu110` |
+### Help
 
-### Installation via source code
+Update the code of conduct to your own. The FAQ is generated by `faq.yml`.
 
-#### Ensure that at least PyTorch (>=1.6.0) is installed:
-Note that `>=1.6.0` is ok.
-``` bash
-$ python -c "import torch; print(torch.__version__)"
->>> 1.6.0
-```
-#### Find the CUDA version PyTorch was installed with (for GPU users):
-```bash
-$ python -c "import torch; print(torch.version.cuda)"
->>> 10.2
-```
+## Misc
 
-#### Install the relevant dependencies:
-`torchtext` is needed since Graph4NLP relies on it to implement embeddings.
-Please pay attention to the PyTorch requirements before installing `torchtext` with the following script! For detailed version matching please refer [here](https://pypi.org/project/torchtext/).
-``` bash
-pip install torchtext # >=0.7.0
-```
+### Gather.Town
 
-#### Download the source code of `Graph4NLP` from Github:
-```bash
-git clone https://github.com/graph4ai/graph4nlp.git
-cd graph4nlp
-```
-#### Configure the CUDA version
-Then run `./configure` (or `./configure.bat`  if you are using Windows 10) to config your installation. The configuration program will ask you to specify your CUDA version. If you do not have a GPU, please type 'cpu'.
-```bash
-./configure
-```
+We use [VirtualChair](https://www.virtualchair.net/) to manage Gather.Town for us. We strongly recommend to also
+book them. Ask them early enough. We use SSO with Gather.Town, you need to specifically ask for it and make 
+sure that it lands in the contract.
 
-#### Install the relevant packages:
+### Zoom
 
-Finally, install the package:
+We buy one Master account and then create accounts for the specific events. For things like tutorials, socials and workshops
+we do not schedule events but use the personal meeting link. You can use
+[these scripts](https://github.com/acl-org/acl-2020-virtual-conference-tools) to help you creating Zoom things.
 
-```shell
-python setup.py install
-```
+#### Relevant documents
 
-## Major Releases
+- [Volunteers’ Documentation on Zoom](https://docs.google.com/document/d/1MFg1CnSd2Vu4oS30MXqJt4v3c1XozHX_1DPGxkXqXeA/edit?usp=sharing)
+- [Sponsors’ Documentation on Zoom](https://docs.google.com/document/d/1CPekSelpKNjGMTH7okFmCzEGaCqFmqSu2HVfYRRSWiU/edit?usp=sharing)
+- [Mentors’ Documentation on Zoom](https://docs.google.com/document/d/10aVXLFKQH95cCJ-JoauhzNztBjcu_2iYw-Pz9ETFlS8/edit?usp=sharing)
 
-| Releases | Date       | Features                                                     |
-| -------- | ---------- | ------------------------------------------------------------ |
-| v0.4.1   | 2021-06-05 | - Support the whole pipeline of Graph4NLP<br />- GraphData and Dataset support |
+### User creation
 
-## New to Deep Learning on Graphs for NLP?
+For the first batch of accounts, we are given an Excel file and bulk create accounts. This is best to be done the 
+week before the conference starts. Use [these scripts](https://github.com/acl-org/acl-2020-virtual-conference-tools). You 
+might need to change `custom:name` to `name` and add support for affiliation if you choose to store it.
 
-If you want to learn more on applying Deep Learning on Graphs techniques to NLP tasks, you can refer to our survey paper which provides an overview of this existing research direction. If you want detailed reference to our library, please refer to our docs.
+### Late Registration
 
-<!-- [Docs]() | [Graph4nlp survey]() | [Related paper list]() | [Workshops]() -->
-- Documentation: [Docs](http://saizhuo.wang/g4nlp/index.html)  
-- Graph4NLP Survey: [Graph4nlp survey]()  
-- Graph4NLP Tutorials: [Graph4NLP-NAACL'21](https://www.aclweb.org/anthology/2021.naacl-tutorials.3.pdf)(Slides: [google drive](https://drive.google.com/file/d/1_7cPySt9Pzfd6MaqNihD4FkKI0qzf-s4/view?usp=sharing), [baidu netdisk](https://pan.baidu.com/s/1QeWedhMgIBjBpK0EcgXYvQ)(drs1))  
-- Graph4NLP Literature Review: [Literature Lists](https://github.com/graph4ai/graph4nlp_literature )  
-- Graph4NLP Workshops : [Workshops](https://deep-learning-graphs.bitbucket.io/dlg-kdd21/index.html)  
+We use Zappier for that: After the first bulk creation, the registration company forwards a copy of all registration
+mails to us. Then we use Zappier to parse email, name, affiliation and host. This is sent to a AWS Lambda function
+that then creates the account for us. See also [this issue](https://github.com/acl-org/acl-2020-virtual-conference/issues/55).
+
+### Help Desk
+
+We recommend setting up a helpdesk that is staffed by volunteers. For that, create a Google Group and add helpdesk members
+and also create a helpdesk channel. It is best to set the Google Group up early enough and also use it as the reply 
+mail for the conference invitation account credentials mail and also to mention it there.
+
+### Favicons
+
+We use [this website](https://realfavicongenerator.net/) to generate favicons from an image.
+
+## Acknowledgements
+
+MiniConf was built by [Hendrik Strobelt](http://twitter.com/hen_str) and [Sasha Rush](http://twitter.com/srush_nlp).
+
+Thanks to Darren Nelson for the original design sketches. Shakir Mohamed, Martha White, Kyunghyun Cho, Lee Campbell, 
+and Adam White for planning and feedback. Hao Fang, Junaid Rahim, Jake Tae, Yasser Souri, Soumya Chatterjee, and Ankshita 
+Gupta for contributions. 
+
+It was extended by the [ACL 2020 virtual infrastructure team](https://acl2020.org/committees/organization), especially
+by Hao Fang and Sudha Rao [with the help of many volunteers](https://virtual.acl2020.org/static/pdf/virtual_infrastructure_volunteers.pdf).
+
+It was extended for EMNLP 2020 by [Jan-Christoph Klie](https://github.com/jcklie) with the help of the 
+[EMNLP 2020 virtual infrastructure team](https://2020.emnlp.org/organizers) and 
+[with the help of many volunteers](static/pdf/volunteers.pdf).
 
 
-## Contributing
 
-Please let us know if you encounter a bug or have any suggestions by filing an issue.
 
-We welcome all contributions from bug fixes to new features and extensions.
-
-We expect all contributions discussed in the issue tracker and going through PRs. 
-
-## Citation
-
-If you found this code useful, please consider citing the following paper (please stay tuned!).
-
-<!-- Yu Chen, Lingfei Wu and Mohammed J. Zaki. **"Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust
-Node Embeddings."** In *Proceedings of the 34th Conference on Neural Information Processing Systems (NeurIPS 2020), Dec
-6-12, 2020.*
-
-    @article{chen2020iterative,
-      title={Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings},
-      author={Chen, Yu and Wu, Lingfei and Zaki, Mohammed},
-      journal={Advances in Neural Information Processing Systems},
-      volume={33},
-      year={2020}
-    } -->
-
-## Team
-Graph4AI Team. Lingfei Wu, Yu Chen, Kai Shen, Xiaojie Guo, Hanning Gao, Shucheng Li, Saizhuo Wang
-
-## License
-Graph4NLP uses Apache License 2.0.

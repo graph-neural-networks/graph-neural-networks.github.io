@@ -1,0 +1,680 @@
+- name: IBM
+  level: Platinum
+  logo: ibm.png
+  logoontop: true
+  website: https://ibm.biz/ai-research
+  description: |
+    With a team of world-class research scientists, engineers, artists, and designers, Adobe Research blends cutting-edge academic discovery with industry impact. Our researchers shape early-stage ideas into innovative technologies. Many of our discoveries are incorporated into Adobe’s products, building the company’s reputation as a leader in fostering new forms of creativity and in advancing document and content intelligence. Working across numerous domains, our researchers collaborate with colleagues at over 75 universities.
+  youtube: https://www.youtube.com/embed/9B9BCcqhyMk
+  contacts:
+  - name: Trung Bui
+    email: bui@adobe.com
+  schedule:
+  - start: 2020-11-17 20:00:00-08:00
+    duration: 1.0
+    label: NLP Research at Adobe
+  downloads:
+  - label: Adobe Research @ EMNLP 2020
+    website: adobe_research_publications_emnlp_2020.pdf
+  rocketchat_channel: sponsor-adobe
+  zoom_link: https://us02web.zoom.us/j/9525376582?pwd=QUNIZGVkVkRWTGtUV29JbGpuK3VrUT09
+- name: Apple
+  level: Gold
+  logo: apple.png
+  logoontop: true
+  website: https://machinelearning.apple.com
+  description: "At Amazon we fundamentally believe that scientific innovation is essential\
+    \ to being the most customer-centric company in the world. It's this ability to\
+    \ have an impact at scale that allows us to attract some of the brightest minds\
+    \ in artificial intelligence, NLP and related fields. Amazon\u2019s Machine Learning\
+    \ teams are looking forward to meeting you at EMNLP 2020. Come and build the future\
+    \ with us!"
+  youtube: https://www.youtube.com/embed/H8dpdFTApgo
+  contacts:
+  - name: Amazon EMNLP Team
+    email: emnlp2020@amazon.com
+  schedule:
+  - start: 2020-11-19 12:00:00-04:00
+    duration: 1.25
+    label: NLP & Conversational AI at Amazon - Panel Discussion and Q&A
+  resources:
+  - label: Submit Q&A for the talk - "NLP & Conversational AI at Amazon"
+    website: https://amazon.qualtrics.com/jfe/form/SV_aXc8esOJztMAhtH
+  - label: Amazon at EMNLP 2020
+    website: https://www.amazon.science/conferences-and-events/emnlp-2020
+  - label: Amazon Graduate Recruiting Team
+    website: https://amazonemnlp2020.splashthat.com/
+  downloads:
+  - label: Amazon Research Brochure
+    website: Research Brochure - EMNLP 2020.pdf
+  rocketchat_channel: sponsor-amazon
+  zoom_link: https://us02web.zoom.us/j/4104890373?pwd=Wk9Bd1lSeDdPMk1IeEtuZGFmd2FVUT09
+- name: Baidu
+  level: Gold
+  logo: baidu.png
+  logoontop: true
+  website: https://www.baidu.com
+  description: |
+    Apple is a place where extraordinary people gather to do their best work. Our community is made up of every kind of individual: artists and designers, engineers and scientists, thinkers and doers. It’s the diversity of those people and their ideas that inspires the innovation that runs through everything we do, from amazing technology to industry-leading environmental efforts. And innovation at this level depends on people who represent the variety of the human experience and inspire us with their own fresh perspectives.
+  youtube: https://www.youtube.com/embed/vfkOZTjD06Y
+  zoom_link: https://appleinc.webex.com/appleinc/onstage/g.php?MTID=ebeef7337dbef265460fe648f08c716d3
+  schedule:
+  - start: 2020-11-18 21:00:00+00:00
+    duration: 0.5
+    label: Meet Apple Virtual Event
+  resources:
+  - label: Check in at our virtual booth
+    website: http://applecorp.avature.net/registration?projectId=12927&source=Keep+in+Touch+-+UR+Portal
+  - label: RSVP for our Meet Apple Virtual Event
+    website: https://applecorp.avature.net/EMNLPrsvp
+  - label: Learn more about our publications at EMNLP
+    website: https://machinelearning.apple.com/updates/apple-at-emnlp-2020
+  - label: Apply to full-time roles
+    website: https://bit.ly/apple-emnlp2020
+  - label: Apply to internship roles
+    website: https://bit.ly/apple-emnlp2020-intern
+  downloads:
+  - label: Job Card
+    website: Apple- EMNLP Job Card.pdf
+  - label: Chat with us
+    website: Apple- EMNLP Chat With Us.pdf
+  rocketchat_channel: sponsor-apple
+- name: Google Research
+  level: Gold
+  logo: google.png
+  logoontop: true
+  website: https://research.google/
+  description: |
+    **Babelscape** is a high-tech Sapienza startup company founded in 2016
+    focused on **multilingual Natural Language Processing** with the main
+    goal of **enabling multilinguality and text understanding** in customers’
+    applications which deal with text in different ways.
+    Thanks to technological transfer from the internationally renowned
+    Natural Language Processing research group headed by *prof. Roberto
+    Navigli* at the Sapienza University of Rome, **winner of two European
+    Research Council grants and of several international awards**, the
+    company places itself on the market with very high professional
+    profiles and the ability to tailor its solutions to the customers' needs.
+    The company's core mission is to **overcome the language barriers** by
+    enabling the automatic processing of text **independently of the input
+    language**, and distilling and aggregating the information extracted across
+    languages by means of a unified large-scale multilingual knowledge repository
+    and **semantically-enhanced text comprehension systems**.
+  youtube: https://www.youtube.com/embed/FC-OJRXwoig
+  contacts:
+  - name: Roberto Navigli
+    email: navigli@babelscape.com
+  - name: Lorenzo D'Angeli
+    email: dangeli@babelscape.com
+  resources:
+  - label: Job Openings
+    website: https://babelscape.com/jobs
+  downloads:
+  - label: Products and Services
+    website: babelscape-resource-brochure_allproducts_1_.pdf
+  schedule:
+  - start: 2020-11-16 17:00:00+01:00
+    duration: 1
+    label: 'WordAtlas: the largest multilingual semantic network, encyclopedic dictionary
+      and knowledge repository for multilingual applications'
+  - start: 2020-11-16 18:00:00+01:00
+    duration: 1
+    label: 'NLP pipeline: a full-fledged multilingual natural language pipeline'
+  - start: 2020-11-17 10:00:00+01:00
+    duration: 1
+    label: 'Comprehendo: multilingual word sense disambiguation and entity linking'
+  - start: 2020-11-17 13:00:00+01:00
+    duration: 1
+    label: 'Extraggo: extracting the key concepts and entities from text and connecting
+      them to a multilingual knowledge graph'
+  - start: 2020-11-17 17:00:00+01:00
+    duration: 1
+    label: 'NLP pipeline: a full-fledged multilingual natural language pipeline'
+  - start: 2020-11-18 10:00:00+01:00
+    duration: 1
+    label: 'WordAtlas: the largest multilingual semantic network, encyclopedic dictionary
+      and knowledge repository for multilingual applications'
+  - start: 2020-11-18 11:00:00+01:00
+    duration: 1
+    label: 'Extraggo: extracting the key concepts and entities from text and connecting
+      them to a multilingual knowledge graph'
+  - start: 2020-11-18 17:00:00+01:00
+    duration: 1
+    label: 'Comprehendo: multilingual word sense disambiguation and entity linking'
+  rocketchat_channel: sponsor-babelscape
+  zoom_link: https://us02web.zoom.us/j/5693515745?pwd=bUdHdkVnQkd3R2tDeHR3Qi96UHA3Zz09
+- name: Dataminr
+  level: Silver
+  logo: baidu.png
+  logoontop: true
+  website: https://www.dataminr.com/
+  description: |
+    Founded on January 1, 2000, Baidu is the world’s largest Chinese language Internet search provider, the largest knowledge and information centered Internet platform company in China, and a world-leading artificial intelligence (AI) platform company. Robin Li, Baidu’s co-founder, chairman, and chief executive officer, was awarded a U.S. patent for his development of the Rankdex site-scoring algorithm for search engine page rankings, making China one of only four countries in the world that has developed core search engine technology, along with the United States, Russia, and South Korea.
+  youtube: https://www.youtube.com/embed/JJq2MWRIPBQ
+  contacts:
+  - name: Qianwei Cai
+    email: caiqianwei@baidu.com
+  - name: Yue Chang
+    email: changyue@baidu.com
+  schedule:
+  - start: 2020-11-17 03:00:00+00:00
+    duration: 1
+    label: Chat with Baidu Researchers and Recruiters
+  - start: 2020-11-17 08:00:00+00:00
+    duration: 1
+    label: Chat with Baidu Researchers and Recruiters
+  - start: 2020-11-18 03:00:00+00:00
+    duration: 1
+    label: Chat with Baidu Researchers and Recruiters
+  - start: 2020-11-18 08:00:00+00:00
+    duration: 1
+    label: Chat with Baidu Researchers and Recruiters
+  resources:
+  - label: Brochure of Baidu Natural Language Processing
+    website: https://fanyiapp.cdn.bcebos.com/cms/misc/Brochure_of_Baidu_Natural_Language_Processing.pdf
+  - label: Brochure of Baidu Knowledge Graph
+    website: https://fanyiapp.cdn.bcebos.com/cms/misc/Brochure_of_Baidu_Knowledge_Graph.pdf
+  - label: Brochure of Baidu Research
+    website: https://fanyiapp.cdn.bcebos.com/cms/misc/Brochure_of_Baidu_Research.pdf
+  - label: Brochure of PaddlePaddle
+    website: https://fanyiapp.cdn.bcebos.com/cms/misc/Brochure_of_PaddlePaddle.pdf
+  - label: Introduction to Baidu's Natural Language Processing
+    website: https://fanyiapp.cdn.bcebos.com/cms/misc/Introduction_to_Baidu's_Natural_Language_Processing.ppsx
+  - label: Baidu @ EMNLP 2020
+    website: https://fanyiapp.cdn.bcebos.com/cms/misc/Baidu_Schedule.pdf
+  youtubes:
+  - https://www.youtube.com/embed/iBqfajFcSzo
+  - https://www.youtube.com/embed/hrlz42GQHgQ
+  - https://www.youtube.com/embed/Y7bEdGHmeWg
+  publications:
+  - main.3236
+  - main.3064
+  - main.349
+  - main.2818
+  - main.110
+  - main.3621
+  - main.3497
+  - findings.35
+  - findings.444
+  - findings.73
+  - findings.69
+  rocketchat_channel: sponsor-baidu
+  zoom_link: https://us02web.zoom.us/j/4301994498?pwd=UzRTSkFQUlVGOTIrVFgvaGFFQnZhZz09
+- name: LG AI Research
+  level: Silver
+  logo: lg-ai.jpg
+  logoontop: true
+  website: https://www.lgresearch.ai
+  description: "Bloomberg is building the world's most trusted information network\
+    \ for financial professionals. Our 6,000+ engineers, developers, and data scientists\
+    \ are dedicated to advancing and building new solutions and systems for the Bloomberg\
+    \ Terminal and other products in order to solve complex, real-world problems.\
+    \ Improving search and discovery of relevant content, functionality, and insights\
+    \ are critical focus areas for Bloomberg. To this end, we use Machine Learning,\
+    \ Deep Learning, Natural Language Processing, Information Retrieval, and Knowledge\
+    \ Graph technology across Bloomberg. Applications include search, semantic parsing\
+    \ for question answering, recommendation systems, topic clustering and classification,\
+    \ sentiment analysis, anomaly detection in time series and a variety of other\
+    \ problems. For example, our AI researchers are building machine learning models\
+    \ and neural networks to quickly understand and respond to major world events\
+    \ in order to predict when or how breaking business news will impact company stock\
+    \ prices and move markets \u2013 and why."
+  youtube: https://www.youtube.com/embed/2ZlZD-fvuhc
+  contacts:
+  - name: Chevonne Ortiz
+    email: cortiz20@bloomberg.net
+  - name: Mayank Kulkarni
+    email: mkulkarni24@bloomberg.net
+  - name: Christoph Teichmann
+    email: cteichmann1@bloomberg.net
+  schedule:
+  - start: 2020-11-16 12:00:00-05:00
+    duration: 1
+    label: Introduction to Bloomberg
+  gather_schedule:
+  - start: 2020-11-16 11:00:00-05:00
+    end: 2020-11-16 15:00:00-05:00
+    label: Bloomberg researcher(s) and recruiting at the booth
+  - start: 2020-11-17 05:00:00-05:00
+    duration: 1
+    label: Bloomberg researcher(s) at the booth
+  - start: 2020-11-17 11:00:00-05:00
+    end: 2020-11-17 16:00:00-05:00
+    label: Bloomberg researcher(s) and recruiting at the booth
+  - start: 2020-11-18 04:00:00-05:00
+    end: 2020-11-18 06:00:00-05:00
+    label: Bloomberg researcher(s) and recruiting at the booth
+  - start: 2020-11-18 11:00:00-05:00
+    end: 2020-11-18 16:00:00-05:00
+    label: Bloomberg researcher(s) and recruiting at the booth
+  rocketchat_channel: sponsor-bloomberg
+  zoom_link: https://us02web.zoom.us/j/8948229064?pwd=dlM2cCtCM1cyVjFPWEFhQW5ST3hRZz09
+- name: Microsoft
+  level: Silver
+  logo: microsoft.png
+  logoontop: true
+  website: https://www.microsoft.com/research
+  description: |
+    Founded in 2012, ByteDance is a technology company operating a range of content platforms that inform, educate, entertain, and inspire people across language, culture. Dedicated to building global platforms of creation and interaction, ByteDance now has over 60,000 global employees and a portfolio of applications available in over 150 markets and 75 languages, including Toutiao, Douyin, Xigua Video, TikTok, Helo, Lark, and more. Our mission: Inspire Creativity and Enrich Life.
+  gdrive: https://drive.google.com/file/d/1uF7loSpxI2mpUCi7hGUN7komGT3ehxMo/preview
+  youtube: https://www.youtube.com/watch?v=V51B44WHs98&feature=youtu.be
+  contacts:
+  - name: Alexander Lindblom
+    email: alexanderlindblom@bytedance.com
+  publications:
+  - main.3635
+  - main.3688
+  - main.158
+  - findings.441
+  - findings.115
+  - WS-2.59
+  - WS-2.2
+  resources:
+  - label: Career opportunities
+    website: https://drive.google.com/file/d/1cxQ0QBMO2PX4knbhMI3RSCVQciQdS585/view?usp=sharing
+  - label: Coding Camp
+    website: https://drive.google.com/file/d/11ELUag3A_c5WReIga-tQzRGR_EepRk22/view?usp=sharing
+  - label: Joint Research
+    website: https://drive.google.com/file/d/1_1XeJn-LgWbcpIiXMiIZKw_SCj36p_La/view?usp=sharing
+  rocketchat_channel: sponsor-bytedance
+  zoom_link: https://us02web.zoom.us/j/2786437534?pwd=T2VMSGZEUGtJY1loRDlHQUROYWlPdz09
+# - name: DeepMind
+#   levels:
+#   - Platinum
+#   - 'Diversity & Inclusion: Champion'
+#   logo: deep_mind.png
+#   logoontop: true
+#   channel: DeepMind
+#   website: https://deepmind.com/
+#   description: |
+#     Artificial intelligence could be one of humanity's most useful inventions. DeepMind aims to build advanced AI to expand our knowledge and find solutions to thousands of problems.
+
+#     We’re a team of scientists, engineers, machine learning experts and more, working together to advance the state of the art in artificial intelligence. We use our technologies for widespread public benefit and scientific discovery, and collaborate with others on critical challenges, ensuring safety and ethics are the highest priority.
+
+#     We have a track record of breakthroughs in fundamental AI research, published in journals like Nature, Science, and more. Our programs have learned to diagnose eye diseases as effectively as the world’s top doctors, to save 30% of the energy used to keep data centres cool, and to make state of the art predictions of the complex 3D shapes of proteins - which could one day transform how drugs are invented.
+
+#     DeepMind was founded in London in 2010, and we joined forces with Google in 2014 to accelerate our work. Since then, our community has expanded to include teams in Alberta, Montreal, Paris, and Mountain View in California.
+#   youtube: https://www.youtube.com/embed/koEWIEHTopo
+#   contacts:
+#   - name: General Enquiries / Resume Drop
+#     email: dm-emnlp-2020-enquiries@google.com
+#   gather_schedule:
+#   - start: 2020-11-16 17:00:00+00:00
+#     duration: 1.0
+#     label: Chat with the DeepMind Language Team
+#   - start: 2020-11-17 17:00:00+00:00
+#     duration: 1.0
+#     label: Chat with the DeepMind Language Team
+#   downloads:
+#   - label: Language Team Overview
+#     website: DeepMind_Language-Team-Overview.pdf
+#   - label: Careers Leaflet - Engineering and Games
+#     website: DeepMind_Eng-and-Games.pdf
+#   - label: Careers Leaflet - Operations
+#     website: DeepMind_Operations.pdf
+#   - label: Careers Leaflet - Research
+#     website: DeepMind_Research.pdf
+#   - label: Careers Leaflet - Science and DeepMind for Google
+#     website: DeepMind_Science-and-DeepMind-for-Google.pdf
+#   publications:
+#   - main.1901
+#   - main.1817
+#   - main.1455
+#   - findings.106
+#   - main.1803
+#   - findings.7
+#   - main.2583
+#   - demo.71
+#   rocketchat_channel: sponsor-deepmind
+#   zoom_link: https://us02web.zoom.us/j/8516356683?pwd=cDlPZTFWN1grdXpqN1dRZndLTXduZz09
+# - name: Facebook
+#   level: Platinum
+#   logo: facebook.jpg
+#   logoontop: true
+#   website: https://ai.facebook.com/
+#   description: "Facebook AI works with the research community to advance artificial\
+#     \ intelligence. Our areas of research cover many fields including but not limited\
+#     \ to speech and audio, conversational AI, ranking and recommendations, and computer\
+#     \ vision. Facebook AI is comprised of two core divisions \u2013 fundamental research\
+#     \ (FAIR) and applied research. FAIR seeks to further our fundamental understanding\
+#     \ in both new and existing domains, covering the full spectrum of topics related\
+#     \ to AI, with the mission of advancing the state-of-the-art of AI through open\
+#     \ research for the benefit of all. Facebook AI Applied Research engages in cutting-edge\
+#     \ research that can improve and power new product experiences at huge scale for\
+#     \ our community. Facebook AI is built on the key principles of openness, collaboration,\
+#     \ excellence, and scale. We believe the latest advancements in AI should be published\
+#     \ and open-sourced for the community. We work openly with internal and external\
+#     \ partners to collaborate and share knowledge. We believe there is no shortage\
+#     \ of new areas to explore in AI, and our researchers focus on the projects we\
+#     \ believe will have the most positive impact on society. Finally, our research\
+#     \ must account for both large scale data and computation needs in order to bring\
+#     \ the benefits of AI to more people and improve accessibility. \"If our mission\
+#     \ and work intrigue you, Facebook AI is always looking to hire the best talent\
+#     \ to our globally based teams. For information about open roles and how to apply,\
+#     \ please visit https://ai.facebook.com/join-us/\""
+#   youtube: https://www.youtube.com/embed/eiqUzieHu8o
+#   resources:
+#   - label: RECRUITMENT SCHEDULE
+#     website: https://docs.google.com/document/d/1N3HfH4zUODZjzfHvBmm3hsJOrrjeN1P-8OuNA3n9V10/edit?usp=sharing
+#   downloads:
+#   - label: JOB CARD
+#     website: Facebook-Job_Card.pdf
+#   rocketchat_channel: sponsor-facebook
+#   zoom_link: https://us02web.zoom.us/j/6908152693?pwd=bVBYREhwNzZkMDNReHVyU1dUMTJiUT09
+# - name: Google Research
+#   level: Diamond
+#   logo: google_research.png
+#   logoontop: true
+#   website: http://goo.gle/EMNLP-Homepage
+#   description: |
+#     Natural Language Processing (NLP) research at Google focuses on algorithms that apply at scale, across languages, and across domains. Our systems are used in numerous ways across Google, impacting user experience in search, mobile, apps, ads, translate and more. Our syntactic systems predict part-of-speech tags for each word in a given sentence, as well as morphological features such as gender and number. They also label relationships between words, such as subject, object, modification, and others. We focus on efficient algorithms that leverage large amounts of unlabeled data, and recently have incorporated neural net technology. On the semantic side, we identify entities in free text, label them with types (such as person, location, or organization), cluster mentions of those entities within and across documents (coreference resolution), and resolve the entities to the Knowledge Graph. To learn more about the research we’re presenting at EMNLP 2020, check out our [Accepted Papers](https://goo.gle/EMNLP-Accepted-Papers) and [Workshops and Tutorials](https://goo.gle/EMNLP-Workshops-Tutorials). Interested in seeing more of our latest research developments and meeting the people behind our innovations? Be sure to explore our [Google AI blog](https://ai.googleblog.com/) and [Google Research website](https://research.google/).
+
+#     Our RocketChat schedule is: (i) On Nov. 16 (Mon), Nov. 18 (Wed) and Nov 20 (Fri): GMT: 9-10AM, 2-3PM, 4-5PM, 9-10PM, 10-11PM / PST: 1-2AM, 6-7AM, 11AM-12PM, 1-2PM, 2-3PM; (ii) On Nov 19 (Thu): GMT: 9-10AM, 4-5PM, 9-10PM, 10-11PM / PST: 1-2AM, 11AM-12PM, 1-2PM, 2-3PM.
+#   youtube: https://www.youtube.com/embed/EvfziohbbnE
+#   zoom_link: https://meet.google.com/ugx-seds-jpt
+#   schedule:
+#   - start: 2020-11-17 16:00:00
+#     duration: 1.0
+#     label: Hiring Q&A with Google Recruiters
+#   - start: 2020-11-17 17:30:00
+#     duration: 1.0
+#     label: 'Google Research Demo - QED: An Extensible, Structured Framework for Explainable
+#       Question Answering'
+#   - start: 2020-11-18 16:00:00
+#     duration: 1.0
+#     label: Hiring Q&A with Google Recruiters
+#   - start: 2020-11-18 17:30:00
+#     duration: 1.0
+#     label: 'Google Research Demo - The Language Interpretability Tool: Extensible,
+#       Interactive Visualizations and Analysis for NLP'
+#   resources:
+#   - label: Google Accepted Papers
+#     website: http://goo.gle/EMNLP-Accepted-Papers
+#   - label: Google Accepted Workshop & Tutorials
+#     website: http://goo.gle/EMNLP-Workshops-Tutorials
+#   - label: Googlers on Organizing Committees
+#     website: http://goo.gle/EMNLP-Organizing-Committees
+#   - label: Chat With Us
+#     website: http://goo.gle/EMNLP-Chat-With-Us
+#   - label: Demos
+#     website: http://goo.gle/EMNLP-Demos
+#   - label: Diversity and Inclusion at Google
+#     website: http://goo.gle/EMNLP-Diversity
+#   - label: Careers at Google
+#     website: http://goo.gle/EMNLP-Careers
+#   rocketchat_channel: sponsor-google-research
+# - name: Grammarly
+#   level: Gold
+#   logo: grammarly.png
+#   logoontop: true
+#   website: https://www.grammarly.com/jobs/technology?utm_source=conference&utm_medium=website&utm_campaign=emnlp2020
+#   description: |
+#     Grammarly develops an AI-based writing assistant that helps 30 million people every day write more clearly and effectively in English. In building a product that scales across multiple platforms and devices—including a web editor, native desktop apps, an iPad app, mobile keyboards, add-ins for Microsoft Office, and browser extensions—Grammarly works to empower users whenever and wherever they communicate.
+
+#     Grammarly’s writing assistant is powered by advanced AI. We’re building a product that delivers sophisticated communication suggestions, adapts to individual users, and scales across the internet. Using a variety of innovative approaches—including advanced machine learning and deep learning—we consistently break new ground in natural language processing (NLP) research to deliver unrivaled assistance in our product offerings.
+
+#     Across offices in San Francisco, Kyiv, New York, and Vancouver, Grammarly’s values-driven team is growing—to support our expanding user base and to continue developing our writing assistant into a truly comprehensive communication partner.
+
+#     Check out our technical blog, where Grammarly’s engineers and researchers discuss the technical challenges they’re tackling: [Here](https://bit.ly/3eptm6P).
+
+#     Explore open roles: [Here](https://bit.ly/2TMICkN).
+#   youtube: https://www.youtube.com/embed/Dlq-knQpBzs
+#   contacts:
+#   - name: Dana Schafer
+#     email: dana.schafer@grammarly.com
+#   - name: Chad Mills
+#     email: chad.mills@grammarly.com
+#   schedule:
+#   - start: 2020-11-16 10:00:00-08:00
+#     duration: 1
+#     label: 'Live Q&A: Learn more about how the team is growing with Grammarly technical
+#       recruiter Dana Schafer'
+#   - start: 2020-11-17 10:00:00-08:00
+#     duration: 1
+#     label: "Live Q&A: Learn more about the day-to-day on Grammarly\u2019s computational\
+#       \ linguistics team with Masha Ivenskaya"
+#   - start: 2020-11-17 12:00:00-08:00
+#     duration: 1
+#     label: "Paper presentation: Vipul Raheja will present his paper \u201CAdversarial\
+#       \ Grammatical Error Correction,\u201D followed by a Q&A session"
+#   - start: 2020-11-18 10:00:00-08:00
+#     duration: 1
+#     label: "Live Q&A: Learn more about the day-to-day on Grammarly\u2019s research\
+#       \ team with Chad Mills, Grammarly\u2019s manager of applied research and engineering"
+#   resources:
+#   - label: Life at Grammarly
+#     website: https://bit.ly/325nydB
+#   - label: Technology at Grammarly
+#     website: https://bit.ly/35Zl8hM
+#   downloads:
+#   - label: Job Openings
+#     website: grammarly_About.pdf
+#   - label: Publications
+#     website: grammarly_publications.pdf
+#   - label: Grammarly's Tech Blog
+#     website: grammarly_tech_blog.pdf
+#   - label: Adversarial Grammatical Error Correction
+#     website: grammarly_paper.pdf
+#   rocketchat_channel: sponsor-grammarly
+#   zoom_link: https://us02web.zoom.us/j/6934399329?pwd=UTRoL3hia29GMHNkaFhPQ2dBU2hNdz09
+# - name: Hitachi, Ltd
+#   level: Silver
+#   logo: hitachi.png
+#   logoontop: true
+#   website: https://www.hitachi.com/rd/index.html
+#   description: Hitachi is contributing to the expansion of social innovation business
+#     through R&D on digital technologies such as data science, media processing, AI,
+#     service computing, and computing architecture to achieve safety and support efficient
+#     societal infrastructure
+#   youtube: https://www.youtube.com/embed/Z9kfpJV8R2o
+#   contacts:
+#   - name: Yuko Tamura
+#     email: rdg.recruit@rdgml.intra.hitachi.co.jp
+#   schedule:
+#   - start: 2020-07-07 17:00:00
+#     duration: 0.5
+#     label: Not set yet
+#   resources:
+#   - label: Research in Hitachi
+#     website: http://www.hitachi.com/rd/research/digitaltechnology/index.html
+#   downloads:
+#   - label: Recuitment Flyers
+#     website: Hitachi_R_D_Recruit_2020.pdf
+#   rocketchat_channel: sponsor-hitachi
+#   zoom_link: https://us02web.zoom.us/j/8208787597?pwd=dzVyTmExZUNLaDZYdUlydDdmQlFQUT09
+# - name: ISI
+#   level: Bronze
+#   logo: isi.png
+#   website: https://www.isi.edu
+#   channel: example_sponsor
+#   landingpage: https://www.isi.edu/
+#   rocketchat_channel: sponsor-isi
+#   zoom_link: https://us02web.zoom.us/j/6976149518?pwd=Wk9XbDA4ODNpem1VUjVWYndNRlBCUT09
+# - name: Megagon Labs
+#   level: Platinum
+#   logo: megagon.png
+#   logoontop: true
+#   website: http://www.megagon.ai/
+#   description: Since 2016, Megagon Labs (formerly Recruit Institute of Technology)
+#     has conducted top-notch research and build technologies in Mountain View and Tokyo.  We
+#     are making impacts through the worldwide services and products of the Recruit
+#     Group by empowering people to make their best decision.  Our research focuses
+#     are in the broad areas of Artificial Intelligence, Data Management, and Natural
+#     Language Processing.
+#   youtube:
+#   contacts:
+#   - name: Makiko Shiino
+#     email: makiko@megagon.ai
+#   - name: Vivian Li
+#     email: vivian@megagon.ai
+#   schedule:
+#   - start: 2020-11-17 12:00:00-08:00
+#     duration: 0.5
+#     label: Meet our Researchers
+#   - start: 2020-11-17 12:30:00-08:00
+#     duration: 0.5
+#     label: 'Discussion about Ruler: Data Programming by Demonstration for Document
+#       Labeling'
+#   gather_schedule:
+#   - start: 2020-11-16 12:00:00-08:00
+#     duration: 3
+#     label: Meet Megagon Labs at GatherTown
+#   resources:
+#   - label: Megagon Labs
+#     website: https://megagon.ai/
+#   - label: Career opportunities
+#     website: https://megagon.ai/jobs/
+#   - label: Megagon Labs Publications
+#     website: https://megagon.ai/publications/
+#   publications:
+#   - main.595
+#   - findings.181
+#   rocketchat_channel: sponsor-megagon-labs
+#   zoom_link: https://us02web.zoom.us/j/4214315981?pwd=K3JHVTMxUFFQU0M3bmJiRWo3SmZWZz09
+# - name: NAVER
+#   level: Silver
+#   logo: naver.png
+#   logoontop: true
+#   website: https://europe.naverlabs.com/emnlp2020
+#   description: |
+#     NAVER Corporation is Korea's premier Internet company and a global leader in online services such as NAVER search (30M DAU), LINE messaging (164MAU), and WEBTOON (62M MAU). NAVER is continuously focussed on the future and in seamlessly connecting the physical and digital worlds through advanced technology. Its AI and Robotics research in Asia and Europe are fundamental to creating this future. NAVER invests over 25 percent of annual revenue in R&D yet innovation is but one core value. NAVER promotes diversity on the internet, respects and connects people helping them to share knowledge, create communities and preserve culture.
+#   vimeo: https://player.vimeo.com/video/432786265?title=0&byline=0&portrait=0
+#   contacts:
+#   - name: NAVER LABS Europe
+#     email: dl_info@naverlabs.com
+#   - name: NAVER (Korea)
+#     email: dl_nlp_emnlp_2020@navercorp.com
+#   schedule:
+#   - start: 2020-11-18 09:00:00
+#     end: 2020-11-18 09:45:00
+#     label: Machine Translation (Papago), Document Information Extraction and Conversational
+#       AI at NAVER
+#   - start: 2020-11-18 16:00:00
+#     end: 2020-11-18 16:30:00
+#     label: NLP research at NAVER LABS Europe
+#   resources:
+#   - label: List of publications at EMNLP2020
+#     website: https://europe.naverlabs.com/emnlp2020/#1592572802695-16c77470-538f
+#   - label: Interactive Sessions
+#     website: https://europe.naverlabs.com/emnlp2020/#1593607137225-16acdb52-d404
+#   - label: Job Openings
+#     website: https://europe.naverlabs.com/emnlp2020/#1593600341618-a651a831-f5ac
+#   - label: Overview of NAVER and NAVER LABS Europe
+#     website: https://europe.naverlabs.com/emnlp2020/#1604669457089-576c9a34-2233
+#   rocketchat_channel: sponsor-naver
+#   zoom_link: https://us02web.zoom.us/j/3306875999?pwd=TkhHMGNyVXJSWXN0T1drVU8rajNzUT09
+# - name: Salesforce
+#   level: Silver
+#   logo: salesforce.png
+#   logoontop: true
+#   website: https://einstein.ai/
+#   description: |
+#     Salesforce Research advances AI techniques that pave the path for new AI research directions, innovative products and applications with a positive impact on society. Our team of researchers, engineers, product managers, and designers drive AI innovation across pure research, applied research, and new product incubation- all built on our powerful AI platform. We bring companies and customers together using AI that is explainable, transparent, and accountable.
+#     As part of our team you’ll learn unique skills, work with talented people, influence the industry standard for fair and ethical use of artificial intelligence and help us to shape the future of AI.
+#   youtube: https://www.youtube.com/embed/WeFQAFgYUC0
+#   contacts:
+#   - name: Audrey Cook
+#     email: audrey.cook@salesforce.com
+#   - name: Caitlin McCauley
+#     email: cmccauley@salesforce.com
+#   schedule:
+#   - start: 2020-11-17 14:00:00-08:00
+#     duration: 0.833
+#     label: '[Spotlight on Salesforce @ EMNLP](https://lnkd.in/gXs_-k5)'
+#   - start: 2020-11-18 16:00:00-08:00
+#     duration: 0.833
+#     label: '[Salesforce Research Interns @ EMNLP Panel](https://lnkd.in/gAneh35)'
+#   gather_schedule:
+#   - start: 2020-11-16 12:00:00-08:00
+#     duration: 2
+#     label: Meet Salesforce at Gather.Town
+#   - start: 2020-11-17 08:00:00-08:00
+#     duration: 2
+#     label: Meet Salesforce at Gather.Town
+#   - start: 2020-11-18 17:00:00-08:00
+#     duration: 2
+#     label: Meet Salesforce at Gather.Town
+#   - start: 2020-11-19 12:00:00-08:00
+#     duration: 2
+#     label: Meet Salesforce at Gather.Town
+#   downloads:
+#   - label: About Salesforce Research
+#     website: Salesforce_Research.pdf
+#   - label: Accepted Papers at EMNLP
+#     website: Salesforce_EMNLP.pdf
+#   - label: Join our AI Research Team
+#     website: Salesforce_Recruiting.pdf
+#   resources:
+#   - label: 'IntEx-SemPar: 1st Workshop on Interactive and Executable Semantic Parsing'
+#     website: https://virtual.2020.emnlp.org/workshop_WS-6.html
+#   publications:
+#   - main.2342
+#   - main.1201
+#   - main.2506
+#   - main.1654
+#   - main.1320
+#   - main.2050
+#   - main.355
+#   - main.1622
+#   - main.1009
+#   - main.1012
+#   - main.3217
+#   - main.517
+#   - main.3393
+#   - findings.438
+#   - findings.400
+#   - findings.303
+#   rocketchat_channel: sponsor-salesforce
+#   zoom_link: https://us02web.zoom.us/j/2733496946?pwd=SmZOL0hNczBTR3k4Y2RCVDNMcGZ1Zz09
+# - name: Zeta Alpha
+#   level: Gold
+#   logo: zeta-alpha.png
+#   logoontop: true
+#   nameontop: true
+#   website: https://www.zeta-alpha.com/
+#   description: |
+#     Zeta Alpha is building the next generation Enterprise Search and Insights platform, 100% focused on AI teams.
+
+#     Do you work in AI, NLP, ML or Data Science and are you finding it increasingly difficult to see the forest for the trees? With hundreds of new publications, technology announcements, and blog postings per day, who can keep up?
+
+#     Our AI Research Navigator is a powerful state of the art search engine 100% focused on AI content and knowledge. AI Research Navigator combines the latest neural natural language understanding and search technologies, and a user-friendly project workflow to help you locate, discover and organize the AI and Data Science knowledge relevant for your projects. Once you start using it, it will proactively keep you up-to-date on the topics you are interested in. Join us for one of our talks or ask for a demo.
+#   youtube: https://www.youtube.com/embed/vaugp421awo
+#   contacts:
+#   - name: Jakub Zavrel
+#     email: zavrel@zeta-alpha.com
+#   - name: "Sergi Castella Sap\xE9"
+#     email: castella@zeta-alpha.com
+#   - name: Victor Zuanazzi
+#     email: zuanazzi@zeta-alpha.com
+#   schedule:
+#   - start: 2020-11-16 15:00:00+01:00
+#     end: 2020-11-16 15:30:00+01:00
+#     label: Meet Zeta Alpha @ EMNLP
+#   - start: 2020-11-17 13:30:00+01:00
+#     end: 2020-11-17 14:00:00+01:00
+#     label: Introduction to Zeta Alpha - How to keep up with AI and NLP research?
+#   - start: 2020-11-17 15:00:00+01:00
+#     end: 2020-11-17 15:30:00+01:00
+#     label: Demo AI Research Navigator - Exploring trends in NLP
+#   - start: 2020-11-18 11:00:00+01:00
+#     end: 2020-11-18 11:30:00+01:00
+#     label: Introduction to Zeta Alpha - How to keep up with AI and NLP research?
+#   - start: 2020-11-18 13:30:00+01:00
+#     end: 2020-11-18 14:00:00+01:00
+#     label: Demo AI Research Navigator - Exploring trends in NLP
+#   - start: 2020-11-18 21:00:00+01:00
+#     end: 2020-11-18 22:30:00+01:00
+#     label: Zeta Alpha - EMNLP Tropical Party - Drinks on the Beach
+#   gather_schedule:
+#   - start: 2020-11-17 10:00:00+01:00
+#     end: 2020-11-17 16:00:00+01:00
+#     label: Meet Zeta Alpha at Gather.Town
+#   - start: 2020-11-18 10:00:00+01:00
+#     end: 2020-11-18 16:00:00+01:00
+#     label: Meet Zeta Alpha at Gather.Town
+#   downloads:
+#   - label: A New Neural Search and Insights Platform for Navigating and Organizing
+#       AI Research
+#     website: zeta_alpha_EMNLP_2020_ack_link.pdf
+#   rocketchat_channel: sponsor-zeta-alpha
+#   zoom_link: https://us02web.zoom.us/j/7768908976?pwd=WDlXOGh6anc2N3RSTHNkbmg4WjFsZz09

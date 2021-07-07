@@ -1,0 +1,15 @@
+isort==4.3.21
+black==19.10b0
+pylint==2.4.4
+mypy==0.761
+# Required for using AWS CognitoIdentityProvider service
+boto3
+
+# Required for handling both xlsx and csv file
+pandas
+xlrd >= 1.0.0
+openpyxl
+
+PyYAML
+
+awscli==1.18.208

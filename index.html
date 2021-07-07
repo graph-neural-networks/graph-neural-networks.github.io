@@ -1,300 +1,1180 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     
     <!-- Required meta tags -->
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <!-- External Javascript libs_ext  -->
+
+    <!-- External Javascript libs  -->
     <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
-            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
-
-    <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-    ></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
-            crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
-            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
-            crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
-            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 
-    <!-- Library libs_ext -->
-    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
 
 
-    <!--    Internal Libs -->
-    <script src="static/js/data/api.js"></script>
 
-    
+
+
+    <script src="static/js/popper.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+    <!-- https://developer.snapappointments.com/bootstrap-select/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    <script src="static/js/mousetrap.min.js?a4098"></script>
+
+
 
     <!-- External CSS -->
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
-          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
 
     <!-- External Fonts (no google for china) -->
     <link
-            href="static/css/Lato.css"
-            rel="stylesheet"
+      href="static/css/Lato.css"
+      rel="stylesheet"
     />
-    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link href="static/css/Exo.css" rel="stylesheet" />
     <link
-            href="static/css/Cuprum.css"
-            rel="stylesheet"
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="static/css/main.css"/>
-<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
-    <link rel="stylesheet" href="static/css/fa_solid.css"/>
-    <link rel="stylesheet" href="static/css/lazy_load.css"/>
-    <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>Graph Neural Networks: Foundations, Frontiers, and Applications</title>
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/chats-modal.css" />
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+
+    <title>GNNBook@2021</title>
     
-</head>
 
-<body>
-<!-- NAV -->
+    <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">
+    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
-<nav
-        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
-        id="main-nav"
->
-    <div class="container">
+
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <!-- NAV -->
+    
+    <!--    ('index.html','Blog'),-->
+<!--    ('socials.html', 'Socials'),-->
+<!--    ('http://' + config.chat_server, 'Chat'),-->
+<!--    ('https://2020.emnlp.org/organizers', 'Organizers'),-->
+
+    <!-- Add back ('livestream.html', 'Livestream'),
+    for a new conference
+    -->
+
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark  bg-emnlp mr-auto"
+      id="main-nav"
+    >
+      <div class="container">
         <a class="navbar-brand" href="index.html">
-<!--            <img-->
-<!--                    class="logo" src="static/images/G4L-logo.png"-->
-<!--                    height="auto"-->
-<!--            width="200px"-->
-<!--            />-->
+<!--          <img-->
+<!--             class="logo" src="static/images/G4L-logo.png"-->
+<!--             height="auto"-->
+<!--             width="200px"-->
+<!--          />-->
         </a>
         
+        <a class="navbar-brand" href="index.html">GNNBook@2021</a>
+        
         <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div
-                class="collapse navbar-collapse text-right flex-grow-1"
-                id="navbarNav"
+          class="collapse navbar-collapse text-right flex-grow-1"
+          id="navbarNav"
         >
-            <ul class="navbar-nav ml-auto">
-                
+          <ul class="navbar-nav ml-auto">
+            
+            
+              
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+                  
+                  <a class="nav-link" href="index.html">Home</a>
+                  
                 </li>
-                
+              
+            
+            
+              
                 <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Book</a>
+                  
+                  <a class="nav-link" href="index.html">Book</a>
+                  
                 </li>
-                
+              
+            
+            
+              
                 <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Slides</a>
+                  
+                  <a class="nav-link" href="index.html">Slides</a>
+                  
                 </li>
-                
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                        href="index.html" target="_blank" id="chatNavbarDropdown" role="button"
+                        data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="IENavbarDropdown">
+                        <a class="dropdown-item" href="index.html">
+                            Workshops
+                        </a>
+                        <a class="dropdown-item" href="index.html">
+                            Tutorials
+                        </a>
+                        <a class="dropdown-item" href="index.html">
+                            Videos
+                        </a>
+                        <a class="dropdown-item" href="index.html">
+                            Blogs
+                        </a>
+                    </div>
+                </li>
+              
+            
+            
+              
                 <li class="nav-item ">
-                    <a class="nav-link" href="Authors.html">Authors</a>
+                  
+                  <a class="nav-link" href="teams.html">Teams</a>
+                  
                 </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Blog</a>
-                </li>
-                
-            </ul>
+              
+            
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
+    
 
-
-
-<!-- User Overrides -->
-
-<head>
-    <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="static/css/jemdoc.css" type="text/css" />
-</head>
-
+    
+    <!-- User Overrides -->
+    
 <style>
   .back {
-    background: url("static/images/main.jpg") no-repeat center;
+    background: url("static/images/aaai2021/AAAI-Banner-nocaption.jpg") no-repeat center;
     background-size: cover;
   }
   .back h2 {
     font-family: "Lato", sans-serif;
     font-weight: 900;
   }
+  .page__hero-caption {
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 2px 10px;
+    color: #fff;
+    font-family: Georgia,Times,serif;
+    font-size: 0.9em;
+    text-align: right;
+    z-index: 5;
+    opacity: 0.5;
+    border-radius: 4px 0 0 0;
+  }
+    .ctagcloud li {
+        display:inline-block;
+        text-transform:uppercase;
+        font-size:1rem;
+        font-weight:600;
+        margin:4px;
+        padding:8px 16px;
+        -webkit-border-radius:3px;
+        -moz-border-radius:3px;
+        border-radius:3px;
+        background:rgba(0,0,0,0.05);
+        -webkit-transition:all 0.2s ease-in-out;
+        -moz-transition:all 0.2s ease-in-out;
+        transition:all 0.2s ease-in-out
+    }
 </style>
 
-<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 5px;">
   <div class="row header p-6 m-5">
-    <div class="toptitle p-1 mx-auto text-center text-white col-md-9 col-sm-12">
-      <h4>
-        Graph Neural Networks: Foundations, Frontiers, and Applications
-      </h4>
+    <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+      <h2>
+        Graph Neural Networks <br> Foundations, Frontiers, and Applications
+      </h2>
+      <h2 class="p-5">
+        
+      </h2>
     </div>
   </div>
+
 </div>
 
 
-<div class="container">
-    <!-- Tabs -->
-    <div class="tabs">
-         
-    </div>
-    <!-- Content -->
-    <div class="content">
+
+    <div class="container">
+      <!-- Heading -->
+      <div class="heading">
         
 
-<h2>Introduction</h2>
-Deep Learning models are at the core of research in Artificial Intelligence research today. It is well-known that deep learning techniques that were disruptive for Euclidean data (e.g.,images) and sequence data (e.g., texts) are not immediately applicable to graph-structured data. This gap has driven a tide in research for deep learning on graphs for various tasks such as graph representation learning, classification, and generation. In recent years, a large number of neural network architectures on graph-structured data have been developed and achieved remarkable performance in these tasks when applied to domains such as social networks, bioinformatics, and medical informatics.
-<br>
-Furthermore, this wave of research at the intersection of graph theory and deep learning has also influenced other fields of science, including computer vision, natural language processing, inductive logic programming, program synthesis and analysis, automated planning, reinforcement learning, and cyber security. Although deep learning on graphs has achieved remarkable attention, it faces many challenges when applying them into other domains, from the soundness of the methodology to the empirical performance.
-<br>
-In this book, we would like to cover a broad range of the topics in deep learning on graphs, namely graph neural networks (GNNs), from methodologies to applications, and from foundations to the new frontiers of GNNs. Although there are a few existing books that touch some relevant topics, they cannot comprehensively cover the fast-growing area of GNNs where new techniques and applications constantly emerge. For instance, there are books on basic techniques on graph neural networks, graph representation learning (including network embedding and graph neural networks), and foundations on graph learning and fundamental methods in GNNs. However, there is no such a book which is dedicated to introducing both the fundamental concepts,algorithms of GNNs, and new frontiers of GNNs.
-<br>
-Therefore, we feel the urgency to bridge the above gap and have a comprehensive edited book on this fast growing yet challenging topic, which can benefit a broad audience including advanced undergraduate and graduate students, postdoctoral researchers, lecturers, and industrial practitioners.
-
-<h2>Editors</h2>
-<ul>
-    <li><a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">Lingfei Wu</a>, <a href="http://pengcui.thumedialab.com/">Peng Cui</a>, <a href="https://www.sfu.ca/computing/people/faculty/jianpei.html">Jian Pei</a>, and <a href="http://cs.emory.edu/~lzhao41/index.htm">Liang Zhao</a></li>
-</ul>
-
-<h2>Authors</h2>
-<ul>
-    <li>TBA</li>
-</ul>
-
-
-<h2>Contents</h2>
-
-<h3>PART I: Introduction</h3>
-<ul>
-    <li>Chapter 1: Representation Learning [<a href='chapter1.html'>Introduction</a>]</li>
-    <li>Chapter 2: Graph Representation Learning [<a href='chapter2.html'>Introduction</a>]</li>
-    <li>Chapter 3: Graph Neural Networks [<a href='chapter3.html'>Introduction</a>]</li>
-</ul>
-
-<h3>PART II: Foundations of Graph Neural Networks</h3>
-<ul>
-    <li>Chapter 4: Graph Neural Networks: Node Classification [<a href='chapter4.html'>Introduction</a>]</li>
-    <li>Chapter 5: Graph Neural Networks: Theoretical Analysis [<a href='chapter5.html'>Introduction</a>]</li>
-    <li>Chapter 6: Graph Neural Networks: Scalability [<a href='chapter6.html'>Introduction</a>]</li>
-    <li>Chapter 7: Graph Neural Networks: Explainability [<a href='chapter7.html'>Introduction</a>]</li>
-    <li>Chapter 8: Graph Neural Networks: Adversarial Robustness [<a href='chapter8.html'>Introduction</a>]</li>
-</ul>
-<h3>PART III: Frontiers of Graph Neural Networks</h3>
-<ul>
-    <li>Chapter 9: Graph Neural Networks: Graph Classification [<a href='chapter9.html'>Introduction</a>]</li>
-    <li>Chapter 10: Graph Neural Networks: Link Prediction [<a href='chapter10.html'>Introduction</a>]</li>
-    <li>Chapter 11: Graph Neural Networks: Graph Generation [<a href='chapter11.html'>Introduction</a>]n</li>
-    <li>Chapter 12: Graph Neural Networks: Graph Transformation [<a href='chapter12.html'>Introduction</a>]</li>
-    <li>Chapter 13: Graph Neural Networks: Graph Matching [<a href='chapter13.html'>Introduction</a>]</li>
-    <li>Chapter 14: Graph Neural Networks: Graph Learning [<a href='chapter14.html'>Introduction</a>]</li>
-    <li>Chapter 15: Dynamic Graph Neural Networks [<a href='chapter15.html'>Introduction</a>]</li>
-    <li>Chapter 16: Heterogeneous Graph Neural Networks [<a href='chapter16.html'>Introduction</a>]</li>
-    <li>Chapter 17: Graph Neural Networks: AutoML [<a href='chapter17.html'>Introduction</a>]L</li>
-    <li>Chapter 18: Graph Neural Networks: Self-Supervised Learning [<a href='chapter18.html'>Introduction</a>]</li>
-</ul>
-<h3>PART IV: Broad and Emerging Applications with Graph Neural Networks</h3>
-<ul>
-    <li>Chapter 19: Graph Neural Networks on Recommendation System [<a href='chapter19.html'>Introduction</a>]</li>
-    <li>Chapter 20: Graph Neural Networks on Computer Vision [<a href='chapter20.html'>Introduction</a>]</li>
-    <li>Chapter 21: Graph Neural Networks on Natural Language Processing [<a href='chapter21.html'>Introduction</a>]</li>
-    <li>Chapter 22: Graph Neural Networks on Program Analysis [<a href='chapter22.html'>Introduction</a>]</li>
-    <li>Chapter 23: Graph Neural Networks on Software Mining [<a href='chapter23.html'>Introduction</a>]</li>
-    <li>Chapter 24: Graph Neural Networks on Drug Discovery [<a href='chapter24.html'>Introduction</a>]</li>
-    <li>Chapter 25: Graph Neural Networks on Proteins and DNA [<a href='chapter25.html'>Introduction</a>]</li>
-    <li>Chapter 26: Graph Neural Networks on Anomaly Detection [<a href='chapter26.html'>Introduction</a>]</li>
-    <li>Chapter 27: Graph Neural Networks on Urban Intelligence [<a href='chapter27.html'>Introduction</a>]</li>
-</ul>
-
-<h2>Citation</h2>
-<ui>
-    <li>To cite us:</li>
-</ui>
-
-<h2>Contact</h2>
-<ui>
-    <li>For any question, please contact <a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">Dr. Lingfei Wu</a> at <a href=mailto:lwu@email.wm.edu>lingfei.wu@jd.com</a>.</li>
-</ui>
-
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <h2>
+            Introduction
+        </h2>
+        
+        <p>
+        The field of graph neural networks (GNNs) has seen rapid and incredible strides over the recent years. Graph neural networks, also known as deep learning on graphs, graph representation learning, or geometric deep learning have become one of the fastest-growing research topics in machine learning, especially deep learning. This wave of research at the intersection of graph theory and deep learning has also influenced other fields of science, including recommendation systems, computer vision, natural language processing, inductive logic programming, program synthesis, software mining, automated planning, cybersecurity, and intelligent transportation.
+        </p>
+        <p>
+        This book is intended to cover a broad range of topics in graph neural networks, from the foundations to the frontiers, and from the methodologies to the applications. Our book is dedicated to introducing the fundamental concepts and algorithms of GNNs, new research frontiers of GNNs, and broad and emerging applications with GNNs.
+        </p>
     </div>
 </div>
 
 
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
 
-<!-- Google Analytics -->
-<script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
 
-  function gtag() {
-    dataLayer.push(arguments);
-  }
+      </div>
+      <div class="tabs pt-3">
+      <!-- Tabs -->
+      <div class="tabs pt-3">
+        
+<ul class="nav nav-pills justify-content-center">
+    <li class="nav-item">
+        <a
+            class="nav-link active"
+            data-toggle="tab"
+            href="#tab-part1"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+            >Part I: Introductions
+        </a>
+    </li>
+    <li class="nav-item">
+        <a
+            class="nav-link"
+            data-toggle="tab"
+            href="#tab-part2"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+            >Part II: Foundations
+        </a>
+    </li>
+    <li class="nav-item">
+        <a
+            class="nav-link"
+            data-toggle="tab"
+            href="#tab-part3"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+            >Part III: Frontiers
+        </a>
+    </li>
+    <li class="nav-item">
+        <a
+            class="nav-link"
+            data-toggle="tab"
+            href="#tab-part4"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+            >Part IV: Applications
+        </a>
+    </li>
+</ul>
 
-  gtag("js", new Date());
-  gtag("config", "UA-");
-</script>
+      </div>
+      <!-- Content -->
+      <div class="content">
+        
 
-<!-- Footer -->
-<footer class="footer bg-light p-4">
-    <div class="container">
-        <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2020 GNNBook Team</p>
+
+    
+    
+
+<div class="tab-content" id="nav-tabContent">
+    
+    <div
+        class="tab-pane fade active show"
+        id="tab-part1"
+        role="tabpanel"
+        aria-labelledby="nav-profile-tab"
+        >
+        
+        <div id="tab-part1">
+            <div class="plenary_sessions">
+                <div class="cards row">
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter1.html" class="main-title" >
+                Chapter1: Representation Learning
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Liang Zhao, Lingfei Wu, Peng Cui, Jian Pei
+            </span>
+          </div>
+
+<!--          -->
     </div>
-</footer>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
 
-<!-- Code for hash tags -->
-<script type="text/javascript">
-  $(document).ready(function () {
-    if (window.location.hash !== "") {
-      $(`a[href="${window.location.hash}"]`).tab("show");
-    }
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter2.html" class="main-title" >
+                Chapter2: Graph Representation Learning
+              </a>
+            </h4>
+          </div>
 
-    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
-      const hash = $(e.target).attr("href");
-      if (hash.substr(0, 1) === "#") {
-        const position = $(window).scrollTop();
-        window.location.replace(`#${hash.substr(1)}`);
-        $(window).scrollTop(position);
-      }
-    });
-  });
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Peng Cui, Lingfei Wu, Jian Pei, Liang Zhao, Xiao Wang
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter3.html" class="main-title" >
+                Chapter3: Graph Neural Networks
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Lingfei Wu, Peng Cui, Jian Pei, Liang Zhao, Le Song
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+</div>
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  var ouicalData;
+  var targetNode;
+  var calendarNodeInner;
+  var calendarNodeSpan;
+  var parser = new DOMParser();
+  var calendarNames = Array("google", "off365", "outlook", "ical");
+
+  
+  
+  
+  
+  
+  
+  
 </script>
-<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+            </div>
+        </div>
+    </div>
+    
+    <div
+        class="tab-pane fade"
+        id="tab-part2"
+        role="tabpanel"
+        aria-labelledby="nav-profile-tab"
+        >
+        
+        <div id="tab-part2">
+            <div class="plenary_sessions">
+                <div class="cards row">
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
 
-</body>
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter4.html" class="main-title" >
+                Chapter4: Graph Neural Networks for Node Classification
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Jian Tang, Renjie Liao
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter5.html" class="main-title" >
+                Chapter5: Graph Representation Learning
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Pan Li, Jure Leskovec
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter6.html" class="main-title" >
+                Chapter6: Graph Neural Networks: Scalability
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Hehuan Ma, Yu Rong, Junzhou Huang
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter7.html" class="main-title" >
+                Chapter7: Interpretability in Graph Neural Networks
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Ninghao Liu, Qizhang Feng, Xia Hu
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter8.html" class="main-title" >
+                Chapter8: Graph Neural Networks: Adversarial Robustness
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Stephan Gunnemann
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+</div>
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  var ouicalData;
+  var targetNode;
+  var calendarNodeInner;
+  var calendarNodeSpan;
+  var parser = new DOMParser();
+  var calendarNames = Array("google", "off365", "outlook", "ical");
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</script>
+            </div>
+        </div>
+    </div>
+    
+    <div
+        class="tab-pane fade"
+        id="tab-part3"
+        role="tabpanel"
+        aria-labelledby="nav-profile-tab"
+        >
+        
+        <div id="tab-part3">
+            <div class="plenary_sessions">
+                <div class="cards row">
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter9.html" class="main-title" >
+                Chapter9: Graph Neural Networks: Graph Classification
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Christopher Morris
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter10.html" class="main-title" >
+                Chapter10: Graph Neural Networks: Link Prediction
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Muhan Zhang
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter11.html" class="main-title" >
+                Chapter11: Graph Neural Networks: Graph Generation
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Renjie Liao
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter12.html" class="main-title" >
+                Chapter12: Graph Neural Networks: Graph Transformation
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Xiaojie Guo, Shiyu Wang, Liang Zhao
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter13.html" class="main-title" >
+                Chapter13: Graph Neural Networks: Graph Matching
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Xiang Ling, Lingfei Wu, Chunming Wu, Shouling Ji
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter14.html" class="main-title" >
+                Chapter14: Graph Neural Networks: Graph Structure Learning
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Yu Chen, Lingfei Wu
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter15.html" class="main-title" >
+                Chapter15: Dynamic Graph Neural Networks
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Seyed Mehran Kazemi
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter16.html" class="main-title" >
+                Chapter16: Heterogeneous Graph Neural Networks
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Chuan Shi
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter17.html" class="main-title" >
+                Chapter17: Graph Neural Networks: AutoML
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Kaixiong Zhou, Zirui Liu, Keyu Duan, Xia Hu
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter18.html" class="main-title" >
+                Chapter18: Graph Neural Networks: Self-supervised Learning
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Yu Wang, Wei Jin, Tyler Derr
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+</div>
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  var ouicalData;
+  var targetNode;
+  var calendarNodeInner;
+  var calendarNodeSpan;
+  var parser = new DOMParser();
+  var calendarNames = Array("google", "off365", "outlook", "ical");
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</script>
+            </div>
+        </div>
+    </div>
+    
+    <div
+        class="tab-pane fade"
+        id="tab-part4"
+        role="tabpanel"
+        aria-labelledby="nav-profile-tab"
+        >
+        
+        <div id="tab-part4">
+            <div class="plenary_sessions">
+                <div class="cards row">
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter19.html" class="main-title" >
+                Chapter19: Graph Neural Networks in Modern Recommender Systems
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Yunfei Chu, Jiangchao Yao, Chang Zhou, Hongxia Yang
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter20.html" class="main-title" >
+                Chapter20: Graph Neural Networks in Computer Vision
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Siliang Tang, Wenqiao Zhang, Zongshen Mu, Kai Shen, Juncheng Li, Jiacheng Li, Lingfei Wu
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter21.html" class="main-title" >
+                Chapter21: Graph Neural Networks in Natural Language Processing
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Bang Liu, Lingfei Wu
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter22.html" class="main-title" >
+                Chapter22: Graph Neural Networks in Program Analysis
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Miltiadis Allamanis
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter23.html" class="main-title" >
+                Chapter23: Graph Neural Networks in Software Mining
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Collin McMillan
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter24.html" class="main-title" >
+                Chapter24: GNN-based Biomedical Knowledge Graph Mining in Drug Development
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Chang Su, Yu Hou, Fei Wang
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter25.html" class="main-title" >
+                Chapter25: Graph Neural Networks in Predicting Protein Function and Interactions
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Anowarul Kabir, Amarda Shehu
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter26.html" class="main-title" >
+                Chapter26: Graph Neural Networks in Anomaly Detection
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Shen Wang, Philip S. Yu
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_Chapter27.html" class="main-title" >
+                Chapter27: Graph Neural Networks in Urban Intelligence
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              Yanhua Li, Xun Zhou, Menghai Pan
+            </span>
+          </div>
+
+<!--          -->
+    </div>
+  </div>
+  
+</div>
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  var ouicalData;
+  var targetNode;
+  var calendarNodeInner;
+  var calendarNodeSpan;
+  var parser = new DOMParser();
+  var calendarNames = Array("google", "off365", "outlook", "ical");
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</script>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+    
+    
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-179777566-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-179777566-1");
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+      <div class="container">
+        <p class="float-left">
+<!--          <img src="static/images/G4L-logo.png"-->
+<!--            height="auto"-->
+<!--            width="200px" align="center"-->
+<!--          >-->
+          <span class="lead">GNNBook 2021</span>
+        </p>
+        <p class="float-right"><a href="#" class="text-dark">Back to Top</a></p>
+        <p class="text-center">© 2021 GNNBook@2021 Team</p>
+      </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+    
+
+  </body>
 </html>

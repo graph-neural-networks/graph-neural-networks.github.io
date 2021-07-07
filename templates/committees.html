@@ -1,0 +1,82 @@
+{% set active_page = "Help Desk" %}
+{% extends "base.html" %}
+
+{% block top %}
+<style>
+  div.top-info {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  div.container {
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  div.public-chat-title-box {
+    background-color: rgba(0, 114, 188, 1);
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+  span.float-left {
+    float: left;
+  }
+
+  a.rocketchat-full-button {
+    float: right;
+  }
+
+  div.rocketchat-safety-valve {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+
+  div.rocketchat-frame {
+    width: 100%;
+    text-align:center;
+  }
+
+  iframe {
+    width: 100%;
+    height: 30rem;
+  }
+</style>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+  <div class="top-info">
+    <p>To access rocketchat in a extra window, please click on "full screen".</p>
+    <a class="btn btn-outline-secondary btn" href="https://neurips2020.rocket.chat/channel/townhall?resumeToken=vJ8P5O0yQ3rcNyKrBrz8qUAubj-9cAj8zEayZS2hlcM">Launch Rocket.Chat full screen</a> 
+  </div>
+</div>
+
+<div class="container">
+  <div class="rocketchat-safety-valve">
+    <ul>
+      <li>If RocketChat does not load after 60 seconds and you would like to ask a question, please try reloading the page</li>
+      <li>Raise technical issues <a class="rocketchat-help-link" href="/virtual/2020/protected/rc_helpdesk.html">here</a></li>
+    </ul>
+  </div>
+
+  <div class='public-chat-title-box'>
+    <span class="float-left"><a class="text-warning text-sm" href="/rocketchat/concerns"  target="_blank">Concerns</a></span>
+    <a style="float:right;" class='rocketchat-full-button' href="https://localhost:3000/" target="_blank" title="Full Size">
+      Full Screen
+    </a>
+    Chat
+  </div>
+  <div class="rocketchat-frame">
+    <iframe frameborder="0" src="http://localhost:3000/channel/test?layout=embedded"></iframe>
+  </div>
+</div>
+{% endblock %}

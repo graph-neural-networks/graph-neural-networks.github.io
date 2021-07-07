@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% set active_page = "Invited Panels " %}
+{% set page_title = "Invited Panels Sessions" %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+
+{% block heading %}
+{{ components.section("AAAI-21 Invited Panels Program") }}
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+        <p>Welcome to the AAAI-21 Invited Panels Program!</p>
+        <p>AAAI-21 is pleased to present the following series of invited panels:<br>
+
+AI Responses to the Covid-19 Pandemic<br>
+Neuro-Symbolic AI Panel<br>
+Governments 1 Panel: Government AI Strategy Panel<br>
+Governments 2 Panel: Government AI Strategy Panel<br>
+Governments 3 Panel: Government AI Strategy Panel<br>
+
+(For information about the IAAI-21 AI in Practice Panels, please see <a href="ai_in_practice.html">https://virtual.2021.aaai.org/ai_in_practice.html</a>.)
+    </div>
+    </div>
+<!-- Uncomment this block after all livestream events are over.
+<div class="text-muted text-center">
+  You can now watch recorded livestream <a href="livestream.html" >here</a>.
+</div>
+-->
+<!--
+<div class="text-muted text-center">
+  The recorded livestream videos available:
+  <a href="https://slideslive.com/38931670" target="_blank">[July 6]</a>
+  and
+  <a href="https://slideslive.com/38931671" target="_blank">[July 7]</a>.
+</div>
+-->
+{% endblock %}
+
+{% block tabs %}
+{{ components.tabs(invited_panels_days) }}
+{% endblock %}
+
+{% block content %}
+<div class="tab-content" id="nav-tabContent">
+
+  {% for (tab_id, day, active) in invited_panels_days %}
+  <div
+    class="tab-pane fade {{ 'active show' if active else '' }}"
+    id="tab-{{ tab_id }}"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="{{ tab_id }}">
+      <div class="plenary_sessions">
+        {{ components.panelsessiongroup(invited_panels[day]) }}
+      </div>
+    </div>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+<script src="static/js/lazy_load.js"></script>
+<script type="text/javascript">
+  lazyLoader();
+</script>
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
+
+{% endblock %}

@@ -1,0 +1,480 @@
+- name: Queer in AI
+  description: The Queer in AI social is an event for queer people and allies in NLP
+    to share their experiences, network with others and discuss queer issues in research.
+    The social will involve a mix of mini-talks, Q&A sessions and breakout discussions.
+    All event information will remain confidential to respect the privacy and safety
+    of participants. People of all identities, including allies, are invited to attend!
+  UID: A1
+  organizers:
+    members:
+    - Pranav A
+    - Vasundhara
+    - Luca Soldaini
+    - Sabine Weber
+  image: static/images/socials/queer_in_ai.png
+  website: https://sites.google.com/view/queer-in-ai/emnlp2020
+  rocketchat_channel: social-queer-ai
+  location: Zoom
+  zoom_link: https://us02web.zoom.us/j/2827770680
+  sessions:
+  - name: 'S-Social A: Delip, Lil Miss and Kirby'
+    start_time: 2020-11-17 01:00:00+00:00
+    end_time: 2020-11-17 03:00:00+00:00
+  - name: 'S-Social B: Naomi, Jasmijn and Irving'
+    start_time: 2020-11-18 16:00:00+00:00
+    end_time: 2020-11-18 18:00:00+00:00
+- name: Veg*NLP
+  description: |-
+    Vegetarians and vegans encounter fascinating challenges in many academic settings.
+    We will discuss the multitude of issues and share anecdotes, stories and recipes as non-meat-eaters in the academic world.
+    Everyone is welcome to join, including carnivores, omnivores, and people with religious or any other dietary restrictions!
+  UID: A2
+  organizers:
+    members:
+    - Boaz Shmueli
+  image: static/images/socials/VegNLP-logo.png
+  website: https://sites.google.com/view/vegnlp/
+  rocketchat_channel: social-vegnlp
+  location: Gather.Town
+  sessions:
+  - name: S-Virtual Potluck Party
+    start_time: 2020-11-17 14:00:00+00:00
+    end_time: 2020-11-17 15:00:00+00:00
+- name: LatinX in NLP
+  description: This affinity social is aimed at LatinX individuals working on or interested
+    in NLP with a goal to increase the visibility of researchers of LatinX origin
+    in a field that has been dominated by other regions.
+  UID: A3
+  organizers:
+    members:
+    - Luciana Benotti
+    - "Diana Galv\xE1n Sosa"
+  image: static/images/socials/LXAI-navlogo.png
+  website: http://www.latinxinai.org/emnlp-2020
+  rocketchat_channel: social-latinx
+  location: Zoom
+  zoom_link: https://us02web.zoom.us/j/3825328538
+  sessions:
+  - name: 'S-Session 1: Diana Galvan (chair)'
+    start_time: 2020-11-17 17:00:00+00:00
+    end_time: 2020-11-17 19:00:00+00:00
+  - name: 'S-Session 2: Luciana Benotti (chair)'
+    start_time: 2020-11-18 18:00:00+00:00
+    end_time: 2020-11-18 20:00:00+00:00
+- name: North Africans in NLP
+  description: We welcome NLP & AI researchers who are North African and/or are based
+    in North Africa to attend our panel discussion with an exciting line-up of speakers,
+    and to participate in our two networking sessions.
+  UID: A4
+  organizers:
+    members:
+    - Asma Ben Abacha
+    - Khalil Mrini
+    - Meriem Beloucif
+    - Nedjma Ousidhoum
+    - Waleed Ammar
+  image: static/images/socials/NorthAfricansInNLP.png
+  website: https://sites.google.com/view/NorthAfricansInNLP
+  rocketchat_channel: social-northafrica
+  location: Zoom & Gather.Town
+  zoom_link: https://us02web.zoom.us/j/2503215783
+  sessions:
+  - name: S-Panel Discussion on Research in NLP & AI as a North African (Zoom)
+    start_time: 2020-11-16 18:00:00+00:00
+    end_time: 2020-11-16 19:00:00+00:00
+  - name: S-Networking Session for North Africa, Europe & the Americas (Gather.town)
+    start_time: 2020-11-16 19:00:00+00:00
+    end_time: 2020-11-16 20:00:00+00:00
+  - name: S-Networking Session for North Africa, Europe, Asia & Oceania (Gather.town)
+    start_time: 2020-11-18 10:00:00+00:00
+    end_time: 2020-11-18 11:00:00+00:00
+- name: Building NLP in Africa
+  description: African NLP is more than just a lack of data, it's African expression,
+    it's decolonisation, it's poetry, literature and music. Whether your African or
+    simply excited by Africa, please join us at the Masakhane social.
+  UID: A5
+  organizers:
+    members:
+    - Jade Abbott
+  website: https://www.masakhane.io/events/social-emnlp2020
+  rocketchat_channel: social-nlpafrica
+  location: Zoom
+  zoom_link: https://us02web.zoom.us/j/3445194683
+  sessions:
+  - name: S-Session 1
+    start_time: 2020-11-17 14:00:00+00:00
+    end_time: 2020-11-17 15:00:00+00:00
+  - name: S-Session 2
+    start_time: 2020-11-18 14:00:00+00:00
+    end_time: 2020-11-18 15:00:00+00:00
+- name: Junior Faculty in Linguistics/CogSci
+  description: An informal gathering for junior faculty (U.S. Assistant Professors
+    and similar) around the world who identify as linguists or cognitive scientists.
+    Discussion will center on approaches to, and challenges of, computational teaching
+    and research in these disciplines.
+  UID: A6
+  organizers:
+    members:
+    - Nathan Schneider
+  rocketchat_channel: social-jrcogsci
+  location: Zoom
+  zoom_link: https://us02web.zoom.us/j/5969810920
+  sessions:
+  - name: S-Session 1
+    start_time: 2020-11-18 18:00:00+00:00
+    end_time: 2020-11-18 19:00:00+00:00
+- name: The Unofficial EMNLP Welcome Social, Now with Clustering!
+  description: 'The goal is to recreate an important part of any conference: Getting
+    to know new people with interests that are similar to yours. All registered EMNLP
+    2020 attendees are welcome, no matter where you are or how much experience you
+    have with NLP. *You must register before 11pm UTC on Monday to attend*.'
+  UID: A7
+  organizers:
+    members:
+    - Sam Bowman
+  website: https://nyu-mll.github.io/emnlp2020social/
+  rocketchat_channel: social-emnlp-welcome
+  location: Zoom
+  zoom_link: https://us02web.zoom.us/j/4372427218
+  sessions:
+  - name: S-Session 1
+    start_time: 2020-11-17 20:00:00+00:00
+    end_time: 2020-11-17 21:00:00+00:00
+  - name: S-Session 2
+    start_time: 2020-11-17 22:00:00+00:00
+    end_time: 2020-11-17 23:00:00+00:00
+  - name: S-Session 3
+    start_time: 2020-11-18 10:00:00+00:00
+    end_time: 2020-11-18 11:00:00+00:00
+- name: Computational Social Science and Social Media
+  description: Birds of a Feather meetup session on the topic "Computational Social
+    Science and Social Media".
+  UID: B1
+  organizers:
+    members:
+    - Preslav Nakov
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-social-media
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Preslav Nakov
+    start_time: 2020-11-17 13:00:00+00:00
+    end_time: 2020-11-17 14:00:00+00:00
+- name: Machine Translation and Multilinguality
+  description: Birds of a Feather meetup session on the topic "Machine Translation
+    and Multilinguality".
+  UID: B10
+  organizers:
+    members:
+    - Chi-kiu (Jackie) Lo
+    - Antonis Anastasopoulos
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-multiling
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Chi-kiu (Jackie) Lo
+    start_time: 2020-11-16 19:00:00+00:00
+    end_time: 2020-11-16 20:00:00+00:00
+  - name: S-Session 2 with Antonis Anastasopoulos
+    start_time: 2020-11-17 21:00:00+00:00
+    end_time: 2020-11-17 22:00:00+00:00
+- name: NLP Applications
+  description: Birds of a Feather meetup session on the topic "NLP Applications".
+  UID: B11
+  organizers:
+    members:
+    - Deqing Chen
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-applications
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Deqing Chen
+    start_time: 2020-11-18 05:00:00+00:00
+    end_time: 2020-11-18 06:00:00+00:00
+- name: Question Answering
+  description: Birds of a Feather meetup session on the topic "Question Answering".
+  UID: B12
+  organizers:
+    members:
+    - Pradeep Dasigi
+    - Xianchao Wu
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-qa
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Pradeep Dasigi
+    start_time: 2020-11-17 21:00:00+00:00
+    end_time: 2020-11-17 22:00:00+00:00
+  - name: S-Session 2 with Xianchao Wu
+    start_time: 2020-11-18 11:00:00+00:00
+    end_time: 2020-11-18 12:00:00+00:00
+- name: Resources and Evaluation
+  description: Birds of a Feather meetup session on the topic "Resource and Evaluation".
+  UID: B13
+  organizers:
+    members:
+    - Eunsol Choi
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-eval
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Eunsol Choi
+    start_time: 2020-11-18 21:00:00+00:00
+    end_time: 2020-11-18 22:00:00+00:00
+- name: 'Semantics: Lexical, Sentence level, Textual Inference and Other areas'
+  description: 'Birds of a Feather meetup session on the topic "Semantics: Lexical,
+    Sentence level, Textual Inference and Other areas".'
+  UID: B14
+  organizers:
+    members:
+    - Ted Pedersen
+    - Siva Reddy
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-semantics
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Ted Pederson
+    start_time: 2020-11-16 19:00:00+00:00
+    end_time: 2020-11-16 20:00:00+00:00
+  - name: S-Session 2 with Siva Reddy
+    start_time: 2020-11-17 21:00:00+00:00
+    end_time: 2020-11-17 22:00:00+00:00
+- name: Sentiment Analysis, Stylistic Analysis, and Argument Mining
+  description: Birds of a Feather meetup session on the topic "Sentiment Analysis,
+    Stylistic Analysis, and Argument Mining".
+  UID: B15
+  organizers:
+    members:
+    - Iryna Gurevych
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-sentiment
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Iryna Gurevych
+    start_time: 2020-11-17 13:00:00+00:00
+    end_time: 2020-11-17 14:00:00+00:00
+- name: Speech and Multimodality
+  description: Birds of a Feather meetup session on the topic "Speech and Multimodality".
+  UID: B16
+  organizers:
+    members:
+    - Grzegorz Chrupala
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-speech
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Grzegorz Chrupala
+    start_time: 2020-11-18 11:00:00+00:00
+    end_time: 2020-11-18 12:00:00+00:00
+- name: Summarization
+  description: Birds of a Feather meetup session on the topic "Summarization".
+  UID: B17
+  organizers:
+    members:
+    - Lili Mou
+    - Muthukumar Chandrasekaran
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-summarisation
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Lili Mou
+    start_time: 2020-11-17 05:00:00+00:00
+    end_time: 2020-11-17 06:00:00+00:00
+  - name: S-Session 2 with Muthukumar Chandrasekaran
+    start_time: 2020-11-18 05:00:00+00:00
+    end_time: 2020-11-18 06:00:00+00:00
+- name: 'Syntax: Tagging, Chunking and Parsing'
+  description: 'Birds of a Feather meetup session on the topic "Syntax: Tagging, Chunking
+    and Parsing".'
+  UID: B18
+  organizers:
+    members:
+    - Ryan Cotterell
+    - Valia Kordoni
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-syntax
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Ryan Cotterell, Valia Kordoni
+    start_time: 2020-11-18 21:00:00+00:00
+    end_time: 2020-11-18 22:00:00+00:00
+- name: Dialogue and Interactive Systems
+  description: Birds of a Feather meetup session on the topic "Dialogue and Interactive
+    Systems".
+  UID: B2
+  organizers:
+    members:
+    - Walter Chang
+    - Samira Shaikh
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-dialogue
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Walter Chang
+    start_time: 2020-11-17 05:00:00+00:00
+    end_time: 2020-11-17 06:00:00+00:00
+  - name: S-Session 2 with Samira Shaikh
+    start_time: 2020-11-18 05:00:00+00:00
+    end_time: 2020-11-18 06:00:00+00:00
+- name: Discourse and Pragmatics
+  description: Birds of a Feather meetup session on the topic "Discourse and Pragmatics".
+  UID: B3
+  organizers:
+    members:
+    - Vered Shwartz
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-discourse
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Vered Shwartz
+    start_time: 2020-11-16 19:00:00+00:00
+    end_time: 2020-11-16 20:00:00+00:00
+- name: Generation
+  description: Birds of a Feather meetup session on the topic "Generation".
+  UID: B4
+  organizers:
+    members:
+    - Yacine Jernite
+    - Jackie Cheung
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-generation
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Yacine Jernite
+    start_time: 2020-11-16 19:00:00+00:00
+    end_time: 2020-11-16 20:00:00+00:00
+  - name: S-Session 2 with Jackie Cheung
+    start_time: 2020-11-17 21:00:00+00:00
+    end_time: 2020-11-17 22:00:00+00:00
+- name: Information Extraction
+  description: Birds of a Feather meetup session on the topic "Information Extraction".
+  UID: B5
+  organizers:
+    members:
+    - Danqi Chen
+    - Omer Levy
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-ie
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Danqi Chen, Omer Levy
+    start_time: 2020-11-17 13:00:00+00:00
+    end_time: 2020-11-17 14:00:00+00:00
+- name: Information Retrieval and Text Mining
+  description: Birds of a Feather meetup session on the topic "Information Retrieval
+    and Text Mining".
+  UID: B6
+  organizers:
+    members:
+    - Steven Bedrick
+    - Avi Sil
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-ir
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Steven Bedrick
+    start_time: 2020-11-17 21:00:00+00:00
+    end_time: 2020-11-17 22:00:00+00:00
+  - name: S-Session 2 with Avi Sil
+    start_time: 2020-11-18 21:00:00+00:00
+    end_time: 2020-11-18 22:00:00+00:00
+- name: Interpretability and Analysis of Models for NLP
+  description: Birds of a Feather meetup session on the topic "Interpretability and
+    Analysis of Models for NLP".
+  UID: B7
+  organizers:
+    members:
+    - Ana Marasovic
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-interpret
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Ana Marasovic
+    start_time: 2020-11-17 05:00:00+00:00
+    end_time: 2020-11-17 06:00:00+00:00
+- name: Linguistic Theories, Cognitive Modeling and Psycholinguistics
+  description: Birds of a Feather meetup session on the topic "Linguistic Theories,
+    Cognitive Modeling and Psycholinguistics".
+  UID: B8
+  organizers:
+    members:
+    - Afra Alishahi
+    - Tal Linzen
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-theory
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Afra Alishahi
+    start_time: 2020-11-18 11:00:00+00:00
+    end_time: 2020-11-18 12:00:00+00:00
+  - name: S-Session 2 with Tal Linzen
+    start_time: 2020-11-18 21:00:00+00:00
+    end_time: 2020-11-18 22:00:00+00:00
+- name: Machine Learning for NLP
+  description: Birds of a Feather meetup session on the topic "Machine Learning for
+    NLP".
+  UID: B9
+  organizers:
+    members:
+    - Sebastian Ruder
+    - Luke Zettlemoyer
+  image: static/images/emnlp2020/acl-logo.png
+  rocketchat_channel: boaf-ml
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1 with Sebastian Ruder
+    start_time: 2020-11-17 13:00:00+00:00
+    end_time: 2020-11-17 14:00:00+00:00
+  - name: S-Session 2 with Luke Zettlemoyer
+    start_time: 2020-11-18 05:00:00+00:00
+    end_time: 2020-11-18 06:00:00+00:00
+- name: Open Mentoring sessions
+  description: Mentoring sessions on various topics, open to everyone (do note that
+    there is a capacity limit of 300).
+  UID: M2
+  organizers:
+    members:
+    - Jack Hessel
+    - Julia Hockenmaier
+    - Marzieh Fadaee
+    - Michael Roth
+    - Mohit Bansal
+    - Noah Smith
+    - Ritwik Banerjee
+    - Steven Bethard
+    - Tim Baldwin
+    - Yevgeni Berzak
+  rocketchat_channel:
+  location: Zoom
+  sessions:
+  - name: S-Session 1 with Jack Hessel, Tim Baldwin, Ritwik Banerjee, Steven Bethard
+    start_time: 2020-11-17 04:00:00+00:00
+    end_time: 2020-11-17 05:00:00+00:00
+    link: https://us02web.zoom.us/j/85167531611?pwd=emxIemJwems2RFVRMDQyY2VFVmFQQT09
+  - name: S-Session 2 with Michael Roth, Yevgeni Berzak, Marzieh Fadaee
+    start_time: 2020-11-17 12:00:00+00:00
+    end_time: 2020-11-17 13:00:00+00:00
+    link: https://us02web.zoom.us/j/81448433082?pwd=UEdmMERLN1piM25YeUVWck5rZjd0QT09
+  - name: S-Session 3 with Noah Smith, Mohit Bansal, Julia Hockenmaier
+    start_time: 2020-11-18 20:00:00+00:00
+    end_time: 2020-11-18 21:00:00+00:00
+    link: https://us02web.zoom.us/j/84632095944?pwd=STdkUUI3bEhJUG8rWk5LTEdxaGtBdz09
+- name: Undergraduate Student Panel
+  description: A panel designed for undergraduates attending the conference. We assume
+    that these participants may be interested in pursuing a graduate degree, so we
+    will provide presentations and informal small group conversations that will give
+    people an idea how graduate study works and what research life is like.
+  UID: U1
+  organizers:
+    members:
+    - Chris Brew
+    - tbd
+  rocketchat_channel: panel-ugrad
+  location: Gather.Town
+  sessions:
+  - name: S-Session 1
+    start_time: 2020-11-17 17:00:00+00:00
+    end_time: 2020-11-17 18:00:00+00:00
+  - name: S-Session 2
+    start_time: 2020-11-18 03:00:00+00:00
+    end_time: 2020-11-18 04:00:00+00:00

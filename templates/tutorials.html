@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% set active_page = "Tutorials" %}
+{% set page_title = "Tutorials" %}
+
+{% block heading %}
+{#{{ components.section("Tutorial") }}#}
+
+{{ components.section("AAAI-21 Tutorial Forum") }}
+
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+    <h4 class="text-center">
+    Thirty-Fifth Conference on Artificial Intelligence
+    </h4>
+
+    <h5 class="text-center text-muted">
+    February 3, 2021
+    </h5>
+
+    <p>
+    The Tutorial Forum provides an opportunity for researchers and practitioners to explore exciting advances in disciplines outside their normal focus. We believe this type of forum is essential for the cross fertilization, cohesiveness, and vitality of the AI field. We all have a lot to learn from each other; the Tutorial Forum promotes the continuing education of each member of AAAI.
+    </p>
+    <p>
+    Below are the tutorials to be held on February 3rd, 2021. Click on it to access its material. <br/>
+    You can also view the schedule by going to the "day" view on the <a href="schedule.html" target="_blank">Schedule</a>
+    page for February 3rd.
+    </p>
+    </div>
+</div>
+
+{#<div class="text-center p-3">#}
+{#    <a class="card-link" role="button" href="#MQ_tutorials">#}
+{#      Morning Quarter-day Tutorials#}
+{#    </a>#}
+{#    <a class="card-link" role="button" href="#MH_tutorials">#}
+{#      Morning Half-day Tutorials#}
+{#    </a>#}
+{#    <a class="card-link" role="button" href="#AQ_tutorials">#}
+{#      Afternoon Quarter-day Tutorials#}
+{#    </a>#}
+{#    <a class="card-link" role="button" href="#AH_tutorials">#}
+{#      Afternoon Half-day Tutorials#}
+{#    </a>#}
+{#</div>#}
+
+{% endblock %}
+
+{% block tabs %}
+<ul class="nav nav-pills justify-content-center">
+  <li class="nav-item">
+    <a
+      class="nav-link active"
+      data-toggle="tab"
+      href="#tab-mq"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Morning Quarter-day Tutorials
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-mh"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Morning Half-day Tutorials
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-aq"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Afternoon Quarter-day Tutorials
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-ah"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Afternoon Half-day Tutorials
+    </a>
+  </li>
+</ul>
+{% endblock %}
+
+{% block content %}
+
+{#<div class="tutorials">#}
+{#    {{ components.tutorialgroup(tutorials,tutorials_MQ,tutorials_MH,tutorials_AQ,tutorials_AH) }}#}
+{#</div>#}
+
+<div class="tab-content" id="nav-tabContent">
+
+  <div
+    class="tab-pane fade active show"
+    id="tab-mq"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-mq">
+      <div class="plenary_sessions">
+        {{ components.uc_abstracts_group(tutorials_MQ) }}
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-mh"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-mh">
+      <div class="plenary_sessions">
+        {{ components.uc_abstracts_group(tutorials_MH) }}
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-aq"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-aq">
+      <div class="plenary_sessions">
+        {{ components.uc_abstracts_group(tutorials_AQ) }}
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-ah"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-ah">
+      <div class="plenary_sessions">
+        {{ components.uc_abstracts_group(tutorials_AH) }}
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="static/js/lazy_load.js"></script>
+<script type="text/javascript">
+  lazyLoader();
+</script>
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
+{% endblock %}

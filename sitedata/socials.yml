@@ -1,0 +1,226 @@
+- name: Scientific Discovery with AI
+  description: Scientific Discovery with AI is a one-day event that is focused on leveraging AI to solve research problems in the traditional branches of Science including Physics, Chemistry, Earth Sciences, Medicine, Economics, etc. This event consists of exciting talks and presentations primarily for undergraduates and first year graduate students who are interested in the non-CS branches of Science. (Open to all the interested AAAI attendees)
+  UID: A1
+  organizers:
+    members:
+    - Lydia Manikonda
+    - Rui Fan
+  image: static/images/aaai2021/AAAI-logo.png
+  website:  https://sites.google.com/view/ai4be
+  rocketchat_channel:
+  location: takes place online
+  zoom_link: https://zoom.us/j/96508391734?pwd=Mmx6RTVtVmgyaGFnU2xTYTloN1l4Zz09
+  sessions:
+  - name: ""
+    start_time: 2021-02-09 06:00:00-08:00
+    end_time: 2021-02-09 13:00:00-08:00
+
+- name: Accelerating the Pipeline of Trailblazing STEM Students
+  description: |-
+    We will discuss needs, best practices, and research to help trailblazing students pursue careers in AI. Trailblazers are high-potential students from under-resourced backgrounds (e.g., first-generation, low-income), under-represented backgrounds (e.g., African American, Latinx, Native American, women), and others with limited exposure to research opportunities or mentoring. These learners represent a highly capable, under-utilized resource.
+    We will highlight a successful pilot program called “Cohort-based Integrated Research Community for Undergraduate Innovation and Trailblazing” (CIRCUIT - www.circuitinstitute.org) at the Johns Hopkins University Applied Physics Laboratory that aims to create a new talent pipeline facilitating the transition of trailblazing undergraduate students into advanced STEM degrees and careers, while achieving mission impact.
+    Our workshop will provide an avenue for discussion and potential solutions, including opportunities related to virtual education and the COVID-19 pandemic.
+  UID: A2
+  organizers:
+    members:
+    - William Gray-Roncal
+  image: static/images/aaai2021/AAAI-logo.png
+  website: https://www.circuitinstitute.org/aaai21
+  rocketchat_channel:
+  location: takes place online
+  zoom_link: https://jhuapl.zoomgov.com/j/1611514016?pwd=M0ptYXlQMjFINzczcFRpUGNUTWluQT09
+  sessions:
+  - name: ""
+    start_time: 2021-02-05 11:30:00-08:00
+    end_time: 2021-02-05 13:30:00-08:00
+
+- name: Black in AI Social at AAAI2021
+  description: The highlight of this event is a fireside chat with Dr. Ayanna Howard (Georgia Institute of Technology), an accomplished American roboticist, entrepreneur and educator. We will discuss her latest book "Sex, Race, and Robots," in which she explores how the tech world’s racial and sexual biases are infecting the next generation of Artificial Intelligence, with profoundly negative effects for humans of all genders and races.
+  UID: A3
+  organizers:
+    members:
+    - Timnit Gebru
+  image: static/images/aaai2021/AAAI-logo.png
+  website: https://blackinai.github.io/#/
+  rocketchat_channel:
+  location: takes place online
+  zoom_link: https://zoom.us/j/96657267046?pwd=Sm5TYTZiQ0hmeDF0OGJ3ejRCaGdxdz09
+  sessions:
+  - name: ""
+    start_time: 2021-02-09 15:30:00-08:00
+    end_time: 2021-02-09 18:30:00-08:00
+- name: Gender Identity and AI
+  description: "As AI-driven systems become the de-facto drivers of human interactions, they risk making assumptions about gender identity that alienates people who do not see themselves represented. To acknowledge and respect a broader scope of gender identities, change is needed in how we develop the systems that drive our world. The key question we hope to explore during this workshop is: \"How can AI systems be developed that better represent and include all gender identities?\" We are interested in discussing the full AI/ML pipeline, including data collection, data analysis and interpretation, and representations of AI systems and agents, which can propagate stereotypes. Everyone is invited to the presentations, but we will limit the number of participants in the breakout sessions to keep them manageable. Interested participants should sign up for the breakouts on the workshop website."
+  UID: A4
+  organizers:
+    members:
+    - Anita De Waard
+    - Charlie Negri
+    - Bharathi Raja Chakravarthi
+    - Sharone Horowit-Hendler
+    - Andreea Danielescu
+  image: static/images/aaai2021/AAAI-logo.png
+  website: https://sites.google.com/view/gender-identity-and-ai/home
+  rocketchat_channel:
+  location: takes place online
+  zoom_link: https://zoom.us/j/98677487319?pwd=dklWVmpqNFRHR2lrV0V2N201NkJ2QT09
+  sessions:
+  - name: ""
+    start_time: 2021-02-08 08:30:00-08:00
+    end_time: 2021-02-08 15:00:00-08:00
+
+- name: Girls and Grandmothers – Funded!
+  description: Take charge of your financial future and use AI to solve complex problems in your community! One of the most important steps that girls and women can take to improve their financial health is equipping themselves with the tools to make smart, informed decisions with their money. Join Technovation for an interactive workshop empowering girls and women of all ages to lead in financial innovation and become agents of their own financial success and independence. You will learn basic machine learning and AI concepts from experts at Google and hear from women leaders and entrepreneurs about starting a business, raising money, and investing in a better future.
+  UID: A5
+  organizers:
+    members:
+    - Tara Chklovski
+    - Rebecca Anderson
+    - Bryant Gomer
+  image: static/images/aaai2021/AAAI-logo.png
+  website: https://docs.google.com/document/d/1CTHDlQGuC-lSyaSaOHUsre6gyNZ3fpirEC90uL61Brg/edit#
+  rocketchat_channel:
+  location: takes place online
+  zoom_link: https://zoom.us/j/97141736891?pwd=QVRGSkdaMzJ3b0tTdEZjQ09pNFV0dz09
+  sessions:
+  - name: ""
+    start_time: 2021-02-08 07:00:00-08:00
+    end_time: 2021-02-08 10:30:00-08:00
+
+- name: LatinXperiences. Community Building for Latinx researchers
+  description: LatinXperiences is an event that strives to create new and lasting connections between established researchers, at top-tier universities and research laboratories, and early-career researchers and students from Latin American countries.
+  UID: A6
+  organizers:
+    members:
+    - Andres Munoz Medina
+    - Luz Angelica Caudillo-Mata
+    - Benjamin Sanchez-Lengelin
+  image: static/images/aaai2021/AAAI-logo.png
+  website: https://sites.google.com/view/latinxperiences/home
+  rocketchat_channel:
+  location: takes place online
+  zoom_link: https://zoom.us/j/92378438045?pwd=b2tEc25KQzg1N043cGx3ZGQ2WVhWdz09
+  sessions:
+  - name: ""
+    start_time: 2021-02-04 12:00:00-08:00
+    end_time: 2021-02-04 14:00:00-08:00
+
+- name: 2021 Mid-Career Diversity Virtual Discussion (MIDCAR)
+  description: "MIDCAR is an event for minority members at mid-career levels. The goals of MIDCAR 2021 are: 1) Increase awareness of potential disadvantages faced by minorities and of actions to take to neutralize them at mid-career levels; 2) Strengthen the ties between underrepresented AAAI members at mid-career levels; and 3) Revitalize our group and create sharable repositories so that together we can overcome challenges. Please join us if you need or are willing to offer help. This is our second event. We learned important strategies last year from senior AAAI members and we would like to share those strategies with you, and further discuss the challenges that stop many of us from being more assertive and from reaching our fair place at the academic-scientific table in our institutions and in our field."
+  UID: A7
+  organizers:
+    members:
+    - Rosina Weber
+    - Pablo Rivas
+  image: static/images/aaai2021/AAAI-logo.png
+  website: http://www.pages.drexel.edu/~rw37/midcar2021
+  rocketchat_channel:
+  location: takes place online
+  zoom_link: https://zoom.us/j/93835216885?pwd=dWVYY1hMZTRodmdkTHhvMDBLQUhXUT09
+  sessions:
+  - name: ""
+    start_time: 2021-02-06 11:00:00-08:00
+    end_time: 2021-02-06 14:30:00-08:00
+
+- name: "Reframing Diversity in AI: Representation, Inclusion and Power"
+  description: |-
+    The number of minorities in the tech industry is disproportionately low when compared to the US and world population. This lack of diversity often leads to new technology and solutions that contribute to and sometimes amplify systemic racism. We maintain that part of the effort in increasing diversity in AI should be focused on reforming our perspectives, reshaping our institutions and enabling equitable participation and influence at every level of an organization or institution.
+    The Reframing Diversity in AI: Representation, Inclusion, and Power workshop is a one-day event that will bring together academic and industrial researchers to explore, frame, and implement inclusive solutions across three topic areas:
+    1. The use of technology to address systemic racism as a means to reduce historical barriers of opportunity
+    2. The need for inclusion of members of key groups including Black and Latino individuals in the concept, design and testing of technical solutions
+    3. Participation in key decision-making roles to influence all aspects of minority engagement
+
+  UID: A8
+  organizers:
+    members:
+    - Stacy Hobson
+    - Lauren Thomas
+    - Kayla Lee
+    - Chinyere Agunwa
+    - Achille Fokoue
+  image: static/images/aaai2021/AAAI-logo.png
+  website: https://researcher.watson.ibm.com/researcher/view_group.php?id=10599
+  rocketchat_channel:
+  location: takes place online
+  zoom_link: https://zoom.us/j/98166353906?pwd=YVRpSUI5RGtHcCtmWHBOb0lkZXFvQT09
+  sessions:
+  - name: ""
+    start_time: 2021-02-09 06:30:00-08:00
+    end_time: 2021-02-09 14:00:00-08:00
+
+- name: Try AI
+  description: Try AI is committed to offering programs that explore the potential application of artificial intelligence (AI) in society, increase diversity in computer science, and build meaningful research connections. As part of the Try AI Speaker Series, join us for three unique discussions featuring leading AI professionals. Through this program, we hope to provide students the opportunity to learn about the career journey of AI researchers and explore their own AI ideas and questions. Each event will be limited to 20 students to ensure we can have meaningful discussions. The program is open to 10th - 12th graders and first and second year undergraduate students. Prior knowledge of AI is not required to participate. Check out www.try-ai.org for registration details and further info.
+  UID: A9
+  organizers:
+    members:
+    - Elizabeth Bondi
+    - Alexis Stokes
+  image: static/images/aaai2021/AAAI-logo.png
+  website: 
+  rocketchat_channel:
+  location: is by invitation only
+  zoom_link: 
+  sessions:
+  - name: "1"
+    start_time: 2021-02-02 16:00:00-08:00
+    end_time: 2021-02-02 17:00:00-08:00
+  - name: "2"
+    start_time: 2021-02-04 16:00:00-08:00
+    end_time: 2021-02-04 17:00:00-08:00
+  - name: "3"
+    start_time: 2021-02-05 16:00:00-08:00
+    end_time: 2021-02-05 17:00:00-08:00
+
+- name: Women’s Mentoring Session
+  description: The women's mentoring session offers female students in AI the opportunity to meet with leading women in our field. It is a venue for discussing issues relevant to pursuing a successful career in AI, including but not limited to, strategies for being successful in graduate school, how to navigate the job market, the trade-offs between working in academia versus industry, work-life balance, and so on. Through candid discussions we hope that participants will establish relationships that will persist beyond this single event. No submissions are required, but this event is open to registered participants only. This year's event will be virtual, taking place on Friday, February 5, 1:30 - 3:00 PM PT. Please check our website for future updates about mentors, discussion topics, and instructions for joining.
+  UID: A10
+  organizers:
+    members:
+    - Maria Chang
+    - Elena Zheleva
+  image: static/images/aaai2021/AAAI-logo.png
+  website: https://womenmentorinai.github.io/
+  rocketchat_channel:
+  location: is by invitation only
+  zoom_link: 
+  sessions:
+  - name: ""
+    start_time: 2021-02-05 13:30:00-08:00
+    end_time: 2021-02-05 15:00:00-08:00
+
+- name: The Second Workshop on Artificial Intelligence – Diversity, Belonging, Equity, and Inclusion (AIDBEI)
+  description: This workshop is the second in the series of workshops organized by Diverse In AI, an affinity group which aims to foster links between participants from underrepresented populations, which in artificial intelligence includes but is not limited to women, LGBTQ+ persons, and people of color (e.g., Black in AI, WiML, LatinX in AI, Queer in AI). This workshop aims to bring together these communities to strive to achieve the intersecting goals through interdisciplinary collaborations. This shall help in the dissemination of benefits to all underserved communities in the field of AI and further help in mentoring students/future technologists belonging to isolated, underprivileged, and underrepresented communities. The workshop will include some presentations, a panel discussion, and an online social event open to everyone, using the gather town software for one-to-one and many-to-many interaction and networking through multiple communities. A mentoring sub-event will be offered to junior attendees during the online social event in order to encourage interactions.
+  UID: A11
+  organizers:
+    members:
+    - Deepti Lamba
+    - William Hsu
+  image: static/images/aaai2021/AAAI-logo.png
+  website: http://www.diverseinai.com
+  rocketchat_channel:
+  location: takes place online
+  zoom_link: http://ksu.zoom.us/my/banazir
+  sessions:
+  - name: ""
+    start_time: 2021-02-09 07:30:00-08:00
+    end_time: 2021-02-09 13:30:00-08:00
+  
+- name: Queer in AI Social
+  description: The Queer in AI social is an event for queer and trans individuals and allies in AI to share their experiences, network with others, and discuss queer and trans issues in research. This social will be hosted on Gather.town. All event information will remain confidential to respect the privacy and safety of participants. People of all identities, including allies, are invited to attend!
+  UID: A12
+  organizers:
+    members:
+    - Arjun Subramonian
+    - William Agnew
+  image: static/images/aaai2021/AAAI-logo.png
+  website: https://queerinai.org/aaai-2021
+  rocketchat_channel:
+  location: is by invitation only
+  zoom_link: 
+  sessions:
+  - name: "1"
+    start_time: 2021-02-03 08:00:00-08:00
+    end_time: 2021-02-03 09:00:00-08:00
+  - name: "2"
+    start_time: 2021-02-03 18:00:00-08:00
+    end_time: 2021-02-03 19:00:00-08:00

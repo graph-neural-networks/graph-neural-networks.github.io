@@ -1,0 +1,54 @@
+{% set active_page = "Sponsors" %}
+{% set page_title = "Sponsors" %}
+{% extends "base.html" %}
+
+{% block heading %}
+{{ components.section("AAAI-21 Sponsor and Exhibit Program") }}
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-12 pb-4">
+    <p class="lead">
+        AAAI welcomes you to its annual Sponsor and Exhibit program. We would like to thank all of our sponsors for their generous support of AAAI programs and students. The exhibit program will be available in <a href="https://www.virtualchair.net/venues/aaai-2021"> Virtual Chair on Gather.Town</a> during the following hours:<br>
+        February 4-6<br>
+        ------------<br>
+        10:00 AM - 12:30 PM PST<br>
+        6:00 PM - 8:30 PM PST<br>
+        2:00 AM - 4:30 AM PST
+      <br >
+      <span class="font-weight-bold">Click on sponsor logos to visit their Virtual Exhibit Spaces!</span>
+    </p>
+  </div>
+
+</div>
+
+<div class="sponsors">
+  <div class="cards row">
+  {% for sponsor_level in sponsor_levels %}
+    {% if sponsors[sponsor_level] | length > 0 %}
+      <div class="col-12 pt-3">
+      <h2>{{ sponsor_level }}</h2>
+      <hr />
+      </div>
+
+      {% for sponsor in sponsors[sponsor_level] %}
+        {% if sponsor.landingpage is defined %}
+          <a class="text-muted" href="{{sponsor.landingpage}}" target="_blank">
+        {% else %}
+          <a class="text-muted" href="sponsor_{{sponsor.UID}}.html">
+        {% endif %}
+      <div class="col-md-3 col-sm-6">
+        <div class="sponsorLogo">
+            <span class="sponsorHelper"></span>
+              <img class="card-img-top sponsorImg" src="static/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>
+{% endblock %}

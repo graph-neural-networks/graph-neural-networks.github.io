@@ -1,0 +1,46 @@
+{% set active_page = "Organizers" %}
+{% set page_title = "Organizers" %}
+{% extends "base.html" %}
+
+{% block heading %}
+
+<style>
+    div.text-muted:hover {
+        background-color: rgb(175, 174, 174);
+        /* width: 100%;
+        height: auto; */
+    }
+
+    /* div.col-md-3.col-xs-6 :hover {
+        background-color: rgb(175, 174, 174);
+        width: 2vw;
+        height: auto;
+    } */
+
+    img.rounded.mx-auto.my-3 {
+        display: block; 
+        width: auto;
+        height: 8vw;
+    }
+
+</style>
+
+{{ components.section("Organizers") }}
+<!-- <div class="text-muted text-center">
+Also check out our
+<a href="https://2020.emnlp.org/organizers/senior-program-committee" target="_blank">Senior Program Committee</a>
+and
+<a href="https://2020.emnlp.org/organizers/ethics-committee" target="_blank">Ethics Committee</a>.
+</div> -->
+{% endblock %}
+
+{% block content %}
+
+{{ components.organizergroup(committee) }}
+
+<!-- <style>
+    div.card.text-center.shadow:hover {
+     background-color: yellow;   
+    }
+</style> -->
+{% endblock %}

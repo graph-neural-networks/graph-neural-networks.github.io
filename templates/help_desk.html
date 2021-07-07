@@ -1,0 +1,202 @@
+{% set active_page = "Help Desk" %}
+{% extends "base.html" %}
+
+{% block top %}
+<style>
+  div.top-info {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  div.container {
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  div.public-chat-title-box {
+    background-color: rgba(0, 114, 188, 1);
+    display: block;
+    /* text-align: center; */
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+  span.float-left {
+    float: left;
+  }
+
+  a.rocketchat-full-button {
+    float: right;
+  }
+
+  div.rocketchat-safety-valve {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+
+  div.rocketchat-frame {
+    width: 100%;
+    text-align:center;
+  }
+
+  iframe {
+    width: 100%;
+    height: 30rem;
+  }
+
+  div.rocketchat-safety-valve.btn-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+  }
+
+  button.btn-grp {
+    width: 13%;
+    height: 5%;
+    margin: 0.2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    /* background-color: #f4511e; */
+    background-color:  rgba(0, 114, 188, 1);;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  button.btn-grp:hover {
+    background-color: #f4511e;
+    color: white;
+  }
+
+  button.btn-grp span {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: 0.5s;
+    margin: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  button.btn-grp span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  button.btn-grp:hover span {
+    padding-right: 25px;
+  }
+
+  button.btn-grp:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #sponsors {
+    background-color: #ffae18;
+    color: #008CBA;
+  }
+  
+  #other-channels {
+    text-align: center;
+  }
+
+  #channel-desc {
+    color: white;
+    /* text-align: center; */
+  }
+
+</style>
+
+<script>
+
+    function redirect(btn_id) {
+      if(btn_id == 'general') {
+        document.getElementById('channel_window').src = "https://aaai-21.rocket.chat/channel/General?layout=embedded";
+        document.getElementById('channel-desc').innerHTML = "General";
+      }
+      else if(btn_id == 'announcements') {
+        document.getElementById('channel_window').src = "https://aaai-21.rocket.chat/channel/announcements?layout=embedded";
+        document.getElementById('channel-desc').innerHTML = "Announcements";
+      }
+      else if(btn_id == 'introduction') {
+        document.getElementById('channel_window').src = "https://aaai-21.rocket.chat/channel/introduction?layout=embedded";
+        document.getElementById('channel-desc').innerHTML = "Introduction";
+      }
+      else if(btn_id == 'helpdesk') {
+        document.getElementById('channel_window').src = "https://aaai-21.rocket.chat/channel/HelpDesk?layout=embedded";
+        document.getElementById('channel-desc').innerHTML = "HelpDesk";
+      }
+      else if(btn_id == 'social') {
+        document.getElementById('channel_window').src = "https://aaai-21.rocket.chat/channel/social?layout=embedded";
+        document.getElementById('channel-desc').innerHTML = "Social";
+      }
+      else if(btn_id == 'sponsors') {
+        document.getElementById('channel_window').src = "https://aaai-21.rocket.chat/channel/sponsors?layout=embedded";
+        document.getElementById('channel-desc').innerHTML = "Sponsors";
+      }
+      else if(btn_id == 'aijob') {
+        document.getElementById('channel_window').src = "https://aaai-21.rocket.chat/channel/AIJobFair?layout=embedded";
+        document.getElementById('channel-desc').innerHTML = "AIJobFair";
+      }
+    }
+
+
+  </script>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+  <div class="top-info">
+    <p>To access rocketchat in a extra window, please click on "full screen".</p>
+    <a class="btn btn-outline-secondary btn" href="https://aaai-21.rocket.chat/channel/HelpDesk">Launch Rocket.Chat full screen</a> 
+  </div>
+</div>
+
+<div class="container">
+  <div class="rocketchat-safety-valve">
+    <ul>
+      <li>If RocketChat does not load after 60 seconds and you would like to ask a question, please try reloading the page</li>
+      <!-- <li>Raise technical issues <a class="rocketchat-help-link" href="/help_desk.html">here</a></li> -->
+    </ul>
+  </div>
+
+  <h5 id='other-channels'>Check our other channels as well, especially our sponsors.</h5>
+
+  <div class="rocketchat-safety-valve btn-container">
+    <button class="btn-grp" id="general" onclick="redirect(this.id)"><span>General</span></button>
+    <button class="btn-grp" id="announcements" onclick="redirect(this.id)"><span>Announcements</span></button>
+    <button class="btn-grp" id="introduction" onclick="redirect(this.id)"><span>Introduction</span></button>
+    <button class="btn-grp" id="helpdesk" onclick="redirect(this.id)"><span>HelpDesk</span></button>
+    <button class="btn-grp" id="social" onclick="redirect(this.id)"><span>Social</span></button>
+    <button class="btn-grp" id="sponsors" onclick="redirect(this.id)"><span>Sponsors</span></button>
+    <button class="btn-grp" id="aijob" onclick="redirect(this.id)"><span>AIJobFair</span></button>
+  </div>
+
+  <div class='public-chat-title-box'>
+    <!-- <span class="float-left"><a class="text-warning text-sm" href="/rocketchat/concerns"  target="_blank">Concerns</a></span> -->
+    <a style="float:right;" class='rocketchat-full-button' href="https://aaai-21.rocket.chat/channel/HelpDesk" target="_blank" title="Full Size">
+      Full Screen
+    </a>
+    <span id='channel-desc'>Help Desk</span>
+  </div>
+  <div class="rocketchat-frame">
+    <iframe frameborder="0" src="https://aaai-21.rocket.chat/channel/HelpDesk?layout=embedded" id="channel_window"></iframe>
+  </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% set active_page = "Diversity Programs" %}
+{% set page_title = "Diversity Programs" %}
+
+{% block heading %}
+
+{{ components.section("Diversity Programs") }}
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+      <p>Welcome to the AAAI-21 Diversity and Inclusion Program!</p>
+  
+  <p>Participation in AI by groups that are underrepresented in computer science is a fraction of what is needed to have an AI workforce that reflects the diversity in society. Diversity has many facets, including race, ethnicity, gender, age, religion, disability, sexual orientation, socioeconomic status, and cultural background. AAAI-21 will include several programs specifically designed to address this challenging issue.</p>
+
+  <p>AAAI would like to thank its Platinum Sponsors -- Amazon and IBM -- as well as its Gold Sponsors -- Baidu, Google, and Sony -- for their generous support, which makes the AAAI Diversity and Inclusion Program possible.</p>
+  
+  <p>Maria Gini and Richard Souvenir <br>
+  Diversity and Inclusion Cochairs</p>
+      </p>
+    </div>
+  </div>
+<!-- <div class="text-center text-muted">
+  You can also view the schedule by going to the "day" view on the <a href="schedule.html" target="_blank">Schedule</a> page for February 8 and February 9.
+</div> -->
+{% endblock %}
+
+
+{% block tabs %}
+{{ components.tabs(diversity_programs_days) }}
+{% endblock %}
+
+{% block content %}
+<div class="tab-content" id="nav-tabContent">
+
+  {% for (tab_id, day, active) in diversity_programs_days %}
+  <div
+    class="tab-pane fade {{ 'active show' if active else '' }}"
+    id="tab-{{ tab_id }}"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="{{ tab_id }}">
+      <div class="plenary_sessions">
+        {{ components.diversitygroup(diversity_programs[day], tab_id) }}
+      </div>
+    </div>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+<script src="static/js/lazy_load.js"></script>
+<script type="text/javascript">
+  lazyLoader();
+</script>
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
+
+{% endblock %}

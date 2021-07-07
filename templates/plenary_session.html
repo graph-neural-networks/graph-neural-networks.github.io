@@ -1,0 +1,254 @@
+{% set page_title = plenary_session.title %}
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Title -->
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+  {% if plenary_session.title == 'Opening Ceremony and Conference Awards and Invited Talk: IAAI-21 Robert S. Engelmore Memorial Award Lecture' %}
+          <h2 class="card-title main-title text-center" style="color:black">
+      Opening Ceremony and Conference Awards
+    </h2>
+          <h3 class="card-subtitle mb-2 text-muted text-center">
+          Qiang Yang, AAAI-21 General Chair; Kevin Leyton Brown and Mausam, AAAI-21 Program Chairs
+
+    </h3>
+                <h2 class="card-title main-title text-center" style="color:black">
+      2021 Robert S. Engelmore Memorial Award Lecture
+
+    </h2>
+          <h3 class="card-subtitle mb-2 text-muted text-center">
+Tuomas Sandholm            <br>
+          Introduction by Meinolf Sellmann, IAAI-21 Cochair  </h3>
+
+  {% else %}
+    <h2 class="card-title main-title text-center" style="color:black">
+      {{plenary_session.title}}
+    </h2>
+    {% if plenary_session.presenter != none %}
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+      {{plenary_session.presenter}}
+      {% if plenary_session.institution %}
+      / {{plenary_session.institution}}
+      {% endif %}<br>
+                  {% if plenary_session.introduction != none %}
+                {{plenary_session.introduction}}
+
+
+            {% endif %}
+    </h3>
+    {% endif %}
+     {% endif %}
+
+    <div class="text-center p-3">
+      {% if plenary_session.abstract %}
+      <a class="card-link" data-toggle="collapse" role="button" href="#abstract">
+        Abstract
+      </a>
+      {% endif %}
+      {% if plenary_session.bio %}
+      <a class="card-link" data-toggle="collapse" role="button" href="#bio">
+        Bio
+      </a>
+      {% endif %}
+    </div>
+
+    {{ components.live_sessions(
+        plenary_session.sessions,
+        plenary_session.title,
+        "https://virtual.2021.aaai.org/plenary_session_" + plenary_session.id + ".html",
+        true) }}
+
+  </div>
+</div>
+
+{% if plenary_session.abstract %}
+<div id="abstract" class="pp-card m-3 collapse show">
+  <div class="card-body">
+    <div class="card-text">
+      {{plenary_session.abstract|markdown}}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if plenary_session.bio %}
+<div id="bio" class="pp-card m-3 collapse">
+  <div class="card-body">
+    <div class="card-text">
+      <span class="font-weight-bold">Bio:</span>
+      {{plenary_session.bio|markdown }}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="container" style="background-color:white; padding: 0px;">
+  <!-- Multiple Videos -->
+  {% if plenary_session.videos != none %}
+
+  {% if plenary_session.rocketchat_channel is defined %}
+  <div class="text-muted text-center">
+    You can open the
+    <a href="https://{{config.chat_server}}/channel/{{plenary_session.rocketchat_channel}}"
+       target="_blank">#{{ plenary_session.rocketchat_channel }}
+    </a>
+    channel below in a separate window.
+  </div>
+  {% endif %}
+
+  <div class="row m-2">
+    <div class="col-md-7 col-xs-12 p-2">
+    <div id="accordion">
+      {% for video in plenary_session.videos %}
+      <div class="row m-2">
+        <div class="card col-md-12 col-xs-12 my-auto mp-2 bg-light">
+            <p>
+              <a href="https://slideslive.com/{{video.presentation_id}}" target="_blank"><b>{{video.title}}</b></a>
+            </p>
+            <p>
+              <i>{{video.speakers}}</i>
+            </p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+
+    <div class="col-md-5 col-xs-12 p-2">
+      <div id="gitter" class="slp">
+        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{plenary_session.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Surprise Sessions -->
+  {% elif plenary_session.id in ["lifetime_achievement_award", "distinguished_service_award"] %}
+    {% if plenary_session.id == "lifetime_achievement_award" %}
+      {% set intro_presentation_id = '38929471' %}
+    {% elif plenary_session.id == "distinguished_service_award" %}
+      {% set intro_presentation_id = '38929473' %}
+    {% endif %}
+
+    <div class="text-muted text-center">
+      You can open the
+      <a href="https://slideslive.com/{{intro_presentation_id}}" target="_blank">pre-recorded video</a>
+      below in a separate window.
+    </div>
+
+    <div class="row m-2">
+      <div class="col-md-12 col-xs-12 my-auto p-2" >
+        <div id="presentation-embed-intro" class="slp my-auto"></div>
+        <script src='https://slideslive.com/embed_presentation.js'></script>
+        <script>
+          embed = new SlidesLiveEmbed('presentation-embed-intro', {
+            presentationId: '{{ intro_presentation_id }}',
+            autoPlay: false, // change to true to autoplay the embedded presentation
+            verticalEnabled: true,
+            verticalWhenWidthLte: 500,
+            allowHiddenControlsWhenPaused: true,
+            hideTitle: true
+          });
+        </script>
+      </div>
+    </div>
+
+    <div class="text-muted text-center">
+      You can open the
+      <a href="https://slideslive.com/{{plenary_session.presentation_id}}" target="_blank">pre-recorded video</a>
+      below in a separate window.
+    </div>
+
+    <div class="row m-2">
+      <!-- Presentation Embed -->
+      <div class="col-md-12 col-xs-12 my-auto p-2" >
+        <div id="presentation-embed" class="slp my-auto"></div>
+        <script src='https://slideslive.com/embed_presentation.js'></script>
+        <script>
+          embed = new SlidesLiveEmbed('presentation-embed', {
+            presentationId: '{{plenary_session.presentation_id}}',
+            autoPlay: false, // change to true to autoplay the embedded presentation
+            verticalEnabled: true,
+            verticalWhenWidthLte: 500,
+            allowHiddenControlsWhenPaused: true,
+            hideTitle: true
+          });
+        </script>
+      </div>
+    </div>
+
+  <!-- Regular Plenary Session -->
+  {% else %}
+    {% if plenary_session.rocketchat_channel and plenary_session.presentation_id %}
+    <div class="text-muted text-center">
+      You can open the
+{#      <a href="https://slideslive.com/{{plenary_session.presentation_id}}" target="_blank">pre-recorded video</a>#}
+{#        and the#}
+        <a href="https://{{config.chat_server}}/channel/{{plenary_session.rocketchat_channel}}"
+           target="_blank">#{{plenary_session.rocketchat_channel}}</a>
+        channel
+        in separate windows.
+    </div>
+    {% elif plenary_session.rocketchat_channel %}
+    <div class="text-muted text-center">
+      You can open the
+        <a href="https://{{config.chat_server}}/channel/{{plenary_session.rocketchat_channel}}"
+           target="_blank">#{{plenary_session.rocketchat_channel}}</a>
+        channel
+        in a separate window.
+    </div>
+    {% elif plenary_session.presentation_id %}
+    <div class="text-muted text-center">
+      You can open the
+      <a href="https://slideslive.com/{{plenary_session.presentation_id}}" target="_blank">pre-recorded video</a>
+
+      in a separate window.
+    </div>
+    {% endif %}
+
+  <div class="row m-2">
+    {% if plenary_session.presentation_id %}
+    {% set n = 6 %}
+    {% else %}
+    {% set n = 12%}
+    {% endif %}
+
+    {% if plenary_session.presentation_id %}
+    <!-- Presentation Embed -->
+    <div class="col-md-{{ n }} col-xs-12 my-auto p-2" >
+      <div id="presentation-embed" class="slp my-auto"></div>
+      <script src='https://slideslive.com/embed_presentation.js'></script>
+      <script>
+        embed = new SlidesLiveEmbed('presentation-embed', {
+          presentationId: '{{plenary_session.presentation_id}}',
+          autoPlay: false, // change to true to autoplay the embedded presentation
+          verticalEnabled: true,
+          verticalWhenWidthLte: 500,
+          allowHiddenControlsWhenPaused: true,
+          hideTitle: true
+        });
+      </script>
+    </div>
+    {% endif %}
+
+    <!-- Chat -->
+    {% if plenary_session.rocketchat_channel %}
+    <div class="col-md-{{ n }} col-xs-12 p-2">
+      <div id="gitter" class="slp">
+        <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{plenary_session.rocketchat_channel}}?layout=embedded" height="700px" width="100%" ></iframe>
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+  {% endif %}
+</div>
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
+
+{% endblock %}

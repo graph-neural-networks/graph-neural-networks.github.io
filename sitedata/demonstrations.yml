@@ -1,0 +1,27 @@
+- UID: Schedule
+  title: 'xxx'
+  organizers: Arjun Subramonian
+  info: |-
+    to be continued
+  rocketchat_channel: Events_DoctoralConsortium
+  alias: Events_DoctoralConsortium
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    xxx
+    </p>
+  sessions:
+    - name: "Opening remarks"
+      start_time: 2021-02-02 16:00:00+00:00
+      end_time: 2021-02-02 16:15:00+00:00
+      zoom_link: 123.com
+      hosts: "TBD"
+    - name: "Talk: Roles for Computing in Social Justice"
+      start_time: 2021-02-02 16:15:00+00:00
+      end_time: 2021-02-02 17:30:00+00:00
+      zoom_link: 123.com
+      hosts: "TBD"
+  authors:
+    - name: xxx
+      description: |+
+        to be continued

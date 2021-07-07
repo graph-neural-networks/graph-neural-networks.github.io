@@ -1,0 +1,242 @@
+- UID: Chapter1
+  part: part1
+  title: 'Representation Learning'
+  organizers: Liang Zhao, Lingfei Wu, Peng Cui, Jian Pei
+  abstract: |-
+    <p>
+    In this chapter, we first describe what the representation learning is and why we need representation learning. Among the various ways of learning representations, this chapter focuses on deep learning methods: those that are formed by the composition of multiple non-linear transformations, with the goal of resulting in more abstract and ultimately more useful representations. We summarize the representation learning techniques in different domains, focusing on the unique challenges and models for different data types including images, natural languages, speech signals and networks. At last, we summarize this chapter and provide further reading on mutual information-based representation learning, which is a recently emerging representation technique via unsupervised learning.
+    </p>
+- UID: Chapter2
+  part: part1
+  title: 'Graph Representation Learning'
+  organizers: Peng Cui, Lingfei Wu, Jian Pei, Liang Zhao, Xiao Wang
+  abstract: |-
+    <p>
+    Graph representation learning aims at assigning nodes in a graph to low-dimensional representations and effectively preserving the graph structure. Recently, a significant amount of progresses have been made toward this emerging graph analysis paradigm. In this chapter, we first summarize the motivation of graph representation learning. Afterwards and primarily, we provide a comprehensive overview of a large number of graph representation learning methods in a systematic manner, covering the traditional graph representation learning, modern graph representation learning, and graph neural networks..
+    </p>
+
+- UID: Chapter3
+  part: part1
+  title: 'Graph Neural Networks'
+  organizers: Lingfei Wu, Peng Cui, Jian Pei, Liang Zhao, Le Song
+  abstract: |-
+    <p>
+        Deep Learning has become one of the most dominant approaches in Artificial Intelligence research today. Although conventional deep learning techniques have achieved huge successes on Euclidean data such as images or sequence data such as text, there is a wide range of applications that are naturally or best represented with a graph structure. This gap has driven a tide in research for deep learning on graphs, among them Graph Neural Networks (GNNs) are the most successful in coping with various learning tasks across a large number of application domains. In this chapter, we will systematically organize existing research of GNNs along three axes: foundations, frontiers, and applications. We will introduce the fundamental aspects of GNNs ranging from the popular models and their expressive powers, to the scalability, interpretability and robustness of GNNs. Then we will discuss various frontier research, ranging from graph classification and link prediction, to graph generation and transformation, graph matching and graph structure learning. Based on them, we further summarize the basic procedures which exploit full use of various GNNs for a large number of applications. Finally, we provide the organization of our book and summarize the roadmap of the various research topics of GNNs.
+    </p>
+
+- UID: Chapter4
+  part: part2
+  title: 'Graph Neural Networks for Node Classification'
+  organizers: Jian Tang, Renjie Liao
+  abstract: |-
+    <p>
+        'Graph Neural Networks are neural architectures specifically designed for graph-structured data, which have been receiving increasing attention recently and applied to different domains and applications. In this chapter, we focus on a fundamental task on graphs: node classification.We will give a detailed definition of node classification and also introduce some classical approaches such as label propagation. Afterwards, we will introduce a few representative architectures of graph neural networks for node classification. We will further point out the main difficulty— the oversmoothing problem—of training deep graph neural networks and present some latest advancement along this direction such as continuous graph neural networks.'
+    </p>
+
+- UID: Chapter5
+  part: part2
+  title: 'Graph Representation Learning'
+  organizers: Pan Li, Jure Leskovec
+  abstract: |-
+    <p>
+    The success of neural networks is based on their strong expressive power that allows them to approximate complex non-linear mappings from features to predictions. Since the universal approximation theorem by (Cybenko, 1989), many studies have proved that feed-forward neural networks can approximate any function of interest. However, these results have not been applied to graph neural networks (GNNs) due to the inductive bias imposed by additional constraints on the GNN parameter space. New theoretical studies are needed to better understand these constraints and characterize the expressive power of GNNs. In this chapter, we will review the recent progress on the expressive power of GNNs in graph representation learning. We will start by introducing the most widely-used GNN framework— message passing— and analyze its power and limitations. We will next introduce some recently proposed techniques to overcome these limitations, such as injecting random attributes, injecting deterministic distance attributes, and building higher-order GNNs. We will present the key insights of these techniques and highlight their advantages and disadvantages.
+    </p>
+
+- UID: Chapter6
+  part: part2
+  title: 'Graph Neural Networks: Scalability'
+  organizers: Hehuan Ma, Yu Rong, Junzhou Huang
+  abstract: |-
+    <p>
+    Over the past decade, Graph Neural Networks have achieved remarkable success in modeling complex graph data. Nowadays, graph data is increasing exponentially in both magnitude and volume, e.g., a social network can be constituted by billions of users and relationships. Such circumstance leads to a crucial question, how to properly extend the scalability of Graph Neural Networks? There remain two major challenges while scaling the original implementation of GNN to large graphs. First, most of the GNN models usually compute the entire adjacency matrix and node embeddings of the graph, which demands a huge memory space. Second, training GNN requires recursively updating each node in the graph, which becomes infeasible and ineffective for large graphs. Current studies propose to tackle these obstacles mainly from three sampling paradigms: node-wise sampling, which is executed based on the target nodes in the graph; layer-wise sampling, which is implemented on the convolutional layers; and graph-wise sampling, which constructs sub-graphs for the model inference. In this chapter, we will introduce several representative research accordingly.
+    </p>
+
+- UID: Chapter7
+  part: part2
+  title: 'Interpretability in Graph Neural Networks'
+  organizers: Ninghao Liu, Qizhang Feng, Xia Hu
+  abstract: |-
+    <p>
+    Interpretable machine learning, or explainable artificial intelligence, is experiencing rapid developments to tackle the opacity issue of deep learning techniques. In graph analysis, motivated by the effectiveness of deep learning, graph neural networks (GNNs) are becoming increasingly popular in modeling graph data. Recently, an increasing number of approaches have been proposed to provide explanations for GNNs or to improve GNN interpretability. In this chapter, we offer a comprehensive survey to summarize these approaches. Specifically, in the first section, we review the fundamental concepts of interpretability in deep learning. In the second section, we introduce the post-hoc explanation methods for understanding GNN predictions. In the third section, we introduce the advances of developing more interpretable models for graph data. In the fourth section, we introduce the datasets and metrics for evaluating interpretation. Finally, we point out future directions of the topic.
+    </p>
+
+- UID: Chapter8
+  part: part2
+  title: 'Graph Neural Networks: Adversarial Robustness'
+  organizers: Stephan Gunnemann
+  abstract: |-
+    <p>
+    Graph neural networks have achieved impressive results in various graph learning tasks and they have found their way into many applications such as molecular property prediction, cancer classification, fraud detection, or knowledge graph reasoning. With the increasing number of GNN models deployed in scientific applications, safety-critical environments, or decision-making contexts involving humans, it is crucial to ensure their reliability. In this chapter, we provide an overview of the current research on adversarial robustness of GNNs.We introduce the unique challenges and opportunities that come along with the graph setting and give an overview of works showing the limitations of classic GNNs via adversarial example generation. Building upon these insights we introduce and categorize methods that provide provable robustness guarantees for graph neural networks as well as principles for improving robustness of GNNs. We conclude with a discussion of proper evaluation practices taking robustness into account.
+    </p>
+
+- UID: Chapter9
+  part: part3
+  title: 'Graph Neural Networks: Graph Classification'
+  organizers: Christopher Morris
+  abstract: |-
+    <p>
+    Recently, graph neural networks emerged as the leading machine learning architecture for supervised learning with graph and relational input. This chapter gives an overview of GNNs for graph classification, i.e., GNNs that learn a graphlevel output. Since GNNs compute node-level representations, pooling layers, i.e., layers that learn graph-level representations from node-level representations, are crucial components for successful graph classification. Hence, we give a thorough overview of pooling layers. Further, we overview recent research in understanding GNN’s limitations for graph classification and progress in overcoming them. Finally, we survey some graph classification applications of GNNs and overview benchmark datasets for empirical evaluation.
+    </p>
+
+- UID: Chapter10
+  part: part3
+  title: 'Graph Neural Networks: Link Prediction'
+  organizers: Muhan Zhang
+  abstract: |-
+    <p>
+    Link prediction is an important application of graph neural networks. By predicting missing or future links between pairs of nodes, link prediction is widely used in social networks, citation networks, biological networks, recommender systems, and security, etc. Traditional link prediction methods rely on heuristic node similarity scores, latent embeddings of nodes, or explicit node features. Graph neural network (GNN), as a powerful tool for jointly learning from graph structure and node/edge features, has gradually shown its advantages over traditional methods for link prediction. In this chapter, we discuss GNNs for link prediction. We first introduce the link prediction problem and review traditional link prediction methods. Then, we introduce two popular GNN-based link prediction paradigms, node-based and subgraph-based approaches, and discuss their differences in link representation power. Finally, we review recent theoretical advancements on GNN-based link prediction and provide several future directions.
+    </p>
+
+- UID: Chapter11
+  part: part3
+  title: 'Graph Neural Networks: Graph Generation'
+  organizers: Renjie Liao
+  abstract: |-
+    <p>
+    In this chapter, we first review a few classic probabilistic models for graph generation including the Erd˝os–R´enyi model and the stochastic block model. Then we introduce several representative modern graph generative models that leverage deep learning techniques like graph neural networks, variational auto-encoders, deep auto-regressive models, and generative adversarial networks. At last, we conclude the chapter with a discussion on potential future directions.
+    </p>
+
+- UID: Chapter12
+  part: part3
+  title: 'Graph Neural Networks: Graph Transformation'
+  organizers: Xiaojie Guo, Shiyu Wang, Liang Zhao
+  abstract: |-
+    <p>
+    Many problems regarding structured predictions are encountered in the process of “transforming” a graph in the source domain into another graph in target domain, which requires to learn a transformation mapping from the source to target domains. For example, it is important to study how structural connectivity influences functional connectivity in brain networks and traffic networks. It is also common to study how a protein (e.g., a network of atoms) folds, from its primary structure to tertiary structure. In this chapter, we focus on the transformation problem that involves graphs in the domain of deep graph neural networks. First, the problem of graph transformation in the domain of graph neural networks are formalized in Section 27.1. Considering the entities that are being transformed during the transformation process, the graph transformation problem is further divided into four categories, namely node-level transformation, edge-level transformation, node-edge co-transformation, as well as other graph-involved transformations (e.g., sequenceto- graph transformation and context-to-graph transformation), which are discussed in Section 24.2 to Section 20.5, respectively. In each subsection, the definition of each category and their unique challenges are provided. Then, several representative graph transformation models that address the challenges from different aspects for each category are introduced.
+    </p>
+
+- UID: Chapter13
+  part: part3
+  title: 'Graph Neural Networks: Graph Matching'
+  organizers: Xiang Ling, Lingfei Wu, Chunming Wu, Shouling Ji
+  abstract: |-
+    <p>
+    The problem of graph matching that tries to establish some kind of structural correspondence between a pair of graph-structured objects is one of the key challenges in a variety of real-world applications. In general, the graph matching problem can be classified into two categories: i) the classic graph matching problem which finds an optimal node-to-node correspondence between nodes of a pair of input graphs and ii) the graph similarity problem which computes a similarity metric between two graphs. While recent years have witnessed the great success of GNNs in learning node representations of graphs, there is an increasing interest in exploring GNNs for the graph matching problem in an end-to-end manner. This chapter focuses on the state of the art of graph matching models based on GNNs. We start by introducing some backgrounds of the graph matching problem. Then, for each category of graph matching problem, we provide a formal definition and discuss state-of-the-art GNN-based models for both the classic graph matching problem and the graph similarity problem, respectively. Finally, this chapter is concluded by pointing out some possible future research directions.
+    </p>
+
+- UID: Chapter14
+  part: part3
+  title: 'Graph Neural Networks: Graph Structure Learning'
+  organizers: Yu Chen, Lingfei Wu
+  abstract: |-
+    <p>
+    Due to the excellent expressive power of Graph Neural Networks (GNNs) on modeling graph-structure data, GNNs have achieved great success in various applications such as Natural Language Processing, Computer Vision, recommender systems, drug discovery and so on. However, the great success of GNNs relies on the quality and availability of graph-structured data which can either be noisy or unavailable. The problem of graph structure learning aims to discover useful graph structures from data, which can help solve the above issue. This chapter attempts to provide a comprehensive introduction of graph structure learning through the lens of both traditional machine learning and GNNs. After reading this chapter, readers will learn how this problem has been tackled from different perspectives, for different purposes, via different techniques, as well as its great potential when combined with GNNs. Readers will also learn promising future directions in this research area.
+    </p>
+
+- UID: Chapter15
+  part: part3
+  title: 'Dynamic Graph Neural Networks'
+  organizers: Seyed Mehran Kazemi
+  abstract: |-
+    <p>
+    The world around us is composed of entities that interact and form relations with each other. This makes graphs an essential data representation and a crucial building-block for machine learning applications; the nodes of the graph correspond to entities and the edges correspond to interactions and relations. The entities and relations may evolve; e.g., new entities may appear, entity properties may change, and new relations may be formed between two entities. This gives rise to dynamic graphs. In applications where dynamic graphs arise, there often exists important information within the evolution of the graph, and modeling and exploiting such information is crucial in achieving high predictive performance. In this chapter, we characterize various categories of dynamic graph modeling problems. Then we describe some of the prominent extensions of graph neural networks to dynamic graphs that have been proposed in the literature. We conclude by reviewing three notable applications of dynamic graph neural networks namely skeleton-based human activity recognition, traffic forecasting, and temporal knowledge graph completion.
+    </p>
+
+- UID: Chapter16
+  part: part3
+  title: 'Heterogeneous Graph Neural Networks'
+  organizers: Chuan Shi
+  abstract: |-
+    <p>
+    Heterogeneous graphs (HGs) also called heterogeneous information networks (HINs) have become ubiquitous in real-world scenarios. Recently, employing graph neural networks (GNNs) to heterogeneous graphs, known as heterogeneous graph neural networks (HGNNs) which aim to learn embedding in low-dimensional space while preserving heterogeneous structure and semantic for downstream tasks, has drawn considerable attention. This chapter will first give a brief review of the recent development on HG embedding, then introduce typical methods from the perspective of shallow and deep models, especially HGNNs. Finally, it will point out future research directions for HGNNs.
+    </p>
+
+- UID: Chapter17
+  part: part3
+  title: 'Graph Neural Networks: AutoML'
+  organizers: Kaixiong Zhou, Zirui Liu, Keyu Duan, Xia Hu
+  abstract: |-
+    <p>
+    Graph neural networks (GNNs) are efficient deep learning tools to analyze networked data. Being widely applied in graph analysis tasks, the rapid evolution of GNNs has led to a growing number of novel architectures. In practice, both neural architecture construction and training hyperparameter tuning are crucial to the node representation learning and the final model performance. However, as the graph data characteristics vary significantly in the real-world systems, given a specific scenario, rich human expertise and tremendous laborious trials are required to identify a suitable GNN architecture and training hyperparameters. Recently, automated machinelearning (AutoML) has shown its potential in finding the optimal solutions automatically for machine learning applications. While releasing the burden of the manual tuning process, AutoML could guarantee access of the optimal solution without extensive expert experience. Motivated from the previous successes of AutoML, there have been some preliminary automated GNN (AutoGNN) frameworks developed to tackle the problems of GNN neural architecture search (GNN-NAS) and training hyperparameter tuning. This chapter presents a comprehensive and up-to-date review of AutoGNN in terms of two perspectives, namely search space and search algorithm. Specifically, we mainly focus on the GNN-NAS problem and present the state-of-the-art techniques in these two perspectives. We further discuss the open problems related to the existing methods for the future research.
+    </p>
+
+- UID: Chapter18
+  part: part3
+  title: 'Graph Neural Networks: Self-supervised Learning'
+  organizers: Yu Wang, Wei Jin, Tyler Derr
+  abstract: |-
+    <p>
+    Although deep learning has achieved state-of-the-art performance across numerous domains, these models generally require large annotated datasets to reach their full potential and avoid overfitting. However, obtaining such datasets can have high associated costs or even be impossible to procure. Self-supervised learning (SSL) seeks to create and utilize specific pretext tasks on unlabeled data to aid in alleviating this fundamental limitation of deep learning models. Although initially applied in the image and text domains, recent interest has been in leveraging SSL in the graph domain to improve the performance of graph neural networks (GNNs). For node-level tasks, GNNs can inherently incorporate unlabeled node data through the neighborhood aggregation unlike in the image or text domains; but they can still benefit by applying novel pretext tasks to encode richer information and numerous such methods have recently been developed. For GNNs solving graph-level tasks, applying SSL methods is more aligned with other traditional domains, but still presents unique challenges and has been the focus of a few works. In this chapter, we summarize recent developments in applying SSL to GNNs categorizing them via the different training strategies and types of data used to construct their pretext tasks, and finally discuss open challenges for future directions.
+    </p>
+
+- UID: Chapter19
+  part: part4
+  title: 'Graph Neural Networks in Modern Recommender Systems'
+  organizers: Yunfei Chu, Jiangchao Yao, Chang Zhou, Hongxia Yang
+  abstract: |-
+    <p>
+    Graph is an expressive and powerful data structure that is widely applicable, due to its flexibility and effectiveness in modeling and representing graph structure data. It has been more and more popular in various fields, including biology, finance, transportation, social network, among many others. Recommender system, one of the most successful commercial applications of the artificial intelligence, whose user-item interactions can naturally fit into graph structure data, also receives much attention in applying graph neural networks (GNNs). We first summarize the most recent advancements of GNNs, especially in the recommender systems. Then we share our two case studies, dynamic GNN learning and device-cloud collaborative Learning for GNNs.We finalize with discussions regarding the future directions of GNNs in practice.
+    </p>
+
+- UID: Chapter20
+  part: part4
+  title: 'Graph Neural Networks in Computer Vision'
+  organizers: Siliang Tang, Wenqiao Zhang, Zongshen Mu, Kai Shen, Juncheng Li, Jiacheng Li, Lingfei Wu
+  abstract: |-
+    <p>
+    Recently Graph Neural Networks (GNNs) have been incorporated into many Computer Vision (CV) models. They not only bring performance improvement to many CV-related tasks but also provide more explainable decomposition to these CV models. This chapter provides a comprehensive overview of how GNNs are applied to various CV tasks, ranging from single image classification to crossmedia understanding. It also provides a discussion of this rapidly growing field from a frontier perspective.
+    </p>
+
+- UID: Chapter21
+  part: part4
+  title: 'Graph Neural Networks in Natural Language Processing'
+  organizers: Bang Liu, Lingfei Wu
+  abstract: |-
+    <p>
+    Natural language processing (NLP) and understanding aim to read from unformatted text to accomplish different tasks. While word embeddings learned by deep neural networks are widely used, the underlying linguistic and semantic structures of text pieces cannot be fully exploited in these representations. Graph is a natural way to capture the connections between different text pieces, such as entities, sentences, and documents. To overcome the limits in vector space models, researchers combine deep learning models with graph-structured representations for various tasks in NLP and text mining. Such combinations help to make full use of both the structural information in text and the representation learning ability of deep neural networks. In this chapter, we introduce the various graph representations that are extensively used in NLP, and show how different NLP tasks can be tackled from a graph perspective.We summarize recent research works on graph-based NLP, and discuss two case studies related to graph-based text clustering, matching, and multihop machine reading comprehension in detail. Finally, we provide a synthesis about the important open problems of this subfield.
+    </p>
+
+- UID: Chapter22
+  part: part4
+  title: 'Graph Neural Networks in Program Analysis'
+  organizers: Miltiadis Allamanis
+  abstract: |-
+    <p>
+    Program analysis aims to determine if a program’s behavior complies with some specification. Commonly, program analyses need to be defined and tuned by humans. This is a costly process. Recently, machine learning methods have shown promise for probabilistically realizing a wide range of program analyses. Given the structured nature of programs, and the commonality of graph representations in program analysis, graph neural networks (GNN) offer an elegant way to represent, learn, and reason about programs and are commonly used in machine learning-based program analyses. This chapter discusses the use of GNNs for program analysis, highlighting two practical use cases: variable misuse detection and type inference.
+    </p>
+
+- UID: Chapter23
+  part: part4
+  title: 'Graph Neural Networks in Software Mining'
+  organizers: Collin McMillan
+  abstract: |-
+    <p>
+    Software Mining encompasses a broad range of tasks involving software, such as finding the location of a bug in the source code of a program, generating natural language descriptions of software behavior, and detecting when two programs do basically the same thing. Software tends to have an extremely well-defined structure, due to the linguistic confines of source code and the need for programmers to maintain readability and compatibility when working on large teams. A tradition of graph-based representations of software has therefore proliferated. Meanwhile, advances in software repository maintenance have recently helped create very large datasets of source code. The result is fertile ground for Graph Neural Network representations of software to facilitate a plethora of software mining tasks. This chapter will provide a brief history of these representations, describe typical software mining tasks that benefit from GNNs, demonstrate one of these tasks in detail, and explain the benefits that GNNs can provide. Caveats and recommendations will also be discussed.
+    </p>
+
+- UID: Chapter24
+  part: part4
+  title: 'GNN-based Biomedical Knowledge Graph Mining in Drug Development'
+  organizers: Chang Su, Yu Hou, Fei Wang
+  abstract: |-
+    <p>
+    Drug discovery and development (D3) is an extremely expensive and time consuming process. It takes tens of years and billions of dollars to make a drug successfully on the market from scratch, which makes this process highly inefficient when facing emergencies such as COVID-19. At the same time, a huge amount of knowledge and experience has been accumulated during the D3 process during the past decades. These knowledge are usually encoded in guidelines or biomedical literature, which provides an important resource containing insights that can be informative of the future D3 process. Knowledge graph (KG) is an effective way of organizing the useful information in those literature so that they can be retrieved efficiently. It also bridges the heterogeneous biomedical concepts that are involved in the D3 process. In this chapter we will review the existing biomedical KG and introduce how GNN techniques can facilitate the D3 process on the KG. We will also introduce two case studies on Parkinson’s disease and COVID-19, and point out future directions.
+    </p>
+
+- UID: Chapter25
+  part: part4
+  title: 'Graph Neural Networks in Predicting Protein Function and Interactions'
+  organizers: Anowarul Kabir, Amarda Shehu
+  abstract: |-
+    <p>
+    Graph Neural Networks (GNNs) are becoming increasingly popular and powerful tools in molecular modeling research due to their ability to operate over non-Euclidean data, such as graphs. Because of their ability to embed both the inherent structure and preserve the semantic information in a graph, GNNs are advancing diverse molecular structure-function studies. In this chapter, we focus on GNNaided studies that bring together one or more protein-centric sources of data with the goal of elucidating protein function. We provide a short survey on GNNs and their most successful, recent variants designed to tackle the related problems of predicting the biological function and molecular interactions of protein molecules. We review the latest methodological advances, discoveries, as well as open challenges promising to spur further research.
+    </p>
+
+- UID: Chapter26
+  part: part4
+  title: 'Graph Neural Networks in Anomaly Detection'
+  organizers: Shen Wang, Philip S. Yu
+  abstract: |-
+    <p>
+    Anomaly detection is an important task, which tackles the problem of discovering “different from normal” signals or patterns by analyzing a massive amount of data, thereby identifying and preventing major faults. Anomaly detection is applied to numerous high-impact applications in areas such as cyber-security, finance, e-commerce, social network, industrial monitoring, and many more mission-critical tasks. While multiple techniques have been developed in past decades in addressing unstructured collections of multi-dimensional data, graph-structure-aware techniques have recently attracted considerable attention. A number of novel techniques have been developed for anomaly detection by leveraging the graph structure. Recently, graph neural networks (GNNs), as a powerful deep-learning-based graph representation technique, has demonstrated superiority in leveraging the graph structure and been used in anomaly detection. In this chapter, we provide a general, comprehensive, and structured overview of the existing works that apply GNNs in anomaly detection.
+    </p>
+
+- UID: Chapter27
+  part: part4
+  title: 'Graph Neural Networks in Urban Intelligence'
+  organizers: Yanhua Li, Xun Zhou, Menghai Pan
+  abstract: |-
+    <p>
+    In recent years, smart and connected urban infrastructures have undergone a fast expansion, which increasingly generates huge amounts of urban big data, such as human mobility data, location-based transaction data, regional weather and air quality data, social connection data. These heterogeneous data sources convey rich information about the city and can be naturally linked with or modeled by graphs, e.g., urban social graph, transportation graph. These urban graph data can enable intelligent solutions to solve various urban challenges, such as urban facility planning, air pollution, etc. However, it is also very challenging to manage, analyze, and make sense of such big urban graph data. Recently, there have been many studies on advancing and expanding Graph Neural Networks (GNNs) approaches for various urban intelligence applications. In this chapter, we provide a comprehensive overview of the graph neural network (GNN) techniques that have been used to empower urban intelligence, in four application categories, namely, (i) urban anomaly and event detection, (ii) urban configuration and transportation planning, (iii) urban traffic prediction, and (iv) urban human behavior inference. The chapter also discusses future directions of this line of research. The chapter is (tentatively) organized as follows.
+    </p>
+

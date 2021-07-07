@@ -1,20 +1,9 @@
-{# Components:
-tabs -- Navigation tabs
-section, subsection -- bootstrap sections
-speakergroup
-organizergroup
-faqgroup
-highlightgroup
-workshopgroup
-
-#}
-
 {% macro tabs(tab_group) -%}
 <ul class="nav nav-pills justify-content-center">
   {% for tab in tab_group %}
   <li class="nav-item">
     <a
-      class="nav-link {{tab[2]}} text-muted "
+      class="nav-link {{tab[2]}}"
       data-toggle="tab"
       href="#tab-{{tab[0]}}"
       role="tab"
@@ -28,10 +17,10 @@ workshopgroup
 {%- endmacro %}
 
 {% macro section(name) -%}
-<div class="border-top my-3"></div>
-<div class="row p-4" id="faq">
+<div class="my-3"></div>
+<div class="row p-4">
   <div class="col-12 bd-content">
-    <h2 class="text-center">{{name}}</h2>
+    <h1 class="text-center">{{name}}</h1>
   </div>
 </div>
 {%- endmacro %}
@@ -39,74 +28,389 @@ workshopgroup
 {% macro subsection(name) -%}
 <div class="row p-3">
   <div class="col-12 bd-content">
-    <h3>{{name}}</h3>
+    <h3 class="text-center">{{name}}</h3>
   </div>
 </div>
 {%- endmacro %}
 
-{% macro speakergroup(speakers) -%}
-{% for speaker in speakers %}
+{% macro plenarysessiongroup(plenary_sessions) -%}
+{% for plenary_session in plenary_sessions %}
+    {% if 'wooldridge' not in plenary_session.id and 'panel' not in plenary_session.id and 'opening_remarks_speaker_by_tuomas_sandholm' not in plenary_session.id %}
 <div class="row p-4">
   <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
+    <div class="card p-3 shadow bg-light rounded">
         <div class="row">
           <div class="col-md-2 col-sm-5">
-            <img src="{{speaker.image}}" width="100%" class="img-thumbnail" />
+            <img src="{{plenary_session.image}}" width="100%" class="mt-3" />
           </div>
           <div class="col-md-10 col-sm-6">
             <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_{{speaker.UID}}.html" class="main-title">
-                  {{speaker.title}}
+              <h4>
+                      {% if 'opening_remarks_speaker_by_tuomas_sandholm'!=plenary_session.id and plenary_session.id!='opening_remarks' and plenary_session.id!='speaker_by_tuomas_sandholm' %}
+                <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
+                  {{plenary_session.title}}
                 </a>
-              </h3>
+                      {% endif %}
+                  {% if 'opening_remarks' == plenary_session.id or 'speaker_by_tuomas_sandholm' ==  plenary_session.id %}
+                <a href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+                      {% endif %}
+{#              {% else %}#}
+{#                <a href="plenary_session_opening_remarks_and_speaker_by_tuomas_sandholm.html" class="main-title" >#}
+{#                  {{plenary_session.title}}#}
+{#                </a>#}
+              </h4>
             </div>
+
+            {% if plenary_session.presenter != none %}
             <div class="m-3 text-muted">
               <span class="card-title h3">
-                {{speaker.speaker}}  /  {{speaker.institution}}
+                {{plenary_session.presenter}}
+                {% if plenary_session.institution != none %}
+                / {{plenary_session.institution}}
+                {% endif %}
               </span>
             </div>
-            <div class="m-3">
-              {{speaker.abstract|safe}}
+            {% endif %}
+
+              {% if plenary_session.introduction != none %}
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                {{plenary_session.introduction}}
+              </span>
             </div>
+            {% endif %}
+
+            {% for session in plenary_session.sessions %}
+            <div class="m-3 text-muted">
+              {{session.session}}
+              <span class="session_times">{{session.time_string}}</span>
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+            </div>
+            {% endfor %}
+
+            {% if plenary_session.abstract != none %}
+            <div class="m-3">
+              {{plenary_session.abstract|markdown}}
+            </div>
+            {% endif %}
           </div>
         </div>
-      </div>
+    </div>
+  </div>
+</div>
+    {% endif %}
+    {% if 'panel' in plenary_session.id %}
+        <div class="row p-4">
+  <div class="col-md-12">
+    <div class="card p-3 shadow bg-light rounded">
+        <div class="row">
+{#          <div class="col-md-2 col-sm-5">#}
+{#             {% for image in plenary_session.image %}#}
+{#            <img src="{{plenary_session.image}}" width="20%" class="mt-3" />#}
+{#             {% endfor %}#}
+{#          </div>#}
+{#          <div class="col-md-10 col-sm-6">#}
+            <div class="m-3 text-muted">
+              <h4>
+                <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+              </h4>
+{#            </div>#}
+
+{#            {% if plenary_session.presenter != none %}#}
+{#            <div class="m-3 text-muted">#}
+{#              <span class="card-title h3">#}
+{#                {{plenary_session.presenter}}#}
+{#                {% if plenary_session.institution != none %}#}
+{#                / {{plenary_session.institution}}#}
+{#                {% endif %}#}
+{#              </span>#}
+{#            </div>#}
+{#                <br>#}
+{#            {% endif %}#}
+              {% for image in plenary_session.image %}
+{#                  {{image}}#}
+                <img style="width: 150px; height: 150px; margin:10px"  src="{{image}}" class="mt-3" />
+             {% endfor %}
+            <br>
+            {% for session in plenary_session.sessions %}
+{#            <div class="m-3 text-muted">#}
+              {{session.session}}
+              <span class="session_times">{{session.time_string}}</span>
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+            </div>
+            {% endfor %}
+    </div>
+     <div class="row">
+            {% if plenary_session.introduction != none %}
+            <div class="m-3">
+              <span>
+                {{plenary_session.introduction}}
+              </span>
+            </div>
+            {% endif %}
+
+            {% if plenary_session.abstract != none %}
+            <div class="m-3">
+              {{plenary_session.abstract|markdown}}
+            </div>
+            {% endif %}
+
+{#        </div>#}
+       </div>
+    </div>
+  </div>
+</div>
+    {% endif %}
+{% endfor %}
+{%- endmacro %}
+
+{% macro speakersessiongroup(plenary_sessions) -%}
+{% for plenary_session in plenary_sessions %}
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card p-3 shadow bg-light rounded">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="{{plenary_session.image}}" width="100%" class="mt-3" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h4>
+              {% if'speaker_by_tuomas_sandholm' !=  plenary_session.id %}
+
+                <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+               {% endif %}
+                {% if'speaker_by_tuomas_sandholm' ==  plenary_session.id %}
+                <a href="plenary_session_opening_remarks_speaker_by_tuomas_sandholm.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+                {% endif %}
+              </h4>
+            </div>
+
+            {% if plenary_session.presenter != none %}
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                {{plenary_session.presenter}}
+                {% if plenary_session.institution != none %}
+                / {{plenary_session.institution}}
+                {% endif %}
+              </span>
+            </div>
+            {% endif %}
+
+              {% if plenary_session.introduction != none %}
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                {{plenary_session.introduction}}
+              </span>
+            </div>
+            {% endif %}
+
+            {% for session in plenary_session.sessions %}
+            <div class="m-3 text-muted">
+              {{session.session}}
+              <span class="session_times">{{session.time_string}}</span>
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+            </div>
+            {% endfor %}
+
+            {% if plenary_session.abstract != none %}
+            <div class="m-3">
+              {{plenary_session.abstract|markdown}}
+            </div>
+            {% endif %}
+          </div>
+        </div>
     </div>
   </div>
 </div>
 {% endfor %}
 {%- endmacro %}
 
-{% macro organizergroup(committee) -%}
-<div class="row">
-  {% for org in committee %}
-  <div class="col-md-4 col-xs-6">
-    <div class="pp-card">
-      <div class="pp-card-header" class="text-muted">
-          <h5 class="card-title" align="center"><a href="{{org.link}}">{{org.name}}</a></h5>
-        <div>
-          <h6 class="card-subtitle text-muted m-1" align="center">
-            {{org.role}}
-          </h6>
+{% macro panelsessiongroup(plenary_sessions) -%}
+{% for plenary_session in plenary_sessions %}
+    {% if plenary_session.title == 'IAAI AI in Practice Panel: Forecasting in Unprecedented Times' %}
+    {% elif plenary_session.title == 'IAAI AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'  %}
+    {% elif plenary_session.title == 'IAAI AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'  %}
+    {% else %}
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card p-3 shadow bg-light rounded">
+        <div class="row">
+{#          <div class="col-md-2 col-sm-5">#}
+{#             {% for image in plenary_session.image %}#}
+{#            <img src="{{plenary_session.image}}" width="20%" class="mt-3" />#}
+{#             {% endfor %}#}
+{#          </div>#}
+{#          <div class="col-md-10 col-sm-6">#}
+            <div class="m-3 text-muted">
+              <h4>
+                <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+              </h4>
+{#            </div>#}
+
+            {% if plenary_session.presenter != none %}
+{#            <div class="m-3 text-muted">#}
+              <span class="card-title h3">
+                {{plenary_session.presenter}}
+                {% if plenary_session.institution != none %}
+                / {{plenary_session.institution}}
+                {% endif %}
+              </span>
+{#            </div>#}
+                <br>
+            {% endif %}
+
+              {% for image in plenary_session.image %}
+{#                  {{image}}#}
+                <img style="width: 150px; height: 150px; margin:10px"  src="{{image}}" class="mt-3" />
+             {% endfor %}
+            <br>
+            {% for session in plenary_session.sessions %}
+{#            <div class="m-3 text-muted">#}
+              {{session.session}}
+              <span class="session_times">{{session.time_string}}</span>
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+            </div>
+            {% endfor %}
         </div>
-        <div>
-          <h6 class="card-subtitle text-muted m-1" align="center">
-            {{org.aff}}{% if org.tw %} /
-            <a class="text-muted" href="http://twitter.com/{{org.tw}}"
-              >@{{org.tw}}</a
-            >{% endif %}
-          </h6>
-        </div>
-        <center>
-          <img src="{{org.im}}" class="rounded" style="height: 150px;" />
-        </center>
-      </div>
+        <div class="row">
+                        {% if plenary_session.introduction != none %}
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                {{plenary_session.introduction}}
+              </span>
+            </div>
+            {% endif %}
+
+            {% if plenary_session.abstract != none %}
+            <div class="m-3">
+              {{plenary_session.abstract|markdown}}
+            </div>
+            {% endif %}
+          </div>
+{#        </div>#}
+</div>
+  </div>
+</div>
+    {% endif %}
+{% endfor %}
+{%- endmacro %}
+
+{% macro aiinpracticegroup(plenary_sessions) -%}
+{% for plenary_session in plenary_sessions %}
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card p-3 shadow bg-light rounded">
+        <div class="row">
+{#          <div class="col-md-2 col-sm-5">#}
+{#             {% for image in plenary_session.image %}#}
+{#            <img src="{{plenary_session.image}}" width="20%" class="mt-3" />#}
+{#             {% endfor %}#}
+{#          </div>#}
+{#          <div class="col-md-10 col-sm-6">#}
+            <div class="m-3 text-muted">
+              <h4>
+                <a href="plenary_session_{{plenary_session.id}}.html" class="main-title" >
+                  {{plenary_session.title}}
+                </a>
+              </h4>
+{#            </div>#}
+
+{#            {% if plenary_session.presenter != none %}#}
+{#            <div class="m-3 text-muted">#}
+{#              <span class="card-title h3">#}
+{#                {{plenary_session.presenter}}#}
+{#                {% if plenary_session.institution != none %}#}
+{#                / {{plenary_session.institution}}#}
+{#                {% endif %}#}
+{#              </span>#}
+{#            </div>#}
+{#                <br>#}
+{#            {% endif %}#}
+              {% for image in plenary_session.image %}
+{#                  {{image}}#}
+                <img style="width: 150px; height: 150px; margin:10px"  src="{{image}}" class="mt-3" />
+             {% endfor %}
+            <br>
+            {% for session in plenary_session.sessions %}
+{#            <div class="m-3 text-muted">#}
+              {{session.session}}
+              <span class="session_times">{{session.time_string}}</span>
+{#              {% if plenary_session.presentation_id or session.presentation_id %}#}
+{#                [<a href="plenary_session_{{plenary_session.id}}.html"   class="card-link">Watch video</a>]#}
+{#              {% else %}#}
+{#                [<a href="livestream.html"   class="card-link">Join Livestream</a>]#}
+{#              {% endif %}#}
+{#                [<a href="livestream.html"   class="card-link">Watch video</a>]#}
+            </div>
+            {% endfor %}
+
+            {% if plenary_session.abstract != none %}
+            <div class="m-3">
+              {{plenary_session.abstract|markdown}}
+            </div>
+            {% endif %}
+          </div>
+{#        </div>#}
     </div>
   </div>
+</div>
+{% endfor %}
+{%- endmacro %}
+
+{% macro organizergroup(teams) -%}
+{% for role in teams %}
+  <h4>{{ role }}</h4>
+  <div class="row mb-5 mt-3">
+    {% for member in teams[role] %}
+    <div class="col-md-3 col-xs-6">
+      <div class="card text-center shadow p-3 bg-light rounded h-100" id='pinfo'>
+        <a href="{{ member.pweb or 'none'}}">
+          <div class="text-muted">
+            <img src="{{ member.image or "static/images/committee/placeholder.png" }}" class="rounded" style="height: 150px;"/>
+            <h5 class="card-title" align="center">{{member.name}}</h5>
+          <div>
+        </a>
+            <h6 class="card-subtitle text-muted">
+              {{member.aff}}
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
   {% endfor %}
 </div>
+{% endfor %}
 {%- endmacro %}
 
 {% macro faqgroup(FAQ) -%}
@@ -137,7 +441,7 @@ workshopgroup
         data-parent="#accordionExample"
       >
         <div class="card-body">
-          {{qa.Answer}}
+          <div>{{qa.Answer|markdown}}</div>
         </div>
       </div>
     </div>
@@ -162,20 +466,21 @@ workshopgroup
         <div class="col-md-4 col-xs-6 fluid">
           <div class="pp-card">
             <div class="pp-card-header">
-              <a href="poster_{{openreview.UID}}.html" class="text-muted">
+              <a href="paper_{{openreview.id}}.html" class="text-muted">
                 <h5 class="card-title" align="center">
-                  {{openreview.title}}
+                  {{openreview.content.title}}
                 </h5>
               </a>
               <h6 class="card-subtitle text-muted" align="center">
-                {% for a in openreview.authors %}
+                {% for a in openreview.content.teams %}
                 {{a}},
                 {% endfor %}
               </h6>
               <center>
                 <img
                   class="cards_img lazy-load-img"
-                  data-src="https://iclr.github.io/iclr-images/{{openreview.UID}}.png"
+                  src="{{openreview.card_image_path}}"
+                  onerror="javascript:this.onerror=null;this.src=''"
                   width="80%"
                 />
               </center>
@@ -212,26 +517,1154 @@ workshopgroup
 {% macro workshopgroup(workshops) -%}
 <div class="cards row">
   {% for workshop in workshops %}
-  <div class="col-md-6 col-sm-12 p-3" style="box-sizing: border-box;">
-    <div class="card" style="display: block; overflow: hidden; width: 100%;">
-      <div
-        class="card-header text-center"
-        style="min-height: 200px; width: 100%;"
-      >
-        <a class="text-muted" href="workshop_{{workshop.id}}.html">
-          <h3 class="card-title main-title">
-            {{workshop.title}}
-          </h3>
-        </a>
-        <div class="card-subtitle text-muted">
-          {{ workshop.organizers | join(", ") }}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="workshop_{{workshop.id}}.html" class="main-title" >
+                {{workshop.title}}
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              {{ workshop.organizers }}
+            </span>
+          </div>
+
+
+          {% for session in workshop.blocks %}
+              <div class="m-3 text-center">
+                {{session.session}}
+                <span class="session_times">{{session.time_string}}</span>
+              </div>
+              <div class="text-center text-muted text-monospace">
+                <div class="paper-cal-links">
+                  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+                  <span id="session-cal-link-{{ workshop.id }}-{{loop.index}}-{{workshop.day.replace(" ", "").lower()}}"></span>
+                </div>
+              </div>
+          {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  var ouicalData;
+  var targetNode;
+  var calendarNodeInner;
+  var calendarNodeSpan;
+  var parser = new DOMParser();
+  var calendarNames = Array("google", "off365", "outlook", "ical");
+
+  {% for workshop in workshops %}
+  {% for session in workshop.blocks %}
+    // create a calendar by hand
+    ouicalData = addToCalendarData({
+      options: {
+        class: 'my-class',
+        id: 'my-id'                               // If you don't pass an id, one will be generated for you.
+      },
+      data: {
+        title: '{{ title }}'.replace("#", " "),
+
+        // Event start date
+        start: new Date("{{session.start_time_string}}"),
+        end: new Date("{{session.end_time_string}}"),
+        // duration: 120,                           // Event duration (IN MINUTES)
+        // allday: true,														// Override end time, duration and timezone, triggers 'all day'
+
+        // Event timezone. Will convert the given time to that zone
+        timezone: 'UTC',
+        // Event Address
+        {% if session.link %}
+          address: '{{session.link}}',
+        {% endif %}
+
+        // Event Description
+        // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
+        description: 'https://virtual.2021.aaai.org/workshop_{{ workshop.id }}.html'
+      }
+    });
+
+    targetNode = document.querySelector('#session-cal-link-{{ workshop.id }}-{{ loop.index }}-{{workshop.day.replace(" ", "").lower()}}');
+    for (const name of calendarNames) {
+      calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
+      calendarNodeSpan = document.createElement("span");
+      calendarNodeSpan.setAttribute("style", "padding: 2px");
+      calendarNodeSpan.appendChild(document.createTextNode("["));
+      calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+      calendarNodeSpan.appendChild(document.createTextNode("]"));
+      targetNode.appendChild(calendarNodeSpan);
+    }
+  {% endfor %}
+  {% endfor %}
+</script>
+
+{%- endmacro %}
+
+{% macro diversitygroup(diversity_programs, tab) -%}
+<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+  <div id="day">
+  <div class="speakers">
+  <div class="cards row">
+    {% for social in diversity_programs %}
+    <div class="col-md-6 col-sm-12 p-3"
+         id='{{social.name|replace(" ", "_")|replace("?", "")}}'>
+      <div class="card p-3 text-center shadow p-3 mb-5 bg-light rounded"
+           style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+  
+        <h2 class="card-title" >
+          {{social.name}}
+        </h2>
+  
+        <h6 class="text-muted font-italic">
+          {{social.organizers.members|join(" & ")}}
+          {% if social.organizers.website %}
+            <br>
+            (<a href="{{social.organizers.website}}" target="_blank">{{social.organizers.website}}</a>)
+          {% endif %}
+        </h6>
+  
+        {% if social.image %}
+          <div class="m-4">
+          <img height="100"
+               src="{{social.image}}" alt="Logo of {{ social.name }}"/>
+          </div>
+        {% endif %}
+  
+        <div class="mx-4 text-left card-subtitle">
+          <p>{{social.description.replace('\n', '<br/>')|safe}}</p>
+  
+          <p class="text-center">This event {{ social.location }}.</p>
+  
+          {% for session in social.sessions %}
+            <div class="m-3 text-muted text-center">
+            Session {{session.name}}: {{ session.start_time.strftime("%b") }} {{ session.start_time.day }}
+            <span class="session_times">{{session.time_string}}</span>
+            {% if session.link %}
+              <div>
+              <a href="{{session.link}}" target="_blank"  class="card-link">
+                <!--
+                <img
+                    src="static/images/zoom-icon.png"
+                    height="24px"
+                    alt="Join Zoom Meeting"
+                    title="Join Zoom Meeting"
+                >
+                -->
+                [Join Meeting]
+              </a>
+              </div>
+            {% endif %}
+              <div class="text-center text-muted text-monospace">
+                <div class="paper-cal-links">
+                  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+                  <span id="session-cal-link-{{ social.id }}-{{ loop.index }}-{{tab}}-{{ session.start_time.day }}"></span>
+                </div>
+              </div>
+  
+            </div>
+          {% endfor %}
+  
         </div>
-        <div class="m-3 text-left card-subtitle font-italic">
-          {{workshop.abstract|safe}}
+  
+        {% if social.website %}
+        <p class="text-center text-muted card-title">
+            <a href="{{social.website}}" target="_blank"> Website </a>
+          {% if social.rocketchat_channel %}
+            | <a href="https://{{config.chat_server}}/channel/{{social.rocketchat_channel}}" target="_blank"> Chat </a>
+          {% endif %}
+          {% if social.zoom_link %}
+            | <a href="{{social.zoom_link}}" target="_blank"> Zoom </a>
+          {% endif %}
+          {% if "Gather" in social.location %}
+            | <a href="{{config.gather_town}}" target="_blank"> Gather.Town </a>
+          {% endif %}
+        </p>
+        {% endif %}
+  
+  
+  
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  </div>
+  </div>
+  </div>
+  <script src="static/js/add-to-calendar.js"></script>
+  <script>
+
+    var ouicalData;
+    var targetNode;
+    var calendarNodeInner;
+    var calendarNodeSpan;
+    var parser = new DOMParser();
+    var calendarNames = Array("google", "off365", "outlook", "ical");
+    
+    {% for social in diversity_programs %}
+    {% for session in social.sessions%}
+      // create a calendar by hand
+      ouicalData = addToCalendarData({
+        options: {
+          class: 'my-class',
+          id: 'my-id'                               // If you don't pass an id, one will be generated for you.
+        },
+        data: {
+          title: '{{ session.name }}'.replace("#", " "),
+  
+          // Event start date
+          start: new Date("{{session.start_time_string}}"),
+          end: new Date("{{session.end_time_string}}"),
+          // duration: 120,                           // Event duration (IN MINUTES)
+          // allday: true,														// Override end time, duration and timezone, triggers 'all day'
+  
+          // Event timezone. Will convert the given time to that zone
+          timezone: 'UTC',
+          // Event Address
+          {% if session.link %}
+            address: '{{session.link}}',
+          {% endif %}
+  
+          // Event Description
+          // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
+          description: String("{{ social.description.replace('\n', '\\n') }}")
+        }
+      });
+      
+      targetNode = document.querySelector("#session-cal-link-{{ social.id }}-{{ loop.index }}-{{ tab }}-{{ session.start_time.day }}");
+      for (const name of calendarNames) {
+        calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
+        calendarNodeSpan = document.createElement("span");
+        calendarNodeSpan.setAttribute("style", "padding: 2px");
+        calendarNodeSpan.appendChild(document.createTextNode("["));
+        calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+        calendarNodeSpan.appendChild(document.createTextNode("]"));
+        targetNode.appendChild(calendarNodeSpan);
+      }
+    {% endfor %}
+    {% endfor %}
+  </script>
+{%- endmacro %}
+
+
+<!--{% macro tutorialgroup(tutorials,tutorials_MQ,tutorials_MH,tutorials_AQ,tutorials_AH) -%}-->
+<!--<div class="accordion" id="accordionExample">-->
+<!--    <div class="text-center p-3">-->
+<!--    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">-->
+<!--        Morning Quarter-day Tutorials-->
+<!--    </button>-->
+<!--    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">-->
+<!--        Morning Half-day Tutorials-->
+<!--    </button>-->
+<!--    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">-->
+<!--        Afternoon Quarter-day Tutorials-->
+<!--    </button>-->
+<!--    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">-->
+<!--        Afternoon Half-day Tutorials-->
+<!--    </button>-->
+<!--    </div>-->
+<!---->
+<!--    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">-->
+<!--        <h2 class="card-title main-title text-center">-->
+<!--            Morning Quarter-day Tutorials-->
+<!--        </h2>-->
+<!--        <div class="cards row">-->
+<!--  {% for tutorial in tutorials_MQ %}-->
+<!--  <div class="col-md-6 col-sm-12 p-3">-->
+<!--    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"-->
+<!--         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">-->
+<!---->
+<!--          <div class="m-3 text-muted text-center">-->
+<!--            <h4>-->
+<!--              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >-->
+<!--                {{tutorial.id}}: {{tutorial.title}}-->
+<!--              </a>-->
+<!--            </h4>-->
+<!--          </div>-->
+<!---->
+<!--          <div class="m-3 text-muted text-center">-->
+<!--            <span class="card-title h3">-->
+<!--              {{ tutorial.organizers }}-->
+<!--            </span>-->
+<!--          </div>-->
+<!--        <div class="mx-4 text-left card-subtitle">-->
+<!---->
+<!---->
+<!--          {% for session in tutorial.blocks %}-->
+<!--          <div class="m-3 text-center">-->
+<!--            {{session.session}}-->
+<!--            <span class="session_times">{{session.time_string}}</span>-->
+<!--          </div>-->
+<!--          <div class="text-center text-muted text-monospace">-->
+<!--            <div class="paper-cal-links">-->
+<!--              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">-->
+<!--              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          {% endfor %}-->
+<!--        </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  {% endfor %}-->
+<!--</div>-->
+<!--    </div>-->
+<!---->
+<!--    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">-->
+<!--        <h2 class="card-title main-title text-center">-->
+<!--            Morning Half-day Tutorials-->
+<!--        </h2>-->
+<!--        <div class="cards row">-->
+<!--  {% for tutorial in tutorials_MH %}-->
+<!--  <div class="col-md-6 col-sm-12 p-3">-->
+<!--    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"-->
+<!--         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">-->
+<!---->
+<!--          <div class="m-3 text-muted text-center">-->
+<!--            <h4>-->
+<!--              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >-->
+<!--                {{tutorial.id}}: {{tutorial.title}}-->
+<!--              </a>-->
+<!--            </h4>-->
+<!--          </div>-->
+<!---->
+<!--          <div class="m-3 text-muted text-center">-->
+<!--            <span class="card-title h3">-->
+<!--              {{ tutorial.organizers }}-->
+<!--            </span>-->
+<!--          </div>-->
+<!--        <div class="mx-4 text-left card-subtitle">-->
+<!---->
+<!---->
+<!--          {% for session in tutorial.blocks %}-->
+<!--          <div class="m-3 text-center">-->
+<!--            {{session.session}}-->
+<!--            <span class="session_times">{{session.time_string}}</span>-->
+<!--          </div>-->
+<!--          <div class="text-center text-muted text-monospace">-->
+<!--            <div class="paper-cal-links">-->
+<!--              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">-->
+<!--              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          {% endfor %}-->
+<!--        </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  {% endfor %}-->
+<!--</div>-->
+<!--    </div>-->
+<!---->
+<!--    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">-->
+<!--        <h2 class="card-title main-title text-center">-->
+<!--            Afternoon Quarter-day Tutorials-->
+<!--        </h2>-->
+<!--        <div class="cards row">-->
+<!--  {% for tutorial in tutorials_AQ %}-->
+<!--  <div class="col-md-6 col-sm-12 p-3">-->
+<!--    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"-->
+<!--         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">-->
+<!---->
+<!--          <div class="m-3 text-muted text-center">-->
+<!--            <h4>-->
+<!--              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >-->
+<!--                {{tutorial.id}}: {{tutorial.title}}-->
+<!--              </a>-->
+<!--            </h4>-->
+<!--          </div>-->
+<!---->
+<!--          <div class="m-3 text-muted text-center">-->
+<!--            <span class="card-title h3">-->
+<!--              {{ tutorial.organizers }}-->
+<!--            </span>-->
+<!--          </div>-->
+<!--        <div class="mx-4 text-left card-subtitle">-->
+<!---->
+<!---->
+<!--          {% for session in tutorial.blocks %}-->
+<!--          <div class="m-3 text-center">-->
+<!--            {{session.session}}-->
+<!--            <span class="session_times">{{session.time_string}}</span>-->
+<!--          </div>-->
+<!--          <div class="text-center text-muted text-monospace">-->
+<!--            <div class="paper-cal-links">-->
+<!--              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">-->
+<!--              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          {% endfor %}-->
+<!--        </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  {% endfor %}-->
+<!--</div>-->
+<!--    </div>-->
+<!---->
+<!--    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">-->
+<!--        <h2 class="card-title main-title text-center">-->
+<!--            Afternoon Half-day Tutorials-->
+<!--        </h2>-->
+<!--        <div class="cards row">-->
+<!--  {% for tutorial in tutorials_AH %}-->
+<!--  <div class="col-md-6 col-sm-12 p-3">-->
+<!--    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"-->
+<!--         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">-->
+<!---->
+<!--          <div class="m-3 text-muted text-center">-->
+<!--            <h4>-->
+<!--              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >-->
+<!--                {{tutorial.id}}: {{tutorial.title}}-->
+<!--              </a>-->
+<!--            </h4>-->
+<!--          </div>-->
+<!---->
+<!--          <div class="m-3 text-muted text-center">-->
+<!--            <span class="card-title h3">-->
+<!--              {{ tutorial.organizers }}-->
+<!--            </span>-->
+<!--          </div>-->
+<!--        <div class="mx-4 text-left card-subtitle">-->
+<!---->
+<!---->
+<!--          {% for session in tutorial.blocks %}-->
+<!--          <div class="m-3 text-center">-->
+<!--            {{session.session}}-->
+<!--            <span class="session_times">{{session.time_string}}</span>-->
+<!--          </div>-->
+<!--          <div class="text-center text-muted text-monospace">-->
+<!--            <div class="paper-cal-links">-->
+<!--              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">-->
+<!--              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          {% endfor %}-->
+<!--        </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  {% endfor %}-->
+<!--</div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  let ouicalData;
+  let targetNode;
+  let calendarNodeInner;
+  let calendarNodeSpan;
+  let parser = new DOMParser();
+  let calendarNames = Array("google", "off365", "outlook", "ical");
+
+  {% for tutorial in tutorials %}
+    {% for session in tutorial.blocks %}
+      // create a calendar by hand
+      ouicalData = addToCalendarData({
+        options: {
+          class: 'my-class',
+          id: 'my-id'                               // If you don't pass an id, one will be generated for you.
+        },
+        data: {
+          title: '{{ title }}'.replace("#", " "),
+
+          // Event start date
+          start: new Date("{{session.start_time_string}}"),
+          end: new Date("{{session.end_time_string}}"),
+          // duration: 120,                           // Event duration (IN MINUTES)
+          // allday: true,														// Override end time, duration and timezone, triggers 'all day'
+
+          // Event timezone. Will convert the given time to that zone
+          timezone: 'UTC',
+          // Event Address
+          {% if session.link %}
+            address: '{{session.link}}',
+          {% endif %}
+
+          // Event Description
+          // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
+          description: 'https://virtual.2021.aaai.org/tutorial_{{ tutorial.id }}.html'
+        }
+      });
+
+      targetNode = document.querySelector('#session-cal-link-{{ tutorial.id }}-{{ loop.index }}');
+      for (const name of calendarNames) {
+        calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
+        calendarNodeSpan = document.createElement("span");
+        calendarNodeSpan.setAttribute("style", "padding: 2px");
+        calendarNodeSpan.appendChild(document.createTextNode("["));
+        calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+        calendarNodeSpan.appendChild(document.createTextNode("]"));
+        targetNode.appendChild(calendarNodeSpan);
+      }
+    {% endfor %}
+  {% endfor %}
+</script>
+
+{%- endmacro %}
+
+{#{% macro tutorialgroup(tutorials,part1,part2,part3,part4) -%}#}
+{#<div id="part1"><br /><br /><br /><br /></div>#}
+{#<div id="part1"></div>#}
+{#<div class="card p-3 shadow p-3 mb-5 bg-light rounded"#}
+{#         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">#}
+{#    <div class="m-3 text-muted text-center">#}
+{#        <h3>#}
+{#            'Part I: Introductions'#}
+{#        </h3>#}
+{#    </div>#}
+{#    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>#}
+{#</div>#}
+{#<div class="cards row">#}
+{#  {% for tutorial in part1 %}#}
+{#  <div class="col-md-6 col-sm-12 p-3">#}
+{#    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"#}
+{#         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">#}
+{##}
+{#          <div class="m-3 text-muted text-center">#}
+{#            <h4>#}
+{#              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >#}
+{#                {{tutorial.id}}: {{tutorial.title}}#}
+{#              </a>#}
+{#            </h4>#}
+{#          </div>#}
+{##}
+{#          <div class="m-3 text-muted text-center">#}
+{#            <span class="card-title h3">#}
+{#              {{ tutorial.organizers }}#}
+{#            </span>#}
+{#          </div>#}
+{#        <div class="mx-4 text-left card-subtitle">#}
+{##}
+{##}
+{#          {% for session in tutorial.blocks %}#}
+{#          <div class="m-3 text-center">#}
+{#            {{session.session}}#}
+{#            <span class="session_times">{{session.time_string}}</span>#}
+{#          </div>#}
+{#          <div class="text-center text-muted text-monospace">#}
+{#            <div class="paper-cal-links">#}
+{#              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">#}
+{#              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>#}
+{#            </div>#}
+{#          </div>#}
+{#          {% endfor %}#}
+{#        </div>#}
+{#    </div>#}
+{#  </div>#}
+{#  {% endfor %}#}
+{#</div>#}
+{#<div id="part2"><br /><br /><br /><br /></div>#}
+{#<div class="card p-3 shadow p-3 mb-5 bg-light rounded"#}
+{#         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">#}
+{#    <div class="m-3 text-muted text-center">#}
+{#        <h3>#}
+{#            'Part II: Foundations'#}
+{#        </h3>#}
+{#    </div>#}
+{#    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>#}
+{#</div>#}
+{#<div class="cards row">#}
+{#  {% for tutorial in part2 %}#}
+{#  <div class="col-md-6 col-sm-12 p-3">#}
+{#    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"#}
+{#         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">#}
+{##}
+{#          <div class="m-3 text-muted text-center">#}
+{#            <h4>#}
+{#              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >#}
+{#                {{tutorial.id}}: {{tutorial.title}}#}
+{#              </a>#}
+{#            </h4>#}
+{#          </div>#}
+{##}
+{#          <div class="m-3 text-muted text-center">#}
+{#            <span class="card-title h3">#}
+{#              {{ tutorial.organizers }}#}
+{#            </span>#}
+{#          </div>#}
+{#        <div class="mx-4 text-left card-subtitle">#}
+{##}
+{##}
+{#          {% for session in tutorial.blocks %}#}
+{#          <div class="m-3 text-center">#}
+{#            {{session.session}}#}
+{#            <span class="session_times">{{session.time_string}}</span>#}
+{#          </div>#}
+{#          <div class="text-center text-muted text-monospace">#}
+{#            <div class="paper-cal-links">#}
+{#              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">#}
+{#              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>#}
+{#            </div>#}
+{#          </div>#}
+{#          {% endfor %}#}
+{#        </div>#}
+{#    </div>#}
+{#  </div>#}
+{#  {% endfor %}#}
+{#</div>#}
+{#<div id="part3"><br /><br /><br /><br /></div>#}
+{#<div class="card p-3 shadow p-3 mb-5 bg-light rounded"#}
+{#         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">#}
+{#    <div class="m-3 text-muted text-center">#}
+{#        <h3>#}
+{#            'Part III: Frontiers'#}
+{#        </h3>#}
+{#    </div>#}
+{#    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>#}
+{#</div>#}
+{#<div class="cards row">#}
+{#  {% for tutorial in part3 %}#}
+{#  <div class="col-md-6 col-sm-12 p-3">#}
+{#    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"#}
+{#         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">#}
+{##}
+{#          <div class="m-3 text-muted text-center">#}
+{#            <h4>#}
+{#              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >#}
+{#                {{tutorial.id}}: {{tutorial.title}}#}
+{#              </a>#}
+{#            </h4>#}
+{#          </div>#}
+{##}
+{#          <div class="m-3 text-muted text-center">#}
+{#            <span class="card-title h3">#}
+{#              {{ tutorial.organizers }}#}
+{#            </span>#}
+{#          </div>#}
+{#        <div class="mx-4 text-left card-subtitle">#}
+{##}
+{##}
+{#          {% for session in tutorial.blocks %}#}
+{#          <div class="m-3 text-center">#}
+{#            {{session.session}}#}
+{#            <span class="session_times">{{session.time_string}}</span>#}
+{#          </div>#}
+{#          <div class="text-center text-muted text-monospace">#}
+{#            <div class="paper-cal-links">#}
+{#              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">#}
+{#              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>#}
+{#            </div>#}
+{#          </div>#}
+{#          {% endfor %}#}
+{#        </div>#}
+{#    </div>#}
+{#  </div>#}
+{#  {% endfor %}#}
+{#</div>#}
+{#<div id="part4"><br /><br /><br /><br /></div>#}
+{#<div class="card p-3 shadow p-3 mb-5 bg-light rounded"#}
+{#         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">#}
+{#    <div class="m-3 text-muted text-center">#}
+{#        <h3>#}
+{#            'Part IV: Applications'#}
+{#        </h3>#}
+{#    </div>#}
+{#    <div class="m-3 text-muted text-center"><a href="#" class="text-dark">Back to Top</a></div>#}
+{#</div>#}
+{#<div class="cards row">#}
+{#  {% for tutorial in part4 %}#}
+{#  <div class="col-md-6 col-sm-12 p-3">#}
+{#    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"#}
+{#         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">#}
+{##}
+{#          <div class="m-3 text-muted text-center">#}
+{#            <h4>#}
+{#              <a href="tutorial_{{tutorial.id}}.html" class="main-title" >#}
+{#                {{tutorial.id}}: {{tutorial.title}}#}
+{#              </a>#}
+{#            </h4>#}
+{#          </div>#}
+{##}
+{#          <div class="m-3 text-muted text-center">#}
+{#            <span class="card-title h3">#}
+{#              {{ tutorial.organizers }}#}
+{#            </span>#}
+{#          </div>#}
+{#        <div class="mx-4 text-left card-subtitle">#}
+{##}
+{##}
+{#          {% for session in tutorial.blocks %}#}
+{#          <div class="m-3 text-center">#}
+{#            {{session.session}}#}
+{#            <span class="session_times">{{session.time_string}}</span>#}
+{#          </div>#}
+{#          <div class="text-center text-muted text-monospace">#}
+{#            <div class="paper-cal-links">#}
+{#              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">#}
+{#              <span id="session-cal-link-{{ tutorial.id }}-{{loop.index}}"></span>#}
+{#            </div>#}
+{#          </div>#}
+{#          {% endfor %}#}
+{#        </div>#}
+{#    </div>#}
+{#  </div>#}
+{#  {% endfor %}#}
+{#</div>#}
+{##}
+{#<script src="static/js/add-to-calendar.js"></script>#}
+{#<script>#}
+{##}
+{#  let ouicalData;#}
+{#  let targetNode;#}
+{#  let calendarNodeInner;#}
+{#  let calendarNodeSpan;#}
+{#  let parser = new DOMParser();#}
+{#  let calendarNames = Array("google", "off365", "outlook", "ical");#}
+{##}
+{#  {% for tutorial in tutorials %}#}
+{#    {% for session in tutorial.blocks %}#}
+{#      // create a calendar by hand#}
+{#      ouicalData = addToCalendarData({#}
+{#        options: {#}
+{#          class: 'my-class',#}
+{#          id: 'my-id'                               // If you don't pass an id, one will be generated for you.#}
+{#        },#}
+{#        data: {#}
+{#          title: '{{ title }}'.replace("#", " "),#}
+{##}
+{#          // Event start date#}
+{#          start: new Date("{{session.start_time_string}}"),#}
+{#          end: new Date("{{session.end_time_string}}"),#}
+{#          // duration: 120,                           // Event duration (IN MINUTES)#}
+{#          // allday: true,														// Override end time, duration and timezone, triggers 'all day'#}
+{##}
+{#          // Event timezone. Will convert the given time to that zone#}
+{#          timezone: 'UTC',#}
+{#          // Event Address#}
+{#          {% if session.link %}#}
+{#            address: '{{session.link}}',#}
+{#          {% endif %}#}
+{##}
+{#          // Event Description#}
+{#          // NOTE: Cannot use abstract because of it is multi-line. Need to format it.#}
+{#          description: 'https://virtual.2020.emnlp.org/tutorial_{{ tutorial.id }}.html'#}
+{#        }#}
+{#      });#}
+{##}
+{#      targetNode = document.querySelector('#session-cal-link-{{ tutorial.id }}-{{ loop.index }}');#}
+{#      for (const name of calendarNames) {#}
+{#        calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");#}
+{#        calendarNodeSpan = document.createElement("span");#}
+{#        calendarNodeSpan.setAttribute("style", "padding: 2px");#}
+{#        calendarNodeSpan.appendChild(document.createTextNode("["));#}
+{#        calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);#}
+{#        calendarNodeSpan.appendChild(document.createTextNode("]"));#}
+{#        targetNode.appendChild(calendarNodeSpan);#}
+{#      }#}
+{#    {% endfor %}#}
+{#  {% endfor %}#}
+{#</script>#}
+{##}
+{#{%- endmacro %}#}
+
+{% macro uc_abstracts_group(tutorials_UC) -%}
+<div class="cards row">
+  {% for uc in tutorials_UC %}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="m-3 text-muted text-center">
+            <h4>
+              <a href="tutorial_{{uc.id}}.html" class="main-title" >
+                {{ uc.id }}: {{uc.title}}
+              </a>
+            </h4>
+          </div>
+
+          <div class="m-3 text-muted text-center">
+            <span class="card-title h3">
+              {{ uc.organizers }}
+            </span>
+          </div>
+
+<!--          {% for session in uc.blocks %}-->
+<!--          <div class="m-3 text-center">-->
+<!--            {{session.session}}-->
+<!--            <span class="session_times">{{session.time_string}}</span>-->
+<!--          </div>-->
+<!--          <div class="text-center text-muted text-monospace">-->
+<!--            <div class="paper-cal-links">-->
+<!--              <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">-->
+<!--              <span id="session-cal-link-{{ uc.id }}-{{loop.index}}"></span>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          {% endfor %}-->
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  var ouicalData;
+  var targetNode;
+  var calendarNodeInner;
+  var calendarNodeSpan;
+  var parser = new DOMParser();
+  var calendarNames = Array("google", "off365", "outlook", "ical");
+
+  {% for uc in tutorials_UC %}
+  {% for session in uc.blocks %}
+    // create a calendar by hand
+    ouicalData = addToCalendarData({
+      options: {
+        class: 'my-class',
+        id: 'my-id'                               // If you don't pass an id, one will be generated for you.
+      },
+      data: {
+        title: '{{ title }}'.replace("#", " "),
+
+        // Event start date
+        start: new Date("{{session.start_time_string}}"),
+        end: new Date("{{session.end_time_string}}"),
+        // duration: 120,                           // Event duration (IN MINUTES)
+        // allday: true,														// Override end time, duration and timezone, triggers 'all day'
+
+        // Event timezone. Will convert the given time to that zone
+        timezone: 'UTC',
+        // Event Address
+        {% if session.link %}
+          address: '{{session.link}}',
+        {% endif %}
+
+        // Event Description
+        // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
+        description: 'https://virtual.2021.aaai.org/tutorial_{{ uc.id }}.html'
+      }
+    });
+
+    targetNode = document.querySelector('#session-cal-link-{{ uc.id }}-{{ loop.index }}');
+    for (const name of calendarNames) {
+      calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
+      calendarNodeSpan = document.createElement("span");
+      calendarNodeSpan.setAttribute("style", "padding: 2px");
+      calendarNodeSpan.appendChild(document.createTextNode("["));
+      calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+      calendarNodeSpan.appendChild(document.createTextNode("]"));
+      targetNode.appendChild(calendarNodeSpan);
+    }
+  {% endfor %}
+  {% endfor %}
+</script>
+{%- endmacro %}
+
+
+<!-- WIP (do not use) -->
+{% macro socialeventgroup(social_events) -%}
+  {% for social_event in social_events %}
+  <div class="row p-4">
+    <div class="col-md-12">
+      <div class="card p-3 shadow bg-light rounded">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="{{social_event.image}}" width="100%" class="mt-3" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+            <h4>
+              <a href="social_event_{{social_event.id}}.html" class="main-title" >
+                {{social_event.title}}
+              </a>
+            </h4>
+          </div>
+
+          <h6 class="text-muted font-italic">
+            {{social_event.organizers.members|join(" & ")}}
+            {% if social_event.organizers.website %}
+            <br>
+            (<a href="{{social_event.organizers.website}}" >{{social_event.organizers.website}}</a>)
+            {% endif %}
+          </h6>
+
+          {% for session in social_event.sessions %}
+          <div class="m-3 text-muted">
+            {{session.session}}
+            <span class="session_times">{{session.time_string}}</span>
+            {% if session.link %}
+              <a href="{{session.link}}"   class="card-link" target="_blank">
+                <!--
+                <img
+                    src="static/images/zoom-icon.png"
+                    height="24px"
+                    alt="Join Zoom Meeting"
+                    title="Join Zoom Meeting"
+                >
+                -->
+                [Join Zoom Meeting]
+              </a>
+            {% endif %}
+          </div>
+          {% endfor %}
+
+        </div>
         </div>
       </div>
     </div>
   </div>
   {% endfor %}
-</div>
 {%- endmacro %}
+
+{% macro live_sessions(sessions, title, url, is_plenary) -%}
+{% for session in sessions %}
+  <div class="text-center text-muted text-monospace">
+  <div class="paper-session-times">
+    <span>{{session.session}}, </span>
+    <span class="session_times">{{session.session}} {{session.time_string}}</span>
+
+  {% if session.link %}
+  <a href="{{session.link}}"   class="card-link" target="_blank">
+    {% if session.session_type == "gather" %}
+      [Join Gather Meeting]
+    {% else %}
+      [Join Zoom Meeting]
+    {% endif %}
+  </a>
+  {% endif %}
+
+  <!--
+  {% if is_plenary %}
+    <a href="livestream.html"   class="card-link">
+    [Livestream]
+    </a>
+  {% endif %}
+  -->
+  </div>
+  </div>
+
+  <div class="text-center text-muted text-monospace">
+  <div class="paper-cal-links">
+  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+  <span id="session-cal-link-{{loop.index}}"></span>
+  </div>
+  </div>
+{% endfor %}
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  let ouicalData;
+  let targetNode;
+  let calendarNodeInner;
+  let calendarNodeSpan;
+  let parser = new DOMParser();
+  let calendarNames = Array("google", "off365", "outlook", "ical");
+
+  {% for session in sessions %}
+    // create a calendar by hand
+    ouicalData = addToCalendarData({
+      options: {
+        class: 'my-class',
+        id: 'my-id'                               // If you don't pass an id, one will be generated for you.
+      },
+      data: {
+        title: '{{ title }}'.replace("#", " "),
+
+        // Event start date
+        start: new Date("{{session.start_time_string}}"),
+        end: new Date("{{session.end_time_string}}"),
+        // duration: 120,                           // Event duration (IN MINUTES)
+        // allday: true,														// Override end time, duration and timezone, triggers 'all day'
+
+        // Event timezone. Will convert the given time to that zone
+        timezone: 'UTC',
+        // Event Address
+        {% if session.link %}
+        address: '{{session.link}}',
+        {% endif %}
+
+        // Event Description
+        // NOTE: Cannot use abstract because of it is multi-line. Need to format it.
+        description: '{{ url }}'
+      }
+    });
+
+    targetNode = document.querySelector('#session-cal-link-{{ loop.index }}');
+    for (const name of calendarNames) {
+      calendarNodeInner = parser.parseFromString(ouicalData[name], "text/html");
+      calendarNodeSpan = document.createElement("span");
+      calendarNodeSpan.setAttribute("style", "padding: 2px");
+      calendarNodeSpan.appendChild(document.createTextNode("["));
+      calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+      calendarNodeSpan.appendChild(document.createTextNode("]"));
+      targetNode.appendChild(calendarNodeSpan);
+    }
+  {% endfor %}
+</script>
+{%- endmacro %}
+
+{% macro poster_info(paper, is_plenary) -%}
+  <div class="text-center text-muted text-monospace">
+
+{% if paper.content.gather_town_link and paper.content.gather_town_link != 'unknown' %}
+  <div class="paper-session-times">
+{#    <span class="session_times">{{paper.content.date1}} {{paper.content.time1}} PST/ {{paper.content.date2}} {{paper.content.time2}} PST</span>#}
+
+  <a href="{{paper.content.gather_town_link}}"   class="card-link" target="_blank">
+      [Join the Poster Session]
+  </a>
+
+  <div class="paper-session-times">
+      {% if paper.content.room == "Award-D2" or paper.content.room == "Award-D1" %}
+      <span>Room: {{ paper.content.room }}, Cluster Name: {{ paper.content.cluster_name }}</span>
+      {% else %}
+          <span>Room: {{ paper.content.room }}, Cluster: {{ paper.content.cluster }}, Position: {{ paper.content.position }}, Cluster Name: {{ paper.content.cluster_name }}</span>
+      {% endif %}
+  </div>
+  </div>
+  <div class="text-center text-muted text-monospace">
+  {% if paper.content.room[0] == 'A' and (paper.content.room[1] == 'B' or paper.content.room[1] == 'C') %}
+  <div class="paper-cal-links">
+  <span class="session_times">Room {{ paper.content.room_letter2 }} in Virtual Chair on Gather.Town, {{paper.content.date2}} {{paper.content.time2}} PST</span>
+  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+  <span id="session-cal-link-2"></span>
+  </div>
+  </div>
+    <div class="text-center text-muted text-monospace">
+  <div class="paper-cal-links">
+  <span class="session_times">Room {{ paper.content.room_letter1 }} in Virtual Chair on Gather.Town, {{paper.content.date1}} {{paper.content.time1}} PST</span>
+  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+  <span id="session-cal-link-1"></span>
+  </div>
+  {% else %}
+    <div class="paper-cal-links">
+  <span class="session_times">Room {{ paper.content.room_letter1 }} in Virtual Chair on Gather.Town, {{paper.content.date1}} {{paper.content.time1}} PST</span>
+  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+  <span id="session-cal-link-1"></span>
+  </div>
+  </div>
+    <div class="text-center text-muted text-monospace">
+  <div class="paper-cal-links">
+  <span class="session_times">Room {{ paper.content.room_letter2 }} in Virtual Chair on Gather.Town, {{paper.content.date2}} {{paper.content.time2}} PST</span>
+  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+  <span id="session-cal-link-2"></span>
+  </div>
+ {% endif %}
+  </div>
+      {% if paper.content.date3 != "unknown" %}
+    <div class="text-center text-muted text-monospace">
+  <div class="paper-cal-links">
+  <span class="session_times">Room {{ paper.content.room_letter3 }} in Virtual Chair on Gather.Town, {{paper.content.date3}} {{paper.content.time3}} PST</span>
+  <img src="static/images/calendar.svg" class="paper-detail-calendar" height="24px">
+  <span id="session-cal-link-3"></span>
+  </div>
+  </div>
+    {% endif %}
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  let ouicalData;
+  let targetNode;
+  let calendarNodeInner;
+  let calendarNodeSpan;
+  let parser = new DOMParser();
+  let calendarNames = Array("google", "off365", "outlook", "ical");
+
+// create a calendar by hand
+paper_date1 = addToCalendarData({
+  options: {
+    class: 'my-class',
+    id: 'my-id'
+  },
+  data: {
+    title: '{{ paper.content.title }}'.replace("#", " "),
+    start: new Date("{{paper.date1_start_time_string}}"),
+    end: new Date("{{paper.date1_end_time_string}}"),
+    timezone: 'America/Los_Angeles',
+    address: '{{paper.content.gather_town_link}}',
+    description: '{{ paper.content.gather_town_link }}'
+  }
+});
+
+targetNode = document.querySelector('#session-cal-link-1');
+for (const name of calendarNames) {
+  calendarNodeInner = parser.parseFromString(paper_date1[name], "text/html");
+  calendarNodeSpan = document.createElement("span");
+  calendarNodeSpan.setAttribute("style", "padding: 2px");
+  calendarNodeSpan.appendChild(document.createTextNode("["));
+  calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+  calendarNodeSpan.appendChild(document.createTextNode("]"));
+  targetNode.appendChild(calendarNodeSpan);
+}
+
+
+// create a calendar by hand
+paper_date2 = addToCalendarData({
+  options: {
+    class: 'my-class',
+    id: 'my-id'
+  },
+  data: {
+    title: '{{ paper.content.title }}'.replace("#", " "),
+    start: new Date("{{paper.date2_start_time_string}}"),
+    end: new Date("{{paper.date2_end_time_string}}"),
+    timezone: 'America/Los_Angeles',
+    address: '{{paper.content.gather_town_link}}',
+    description: '{{ paper.content.gather_town_link }}'
+  }
+});
+
+targetNode = document.querySelector('#session-cal-link-2');
+for (const name of calendarNames) {
+  calendarNodeInner = parser.parseFromString(paper_date2[name], "text/html");
+  calendarNodeSpan = document.createElement("span");
+  calendarNodeSpan.setAttribute("style", "padding: 2px");
+  calendarNodeSpan.appendChild(document.createTextNode("["));
+  calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+  calendarNodeSpan.appendChild(document.createTextNode("]"));
+  targetNode.appendChild(calendarNodeSpan);
+}
+{% if paper.content.date3 != "unknown" %}
+// create a calendar by hand
+paper_date3 = addToCalendarData({
+  options: {
+    class: 'my-class',
+    id: 'my-id'
+  },
+  data: {
+    title: '{{ paper.content.title }}'.replace("#", " "),
+    start: new Date("{{paper.date3_start_time_string}}"),
+    end: new Date("{{paper.date3_end_time_string}}"),
+    timezone: 'America/Los_Angeles',
+    address: '{{paper.content.gather_town_link}}',
+    description: '{{ paper.content.gather_town_link }}'
+  }
+});
+
+targetNode = document.querySelector('#session-cal-link-3');
+for (const name of calendarNames) {
+  calendarNodeInner = parser.parseFromString(paper_date2[name], "text/html");
+  calendarNodeSpan = document.createElement("span");
+  calendarNodeSpan.setAttribute("style", "padding: 2px");
+  calendarNodeSpan.appendChild(document.createTextNode("["));
+  calendarNodeSpan.appendChild(calendarNodeInner.getElementsByTagName("a")[0]);
+  calendarNodeSpan.appendChild(document.createTextNode("]"));
+  targetNode.appendChild(calendarNodeSpan);
+}
+
+
+{% endif %}
+
+</script>
+{% endif %}
+
+{%- endmacro %}
+
+
+
+
+{% macro calendar_scripts() -%}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar/main.css"  crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar/main.min.js" crossorigin="anonymous"></script>
+{%- endmacro %}
+
+

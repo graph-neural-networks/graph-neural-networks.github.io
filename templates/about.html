@@ -1,0 +1,73 @@
+{% set active_page = "Help" %}
+{% set page_title = "Help" %}
+{% extends "base.html" %}
+
+{% block heading %}
+{{ components.section("Help") }}
+{% endblock %}
+
+{% block tabs %}
+{{ components.tabs([("faq", "Frequently Asked Questions", "active"),
+                    ("code-of-conduct", "Code of Conduct", "")]) }}
+{% endblock %}
+
+{% block content %}
+<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
+  <!-- FAQ -->
+  <div
+    class="tab-pane active tab-switching-link"
+    id="tab-faq"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    {{ components.subsection("Frequently Asked Questions") }}
+
+    {{ components.faqgroup(FAQ) }}
+  </div>
+
+  <!-- Code of Conduct -->
+  <div
+    class="tab-pane fade"
+    id="tab-code-of-conduct"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+
+    <!--<div class="row p-3">
+      <div class="col-12 bd-content">
+      By registering, participants acknowledge and agree to follow the
+      <a href="https://www.aclweb.org/portal/content/acl-code-ethics">ACL's code of ethics</a>, the
+      <a href="https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy">ACL's anti-harassment policy</a>
+      and the ACL code of conduct below.
+      Violations against those should be reported to the
+      <a href="https://www.aclweb.org/adminwiki/index.php?title=Professional_Conduct_Committee">Professional Conduct Committee</a>:
+      EMAIL and/or the <a href="https://2020.emnlp.org/organizers/ethics-committee">EMNLP Ethics Committee</a> : EMAIL.
+      You can also report incidents in the PCC RocketChat channel, your messages will be treated absolutely confidential.
+      </div>
+    </div>-->
+
+    <div class="row p-3">
+          {{ components.subsection("AAAI Code of Conduct for Conferences and Events") }}
+
+      <div class="col-12 bd-content">
+        <div>{{CodeOfConduct|markdown}}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Enable Code of Conduct tab switch from FAQ hyperlinks -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.tab-switching-link a[href="/about.html#tab-code-of-conduct"]').click(function(){
+        window.scrollTo({top: 0});
+        window.location = '/about.html#tab-code-of-conduct';
+        window.location.reload();
+      });
+    });
+  </script>
+
+</div>
+{% endblock %}
+

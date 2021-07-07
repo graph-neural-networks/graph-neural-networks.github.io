@@ -21,7 +21,7 @@
     npm install
     ```
 * Run `make` to execute all tests.
-    
+  
 ### IDE Setup
 * Setup the Python Interpreter
     - For PyCharm, go to `Settings -> Project Settings -> Project Interpreter`.

@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% set active_page = "Invited Speakers" %}
+{% set page_title = "Invited Speakers Sessions" %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+
+{% block heading %}
+{{ components.section("AAAI-21 / IAAI-21 / EAAI-21 Invited Speaker Program") }}
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <p>Welcome to the AAAI-21 Invited Speaker Program!</p>
+        <p>AAAI-21 is pleased to present the following series of distinguished speakers:<br>
+Regina Barzilay<br>
+Daphne Koller<br>
+Kai-Fu Lee<br>
+Tuomas Sandlholm (talk title and blurb ending)<br>
+Latanya Sweeney (this information is pending)<br>
+Luke Zettlemoyer<br>
+Michael Wooldridge (EAAI-21)
+<br />
+    </div>
+</div>
+{#    Welcome to the AAAI-21 Invited Speaker Program!#}
+{##}
+{#<br>#}
+{#AAAI-21 is pleased to present the following series of distinguished speakers:#}
+
+{#Regina Barzilay#}
+{#Daphne Koller#}
+{#Kai-Fu Lee#}
+{#Tuomas Sandlholm (talk title and blurb ending)#}
+{#Latanya Sweeney (this information is pending)#}
+{#Luke Zettlemoyer#}
+{#Michael Wooldridge (EAAI-21)#}
+<!-- Uncomment this block after all livestream events are over.
+<div class="text-muted text-center">
+  You can now watch recorded livestream <a href="livestream.html" >here</a>.
+</div>
+-->
+<!--
+<div class="text-muted text-center">
+  The recorded livestream videos available:
+  <a href="https://slideslive.com/38931670" target="_blank">[July 6]</a>
+  and
+  <a href="https://slideslive.com/38931671" target="_blank">[July 7]</a>.
+</div>
+-->
+{% endblock %}
+
+{% block tabs %}
+{{ components.tabs(invited_speakers_days) }}
+{% endblock %}
+
+{% block content %}
+<div class="tab-content" id="nav-tabContent">
+
+  {% for (tab_id, day, active) in invited_speakers_days %}
+  <div
+    class="tab-pane fade {{ 'active show' if active else '' }}"
+    id="tab-{{ tab_id }}"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="{{ tab_id }}">
+      <div class="plenary_sessions">
+        {{ components.speakersessiongroup(invited_speakers[day]) }}
+      </div>
+    </div>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+<script src="static/js/lazy_load.js"></script>
+<script type="text/javascript">
+  lazyLoader();
+</script>
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
+
+{% endblock %}

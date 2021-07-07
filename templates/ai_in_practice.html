@@ -1,0 +1,311 @@
+{% extends "base.html" %}
+{% set active_page = "AiInPractice" %}
+{% set page_title = "AiInPractice" %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block heading %}
+{{ components.section("IAAI-21 AI in Practice Panels") }}
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+{#        <h4 class="text-center">#}
+{#        IAAI-21 AI in Practice Panels#}
+{#        </h4>#}
+
+        <h6 class="text-center text-muted">
+        February 4-6, 2021
+        </h6>
+
+        <p>Welcome to AI in Practice!</p>
+        <p>The 2021 edition of AI in Practice will focus on emerging applications of AI in real-time automation and finance, as well as on the challenges brought by the pandemic disruptions. We are bringing a group of technical experts and industry leaders for daily panel discussions with audience participation.</p>
+        <p>IAAI-21 is please to present the following panels for AI in Practice program:</p>
+        <p>IAAI-21 is please to present the following panels for the 2021 edition of the AI in Practice program:</p>
+        <p>AI in Practice Panel: Forecasting in Unprecedented Times<br />
+        February 4, 10:30 - 11:30 AM PST</p>
+
+        <p>AI in Practice Panel: Emerging Uses of AI in Real-Time Automation<br />
+        February 5, 10:30 - 11:30 AM PST</p>
+
+        <p>AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions<br />
+        February 6, 10:30 - 11:30 AM PST</p>
+        <p>Thiago Serra</p>
+        <p>AI in Practice Chair</p>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block tabs %}
+{{ components.tabs(ai_in_practice_days) }}
+{% endblock %}
+
+
+{#<div class="row p-4">#}
+{#  <div class="col-md-12">#}
+{#    <div class="card p-3 shadow bg-light rounded">#}
+{#        <div class="row">#}
+{#          <div class="col-md-12 col-sm-6">#}
+{#            <div class="m-3 text-muted">#}
+{#              <h4>#}
+{#                  <a href="" class="main-title" >#}
+{#                  AI in Practice Panel: Forecasting in Unprecedented Times#}
+{#                </a>#}
+{#              </h4>#}
+{#            </div>#}
+{##}
+{#            <div class="m-3 text-muted">#}
+{#                February 4, 10:30 AM - 11:30 AM PST#}
+{#            </div>#}
+{##}
+{##}
+{#            <div class="m-3">#}
+{#                <p>Moderator: Thiago Serra, Assistant Professor, Bucknell University</p>#}
+{#                <p>Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash</p>#}
+{#                <p>In a world that is getting more and more used to the abundance and accessibility of historical data as a rich source for modeling, the sudden change of patterns caused by the ongoing pandemic puts in check the conventional way in which forecasting is done. How has industry adapted to that? This panel brings together data scientists, engineers, and business leaders who were at the forefront of such disruptions°™delivery, supply chain, and traveling°™and witnessed those challenges first hand. They will share their perspectives and lessons learned from an unusual year.</p>#}
+{#                <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%201%20-%20Ruben%20Lobel%20copy.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Ruben Lobel is the Data Science Lead for Airbnb°Øs Emerging Businesses team, which is composed of three sub-teams dedicated to business travel, long stays and hosting services. Previously, he was Assistant Professor of Operations, Information and Decisions at The Wharton School. </p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%201%20-%20Polly%20Mitchell-Guthrie.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Polly Mitchell-Guthrie is the VP of Industry Outreach and Thought Leadership at Kinaxis. Previously, she served as Director of Analytical Consulting at the University of North Carolina Health Care System and in various roles at SAS Institute. She has a BA and MBA from the University of North Carolina at Chapel Hill. </p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%201%20-%20Jagannath%20Putrevu.JPG" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Jagannath is the Engineering Lead for the Marketplace Optimization team at Instacart that comprises three subteams - Logistics, Delivery Options Optimization and, Batch Pricing. He has a Masters in Operations Research from Georgia Institute of Technology.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%201%20-%20Chi%20Zhang.jpeg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Chi Zhang is a Senior Data Scientist in DoorDash. Chi has more than 10 years of experience working on real-world problems from operation optimization, predictive maintenance to robotics, all with machine learning. Chi has a Ph.D in Computer Science from University of Tennessee, Knoxville.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#          </div>#}
+{#        </div>#}
+{#    </div>#}
+{#  </div>#}
+{#</div>#}
+{##}
+{#################################}
+{#<div class="row p-4">#}
+{#  <div class="col-md-12">#}
+{#    <div class="card p-3 shadow bg-light rounded">#}
+{#        <div class="row">#}
+{#          <div class="col-md-12 col-sm-6">#}
+{#            <div class="m-3 text-muted">#}
+{#              <h4>#}
+{#                  <a href="" class="main-title" >#}
+{#                  AI in Practice Panel: Emerging Uses of AI in Real-Time Automation#}
+{#                </a>#}
+{#              </h4>#}
+{#            </div>#}
+{##}
+{#            <div class="m-3 text-muted">#}
+{#                February 5, 10:30 AM - 11:30 AM PST#}
+{#            </div>#}
+{##}
+{##}
+{#            <div class="m-3">#}
+{#                <p>Moderator: Ryan J. O'Neil, CTO, nextmv</p>#}
+{#                <p>Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre</p>#}
+{#                <p>The world economy is becoming more and more on-demand and real-time. As consumers demand immediate access to everything from meals to electronics, software systems are tasked with managing our homes, businesses, and lives in mere seconds or milliseconds. We will discuss the challenges of building, using, and deploying decision automation using optimization and AI technologies given ever-increasing urgency, complexity, and problem dimensions.</p>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%202%20-%20Apeksha%20Kumavat.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Apeksha Kumavat is the co-founder and chief engineer at Gatik, a Palo Alto based start-up developing autonomous vehicles for business-to-business short-haul logistics. Prior to this, Apeksha was the Perception Lead at Ford Motor Company's self-driving car unit where she designed effective and efficient feature detection methods to assist with online localization and developed perception algorithms for autonomous vehicles. She has also held the position of Lead Machine Learning Engineer at Otsaw Digital. Apeksha earned her M.S. (with a focus on Machine/Deep Learning) from Purdue University and has contributed towards research in areas including machine learning, cognitive science, and robotics.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%202%20-%20Ethan%20McCreadie.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Ethan McCreadle is the lead engineer at goPuff, the go-to solution for immediate everyday needs, where he oversees its innovative routing platform. Recognized for his expertise in cloud computing, automation and continuous delivery, Ethan spearheads core customer pipeline initiatives on the dispatch & logistics. Prior to his work at goPuff, Ethan held positions in website architecture and full stack development. He attended Washington University in St. Louis where he studied electrical engineering.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%202%20-%20Brandon%20Minor%20copy.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Brandon Minor is a roboticist and founder of Tangram Vision, which makes sensor integration software for vision-enabled products. He is passionate about the startup ecosystem in all its forms, and takes pride in building the community.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%202%20-%20Carolyn%20Mooney%20copy.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Carolyn Mooney is the CEO and co-founder of nextmv. Prior to this, she analyzed simulations at Lockheed (missiles) and Zoomer (pizzas) before running Grubhub's Systems Engineering team. While not starting companies, she coaches volleyball or plays with nextmv's CDO, Wally, at the park.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%202%20-%20Sebastian%20Quintero%20Rojas.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Sebastian Quintero Rojas is Colombian and passionate about Operations Research. Experienced in developing and deploying OR models into production with industry leading best software practices. Sebasti®¢n holds titles in both mechanical and industrial engineering. Recently completed a master's in OR from Universidad de Los Andes, focusing his thesis on the Meal Delivery Routing Problem.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#          </div>#}
+{#        </div>#}
+{#    </div>#}
+{#  </div>#}
+{#</div>#}
+{##}
+{#################################}
+{#<div class="row p-4">#}
+{#  <div class="col-md-12">#}
+{#    <div class="card p-3 shadow bg-light rounded">#}
+{#        <div class="row">#}
+{#          <div class="col-md-12 col-sm-6">#}
+{#            <div class="m-3 text-muted">#}
+{#              <h4>#}
+{#                  <a href="" class="main-title" >#}
+{#                  AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions#}
+{#                </a>#}
+{#              </h4>#}
+{#            </div>#}
+{##}
+{#            <div class="m-3 text-muted">#}
+{#                February 6, 10:30 AM - 11:30 AM PST#}
+{#            </div>#}
+{##}
+{#            <div class="m-3">#}
+{#                <p>Moderator: Tharsis Souza, VP, Two Sigma Investments</p>#}
+{#                <p>Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL </p>#}
+{#                <p>In recent years, the application of artificial intelligence in finance has received increased interest both as an academic research field and as a solution for real-world business problems. However, the deployment of AI models in production systems can present a number of issues and concerns. This panel discusses key risks and challenges in deploying AI applications in the financial services industry and approaches to address these challenges.</p>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%203%20-%20Alexander%20Denev.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Alexander Denev leads AI and Data Science team for Financial Services - Risk Advisory. His responsibilities include development of AI products and advisory around risks and ethical implementation of AI. He also focusses on Alternative Data, AI for Data Quality and AI for Retail Banking. He is the former Head of Quantitative Research & Advanced Analytics at IHS Markit. He recently published The Book of Alternative Data ®C the first of its kind on this topic, and previously two other books on application of machine learning in Finance.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%203%20-%20Adriano%20Koshiyama.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Adriano Koshiyama is a Research Fellow at Computer Science at University College London. He is co-founder of Holistic AI, a startup focused on Auditing and Assurance of AI Systems. His interests include: Machine Learning, Finance, and Trustworthy AI.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aiinpractice/PANEL%203%20-%20Tharsis%20Souza.jpg" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Tharsis Souza is a computer scientist passionate about data-driven products. He is Vice President of Products at Two Sigma Investments with the goal of applying cutting-edge technology to the data-rich world of finance. Prior to Two Sigma, he spent 10 years delivering new products in a variety of companies from start-ups to Fortune 500’s in the U.S., Brazil, and the U.K. He’s also an author of scholarly publications Financial Computing and a regular speaker in academic and business conferences. Tharsis holds a Ph.D. in Computer Science from UCL, University of London following an M.Phil. and M.Sc. in Computer Science and a B.Sc. in Computer Engineering.</p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                 <div class="col-md-12 col-sm-6">#}
+{#                    <div class="row">#}
+{#                        <div class="col-md-3 col-sm-6">#}
+{#                                <img class="card-img-top sponsorImg" src="static/images/aaai2021/AAAI-logo.png" />#}
+{#                        </div>#}
+{#                        <div class="col-md-9 col-sm-6">#}
+{#                            <p></p>#}
+{#                            <p>Before his role as a Professor at NYU Courant, Petter Kolm worked at Goldman Sachs Asset Management where his responsibilities included developing investment strategies. Petter has coauthored numerous articles and books on quantitative finance and financial data science, serves on several editorial boards for academic journals, professional associations, and company advisory boards. He holds a Ph.D. in Mathematics from Yale, an M.Phil. in Applied Mathematics from the Royal Institute of Technology, and an M.S. in Mathematics from ETH Zurich. </p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#          </div>#}
+{#        </div>#}
+{#    </div>#}
+{#  </div>#}
+{#</div>#}
+
+{% block content %}
+
+<div class="tab-content" id="nav-tabContent">
+
+  {% for (tab_id, day, active) in ai_in_practice_days %}
+  <div
+    class="tab-pane fade {{ 'active show' if active else '' }}"
+    id="tab-{{ tab_id }}"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="{{ tab_id }}">
+      <div class="plenary_sessions">
+        {{ components.aiinpracticegroup(ai_in_practice[day]) }}
+      </div>
+    </div>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+<script src="static/js/lazy_load.js"></script>
+<script type="text/javascript">
+  lazyLoader();
+</script>
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
+
+{% endblock %}

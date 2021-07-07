@@ -1,147 +1,442 @@
+{% extends "base.html" %}
 {% set active_page = "Papers" %}
 {% set page_title = "Papers" %}
 
-{% extends "base.html" %}
 {% block head %}
 {{ super() }}
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
 
-<script src="static/js/modules/icons.js"></script>
+<script src="static/js/icons.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 
+<script src="static/js/jquery-visible.js"></script>
+<script src="static/js/add-to-calendar.js"></script>
+
+<script>
+  $(document).ready( function () {
+    setUpKeyBindings();
+  });
+</script>
+
+<script>
+  let site_url = "{{config.site_url}}";
+  let chat_server = "{{config.chat_server}}";
+</script>
+
+{% endblock %}
+
+{% block heading %}
+   {{ components.section("Papers") }}
+  <div class="text-muted text-center">
+      To see a list of poster sessions, please visit our <a href="posters.html" target="_blank">poster session</a> overview for Main Track, AI for Social Impact Track and Senior Member Track, Demonstrations, Student Abstract, Doctoral Consortium, Undergraduate Consortium, and IAAI..
+
+{#    You can download a list of your favorite papers <a id="myLink" href="#" onclick="saveFavorites();">here</a>.#}
+
+  </div>
 {% endblock %}
 
 {% block tabs %}
-<ul class="nav nav-pills justify-content-center">
-  <li class="nav-item active">
-    <a
-      class="nav-link text-muted active"
-      data-toggle="tab"
-      href="#tab-browse"
-      role="tab"
-      aria-controls="nav-home"
-      aria-selected="true"
-      >Browse
-    </a>
+
+<ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="#" id="tabBrowse" >Browse</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-muted" href="paper_vis.html">Visualization</a>
+    <a class="nav-link" href="papers_vis.html">Visualization</a>
+  </li>
+{#  <li class="nav-item">#}
+{#    <a class="nav-link" href="papers_keyword_vis.html">Browse Keywords</a>#}
+{#  </li>#}
+  <li class="nav-item">
+    <a class="nav-link" href="#" id="tabFavs"><i class="fas fa-star"></i> Favorites</a>
   </li>
 </ul>
 
-{% endblock %}
+<div class="card" style="margin-bottom: 2.5em;">
+  <div class="card-body">
 
-{% block content %}
-<div class="row p-3"></div>
+    <div id="papers_options" class="row" role="toolbar" aria-label="Toolbar with button groups">
+      <!-- Search bar -->
+        <div class="col-lg-7">
+          <div class="input-group flex-fill">
+            <input
+              type="text"
+              class="form-control typeahead_all"
+              placeholder="Search"
+            />
+            <!-- <div class="input-group-append">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Dropdown</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">by title</a>
+                <a class="dropdown-item" href="#">by author</a>
+              </div>
+            </div> -->
+            <div class="input-group-append btn-group-toggle filter_option">
+              <label class="btn btn-outline-secondary" data-tippy-content="Search for papers titles">
+                <input type="radio" name="options" value="titles" autocomplete="off" checked />
+                by title
+              </label>
+              <!--
+              <label
+                class="btn btn-outline-secondary"
+                data-tippy-content="Search for papers with specific keywords"
+              >
+                <input
+                  type="radio"
+                  name="options"
+                  value="keywords"
+                  autocomplete="off"
+                />
+                keyword
+              </label>
+              -->
+              <label class="btn btn-outline-secondary" data-tippy-content="Search for papers from specific authors">
+                <input type="radio" name="options" value="authors" autocomplete="off" />
+                by author
+              </label>
 
-<!-- Session -->
-<div class="row d-none session_notice">
-  <div
-    class="alert alert-warning alert-dismissible fade show col-12"
-    role="alert"
-  >
-    Showing papers for
-    <span id="session_name" style="font-weight: bold;"></span>.
-    <button
-      type="button"
-      class="close remove_session"
-      data-dismiss="alert"
-      aria-label="Close"
-    >
-      <span aria-hidden="true">&times;</span>
-    </button>
+              <button class="btn btn btn-outline-secondary typeahead_all_clear" type="button">
+                &times;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="form-group">
+            <select id="track_selector" class="selectpicker form-control" data-live-search="true" data-style="btn-light">
+            </select>
+          </div>
+          <div id="track_selector_placeholder" class="d-none d-lg-block" style="width: 100%; height: 2.38em;">
+          </div>
+        </div>
+
+    </div>
+
+    <!-- Bottoms-->
+    <div class="button-box" style="margin-top: -0.7em;">
+
+      <div >
+        <div
+            class="btn-group btn-group-toggle program_option mr-3 bottom-bar"
+            data-toggle="buttons" >
+            <label class="btn btn-sm btn-outline-secondary active"  data-tippy-content="Main Track" style="width: 4.5em;">
+              <input
+                  type="radio"
+                  name="program"
+                  value="Main"
+                  autocomplete="off"
+              />
+              Main
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="AI for Social Impact Track" style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="AISI"
+                autocomplete="off"
+              />
+              AISI
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Senior Member Track"  style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="SMT"
+                autocomplete="off"
+              />
+              SMT
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Demonstrations"  style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="Demo"
+                autocomplete="off"
+              />
+              Demo
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Student Abstract and Poster Program"  style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="SA"
+                autocomplete="off"
+              />
+              SA
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Doctoral Consortium"  style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="DC"
+                autocomplete="off"
+              />
+              DC
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Undergraduate Consortium"  style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="UC"
+                autocomplete="off"
+              />
+              UC
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Innovative Applications of Artificial Intelligence Conference"  style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="IAAI"
+                autocomplete="off"
+              />
+              IAAI
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Symposium on Educational Advances in Artificial Intelligence"   style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="EAAI"
+                autocomplete="off"
+              />
+              EAAI
+            </label>
+{#            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="sister conference papers"  style="width: 4em;">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="program"#}
+{#                value="SC"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              SC#}
+{#            </label>#}
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="2021 AAAI Classic Paper Award and 2019 AAAI/ACM SIGAI Dissertation Award"   style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="Award"
+                autocomplete="off"
+              />
+              Award
+            </label>
+
+            <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Best Papers and Distinguished Papers"   style="width: 4em;">
+              <input
+                type="radio"
+                name="program"
+                value="Best"
+                autocomplete="off"
+              />
+              Best
+            </label>
+            <label class="btn btn-sm btn-outline-secondary" style="width: 4.5em;">
+              <input
+                type="radio"
+                name="program"
+                value="all"
+                autocomplete="off"
+              />
+              All
+            </label>
+        </div>
+      </div>
+
+        <div style="margin-right: 0.0em;">
+        <div
+            class="btn-group btn-group-toggle render_option mr-3 bottom-bar"
+            data-toggle="buttons" >
+
+            <label class="btn btn-sm btn-outline-secondary active">
+              <input
+                  type="radio"
+                  name="options"
+                  value="list"
+                  autocomplete="off"
+                  checked
+              />
+              compact
+            </label>
+            <label class="btn btn-sm btn-outline-secondary">
+              <input
+                type="radio"
+                name="options"
+                value="compact"
+                autocomplete="off"
+              />
+              medium
+            </label>
+            <label class="btn btn-sm btn-outline-secondary">
+              <input
+                type="radio"
+                name="options"
+                value="detail"
+                autocomplete="off"
+              />
+              detail
+            </label>
+        </div>
+      </div>
+
+
+      <div>
+        <div class="btn-group btn-group-toggle render_option" data-toggle="buttons">
+          <button class="btn btn-sm btn-outline-secondary visited">visited</button>
+        </div>
+      </div>
+
+{#      <div>#}
+{#        <div class="btn-group btn-group-toggle render_option pl-2 " data-toggle="buttons">#}
+{#          <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Show/hide papers whose QA session is finished.">#}
+{#            <input type="checkbox" name="hide_qa_ended" display="none" onchange="hideQaEnded(allPapers, this)" />#}
+{#            QA not passed#}
+{#          </label>#}
+{#        </div>#}
+{#      </div>#}
+
+      <div>
+        <div class="btn-group pl-2 ">
+          <button class="btn btn-sm btn-outline-secondary reshuffle">shuffle</button>
+        </div>
+      </div>
+
+    </div>
+
+{#    <div class="button-box" style="margin-top: 0.75em;">#}
+{#        <div style="margin-right: 0.0em;">#}
+{#        <div#}
+{#            class="btn-group btn-group-toggle render_option mr-3 bottom-bar"#}
+{#            data-toggle="buttons" >#}
+{##}
+{#            <label class="btn btn-sm btn-outline-secondary active">#}
+{#              <input#}
+{#                  type="radio"#}
+{#                  name="options"#}
+{#                  value="list"#}
+{#                  autocomplete="off"#}
+{#                  checked#}
+{#              />#}
+{#              compact#}
+{#            </label>#}
+{#            <label class="btn btn-sm btn-outline-secondary">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="options"#}
+{#                value="compact"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              medium#}
+{#            </label>#}
+{#            <label class="btn btn-sm btn-outline-secondary">#}
+{#              <input#}
+{#                type="radio"#}
+{#                name="options"#}
+{#                value="detail"#}
+{#                autocomplete="off"#}
+{#              />#}
+{#              detail#}
+{#            </label>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{##}
+{#      <div>#}
+{#        <div class="btn-group btn-group-toggle render_option" data-toggle="buttons">#}
+{#          <button class="btn btn-sm btn-outline-secondary visited">visited</button>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{#      <div>#}
+{#        <div class="btn-group btn-group-toggle render_option pl-2 " data-toggle="buttons">#}
+{#          <label class="btn btn-sm btn-outline-secondary" data-tippy-content="Show/hide papers whose QA session is finished.">#}
+{#            <input type="checkbox" name="hide_qa_ended" display="none" onchange="hideQaEnded(allPapers, this)" />#}
+{#            QA not passed#}
+{#          </label>#}
+{#        </div>#}
+{#      </div>#}
+{##}
+{#      <div>#}
+{#        <div class="btn-group pl-2 ">#}
+{#          <button class="btn btn-sm btn-outline-secondary reshuffle">shuffle</button>#}
+{#        </div>#}
+{#      </div>#}
+{#    </div>#}
+
+
+    <!-- Shortcut Guide-->
+    <div class="card-text shortcut-guide text-muted" style="font-size: 0.9rem; margin-bottom: -1em;">
+      <br/>
+      <h7 style="font-weight: bold;">Pro Tip!</h7> You can use the following shortcuts to quickly navigate through papers (All of them work even when the Quickview is open)
+      <p>
+        <span class="badge badge-secondary">&larr;</span>, <span class="badge badge-secondary">&rarr;</span> Move between cards&nbsp;&nbsp;&nbsp;
+        <span class="badge badge-secondary">space</span> Open/Close Quickview &nbsp;&nbsp;&nbsp;
+        <span class="badge badge-secondary">esc</span> Close Quickview &nbsp;&nbsp;&nbsp;
+        <span class="badge badge-secondary">enter</span> Open the paper's page &nbsp;&nbsp;&nbsp;
+        <span class="badge badge-secondary">f</span> Add a paper to Favorites
+      </p>
+    </div>
+
   </div>
 </div>
 
-<!-- Buttons -->
-<div class="row">
-  <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-    <div class="input-group mb-3">
-      <input
-        type="text"
-        class="form-control typeahead_all"
-        placeholder="Search"
-      />
-      <div class="input-group-append">
-        <button
-          class="btn btn-outline-secondary typeahead_all_clear"
-          type="button"
-        >
-          &times;
+{% endblock %}
+
+
+{% block content %}
+
+
+
+
+<div class="modal fade quickview" id="quickviewModal" tabindex="-1" data-keyboard="false" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header" style="display: block !important;">
+        <div style="display: flex;">
+        <h5 class="modal-title" id="modalTitle"></h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
         </button>
+        </div>
+
+        <p class="text-muted" id="modalAuthors"></p>
+
+        <div style="float: left; margin-top: 0.2em;">
+          <h6>
+            <span class="badge badge-pill badge-secondary" id="modalPaperType" style="margin-right: 0.5em;"></span>
+            <!-- &nbsp; -->
+            <span class="badge badge-pill badge-primary" id="modalPaperTrack"></span>
+          </h6>
+        </div>
+
+        <div style="float: right;">
+          <a class="btn btn-sm btn-outline-primary" id="modalChatUrl" href="#">Chat</a>
+{#          <a class="btn btn-sm btn-outline-primary" id="modalPresUrl" href="#">Presentation</a>#}
+          <a class="btn btn-sm btn-outline-primary" id="modalPaperUrl" href="#">Paper</a>
+        </div>
+
       </div>
-    </div>
-  </div>
-  <div
-    class="col-12 col-sm-6 col-md-6 col-lg-4 text-center"
-    style="margin-bottom: 10px;"
-  >
-    <div class="btn-group btn-group-toggle filter_option">
-      <label
-        class="btn btn-outline-secondary"
-        data-tippy-content="Search for papers titles"
-      >
-        <input
-          type="radio"
-          name="options"
-          value="titles"
-          autocomplete="off"
-          checked
-        />
-        title
-      </label>
-      <label
-        class="btn btn-outline-secondary"
-        data-tippy-content="Search for papers with specific keywords"
-      >
-        <input
-          type="radio"
-          name="options"
-          value="keywords"
-          autocomplete="off"
-        />
-        keyword
-      </label>
-      <label
-        class="btn btn-outline-secondary active"
-        data-tippy-content="Search for papers from specific authors"
-      >
-        <input type="radio" name="options" value="authors" autocomplete="off" />
-        author
-      </label>
-    </div>
-  </div>
-  <div class="col-12 col-lg-4">
-    <button class="btn btn-outline-secondary reshuffle">shuffle</button>
-    <div class="float-right">
-      <div
-        class="btn-group btn-group-toggle render_option"
-        data-toggle="buttons"
-      >
-        <label class="btn btn-outline-secondary active">
-          <input type="radio" name="options" value="mini" autocomplete="off" />
-          mini
-        </label>
-        <label class="btn btn-outline-secondary active">
-          <input
-            type="radio"
-            name="options"
-            value="compact"
-            autocomplete="off"
-            checked
-          />
-          compact
-        </label>
-        <label class="btn btn-outline-secondary">
-          <input
-            type="radio"
-            name="options"
-            value="detail"
-            autocomplete="off"
-          />
-          detail
-        </label>
+      <div class="modal-body">
+        <h6 id="modalAbstractHeader" class="text-muted">Abstract</h6>
+        <p id="modalAbstract"></p>
+
+{#        <h6 id="modalKeywordsHeader" class="text-muted">Keywords</h6>#}
+{#        <p style="font-size: 1.3em; font-family: monospace;" id="modalKeywords"></p>#}
+
+        <h6 id="modalSessionsHeader" class="text-muted">Sessions</h6>
+        <div style="display: flex;" id="modalSessions"></div>
+
+      </div>
+      <div class="modal-footer" style="display: block;">
+        <div class="btn-group" role="group" aria-label="Paper Navigation" style="float: left;">
+          <button type="button" class="btn btn-secondary" onclick="updateCardIndex(current_card_index-1);">Previous</button>
+          <button type="button" class="btn btn-secondary" onclick="updateCardIndex(current_card_index+1);">Next</button>
+        </div>
+        <div style="float: right;">
+          <button type="button" class="btn btn-outline-primary" id="modalFavBtn"><i class="fas fa-star"></i> Add to Favorites</button>
+          <a class="btn btn-outline-primary" target="_blank" style="margin-left: 0.5em;" id="modalPaperPage">More Details</a>
+        </div>
       </div>
     </div>
   </div>
@@ -149,18 +444,110 @@
 
 <!-- Cards -->
 <div class="cards row"></div>
-<script src="static/js/modules/urlParams.js"></script>
-<script src="static/js/modules/typeaheadSetup.js"></script>
-<script src="static/js/modules/lazyLoad.js"></script>
-<script src="static/js/data/persistor.js"></script>
-<script src="static/js/data/wrangle.js"></script>
-<script src="static/js/views/papers.js"></script>
+<script src="static/js/little_helpers.js"></script>
+<script src="static/js/lazy_load.js"></script>
+<script src="static/js/persistor.js"></script>
+<script src="static/js/papers.js"></script>
 <script>
+  const updateTabs = () => {
+    const showFavs = getUrlParameter("showFavs") || "0";
+    if (showFavs === "1") {
+      $('#tabBrowse').removeClass('active');
+      $('#tabFavs').addClass('active');
+    } else {
+      $('#tabBrowse').addClass('active');
+      $('#tabFavs').removeClass('active');
+    }
+  }
+
   $(document).ready(function () {
+      $('#progressBar').hide();
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
+    const program = getUrlParameter("program") || 'Main'
+    let track = ""
+    if (program !== "workshop") {
+        track = getUrlParameter("track") || 'All tracks'
+    } else {
+        track = getUrlParameter("track") || 'All workshops'
+    }
+
+    updateTabs();
+
+{#    start();#}
+  });
+
+  $('#track_selector').on('changed.bs.select', function (e, clickedIndex, isSelected, previousValue) {
+    let track = e.target.value;
+    setQueryStringParameter("track", encodeURIComponent(track));
     start();
   });
+
+  $('#tabBrowse').click(()=>{
+    setQueryStringParameter("showFavs", "0");
+    updateTabs();
+    render();
+  });
+
+  $('#tabFavs').click(()=>{
+    setQueryStringParameter("showFavs", "1");
+    updateTabs();
+    render();
+  });
 </script>
+
+<script>
+  allTracks = [
+    "All tracks",
+    {% for t in tracks %}
+      "{{t}}",
+    {% endfor %}
+  ];
+
+  allWorkshops = [
+  "All workshops",
+  {% for w in workshop_names %}
+      "{{w}}",
+  {% endfor %}
+  ];
+</script>
+
+<script>
+  function saveFavorites() {
+    const fav_papers = Object.keys(favPersistor.getAll());
+    const papers_by_id = Object.fromEntries( allPapers.map( x => [x["id"], x]) );
+
+    var result = [];
+    for (paper_id of fav_papers) {
+      var paper = papers_by_id[paper_id];
+      var content = paper["content"];
+      var row = [paper["id"], content["title"], content["authors"].join(", "), content["pdf_url"] ];
+      result.push( row.join("\t"));
+    }
+
+    var data = result.join("\n");
+
+    var blob = new Blob([data], {type: 'text/csv'});
+    if(window.navigator.msSaveOrOpenBlob) {
+        window.navigator.msSaveBlob(blob, "favorites.csv");
+    }
+    else{
+        var elem = window.document.createElement('a');
+        elem.href = window.URL.createObjectURL(blob);
+        elem.download = "favorites.csv";
+        document.body.appendChild(elem);
+        elem.click();
+        document.body.removeChild(elem);
+    }
+}
+
+
+</script>
+
+<div class="text-center" id="progressBar">
+  <div class="spinner-border text-primary" style="margin-top: 2em; width: 3rem; height: 3rem;" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</div>
 
 {% endblock %}
 
@@ -175,6 +562,6 @@
     I agree
   </div>
 </div>
-<script src="static/js/modules/gdprCookies.js"></script>
+<script src="static/js/gdpr_cookies.js"></script>
 
 {% endblock %}

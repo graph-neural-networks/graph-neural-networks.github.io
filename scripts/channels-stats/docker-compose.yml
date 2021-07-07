@@ -1,0 +1,14 @@
+services:
+  api:
+    build: './api'
+    ports:
+      - "8000:8000"
+    volumes:
+      - "./api/config:/app/config"
+    environment:
+      - "SERVER_URL=${SERVER_URL}"
+      - "AUTH_TOKEN=${AUTH_TOKEN}"
+      - "USER_ID=${USER_ID}"
+      - "NUM_CHANNEL_TO_SHOW=${NUM_CHANNEL_TO_SHOW-20}"
+      - "UPDATE_INTERVAL=${UPDATE_INTERVAL-900}"
+      - "OLD_SCORE_COEFF=${OLD_SCORE_COEFF-0.8}"

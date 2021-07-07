@@ -1,0 +1,116 @@
+\documentclass[11pt]{scrartcl}
+
+% ------------------------------------------------------------
+\usepackage[USenglish]{babel}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[margin=2.5cm]{geometry}
+
+\usepackage{xspace}
+\usepackage{enumerate}
+\usepackage{csquotes}
+\MakeOuterQuote{"}
+
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+% everything sans-serif
+\renewcommand{\familydefault}{\sfdefault}
+\crefname{enumi}{step}{steps}
+
+
+\newcommand{\vfig}[1]{%
+	\begin{center}
+		\includegraphics[scale=.35]{#1}
+	\end{center}
+}
+% ------------------------------------------------------------
+
+\newcommand{\conferenceName}{EMNLP 2020\xspace}
+\newcommand{\registrationUrl}{https://aclweb.org/conference/virtual-emnlp-2020-conference-registration/}
+\newcommand{\virtualConferenceUrl}{https://virtual.2020.emnlp.org/}
+\newcommand{\loginCredentialEmail}{virtual.2020@emnlp.org}
+\newcommand{\helpdeskEmail}{virtual.2020@emnlp.org}
+\graphicspath{{screenshots/emnlp2020/}}
+
+% ------------------------------------------------------------
+
+\title{\conferenceName Virtual Website Login Steps}
+
+\begin{document}
+
+\section*{\conferenceName Virtual Website Login Steps}
+	
+\begin{enumerate}[\bfseries{}Step 1]
+	\setcounter{enumi}{-1}
+	\item
+		\label{step:registration}
+		% need sloppypar to break email addresses with hyphens
+		\begin{sloppypar}
+			Make sure you have \href{\registrationUrl}{registered} for \conferenceName. After you register, you should receive an registration confirmation email \textbf{"VIRTUAL \conferenceName Conference Registration Confirmation"} from \nolinkurl{acl@aclweb.org} and another email \textbf{"Welcome to the \conferenceName Virtual Conference"} with your login credentials from \nolinkurl{\loginCredentialEmail}. If you haven't received the email from \nolinkurl{\loginCredentialEmail} please check the following:
+			
+			\begin{itemize}
+				\item Everyone should register (including \conferenceName organizers, invited speakers, workshop/tutorial organizers and volunteers). You will need to register to get the welcome email.
+				\item Please check your spam folder and other email categories as well for the welcome email.
+				\item Please search for an email from \nolinkurl{\loginCredentialEmail} since the welcome email will come from this email.
+				\item The email will come to the email address you used in your registration form (please check the row \textbf{"Email"}. It is between the \textbf{"Address"} row and the \textbf{"Are you completing this registration on behalf of the attendee"} row.)
+			\end{itemize}
+		
+			If you still don't find the email, please contact: \href{mailto:\helpdeskEmail}{\helpdeskEmail} and include your registration confirmation email. If you encounter any other issues, please also contact our helpdesk under \nolinkurl{\loginCredentialEmail}.
+		\end{sloppypar}
+	\item
+		\begin{sloppypar}
+			When you go to \url{\virtualConferenceUrl}, you will be asked for your username and password (you can find them in the welcome email).
+			
+			\textbf{\textcolor{red}{PLEASE NOTE}}:
+			\begin{itemize}
+				\item Make sure you received a welcome email with username (see \cref{step:registration})
+				\item The username is case-sensitive
+				\item Make sure there are no extra spaces in your password
+				\item Try typing in the username/password instead of copy-pasting (just to make sure you don't miss out on any characters). \textbf{The password has 8 characters in total.}
+			\end{itemize}
+	
+			If you are still unable to login, please contact: \href{mailto:\helpdeskEmail}{\helpdeskEmail} and \textbf{include the username/password you were sent in the welcome email}.
+
+		\end{sloppypar}
+
+		\vfig{sign-in}
+	\item You will be asked to change your password.
+	
+		\vfig{change-password}
+		
+		In case of an error, try reducing the length of the password.	
+	
+	\item Now you will be redirected to our website. Go to the "Chat" page to access RocketChat.
+	
+		\vfig{chat-page}
+	
+	\item Please click the "Log in with \conferenceName account" button. \textbf{\textcolor{red}{Note: This window can sometimes be blocked. Click the "allow pop-up window" to unblock. If you are using Firefox, please disable tracking protection.}}
+	
+		\vfig{rocket-chat-login}
+	
+		On the page that opens, confirm the sign in process by clicking the "Sign In as ..." button.
+		
+		\vfig{sign-in-as}
+		
+	\item You need to set up your username.
+	
+		\vfig{register-username}
+	
+		Now you will be able to access the RocketChat space.
+		
+		\vfig{rocket-chat-space}
+	
+	\item \textbf{(optional)} You can edit your RocketChat profile to change your displayed name and include your pronouns. See the screenshots below:
+		
+		\vfig{rocket-chat-profile-1}
+		\vfig{rocket-chat-profile-2}
+		\vfig{rocket-chat-profile-3}
+\end{enumerate}
+	
+
+\subsection*{Note from \conferenceName Professional Code of Conduct Chairs}
+
+On both RocketChat and Zoom, please ensure that your name and affiliation are displayed in a way that matches your registration (i.e. one or more of the name fields, including preferred name, in the conference registration form). You are also encouraged to include your pronouns. Obfuscating your identity or displaying the name of another attendee instead may be considered harassment under the \href{https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy}{ACL's anti-harassment policy}.
+
+\end{document}

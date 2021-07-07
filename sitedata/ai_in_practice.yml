@@ -1,0 +1,125 @@
+#- UID: panel_ForecastingInUnprecedentedTimes
+#  title: 'AI in Practice Panel: Forecasting in Unprecedented Times'
+#  presentation_id: "38952052"
+#  day: Feb 4
+#  image: [static/images/aiinpractice/PANEL 1 - Ruben Lobel copy.jpg,static/images/aiinpractice/PANEL 1 - Polly Mitchell-Guthrie.jpg,static/images/aiinpractice/PANEL 1 - Jagannath Putrevu.JPG,static/images/aiinpractice/PANEL 1 - Chi Zhang.jpeg]
+#  sessions:
+#  - name: P-Live Presentation
+#    start_time: 2021-02-04 18:30:00+00:00
+#    end_time: 2021-02-04 19:30:00+00:00
+#  rocketchat_channel: Plenary_IAAI21_AIinPracticePanel_ForecastinginUnprecedentedTimes
+#  abstract: "
+#Moderator: Thiago Serra, Assistant Professor, Bucknell University
+#\n\n
+#Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
+#\n\n
+#In a world that is getting more and more used to the abundance and accessibility of historical data as a rich source for modeling, the sudden change of patterns caused by the ongoing pandemic puts in check the conventional way in which forecasting is done. How has industry adapted to that? This panel brings together data scientists, engineers, and business leaders who were at the forefront of such disruptions°™delivery, supply chain, and traveling°™and witnessed those challenges first hand. They will share their perspectives and lessons learned from an unusual year.
+#  "
+#  bio: "
+#Ruben Lobel is the Data Science Lead for Airbnb°Øs Emerging Businesses team, which is composed of three sub-teams dedicated to business travel, long stays and hosting services. Previously, he was Assistant Professor of Operations, Information and Decisions at The Wharton School.
+#\n\n
+#
+#Polly Mitchell-Guthrie is the VP of Industry Outreach and Thought Leadership at Kinaxis. Previously, she served as Director of Analytical Consulting at the University of North Carolina Health Care System and in various roles at SAS Institute. She has a BA and MBA from the University of North Carolina at Chapel Hill.
+#\n\n
+#
+#Jagannath is the Engineering Lead for the Marketplace Optimization team at Instacart that comprises three subteams - Logistics, Delivery Options Optimization and, Batch Pricing. He has a Masters in Operations Research from Georgia Institute of Technology.
+#\n\n
+#
+#Chi Zhang is a Senior Data Scientist in DoorDash. Chi has more than 10 years of experience working on real-world problems from operation optimization, predictive maintenance to robotics, all with machine learning. Chi has a Ph.D in Computer Science from University of Tennessee, Knoxville.
+#"
+#  presenter: "
+#Panelists: Ruben Lobel, Data Science Lead, Airbnb; Polly Mitchell-Guthrie, VP, Kinaxis; Jagannath Putrevu, Engineering Lead, Instacart; Chi Zhang, Senior Data Scientist, Doordash
+#  "
+#
+#- UID: panel_EmergingUsesOfAIInReal-TimeAutomation
+#  title: 'AI in Practice Panel: Emerging Uses of AI in Real-Time Automation'
+#  presentation_id: '38952055'
+#  day: Feb 5
+#  image: [static/images/aiinpractice/PANEL 2 - Apeksha Kumavat.jpg, static/images/aiinpractice/PANEL 2 - Ethan McCreadie.jpg , static/images/aiinpractice/PANEL 2 - Brandon Minor copy.jpg, static/images/aiinpractice/PANEL 2 - Carolyn Mooney copy.jpg, static/images/aiinpractice/PANEL 2 - Sebastian Quintero Rojas.jpg]
+#  sessions:
+#  - name: P-Live Presentation
+#    start_time:  2021-02-05 18:30:00+00:00
+#    end_time: 2021-02-05 19:30:00+00:00
+#  rocketchat_channel: Plenary_IAAI21_AIinPracticePanel_EmergingUsesofAIinRealTimeAutomation
+#  abstract: "
+#Moderator: Ryan J. O'Neil, CTO, nextmv
+#\n\n
+#Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre
+#\n\n
+#The world economy is becoming more and more on-demand and real-time. As consumers demand immediate access to everything from meals to electronics, software systems are tasked with managing our homes, businesses, and lives in mere seconds or milliseconds. We will discuss the challenges of building, using, and deploying decision automation using optimization and AI technologies given ever-increasing urgency, complexity, and problem dimensions.
+#  "
+#  bio: "
+#Apeksha Kumavat is the co-founder and chief engineer at Gatik, a Palo Alto based start-up developing autonomous vehicles for business-to-business short-haul logistics. Prior to this, Apeksha was the Perception Lead at Ford Motor Company's self-driving car unit where she designed effective and efficient feature detection methods to assist with online localization and developed perception algorithms for autonomous vehicles. She has also held the position of Lead Machine Learning Engineer at Otsaw Digital. Apeksha earned her M.S. (with a focus on Machine/Deep Learning) from Purdue University and has contributed towards research in areas including machine learning, cognitive science, and robotics.
+#\n\n
+#Ethan McCreadle is the lead engineer at goPuff, the go-to solution for immediate everyday needs, where he oversees its innovative routing platform. Recognized for his expertise in cloud computing, automation and continuous delivery, Ethan spearheads core customer pipeline initiatives on the dispatch & logistics. Prior to his work at goPuff, Ethan held positions in website architecture and full stack development. He attended Washington University in St. Louis where he studied electrical engineering.
+#\n\n
+#Brandon Minor is a roboticist and founder of Tangram Vision, which makes sensor integration software for vision-enabled products. He is passionate about the startup ecosystem in all its forms, and takes pride in building the community.
+#\n\n
+#Carolyn Mooney is the CEO and co-founder of nextmv. Prior to this, she analyzed simulations at Lockheed (missiles) and Zoomer (pizzas) before running Grubhub’s Systems Engineering team. While not starting companies, she coaches volleyball or plays with nextmv’s CDO, Wally, at the park.
+#\n\n
+#Sebastian Quintero Rojas is Colombian and passionate about Operations Research. Experienced in developing and deploying OR models into production with industry leading best software practices. Sebastian holds titles in both mechanical and industrial engineering. Recently completed a master's in OR from Universidad de Los Andes, focusing his thesis on the Meal Delivery Routing Problem.
+#\n\n
+#
+#"
+#  presenter: "
+#Panelists: Apeksha Kumavat, Chief Engineer, Gatik; Ethan McCreadie, Engineering Lead, goPuff; Brandon Minor, CEO, Tangram Vision; Carolyn Mooney, CEO, nextmv; Sebastian Quintero, Project Lead, Mercado Libre
+#  "
+#
+#- UID: panel_AIApplicationsInFinance
+#  title: 'AI in Practice Panel: AI Applications in Finance: Risks and Challenges in Deploying Real-World Businesses Solutions'
+#  presentation_id: "38952058"
+#  day: Feb 6
+#  image: [static/images/aiinpractice/PANEL 3 - Alexander Denev.jpg,static/images/aiinpractice/PANEL 3 - Adriano Koshiyama.jpg,static/images/aiinpractice/PANEL 3 - Tharsis Souza.jpg]
+#  sessions:
+#  - name: P-Live Presentation
+#    start_time: 2021-02-06 18:30:00+00:00
+#    end_time: 2021-02-06 19:30:00+00:00
+#  rocketchat_channel: Plenary_IAAI21_AIinPracticePanel_AIApplicationsinFinanceRisksandChallengesinDeployingRealWorldBusinessesSolutions
+#  abstract: "
+#Moderator: Tharsis Souza, VP, Two Sigma Investments
+#\n\n
+#Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
+#\n\n
+#In recent years, the application of artificial intelligence in finance has received increased interest both as an academic research field and as a solution for real-world business problems. However, the deployment of AI models in production systems can present a number of issues and concerns. This panel discusses key risks and challenges in deploying AI applications in the financial services industry and approaches to address these challenges.
+#"
+#  bio: "
+#Alexander Denev leads AI and Data Science team for Financial Services - Risk Advisory. His responsibilities include development of AI products and advisory around risks and ethical implementation of AI. He also focusses on Alternative Data, AI for Data Quality and AI for Retail Banking. He is the former Head of Quantitative Research & Advanced Analytics at IHS Markit. He recently published The Book of Alternative Data ®C the first of its kind on this topic, and previously two other books on application of machine learning in Finance.
+#\n\n
+#
+#Adriano Koshiyama is a Research Fellow at Computer Science at University College London. He is co-founder of Holistic AI, a startup focused on Auditing and Assurance of AI Systems. His interests include: Machine Learning, Finance, and Trustworthy AI.
+#\n\n
+#Tharsis Souza is a computer scientist passionate about data-driven products. He is Vice President of Products at Two Sigma Investments with the goal of applying cutting-edge technology to the data-rich world of finance. Prior to Two Sigma, he spent 10 years delivering new products in a variety of companies from start-ups to Fortune 500’s in the U.S., Brazil, and the U.K. He’s also an author of scholarly publications Financial Computing and a regular speaker in academic and business conferences. Tharsis holds a Ph.D. in Computer Science from UCL, University of London following an M.Phil. and M.Sc. in Computer Science and a B.Sc. in Computer Engineering.
+#\n\n
+#Before his role as a Professor at NYU Courant, Petter Kolm worked at Goldman Sachs Asset Management where his responsibilities included developing investment strategies. Petter has coauthored numerous articles and books on quantitative finance and financial data science, serves on several editorial boards for academic journals, professional associations, and company advisory boards. He holds a Ph.D. in Mathematics from Yale, an M.Phil. in Applied Mathematics from the Royal Institute of Technology, and an M.S. in Mathematics from ETH Zurich.
+#"
+#  presenter: "
+#Panelists: Alexander Denev, Head of AI Financial Services, Deloitte; Rajesh T. Krishnamachari, Global Head of Data Science, Bank of America; Petter Kolm, Clinical Professor, NYU Courant; Adriano Koshiyama, Research Fellow, UCL
+#  "
+
+- UID: Schedule
+  title: 'xxx'
+  organizers: Arjun Subramonian
+  info: |-
+    to be continued
+  rocketchat_channel: Events_DoctoralConsortium
+  alias: Events_DoctoralConsortium
+  prerecorded: '000'
+  abstract: |-
+    <p>
+    xxx
+    </p>
+  sessions:
+    - name: "Opening remarks"
+      start_time: 2021-02-02 16:00:00+00:00
+      end_time: 2021-02-02 16:15:00+00:00
+      zoom_link: 123.com
+      hosts: "TBD"
+    - name: "Talk: Roles for Computing in Social Justice"
+      start_time: 2021-02-02 16:15:00+00:00
+      end_time: 2021-02-02 17:30:00+00:00
+      zoom_link: 123.com
+      hosts: "TBD"
+  authors:
+    - name: xxx
+      description: |+
+        to be continued

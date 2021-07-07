@@ -1,0 +1,66 @@
+{% set active_page = "AI job fail" %}
+{% extends "base.html" %}
+
+{% block top %}
+{{ components.section("AAAI/ACM SIGAI AI Job Fair") }}
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-12 pb-4">
+    <p class="lead">Welcome to the AAAI/ACM SIGAI AI Job Fair!<br>
+    Saturday, February 6<br>
+    10:30 AM - 12:30 PM PT, 6:30 - 8:30 PM PT, 2:30 AM - 4:30 AM (February 7 PT)<br><br>
+    
+    External Website: <a href="https://aaaijobfair.com/"> https://aaaijobfair.com/</a><br>
+    
+    1-Minute Company Presentations: First 30 minutes of each session<br>
+    <a href="https://www.virtualchair.net/venues/aaai-2021"> Virtual exhibits</a>: Following 1.5 hours of each session<br><br>
+    
+    The AAAI and ACM SIGAI AI Job Fair provides an opportunity for a host of companies and institutions to highlight their current job opportunities. The short presentations will be followed by opportunities for job seekers to visit participating company virtual booths for one-on-one meetings. The list of participating companies is included below.<br><br>
+    
+    John Dickerson, Michael Albert, and Matthew E. Taylor<br>
+    Job Fair Cochairs<br>
+    </p>
+    
+    <p class="lead">AAAI/ACM SIGAI Job Fair Participating Companies:<br><br>
+    AITopics<br>
+    Amazon<br>
+    American Friends of the Alexander von Humboldt Foundation<br>
+    Apple<br>
+    Baidu<br>
+    Bloomberg<br>
+    Dataminr<br>
+    Google<br>
+    IBM<br>
+    LG AI Research<br>
+    Meituan<br>
+    Microsoft<br>
+    Ralph<br>
+    Sony<br>
+    The Center for Deep Learning at Northwestern University<br>
+    </p>
+  </div>
+</div>
+
+</div>
+<div class="text-center mt-4">
+    <h5>AI Job Fair RocketChat Channel</h5>
+    <div class="col-md-12 col-xs-12">
+        <div id="gitter" class="slp">
+            <center>
+                <iframe frameborder="0" src="https://{{config.chat_server}}/channel/AIJobFair?layout=embedded" height="500px" width="100%" ></iframe>
+            </center>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

@@ -17,10 +17,7 @@
 }
 
 .dot.rect_selected {
-  /*fill: rgb(169, 208, 62);*/
-  stroke: #333;
-  stroke-width: 1;
-  stroke-opacity: 1;
+  fill: rgb(169, 208, 62);
 }
 
 .dot.highlight_sel {
@@ -28,12 +25,17 @@
   fill: rgb(255, 54, 72);
 }
 
-.dot.read {
-  fill: gray;
-}
-.dot.bookmarked {
-  fill: #bed972;
+.dot.filtered {
   fill-opacity: 1;
+  fill: rgb(255, 113, 43);
+}
+
+.dot.read {
+  /*opacity: 1;*/
+  fill: gray;
+  stroke: rgb(103, 137, 6);
+  stroke-width: 2;
+  stroke-opacity: 1;
 }
 
 .tt-title {
@@ -64,6 +66,11 @@
 }
 .sel_paper:hover {
   background: lightgray;
+}
+
+rect.hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: goldenrod;
 }
 
 .results {

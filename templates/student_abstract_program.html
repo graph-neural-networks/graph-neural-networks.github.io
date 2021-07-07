@@ -1,0 +1,664 @@
+{% extends "base.html" %}
+{% set active_page = "Student Abstract Program" %}
+{% set page_title = "Student Abstract Program" %}
+
+{% block heading %}
+{{ components.section("Student Abstract Program") }}
+
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    Welcome to the AAAI-21 Student Abstract and Poster Program!<br />
+        February 4-7, 2021
+    </p>
+    <p>
+    The AAAI-21 Student Abstract program provides a forum in which students can present and discuss their work during its early stages, meet some of their peers who have related interests, and introduce themselves to more senior members of the field. The program is open to all students at the Undergraduate, Masters, and Doctoral levels.
+    </p>
+    <p>
+    In addition to poster presentations, the authors of (20) accepted abstracts have been asked to submit 3-minute prerecorded videos for the Three-Minute Presentation Contest. These videos are linked to the paper submission in this site. A special prize committee will select the best presentation. The (20) finalists have been designated with an (*) in the schedule below.
+    </p>
+    <p>
+    Each poster will be available during all three time segments on the day it is scheduled. Authors may select the most convenient timezone to present their work, but are encouraged to be present in at least two of the three presentation windows.
+    </p>
+    <p>
+    Each main conference day (February 4-7) will have three (3) segments, consisting of a 75-minute plenary session and a 1.75-hour poster session:
+    </p>
+    <p>
+    7:30 - 10:30 AM PST <br />
+    3:30 - 6:30 PM PST <br />
+    11:30 PM - 2:30 AM PST
+    </p>
+    <p>
+    Poster presentations will fall in the following time slots:
+    </p>
+    <p>
+    8:45 - 10:30 AM PST <br />
+    4:45 - 6:30 PM PST <br />
+    12:45 - 2:30 AM PST
+    </p>
+    <p>
+    The full schedule of student abstract poster presentations is included below.
+    </p>
+    <p>
+    Nicola Gatti and Jana Doppa <br />
+    AAAI-21 Student Abstract and Poster Program Cochairs
+    </p>
+    </div>
+</div>
+
+<h2 class="card-title main-title text-center" style="">
+      AAAI-21 Student Abstract Poster Presentation Schedule
+</h2>
+
+{% endblock %}
+
+{% block tabs %}
+<ul class="nav nav-pills justify-content-center">
+  <li class="nav-item">
+    <a
+      class="nav-link active"
+      data-toggle="tab"
+      href="#tab-4"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 4
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-5"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 5
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-6"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 6
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      data-toggle="tab"
+      href="#tab-7"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >February 7
+    </a>
+  </li>
+</ul>
+{% endblock %}
+
+
+{% block content %}
+<div class="tab-content" id="nav-tabContent">
+
+  <div
+    class="tab-pane fade active show"
+    id="tab-4"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-4">
+      <div class="plenary_sessions">
+        <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_SA-11.html">SA-11: Towards Sample Efficient Agents through Algorithmic Alignment (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Mingxuan Li, Michael Littman</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-69.html">SA-69: Multi-label Few-shot Learning with Semantic Inference (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Zhen Wang, Yiqun Duan, Liu Liu, Dacheng Tao</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-117.html">SA-117: Source Separation and Depthwise Separable Convolutions for Computer Audition (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Gabriel Mersy, Jin Hong Kuan</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-129.html">*SA-129: Logic Guided Genetic Algorithms (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Dhananjay Ashok, Joseph Scott, Sebastian Wetzel, Maysum Panju, Vijay Ganesh</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-131.html">SA-131: Chinese Character Image Clustering and Classification  Based on Object Embedding Model (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Mengting Wang, Xun Liang, Yang Xue</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-138.html">SA-138: An Attention Based Multi-view Model for Sarcasm Cause Detection (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Hejing Liu, Qiudan Li, Zaichuan Tang, Jie Bai</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-140.html">SA-140: Robotic Manipulation with Reinforcement Learning, State Representation Learning, and Imitation Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Hanxiao Chen</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-141.html">SA-141: Leveraging on Deep Reinforcement Learning for Autonomous Safe Decision-Making in Highway On-ramp Merging (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Zine El Abidine Kherroubi, Aknine Samir, Rebiha Bacha</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-143.html">SA-143: Scalable Partial Explainability in Neural Networks via Flexible Activation Functions (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Schyler C. Sun, Chen Li, Zhuangkun Wei, Antonios Tsourdos, Weisi Guo</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-144.html">SA-144: Melodic Phrase Attention Network for Symbolic Data-based Music Genre Classification (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Li Li, Rui Zhang, Zhenyu Wang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-148.html">SA-148: Semi-Discrete Social Recommendation (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Fangyuan Luo, Jun Wu, Haishuai Wang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-149.html">SA-149: Generating Adversarial yet Inconspicuous Patches with a Single Image (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Jinqi Luo, Tao Bai, Jun Zhao</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-156.html">SA-156: Towards Extracting Graph Neural Network Models via Prediction Queries (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Bang Wu, Shirui Pan, Xingliang Yuan</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-161.html">SA-161: Improving Aerial Instance Segmentation in the Dark with Self-Supervised Low Light Enhancement (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Prateek Garg, Murari Mandal, Pratik Narang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-163.html">SA-163: RGB-D Scene Recognition based on Object-Scene Relation (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Yuhui Guo, Xun Liang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-165.html">SA-165: Is Each Layer Non-trivial in CNN? (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Wei Wang, Yanjie Zhu, Zhuoxu Cui, Dong Liang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-166.html">SA-166: A Serverless Approach to Federated Learning Infrastructure Oriented for IoT/Edge Data Sources (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Anshul Ahuja, Geetesh Gupta, Suman Kundu</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-167.html">SA-167: Preventing Overfitting via Sample Reweighting for Recommender System Incremental Update (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Danni Peng, Xiaobo Hu, Anxiang Zeng, Jie Zhang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-168.html">SA-168: Reducing Neural Network Parameter Initialization Into an SMT Problem (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Mohamad Hosein Danesh</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-171.html">SA-171: WildfireNet: Predicting Wildfire Profiles (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Samuel Sung, Yuping Li, Leonard Ortolano</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-177.html">*SA-177: Passive learning of Timed Automata from logs (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Lénaïg Cornanguer</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-186.html">SA-186: Rotation-Invariant Gait Identification with Quaternion Convolutional Neural Networks (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Bowen Jing, Vinay Prabhu, Angela Gu, John Whaley</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-187.html">*SA-187: Deep Reinforcement Learning for a Dictionary Based Compression Schema (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Keren Nivasch, Dana Shapira, Amos Azaria</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-188.html">SA-188: Improving the Performance-Compatibility Tradeoff with Personalized Objective Functions (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Jonathan Martinez</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-192.html">SA-192: Successive Halving Top-k Operator</a></td>
+          <td style="white-space: pre-wrap;">Michał Pietruszka, Łukasz Borchmann, Filip Graliński</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-193.html">*SA-193: Role of Optimizer on Network Fine-tuning for Adversarial Robustness (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Akshay Agarwal, Mayank Vatsa, Richa Singh</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-5"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-5">
+      <div class="plenary_sessions">
+        <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_SA-197.html">SA-197: Domain Generalisation with Domain Augmented Supervised Contrastive Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Hoang Son Le, Rini Akmeliawati, Gustavo Carneiro</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-201.html">*SA-201: Modeling High-order Interactions across Multi-interests for Micro-video Reommendation (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Dong Yao, Shengyu Zhang, Zhou Zhao, Wenyan Fan, Jieming Zhu, Xiuqiang He, Fei Wu</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-206.html">SA-206: RL Generalization in a Theory of Mind Game Through a Sleep Metaphor (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Tyler Malloy, Tim Klinger, Miao Liu, Gerald Tesauro, Matt Riemer, Chris Sims</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-207.html">SA-207: Improving Label Noise Robustness with Data Augmentation and Semi-Supervised Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Kento Nishi, Yi Ding, Alex Rich, Tobias Höllerer</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-210.html">SA-210: Data Domain Change and Feature Selection to Predict Cardiac Pathology with a 2D Clinical Dataset and Convolutional Neural Networks (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Mário Tasso Serra, Marco A. Florenzano Mollinetti, Inês Dutra</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-213.html">SA-213: Contextual Bandits with Delayed Feedback and Semi-supervised Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Luting Yang, Jianyi Yang, Shaolei Ren</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-215.html">SA-215: Local Search for Diversified Top-k s-plex Search Problem (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Jun Wu, Minghao Yin</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-223.html">SA-223: Encoding Temporal and Spatial Vessel Context using Self-Supervised Learning Model (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Pierre Bernabé, Helge Spieker, Bruno Legeard, Arnaud Gotlieb</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-229.html">*SA-229: FACS: Fast Code-based Algorithm for Coalition Structure Generation (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Redha Taguelmimt, Aknine Samir, Djamila Boukredera, Narayan Changder</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-234.html">SA-234: BOSS: A Bi-directional Search Technique for Optimal Coalition Structure Generation with Minimal Overlapping (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Narayan Changder, Aknine Samir, Sarvapali Ramchurn, Animesh Dutta</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-235.html">*SA-235: AuthNet: A Deep Learning Based Authentication Mechanism Using Temporal Facial Feature Movements (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Mohit Raghavendra, Pravan Omprakash, Mukesh B.R</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-237.html">SA-237: An Entity-Aware Adversarial Domain Adaptation Network for Cross-Domain Named Entity Recognition (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Qi Peng, Changmeng Zheng, Yi Cai, Tao Wang, Haoran Xie, Qing Li</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-239.html">SA-239: Quantum Binary Classification (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Carla Silva, Ana Aguiar, Inês Dutra</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-242.html">SA-242: A Method for Taxonomy-Aware Embeddings Evaluation (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Navid Nobani, Lorenzo Malandri, Fabio Mercorio, Mario Mezzanzanica</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-249.html">SA-249: Context-Enhanced Entity and Relation Embedding for Knowledge Graph Completion (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Ziyue Qiao, Zhiyuan Ning, Yi Du, Yuanchun Zhou</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-251.html">SA-251: Generating Long Financial Report using Conditional Variational Autoencoders with Knowledge Distillation</a></td>
+          <td style="white-space: pre-wrap;">Yunpeng Ren, Ziao Wang, Yiyuan Wang, Xiaofeng Zhang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-256.html">*SA-256: Detecting Lexical Semantic Change across Corpora with Smooth Manifolds (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Anmol Goel, Ponnurangam Kumaraguru</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-258.html">SA-258: Dethroning Aristocracy in Graphs via Adversarial Perturbations (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Adarsh M J, Uma Mudenagudi</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-263.html">SA-263: Knowledge-aware Dialogue Generation with Hybrid Attention (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Yaru Zhao, Bo Cheng, Yingying Zhang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-267.html">SA-267: Remember More by Recalling Less: Investigating the Role of Batch Size in Continual Learning with Experience Replay (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Maciej Wołczyk, Andrii Krutsylo</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-273.html">*SA-273: A Nested Named Entity Recognition Model Based on Multi-agent Communication Mechanism (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Canguang Li, Guohua Wang, Jin Cao, Yi Cai</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-274.html">SA-274: A Quantum-inspired Complex-valued Representation for Encoding Sentiment Information (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Guangcheng Liu, Yuexian Hou, Shikai Song</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-277.html">SA-277: Is Active Learning Always Beneficial? (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Anna Kravchenko, Rhodri Cusack</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-279.html">SA-279: Task Uncertainty Loss Reduce Negative Transfer in Asymmetric Multi-task Feature Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Rafael Peres da Silva, Chayaporn Suphavilai, Niranjan Nagarajan</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-280.html">*SA-280: Early Prediction of Children’s Task Completion in a Tablet Tutor using Visual Features (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Bikram Boote, Mansi Agarwal, Jack Mostow</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-283.html">SA-283: Over-CAM: Structural Attention Mechanism and Automated Semantic Segmentation Ensembled for Uncertainty Prediction</a></td>
+          <td style="white-space: pre-wrap;">Charles Kantor, Léonard Boussioux, Brice Rauby, Hugues Talbot</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-6"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-6">
+      <div class="plenary_sessions">
+        <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_SA-285.html">SA-285: Attention Beam: An Image Captioning Approach (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Anubhav Shrimal, Tanmoy Chakraborty</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-286.html">SA-286: A Context Aware Approach for Generating Natural Language Attacks</a></td>
+          <td style="white-space: pre-wrap;">Rishabh Maheshwary, Saket Masheshwary, Vikram Pudi</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-287.html">SA-287: Global Fusion Attention for Vision and Language Understanding (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Zixin Guo, Chen Liang, Ziyu Wan, Yang Bai</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-290.html">SA-290: Detection of Digital Manipulation in Facial Images (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Aman Mehra, Akshay Agarwal, Mayank Vatsa, Richa Singh</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-292.html">SA-292: Mental Actions and Explainability in Kripkean Semantics: What Else do I Know? (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Shikha Singh, Deepak Khemani</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-293.html">SA-293: Compilation Complexity of Multi-Winner Voting Rules (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Neel Karia, Jérôme Lang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-297.html">SA-297: Two-Sided Fairness in Non-Personalised Recommendations (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Aadi Swadipto Mondal, Rakesh Bal, Sayan Sinha, Gourab K Patro</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-299.html">SA-299: Responsible Prediction Making of COVID-19 Mortality (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Hubert Baniecki, Przemyslaw Biecek</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-300.html">SA-300: A New Robust Subspace Recovery Algorithm (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Guihong Wan, Haim Schweitzer</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-302.html">SA-302: Extending Policy Shaping to Continuous State Spaces (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Thomas Wei, Taylor A. Kessler Faulkner, Andrea L. Thomaz</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-305.html">SA-305: Measuring Vegetation Density in Marsh Grass Photographs Using Deep Neural Networks (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Lucas Welch, Xudong Liu</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-306.html">SA-306: Demonstrating the Equivalence of List Based and Aggregate Metrics to Measure the Diversity of Recommendations (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Maurizio Ferrari Dacrema</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-308.html">SA-308: Unsupervised Causal Knowledge Extraction from Text using Natural Language Inference (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Manik Bhandari, Mark Feblowitz, Oktie Hassanzadeh, Kavitha Srinivas, Shirin Sohrabi</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-309.html">*SA-309: EC-GAN: Low-Sample Classification using Semi-Supervised Algorithms and GANs (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Ayaan Haque</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-315.html">SA-315: Skills2Job: A Recommender System that Encodes Job Offer Embeddings on Graph Databases (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Andrea Seveso, Anna Giabelli, Lorenzo Malandri, Fabio Mercorio, Mario Mezzanzanica</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-333.html">*SA-333: Solving JumpIN’ Using Zero-Dependency Reinforcement Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Rachel Ostic, Oliver Benning, Patrick Boily</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-345.html">SA-345: HetSAGE: Heterogenous Graph Neural Network for Relational Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Vince Jankovics, Michael Garcia Ortiz, Eduardo Alonso</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-346.html">SA-346: Robustness to Missing Features using Hierarchical Clustering with Split Neural Networks (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Rishab Khincha, Utkarsh Sarawgi, Wazeer Zulfikar, Pattie Maes</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-349.html">SA-349: An Unfair Affinity Toward Fairness: Characterizing 70 Years of Social Biases in BHollywood (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Kunal Khadilkar, Ashiqur Khudabuksh</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-353.html">SA-353: Fair Stable Matchings Under Correlated Preferences (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Angelina Brilliantova, Hadi Hosseini</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-354.html">SA-354: A Deep Learning Framework for Improving Lameness Identification in Dairy Cattle</a></td>
+          <td style="white-space: pre-wrap;">Yasmine Karoui, Amand A Boatswain Jacques, Abdoulaye Baniré Diallo, Elise Shepley, Elsa Vasseur</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-356.html">*SA-356: Toward Determining NFA Equivalence via QBFs (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Hannah Miller, David E. Narváez</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-357.html">SA-357: A Double Phases Generation Network for Yes or No Question Generation (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Jiayuan Xie, Feng Chen, Yi Cai, Zehang Lin</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-358.html">SA-358: Information Block Detection in Infographic Based on Spatial Proximity and Structural Similarity (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Jie Lin, Xin Wu, Jianwei Lu, Yi Cai</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-360.html">SA-360: SSA2D: Single Shot Actor-Action Detection in Videos (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Aayush Rana, Yogesh Rawat</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-368.html">SA-368: SecDD: Efficient and Secure Method for Remotely Training Neural Networks (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Ilia Sucholutsky, Matthias Schonlau</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-370.html">SA-370: Clustering Partial Lexicographic Preference Trees (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Joseph Allen, Xudong Liu, Karthikeyan Umapathy, Sandeep Reddivari</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-7"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+
+    <div id="tab-7">
+      <div class="plenary_sessions">
+        <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 60%;">Paper</th>
+          <th scope="col">Authors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><a href="paper_SA-372.html">SA-372: Reinforcement Based Learning on Classification Task Yields Better Generalization and Adversarial Accuracy (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Shashi Kant Gupta</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-374.html">SA-374: LB-DESPOT: Efficient Online POMDP Planning Considering Lower Bound in Action Selection (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Chenyang Wu, Rui Kong, Guoyu Yang, Xianghan Kong, Zongzhang Zhang, Yang Yu, Dong Li, Wulong Liu</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-375.html">SA-375: Improving the Morphology and Control Policy of Self-reconfiguring Modular Robots in Dynamic Environment (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Dong Xue, Qiang Lu, Jian Li</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-376.html">*SA-376: Incorporating Bidirection-Interactive Information and Semantic Features for Relational Facts Extraction (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Yang Yu, Guohua Wang, Haopeng Ren, Yi Cai</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-379.html">*SA-379: Are Chess Discussions Racist? An Adversarial Hate Speech Data Set (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Rupak Sarkar, Ashiqur Khudabukhsh</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-380.html">*SA-380: Comparing Symbolic Models of Language via Bayesian Inference (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Annika Heuser, Polina Tsvilodub</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-381.html">SA-381: Automatic Optimal Multi-Agent Path Finding Algorithm Selector (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Jingyao Ren, Vikraman Sathiyanarayanan, Eric Ewing, Baskin Senbaslar, Nora Ayanian</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-385.html">*SA-385: Incorporating Curiosity into Personalized Ranking for Collaborative Filtering (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Qiqi Ding, Yi Cai, Ke Xu, Huakui Zhang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-386.html">*SA-386: Sampling Partial Acyclic Orientations in Chordal Graphs by the Lovasz Local Lemma (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Wenbo Sun, Ivona Bezakova</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-388.html">SA-388: Mining Intelligent Patterns using SVAC for Precision Agriculture and Optimizing Irrigation (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Vishal Vinod, Vipul Gaurav, Tushar Sharma, Savita Choudhary</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-390.html">SA-390: MMIM: An Interpretable Regularization Method for Neural Networks (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Nan Xie, Yuexian Hou</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-392.html">SA-392: LAMS: A Location-aware Approach for Multimodal Summarization (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Zhengkun Zhang, Jun Wang, Zhe Sun, Zhenglu Yang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-396.html">SA-396: Pedestrian's Intention Recognition, Fusion of Handcrafted Features in a Deep Learning Approach</a></td>
+          <td style="white-space: pre-wrap;">Omar Hamed, H. Joe Steinhauer</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-397.html">SA-397: Learning to Enhance Visual Quality via Hyperspectral Domain Mapping (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Harsh Sinha, Aditya Mehta, Murari Mandal, Pratik Narang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-400.html">SA-400: Change or Not: A Simple Approach for Plug and Play Language Models on Sentiment Control</a></td>
+          <td style="white-space: pre-wrap;">Chen Xu, Jianyu Zhao, Rang Li, Changjian Hu, Chuangbai Xiao</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-403.html">*SA-403: Enhancing Context-Based Meta-Reinforcement Learning Algorithms via An Efficient Task Encoder (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Feng Xu, Shengyi Jiang, Hao Yin, Zongzhang Zhang, Yang Yu, Ming Li, Dong Li, Wulong Liu</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-406.html">SA-406: State-Wise Adaptive Discounting from Experience (SADE): A Novel Discounting Scheme for Reinforcement Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Milan Zinzuvadiya, Vahid Behzadan</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-407.html">SA-407: Reward based Hebbian Learning in Direct Feedback Alignment (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Ashlesha Akella, Sai Kalyan Ranga Singanamalla, Chin-Teng Lin</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-411.html">SA-411: Multi-modal User Intent Classification Under the Scenario of Smart Factory (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Yu-Ching Chiu, Bo-Hao Chang, Tzu-Yu Chen, Cheng-Fu Yang, Nanyi Bi, Richard Tzong-Han Tsai, Hung-Yi Lee, Jane Yung-Jen Hsu</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-413.html">SA-413: Evaluating Meta-Reinforcement Learning through a HVAC Control Benchmark (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Yashvir Singh Grewal, Frits de Nijs, Sarah Goodwin</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-414.html">SA-414: Neuro-Symbolic Techniques for Description Logic Reasoning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Gunjan Singh, Sutapa Mondal, Sumit Bhatia, Raghava Mutharaju</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-416.html">SA-416: NEAP-F: Network Epoch Accuracy Prediction Framework (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Arushi Chauhan, Mayank Vatsa, Richa Singh</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-417.html">*SA-417: Shallow-UWnet: Compressed Model for Underwater Image Enhancement (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Ankita Naik, Apurva Swarnakar, Kartik Mittal</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-418.html">SA-418: Semi-Supervised Learning via Triplet Network Based Active Learning (Student Abstract)</a></td>
+          <td style="white-space: pre-wrap;">Divyanshu Sundriyal, Soumyadeep Ghosh, Mayank Vatsa, Richa Singh</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-421.html">SA-421: Text Embedding Bank for Detailed Image Paragraph Captioning</a></td>
+          <td style="white-space: pre-wrap;">Arjun Gupta, Zack Shen, Thomas Huang</td>
+        </tr>
+        <tr>
+          <td scope="row"><a href="paper_SA-436.html">SA-436: Zera-Shot Sentiment Analysis for Code-Mixed Data</a></td>
+          <td style="white-space: pre-wrap;">Siddharth Yadav, Tanmoy Chakraborty</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row m-2">
+{#  <div class="col-md-7 col-xs-12 my-auto p-2">#}
+{#      <div class="text-muted text-center">#}
+{#        You can open <a href="https://{{config.chat_server}}/channel/Events_StudentAbstractProgram" target="_blank">Student Abstract Program</a>#}
+{#        channel in a separate window.#}
+{#      </div>#}
+{#  </div>#}
+
+  <div id="rocketchat_div" class="col-md-5 col-xs-12 p-2">
+      <div class="text-muted text-center">
+        You can open <a href="https://{{config.chat_server}}/channel/Events_StudentAbstractProgram" target="_blank">Student Abstract Program</a>
+        channel in a separate window.
+      </div>
+      <div id="gitter" class="slp">
+        <iframe frameborder="0" onload="change_col();return false;" src="https://aaai-21.rocket.chat/channel/Events_StudentAbstractProgram?layout=embedded" height="700px" width="100%" ></iframe>
+      </div>
+  </div>
+</div>
+
+<script src="static/js/lazy_load.js"></script>
+<script type="text/javascript">
+  lazyLoader();
+</script>
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+  function change_col(){
+      $("#rocketchat_div").removeClass("col-md-5");
+      $("#rocketchat_div").addClass("col-md-12");
+  }
+</script>
+{% endblock %}

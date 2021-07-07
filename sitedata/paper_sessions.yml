@@ -1,0 +1,2688 @@
+A-AB-D1-R1-A:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Constraint Satisfaction and Optimization'
+A-AB-D1-R1-G:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Ethics'
+A-AB-D1-R1-E:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Intelligent Robots / Vision for Robotics'
+A-AB-D1-R1-B:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Constraints and Learning'
+A-AB-D1-R1-J:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Applications'
+A-AB-D1-R1-D:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Scheduling and Temporal Planning'
+A-AB-D1-R1-F:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+A-AB-D1-R1-H:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'NLP: Ethics'
+A-AB-D1-R1-C:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Deterministic Planning'
+A-AB-D1-R2-C:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+A-AB-D1-R2-D:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+A-AB-D1-R2-E:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Neuro-Symbolic AI'
+A-AB-D1-R2-F:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+A-AB-D1-R2-H:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Vision: Image and Video Retrieval'
+A-AB-D1-R2-B:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'NLP: Information Extraction'
+A-AB-D1-R2-A:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'NLP: Interpretaility & Analysis of Models'
+A-AB-D1-R2-G:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Optimization'
+A-AB-D1-R2-J:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+A-AB-D1-R2-K:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Language and Vision'
+A-BC-D1-R1-A:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Constraint Satisfaction and Optimization'
+A-BC-D1-R1-E:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+A-BC-D1-R1-K:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Senior Member Track (Blue Sky)'
+A-BC-D1-R1-G:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Healthcare & Covid Applications'
+A-BC-D1-R1-F:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'NLP: Ethics'
+A-BC-D1-R1-D:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Intelligent Robots'
+A-BC-D1-R1-B:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Reinforcement Learning / Planning'
+A-BC-D1-R1-C:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Planning and Scheduling'
+A-BC-D1-R1-J:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'AI Responses to the COVID-19 Pandemic'
+A-BC-D1-R1-H:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Applications'
+A-BC-D1-R2-G:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+A-BC-D1-R2-A:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'NLP: Discourse / Dialog / Summarization'
+A-BC-D1-R2-K:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Vision: Scene Analysis & Understanding'
+A-BC-D1-R2-D:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Clustering'
+A-BC-D1-R2-F:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Learning Theory'
+A-BC-D1-R2-B:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'NLP: Information Extraction'
+A-BC-D1-R2-E:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+A-BC-D1-R2-H:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'Vision: Learning & Optimization'
+A-BC-D1-R2-C:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'NLP: Machine Translation & Multilinguality'
+A-BC-D1-R2-J:
+    start_time: 2021-02-04 08:45:00-08:00
+    end_time: 2021-02-04 10:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+B-AC-D1-R1-A:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Constraint Satisfaction and Optimization'
+B-AC-D1-R1-E:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+B-AC-D1-R1-J:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'NLP: Machine Translation & Multilinguality'
+B-AC-D1-R1-D:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Intelligent Robots / Vision for Robotics'
+B-AC-D1-R1-B:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Planning, Routing and Scheduling'
+B-AC-D1-R1-H:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'NLP: Summarization / Discourse'
+B-AC-D1-R1-F:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Ethics'
+B-AC-D1-R1-G:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Applications'
+B-AC-D1-R2-D:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+B-AC-D1-R2-A:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+B-AC-D1-R2-E:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Multi-Class / Multi-label / Multi-view  Learning'
+B-AC-D1-R2-B:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Representation Learning'
+B-AC-D1-R2-C:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+B-AC-D1-R2-H:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: '3D Computer Vision'
+B-AC-D1-R2-F:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Vision: Image and Video Retrieval'
+B-AC-D1-R2-J:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Vision: Biometrics, Face, Gesture & Pose'
+B-AC-D1-R2-G:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+B-AC-D1-R2-K:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Language and Vision'
+B-BC-D1-R1-A:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Constraint Satisfaction and Optimization'
+B-BC-D1-R1-E:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+B-BC-D1-R1-K:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Senior Member Track (Blue Sky)'
+B-BC-D1-R1-G:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Healthcare & Covid Applications'
+B-BC-D1-R1-F:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'NLP: Ethics'
+B-BC-D1-R1-D:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Intelligent Robots'
+B-BC-D1-R1-B:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Reinforcement Learning / Planning'
+B-BC-D1-R1-C:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Planning and Scheduling'
+B-BC-D1-R1-J:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'AI Responses to the COVID-19 Pandemic'
+B-BC-D1-R1-H:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Applications'
+B-BC-D1-R2-G:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+B-BC-D1-R2-A:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'NLP: Discourse / Dialog / Summarization'
+B-BC-D1-R2-K:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Vision: Scene Analysis & Understanding'
+B-BC-D1-R2-D:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Clustering'
+B-BC-D1-R2-F:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Learning Theory'
+B-BC-D1-R2-B:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'NLP: Information Extraction'
+B-BC-D1-R2-E:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+B-BC-D1-R2-H:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'Vision: Learning & Optimization'
+B-BC-D1-R2-C:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'NLP: Machine Translation & Multilinguality'
+B-BC-D1-R2-J:
+    start_time: 2021-02-04 16:45:00-08:00
+    end_time: 2021-02-04 18:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+C-AB-D1-R1-A:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Constraint Satisfaction and Optimization'
+C-AB-D1-R1-G:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Ethics'
+C-AB-D1-R1-E:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Intelligent Robots / Vision for Robotics'
+C-AB-D1-R1-B:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Constraints and Learning'
+C-AB-D1-R1-J:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Applications'
+C-AB-D1-R1-D:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Scheduling and Temporal Planning'
+C-AB-D1-R1-F:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+C-AB-D1-R1-H:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'NLP: Ethics'
+C-AB-D1-R1-C:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Deterministic Planning'
+C-AB-D1-R2-C:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+C-AB-D1-R2-D:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+C-AB-D1-R2-E:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Neuro-Symbolic AI'
+C-AB-D1-R2-F:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+C-AB-D1-R2-H:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Vision: Image and Video Retrieval'
+C-AB-D1-R2-B:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'NLP: Information Extraction'
+C-AB-D1-R2-A:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'NLP: Interpretaility & Analysis of Models'
+C-AB-D1-R2-G:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Optimization'
+C-AB-D1-R2-J:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+C-AB-D1-R2-K:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Language and Vision'
+C-AC-D1-R1-A:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Constraint Satisfaction and Optimization'
+C-AC-D1-R1-E:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+C-AC-D1-R1-J:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'NLP: Machine Translation & Multilinguality'
+C-AC-D1-R1-D:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Intelligent Robots / Vision for Robotics'
+C-AC-D1-R1-B:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Planning, Routing and Scheduling'
+C-AC-D1-R1-H:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'NLP: Summarization / Discourse'
+C-AC-D1-R1-F:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Ethics'
+C-AC-D1-R1-G:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Applications'
+C-AC-D1-R2-D:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+C-AC-D1-R2-A:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+C-AC-D1-R2-E:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Multi-Class / Multi-label / Multi-view  Learning'
+C-AC-D1-R2-B:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Representation Learning'
+C-AC-D1-R2-C:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+C-AC-D1-R2-H:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: '3D Computer Vision'
+C-AC-D1-R2-F:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Vision: Image and Video Retrieval'
+C-AC-D1-R2-J:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Vision: Biometrics, Face, Gesture & Pose'
+C-AC-D1-R2-G:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+C-AC-D1-R2-K:
+    start_time: 2021-02-05 00:45:00-08:00
+    end_time: 2021-02-05 02:30:00-08:00
+    cluster_name: 'Language and Vision'
+D-AB-D2-R1-D:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Fair Division'
+D-AB-D2-R1-A:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Heuristic and Greedy Search'
+D-AB-D2-R1-K:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'AI for Conference Organization and Delivery'
+D-AB-D2-R1-E:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Game Theory'
+D-AB-D2-R1-J:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Applications'
+D-AB-D2-R1-H:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Healthcare & Covid Applications'
+D-AB-D2-R1-G:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+D-AB-D2-R1-C:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Planning'
+D-AB-D2-R1-B:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Multiagent Systems'
+D-AB-D2-R1-F:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+D-AB-D2-R2-K:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+D-AB-D2-R2-C:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'NLP: Generation'
+D-AB-D2-R2-E:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+D-AB-D2-R2-F:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Clustering'
+D-AB-D2-R2-A:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+D-AB-D2-R2-H:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Relational / Graph-Based Machine Learning'
+D-AB-D2-R2-J:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Vision: Image and Video Retrieval'
+D-AB-D2-R2-G:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Time-Series/Data Streams'
+D-AB-D2-R2-D:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Unsupervised & Self-Supervised Learning'
+D-AB-D2-R2-B:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+D-BC-D2-R1-E:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+D-BC-D2-R1-H:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+D-BC-D2-R1-J:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+D-BC-D2-R1-D:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+D-BC-D2-R1-K:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+D-BC-D2-R1-G:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Applications'
+D-BC-D2-R1-F:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Ethics'
+D-BC-D2-R1-B:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Multiagent Systems'
+D-BC-D2-R1-A:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Search and Optimization'
+D-BC-D2-R1-C:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Social Choice / Voting'
+D-BC-D2-R2-E:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+D-BC-D2-R2-G:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+D-BC-D2-R2-H:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Graph-based Machine Learning'
+D-BC-D2-R2-J:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'Language and Vision'
+D-BC-D2-R2-K:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: '3D Computer Vision'
+D-BC-D2-R2-A:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'NLP: Question Answering'
+D-BC-D2-R2-C:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'NLP: Semantics'
+D-BC-D2-R2-F:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Neural Generative Models & Autoencoders'
+D-BC-D2-R2-D:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'ML: Bayesian Learning'
+D-BC-D2-R2-B:
+    start_time: 2021-02-05 08:45:00-08:00
+    end_time: 2021-02-05 10:30:00-08:00
+    cluster_name: 'NLP: Generation'
+E-AC-D2-R1-D:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+E-AC-D2-R1-F:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Vision: Applications'
+E-AC-D2-R1-J:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+E-AC-D2-R1-E:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Recommender Systems & Collaborative Filtering'
+E-AC-D2-R1-G:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Applications'
+E-AC-D2-R1-K:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Speech & Signal Processing'
+E-AC-D2-R1-B:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Multiagent Systems'
+E-AC-D2-R1-A:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Search and Optimization'
+E-AC-D2-R1-H:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+E-AC-D2-R1-C:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+E-AC-D2-R2-C:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'NLP: Information Extraction'
+E-AC-D2-R2-H:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: '3D Computer Vision'
+E-AC-D2-R2-F:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms / Ensemble Methods'
+E-AC-D2-R2-K:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Vision: Low Level & Physics-based Vision'
+E-AC-D2-R2-B:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'NLP: Text Classification & Sentiment Analysis'
+E-AC-D2-R2-G:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Bandits / RL / Imitation Learning'
+E-AC-D2-R2-E:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Unsupervised & Self-Supervised Learning'
+E-AC-D2-R2-D:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+E-AC-D2-R2-A:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'NLP: Conversational AI/Dialog Systems'
+E-AC-D2-R2-J:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+E-BC-D2-R1-E:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+E-BC-D2-R1-H:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+E-BC-D2-R1-J:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+E-BC-D2-R1-D:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+E-BC-D2-R1-K:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+E-BC-D2-R1-G:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Applications'
+E-BC-D2-R1-F:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Ethics'
+E-BC-D2-R1-B:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Multiagent Systems'
+E-BC-D2-R1-A:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Search and Optimization'
+E-BC-D2-R1-C:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Social Choice / Voting'
+E-BC-D2-R2-E:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+E-BC-D2-R2-G:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+E-BC-D2-R2-H:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Graph-based Machine Learning'
+E-BC-D2-R2-J:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'Language and Vision'
+E-BC-D2-R2-K:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: '3D Computer Vision'
+E-BC-D2-R2-A:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'NLP: Question Answering'
+E-BC-D2-R2-C:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'NLP: Semantics'
+E-BC-D2-R2-F:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Neural Generative Models & Autoencoders'
+E-BC-D2-R2-D:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'ML: Bayesian Learning'
+E-BC-D2-R2-B:
+    start_time: 2021-02-05 16:45:00-08:00
+    end_time: 2021-02-05 18:30:00-08:00
+    cluster_name: 'NLP: Generation'
+F-AB-D2-R1-D:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Fair Division'
+F-AB-D2-R1-A:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Heuristic and Greedy Search'
+F-AB-D2-R1-K:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'AI for Conference Organization and Delivery'
+F-AB-D2-R1-E:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Game Theory'
+F-AB-D2-R1-J:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Applications'
+F-AB-D2-R1-H:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Healthcare & Covid Applications'
+F-AB-D2-R1-G:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+F-AB-D2-R1-C:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Planning'
+F-AB-D2-R1-B:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Multiagent Systems'
+F-AB-D2-R1-F:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Philosophy and Ethics of AI'
+F-AB-D2-R2-K:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+F-AB-D2-R2-C:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'NLP: Generation'
+F-AB-D2-R2-E:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+F-AB-D2-R2-F:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'ML: Clustering'
+F-AB-D2-R2-A:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+F-AB-D2-R2-H:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'ML: Relational / Graph-Based Machine Learning'
+F-AB-D2-R2-J:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Vision: Image and Video Retrieval'
+F-AB-D2-R2-G:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'ML: Time-Series/Data Streams'
+F-AB-D2-R2-D:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'ML: Unsupervised & Self-Supervised Learning'
+F-AB-D2-R2-B:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+F-AC-D2-R1-D:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+F-AC-D2-R1-F:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Vision: Applications'
+F-AC-D2-R1-J:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+F-AC-D2-R1-E:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Recommender Systems & Collaborative Filtering'
+F-AC-D2-R1-G:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Applications'
+F-AC-D2-R1-K:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Speech & Signal Processing'
+F-AC-D2-R1-B:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Multiagent Systems'
+F-AC-D2-R1-A:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Search and Optimization'
+F-AC-D2-R1-H:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'AI for Social Impact'
+F-AC-D2-R1-C:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+F-AC-D2-R2-C:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'NLP: Information Extraction'
+F-AC-D2-R2-H:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: '3D Computer Vision'
+F-AC-D2-R2-F:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms / Ensemble Methods'
+F-AC-D2-R2-K:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Vision: Low Level & Physics-based Vision'
+F-AC-D2-R2-B:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'NLP: Text Classification & Sentiment Analysis'
+F-AC-D2-R2-G:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'ML: Bandits / RL / Imitation Learning'
+F-AC-D2-R2-E:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'ML: Unsupervised & Self-Supervised Learning'
+F-AC-D2-R2-D:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+F-AC-D2-R2-A:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'NLP: Conversational AI/Dialog Systems'
+F-AC-D2-R2-J:
+    start_time: 2021-02-06 00:45:00-08:00
+    end_time: 2021-02-06 02:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+G-AB-D3-R1-F:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Reasoning under Uncertainty'
+G-AB-D3-R1-J:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Vision: Applications'
+G-AB-D3-R1-D:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Social Choice / Voting/Fair Division'
+G-AB-D3-R1-C:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Satisfiability'
+G-AB-D3-R1-E:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Humans and AI'
+G-AB-D3-R1-K:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Vision: Motion, Tracking & Video Understading'
+G-AB-D3-R1-B:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'KR&R: Description Logics'
+G-AB-D3-R1-G:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+G-AB-D3-R1-A:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'KR&R: Argumentation and Non-monotonic Reasoning'
+G-AB-D3-R1-H:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Applications'
+G-AB-D3-R2-B:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'NLP: Discourse / Dialog / Summarization'
+G-AB-D3-R2-A:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'NLP: Semantics'
+G-AB-D3-R2-E:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Learning Theory / ML Optimization'
+G-AB-D3-R2-K:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Vision: Adversarial Learning, Attacks & Robustness'
+G-AB-D3-R2-F:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+G-AB-D3-R2-H:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: '3D Computer Vision'
+G-AB-D3-R2-G:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Online Learning & Bandits'
+G-AB-D3-R2-D:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+G-AB-D3-R2-J:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Vision: Computational Photography, Image & Video Synthesis'
+G-AB-D3-R2-C:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Semi-Supervised / Weakly-Supervised Learning'
+G-BC-D3-R1-B:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+G-BC-D3-R1-E:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Humans and AI'
+G-BC-D3-R1-F:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+G-BC-D3-R1-G:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Applications'
+G-BC-D3-R1-D:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Healthcare & Covid Applications'
+G-BC-D3-R1-C:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Reasoning under Uncertainty'
+G-BC-D3-R1-J:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'NLP: Conversational AI/Dialog Systems'
+G-BC-D3-R1-A:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Knowledge Representation and Reasoning'
+G-BC-D3-R1-K:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'NLP: Information Extraction'
+G-BC-D3-R1-H:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Applications'
+G-BC-D3-R2-C:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Learning Theory / Optimization'
+G-BC-D3-R2-B:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+G-BC-D3-R2-H:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Vision: Video Understanding & Activity Analysis'
+G-BC-D3-R2-D:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Low Resource ML'
+G-BC-D3-R2-A:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning / Imitation / Active Learning'
+G-BC-D3-R2-E:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Online Learning & Bandits'
+G-BC-D3-R2-G:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Time-Series/Data Streams'
+G-BC-D3-R2-J:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Vision: Computational Photography, Image & Video Synthesis'
+G-BC-D3-R2-F:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+G-BC-D3-R2-K:
+    start_time: 2021-02-06 08:45:00-08:00
+    end_time: 2021-02-06 10:30:00-08:00
+    cluster_name: 'Language and Vision'
+H-AC-D3-R1-F:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Applications'
+H-AC-D3-R1-J:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'NLP: Semantics'
+H-AC-D3-R1-B:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Reasoning under Uncertainty/Bayesian Learning'
+H-AC-D3-R1-D:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Humans and AI'
+H-AC-D3-R1-E:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Applications'
+H-AC-D3-R1-H:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'NLP: Conversational AI/Dialog Systems'
+H-AC-D3-R1-C:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+H-AC-D3-R1-K:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Language and Vision'
+H-AC-D3-R1-A:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Knowledge Representation and Reasoning'
+H-AC-D3-R1-G:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'NLP: Learning & Optimization'
+H-AC-D3-R2-C:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Learning Theory / Optimization'
+H-AC-D3-R2-G:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Vision: Scene Analysis & Understanding'
+H-AC-D3-R2-E:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+H-AC-D3-R2-B:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Online Learning & Bandits'
+H-AC-D3-R2-A:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Clustering'
+H-AC-D3-R2-J:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Vision: Segmentation'
+H-AC-D3-R2-B:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Bandits / RL / Imitation Learning'
+H-AC-D3-R2-H:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+H-AC-D3-R2-D:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Generative Models / Graph-based ML'
+H-AC-D3-R2-K:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Vision: Learning & Optimization'
+H-AC-D3-R2-F:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Vision: Computational Photography, Image & Video Synthesis'
+H-BC-D3-R1-B:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+H-BC-D3-R1-E:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Humans and AI'
+H-BC-D3-R1-F:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+H-BC-D3-R1-G:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Applications'
+H-BC-D3-R1-D:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Healthcare & Covid Applications'
+H-BC-D3-R1-C:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Reasoning under Uncertainty'
+H-BC-D3-R1-J:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'NLP: Conversational AI/Dialog Systems'
+H-BC-D3-R1-A:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Knowledge Representation and Reasoning'
+H-BC-D3-R1-K:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'NLP: Information Extraction'
+H-BC-D3-R1-H:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Applications'
+H-BC-D3-R2-C:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Learning Theory / Optimization'
+H-BC-D3-R2-B:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+H-BC-D3-R2-H:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Vision: Video Understanding & Activity Analysis'
+H-BC-D3-R2-D:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Low Resource ML'
+H-BC-D3-R2-A:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning / Imitation / Active Learning'
+H-BC-D3-R2-E:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Online Learning & Bandits'
+H-BC-D3-R2-G:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Time-Series/Data Streams'
+H-BC-D3-R2-J:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Vision: Computational Photography, Image & Video Synthesis'
+H-BC-D3-R2-F:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+H-BC-D3-R2-K:
+    start_time: 2021-02-06 16:45:00-08:00
+    end_time: 2021-02-06 18:30:00-08:00
+    cluster_name: 'Language and Vision'
+I-AB-D3-R1-F:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Reasoning under Uncertainty'
+I-AB-D3-R1-J:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Vision: Applications'
+I-AB-D3-R1-D:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Social Choice / Voting/Fair Division'
+I-AB-D3-R1-C:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Satisfiability'
+I-AB-D3-R1-E:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Humans and AI'
+I-AB-D3-R1-K:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Vision: Motion, Tracking & Video Understading'
+I-AB-D3-R1-B:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'KR&R: Description Logics'
+I-AB-D3-R1-G:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+I-AB-D3-R1-A:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'KR&R: Argumentation and Non-monotonic Reasoning'
+I-AB-D3-R1-H:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Applications'
+I-AB-D3-R2-B:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'NLP: Discourse / Dialog / Summarization'
+I-AB-D3-R2-A:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'NLP: Semantics'
+I-AB-D3-R2-E:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Learning Theory / ML Optimization'
+I-AB-D3-R2-K:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Vision: Adversarial Learning, Attacks & Robustness'
+I-AB-D3-R2-F:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+I-AB-D3-R2-H:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: '3D Computer Vision'
+I-AB-D3-R2-G:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Online Learning & Bandits'
+I-AB-D3-R2-D:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+I-AB-D3-R2-J:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Vision: Computational Photography, Image & Video Synthesis'
+I-AB-D3-R2-C:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Semi-Supervised / Weakly-Supervised Learning'
+I-AC-D3-R1-F:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Applications'
+I-AC-D3-R1-J:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'NLP: Semantics'
+I-AC-D3-R1-B:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Reasoning under Uncertainty/Bayesian Learning'
+I-AC-D3-R1-D:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Humans and AI'
+I-AC-D3-R1-E:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Applications'
+I-AC-D3-R1-H:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'NLP: Conversational AI/Dialog Systems'
+I-AC-D3-R1-C:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+I-AC-D3-R1-K:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Language and Vision'
+I-AC-D3-R1-A:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Knowledge Representation and Reasoning'
+I-AC-D3-R1-G:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'NLP: Learning & Optimization'
+I-AC-D3-R2-C:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Learning Theory / Optimization'
+I-AC-D3-R2-G:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Vision: Scene Analysis & Understanding'
+I-AC-D3-R2-E:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+I-AC-D3-R2-B:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Online Learning & Bandits'
+I-AC-D3-R2-A:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Clustering'
+I-AC-D3-R2-J:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Vision: Segmentation'
+I-AC-D3-R2-B:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Bandits / RL / Imitation Learning'
+I-AC-D3-R2-H:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+I-AC-D3-R2-D:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'ML: Generative Models / Graph-based ML'
+I-AC-D3-R2-K:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Vision: Learning & Optimization'
+I-AC-D3-R2-F:
+    start_time: 2021-02-07 00:45:00-08:00
+    end_time: 2021-02-07 02:30:00-08:00
+    cluster_name: 'Vision: Computational Photography, Image & Video Synthesis'
+J-AB-D4-R1-H:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Applications'
+J-AB-D4-R1-A:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'KR&R: Action, Change, and Causality'
+J-AB-D4-R1-B:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Knowledge Representation and Reasoning'
+J-AB-D4-R1-F:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Cognitive Systems / Crowdsourcing'
+J-AB-D4-R1-D:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+J-AB-D4-R1-E:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Social Choice / Voting'
+J-AB-D4-R1-G:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+J-AB-D4-R1-C:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Social Choice / Voting'
+J-AB-D4-R2-E:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+J-AB-D4-R2-G:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+J-AB-D4-R2-H:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: '3D Computer Vision'
+J-AB-D4-R2-J:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Vision: Biometrics, Face, Gesture & Pose'
+J-AB-D4-R2-A:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'NLP: Text Classification & Sentiment Mining'
+J-AB-D4-R2-F:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Probabilistic Models'
+J-AB-D4-R2-B:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'NLP: Deep Learning'
+J-AB-D4-R2-C:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Neuro-Symbolic AI'
+J-AB-D4-R2-D:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Optimization'
+J-BC-D4-R1-K:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Vision: Applications'
+J-BC-D4-R1-F:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Applications'
+J-BC-D4-R1-A:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Mechanism Design'
+J-BC-D4-R1-G:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Healthcare Applications'
+J-BC-D4-R1-B:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+J-BC-D4-R1-E:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+J-BC-D4-R1-C:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Cognitive Modeling & Cognitive Systems'
+J-BC-D4-R1-J:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'NLP: Generation'
+J-BC-D4-R1-H:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'NLP: Text Classification & Sentiment Analysis'
+J-BC-D4-R1-D:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Recommender Systems & Collaborative Filtering'
+J-BC-D4-R2-E:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Unsupervised / Semi-Supervised / Active Learning'
+J-BC-D4-R2-B:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+J-BC-D4-R2-F:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Distributed Machine Learning & Federated Learning'
+J-BC-D4-R2-H:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Neuro-Symbolic AI'
+J-BC-D4-R2-C:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Multi-class / Multi-label / Multi-view Learning'
+J-BC-D4-R2-G:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Optimization'
+J-BC-D4-R2-J:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+J-BC-D4-R2-D:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Graph-based Machine Learning'
+J-BC-D4-R2-A:
+    start_time: 2021-02-07 08:45:00-08:00
+    end_time: 2021-02-07 10:30:00-08:00
+    cluster_name: 'ML: Online Learning & Bandits'
+K-AC-D4-R1-G:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'NLP: Information Extraction / Question Answering'
+K-AC-D4-R1-K:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Active / Weakly-Supervised / Semi-Supervised Learning'
+K-AC-D4-R1-A:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Cognitive Modeling & Cognitive Systems'
+K-AC-D4-R1-E:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'NLP: Applications'
+K-AC-D4-R1-H:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'NLP: Generation'
+K-AC-D4-R1-F:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'NLP: Language Models'
+K-AC-D4-R1-J:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'NLP: Conversational AI / Dialog Systems'
+K-AC-D4-R1-C:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+K-AC-D4-R1-D:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Healthcare & Covid Applications'
+K-AC-D4-R1-B:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+K-AC-D4-R2-K:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Vision: Image and Video Retrieval'
+K-AC-D4-R2-A:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'NLP: Language Grounding & Multi-modal NLP'
+K-AC-D4-R2-H:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+K-AC-D4-R2-B:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Graph Mining, Social Network Analysis & Community'
+K-AC-D4-R2-C:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Matrix & Tensor Methods'
+K-AC-D4-R2-F:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Vision: Video Understanding & Activity Analysis'
+K-AC-D4-R2-E:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+K-AC-D4-R2-J:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Vision: Multi-modal Vision'
+K-AC-D4-R2-D:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Time-Series/Data Streams'
+K-AC-D4-R2-G:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Vision: Segmentation'
+K-BC-D4-R1-K:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Vision: Applications'
+K-BC-D4-R1-F:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Applications'
+K-BC-D4-R1-A:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Mechanism Design'
+K-BC-D4-R1-G:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Healthcare Applications'
+K-BC-D4-R1-B:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+K-BC-D4-R1-E:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+K-BC-D4-R1-C:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Cognitive Modeling & Cognitive Systems'
+K-BC-D4-R1-J:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'NLP: Generation'
+K-BC-D4-R1-H:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'NLP: Text Classification & Sentiment Analysis'
+K-BC-D4-R1-D:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Recommender Systems & Collaborative Filtering'
+K-BC-D4-R2-E:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Unsupervised / Semi-Supervised / Active Learning'
+K-BC-D4-R2-B:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Transfer/Adaptation/Multi-task/Meta/Automated Learning'
+K-BC-D4-R2-F:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Distributed Machine Learning & Federated Learning'
+K-BC-D4-R2-H:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Neuro-Symbolic AI'
+K-BC-D4-R2-C:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Multi-class / Multi-label / Multi-view Learning'
+K-BC-D4-R2-G:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Optimization'
+K-BC-D4-R2-J:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'Vision: Object Detection & Categorization'
+K-BC-D4-R2-D:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Graph-based Machine Learning'
+K-BC-D4-R2-A:
+    start_time: 2021-02-07 16:45:00-08:00
+    end_time: 2021-02-07 18:30:00-08:00
+    cluster_name: 'ML: Online Learning & Bandits'
+L-AB-D4-R1-H:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Applications'
+L-AB-D4-R1-A:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'KR&R: Action, Change, and Causality'
+L-AB-D4-R1-B:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Knowledge Representation and Reasoning'
+L-AB-D4-R1-F:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Cognitive Systems / Crowdsourcing'
+L-AB-D4-R1-D:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Game Theory and Economic Paradigms'
+L-AB-D4-R1-E:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Social Choice / Voting'
+L-AB-D4-R1-G:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+L-AB-D4-R1-C:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Social Choice / Voting'
+L-AB-D4-R2-E:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+L-AB-D4-R2-G:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Reinforcement Learning'
+L-AB-D4-R2-H:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: '3D Computer Vision'
+L-AB-D4-R2-J:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Vision: Biometrics, Face, Gesture & Pose'
+L-AB-D4-R2-A:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'NLP: Text Classification & Sentiment Mining'
+L-AB-D4-R2-F:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Probabilistic Models'
+L-AB-D4-R2-B:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'NLP: Deep Learning'
+L-AB-D4-R2-C:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Neuro-Symbolic AI'
+L-AB-D4-R2-D:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Optimization'
+L-AC-D4-R1-G:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'NLP: Information Extraction / Question Answering'
+L-AC-D4-R1-K:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Active / Weakly-Supervised / Semi-Supervised Learning'
+L-AC-D4-R1-A:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Cognitive Modeling & Cognitive Systems'
+L-AC-D4-R1-E:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'NLP: Applications'
+L-AC-D4-R1-H:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'NLP: Generation'
+L-AC-D4-R1-F:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'NLP: Language Models'
+L-AC-D4-R1-J:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'NLP: Conversational AI / Dialog Systems'
+L-AC-D4-R1-C:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+L-AC-D4-R1-D:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Healthcare & Covid Applications'
+L-AC-D4-R1-B:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Data Mining & Knowledge Management'
+L-AC-D4-R2-K:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Vision: Image and Video Retrieval'
+L-AC-D4-R2-A:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'NLP: Language Grounding & Multi-modal NLP'
+L-AC-D4-R2-H:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Adversarial Learning, Attacks & Robustness'
+L-AC-D4-R2-B:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Graph Mining, Social Network Analysis & Community'
+L-AC-D4-R2-C:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Matrix & Tensor Methods'
+L-AC-D4-R2-F:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Vision: Video Understanding & Activity Analysis'
+L-AC-D4-R2-E:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Neural Network Algorithms'
+L-AC-D4-R2-J:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Vision: Multi-modal Vision'
+L-AC-D4-R2-D:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'ML: Time-Series/Data Streams'
+L-AC-D4-R2-G:
+    start_time: 2021-02-08 00:45:00-08:00
+    end_time: 2021-02-08 02:30:00-08:00
+    cluster_name: 'Vision: Segmentation'
+A-IAAI-D1-C:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'commerce'
+B-IAAI-D1-C:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'commerce'
+C-IAAI-D1-C:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'commerce'
+A-IAAI-D3-D:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'covid/driving/IT'
+B-IAAI-D3-D:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'covid/driving/IT'
+C-IAAI-D3-D:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'covid/driving/IT'
+A-IAAI-D2-D:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: '/prediction/NLP'
+B-IAAI-D2-D:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: '/prediction/NLP'
+C-IAAI-D2-D:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: '/prediction/NLP'
+A-IAAI-D3-B:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'bioscience/AI'
+B-IAAI-D3-B:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'bioscience/AI'
+C-IAAI-D3-B:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'bioscience/AI'
+A-IAAI-D3-C:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'bioscience'
+B-IAAI-D3-C:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'bioscience'
+C-IAAI-D3-C:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'bioscience'
+A-IAAI-D2-B:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'knowledge'
+B-IAAI-D2-B:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'knowledge'
+C-IAAI-D2-B:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'knowledge'
+A-IAAI-D2-C:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'knowledge'
+B-IAAI-D2-C:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'knowledge'
+C-IAAI-D2-C:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'knowledge'
+A-IAAI-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'commerce'
+B-IAAI-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'commerce'
+C-IAAI-D1-B:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'commerce'
+A-IAAI-D3-A:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'AI'
+B-IAAI-D3-A:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'AI'
+C-IAAI-D3-A:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'AI'
+A-IAAI-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'aerospace/commerce'
+B-IAAI-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'aerospace/commerce'
+C-IAAI-D1-A:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'aerospace/commerce'
+A-IAAI-D2-A:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'engineering'
+B-IAAI-D2-A:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'engineering'
+C-IAAI-D2-A:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'engineering'
+A-IAAI-D1-D:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'security'
+B-IAAI-D1-D:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'security'
+C-IAAI-D1-D:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'security'
+A-UC-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+B-UC-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+C-UC-D1-A:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+A-UC-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+B-UC-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+C-UC-D1-B:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Undergraduate Consortium'
+A-SA-D2-E:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-E:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-E:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-B:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-B:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-B:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-F:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-F:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-F:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-A:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-A:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-A:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-F:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-F:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-F:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-C:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-C:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-C:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-F:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-F:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-F:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-E:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-E:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-E:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-D:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-D:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-D:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-C:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-C:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-C:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-D:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-D:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-D:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-A:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-A:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-A:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-E:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-E:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-E:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-B:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-B:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-B:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-D:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-D:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-D:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-B:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-C:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-C:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-C:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-C:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-C:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-C:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-E:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-E:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-E:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D2-A:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D2-A:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D2-A:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D3-B:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D3-B:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D3-B:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D4-D:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D4-D:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D4-D:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-A:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-SA-D1-F:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Student Abstracts'
+B-SA-D1-F:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Student Abstracts'
+C-SA-D1-F:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Student Abstracts'
+A-DC-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+B-DC-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+C-DC-D1-B:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+A-DC-D1-D:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+B-DC-D1-D:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+C-DC-D1-D:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+A-DC-D1-C:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+B-DC-D1-C:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+C-DC-D1-C:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+A-DC-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+B-DC-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+C-DC-D1-A:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Doctoral Consortium'
+A-DEMO-D3-E:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-E:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-E:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-B:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-B:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-B:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-F:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-F:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-F:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-D:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-D:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-D:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-E:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-E:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-E:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-B:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-B:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-B:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-C:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-C:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-C:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-C:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-C:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-C:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-A:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-A:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-A:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-A:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-A:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-A:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-E:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-E:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-E:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-D:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-D:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-D:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-C:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-C:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-C:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-F:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-F:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-F:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-C:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-C:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-C:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-D:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-D:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-D:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-F:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-F:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-F:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-B:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-B:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-B:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D1-A:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D1-A:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D1-A:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D4-F:
+     start_time: 2021-02-07 08:45:00-08:00
+     end_time: 2021-02-07 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D4-F:
+     start_time: 2021-02-07 16:45:00-08:00
+     end_time: 2021-02-07 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D4-F:
+     start_time: 2021-02-08 00:45:00-08:00
+     end_time: 2021-02-08 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-A:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-A:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-A:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-D:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-D:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-D:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D3-B:
+     start_time: 2021-02-06 08:45:00-08:00
+     end_time: 2021-02-06 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D3-B:
+     start_time: 2021-02-06 16:45:00-08:00
+     end_time: 2021-02-06 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D3-B:
+     start_time: 2021-02-07 00:45:00-08:00
+     end_time: 2021-02-07 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-DEMO-D2-E:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: 'Demonstrations'
+B-DEMO-D2-E:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: 'Demonstrations'
+C-DEMO-D2-E:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: 'Demonstrations'
+A-Award-D2-:
+     start_time: 2021-02-05 08:45:00-08:00
+     end_time: 2021-02-05 10:30:00-08:00
+     cluster_name: '2019 AAAI/ACM SIGAI Dissertation Award'
+B-Award-D2-:
+     start_time: 2021-02-05 16:45:00-08:00
+     end_time: 2021-02-05 18:30:00-08:00
+     cluster_name: '2019 AAAI/ACM SIGAI Dissertation Award'
+C-Award-D2-:
+     start_time: 2021-02-06 00:45:00-08:00
+     end_time: 2021-02-06 02:30:00-08:00
+     cluster_name: '2019 AAAI/ACM SIGAI Dissertation Award'
+A-Award-D1-:
+     start_time: 2021-02-04 08:45:00-08:00
+     end_time: 2021-02-04 10:30:00-08:00
+     cluster_name: '2021 AAAI Classic Paper Award'
+B-Award-D1-:
+     start_time: 2021-02-04 16:45:00-08:00
+     end_time: 2021-02-04 18:30:00-08:00
+     cluster_name: '2021 AAAI Classic Paper Award'
+C-Award-D1-:
+     start_time: 2021-02-05 00:45:00-08:00
+     end_time: 2021-02-05 02:30:00-08:00
+     cluster_name: '2021 AAAI Classic Paper Award'

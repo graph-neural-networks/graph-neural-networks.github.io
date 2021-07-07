@@ -1,0 +1,256 @@
+committee:
+- aff: Singapore Management University
+  image: static/images/committee/feida.jpeg
+  name: Feida Zhu
+  role: General Chairs
+  pweb: http://www.mysmu.edu/faculty/fdzhu/default.htm
+- aff: National University of Singapore
+  image: static/images/committee/beng.jpeg
+  name: Beng Chin Ooi
+  role: General Chairs
+  pweb: https://www.comp.nus.edu.sg/~ooibc/
+- aff: Nanyang Technology University
+  image: static/images/committee/chunyan.jpeg
+  name: Chunyan Miao
+  role: General Chairs
+  pweb: http://dr.ntu.edu.sg/cris/rp/rp00084
+- aff: Nanyang Technology University
+  image: static/images/committee/gao.jpeg
+  name: Gao Cong
+  role: Associate General Chair
+  pweb: https://personal.ntu.edu.sg/gaocong/
+- aff: National University of Singapore
+  image: static/images/committee/wynne.jpeg
+  name: Wynne Hsu
+  role: Research Track PC Chairs
+  pweb: https://www.comp.nus.edu.sg/~whsu/
+- aff: Qatar Computing Research Institute
+  image: static/images/committee/sanjay.jpeg
+  name: Sanjay Chawla
+  role: Research Track PC Chairs
+  pweb: index.html
+- aff: INSTACART
+  image: static/images/committee/haixun.jpeg
+  name: Haixuan Wang
+  role: Applied Data Science Track PC Chairs
+  pweb: https://haixun.github.io/
+- aff: EVERSANA
+  image: static/images/committee/Iryna.jpeg
+  name: Iryna Skrypnyk
+  role: Applied Data Science Track PC Chairs
+  pweb: index.html
+- aff: MICROSOFT
+  image: static/images/committee/10_Guangneng Hu.jpg
+  name: Johannes Gehrke
+  role: Equity, Diversity and Inclusion (EDI) Track PC Chairs
+  pweb: index.html
+- aff: National University of Singapore
+  image: static/images/committee/11_Hedayat Zarkoob.jpg
+  name: Mong Li Lee
+  role: Equity, Diversity and Inclusion (EDI) Track PC Chairs
+  pweb: http://www.comp.nus.edu.sg/~leeml/
+- aff: FACEBOOK AI
+  image: static/images/committee/Alon_Halevy.jpeg
+  name: Alon Halevy
+  role: Applied Data Science Invited Talk Co-Chairs
+  pweb: https://www.linkedin.com/in/alon-halevy-690222/
+- aff: GIVING TECH LABS
+  image: static/images/committee/Ying_Li.jpeg
+  name: Ying Li
+  role: Applied Data Science Invited Talk Co-Chairs
+  pweb: https://www.linkedin.com/in/yingli7/
+- aff: Nanyang Technology University
+  image: static/images/committee/Vanessa_Evers.jpeg
+  name: Vanessa Evers
+  role: Applied Data Science Invited Talk Co-Chairs
+  pweb: https://vanessaevers.wordpress.com/about/
+- aff: TSINGHUA UNIVERSITY
+  image: static/images/committee/peng.jpeg
+  name: Peng Cui
+  role: Lecture-Style Tutorial Chairs
+  pweb: http://pengcui.thumedialab.com/
+- aff: CMU
+  image: static/images/committee/leman.jpeg
+  name: Leman Akoglu
+  role: Lecture-Style Tutorial Chairs
+  pweb: http://www.andrew.cmu.edu/user/lakoglu/
+- aff: CMU
+  image: static/images/committee/beibei.jpeg
+  name: Beibei Li
+  role: Workshop Chairs
+  pweb: http://www.heinz.cmu.edu/faculty-research/profiles/li-beibei
+- aff: University of Maryland
+  image: static/images/committee/rhue-lauren.png
+  name: Lauren Rhue
+  role: Workshop Chairs
+  pweb: http://www.rhsmith.umd.edu/directory/lauren-rhue
+- aff: Singapore Management Universtiy
+  image: static/images/committee/yuchen.jpeg
+  name: Yuchen Li
+  role: Virtual Conference Chairs
+  pweb: http://yuchenli.net/
+- aff: JD.COM SILICON VALLEY RESEARCH CENTER
+  image: static/images/committee/lingfei.jpeg
+  name: Lingfei Wu
+  role: Virtual Conference Chairs
+  pweb: http://sites.google.com/a/email.wm.edu/teddy-lfwu/
+- aff: Southeast University
+  image: static/images/committee/MinLing.jpeg
+  name: Min-Ling Zhang
+  role: Virtual Conference Chairs
+  pweb: http://palm.seu.edu.cn/zhangml/
+- aff: George Mason University
+  image: static/images/committee/yuanqi.jpeg
+  name: Yuanqi Du
+  role: Web Team
+  pweb: http://yuanqidu.github.io/
+- aff: Southeast University
+  image: static/images/committee/Yi_Gao.jpeg
+  name: Yi Gao
+  role: Web Team
+  pweb: index.html
+- aff: Zhejiang University
+  image: static/images/committee/shenkai.jpeg
+  name: Kai Shen
+  role: Web Team
+  pweb: index.html
+- aff: Southeast University
+  image: static/images/committee/weiwang.jpeg
+  name: Wei Wang
+  role: Web Team
+  pweb: index.html
+- aff: UCSD
+  image: static/images/committee/jingbo.jpeg
+  name: Jingbo Shang
+  role: Social Media & Publicity Chairs
+  pweb: https://shangjingbo1226.github.io/
+- aff: SINGAPORE UNIVERSITY OF TECHNOLOGY AND DESIGN
+  image: static/images/committee/royli.jpeg
+  name: Roy Ka-Wei Lee
+  role: EAAI-21 Symposium Cochairs
+  pweb: https://info.roylee.sg/
+- aff: CASE WESTERN RESERVE UNIVERSITY
+  image: static/images/committee/yanfang.jpeg
+  name: Yanfang Ye
+  role: Finance Chair
+  pweb: http://yes-lab.org/
+- aff: ALIBABA
+  image: static/images/committee/hongxia.jpeg
+  name: Hongxia Yang
+  role: Sponsorship Chairs
+  pweb: https://sites.google.com/site/hystatistics/
+- aff: LINKEDIN
+  image: static/images/committee/Shipeng_Yu.jpeg
+  name: Shipeng Yu
+  role: Sponsorship Chairs
+  pweb: https://www.linkedin.com/in/shipengyu/
+- aff: IBM
+  image: static/images/committee/Faisal_Farooq.jpeg
+  name: Faisal Farooq
+  role: Sponsorship Chairs
+  pweb: https://www.linkedin.com/in/faisal-farooq-642a655/
+- aff: Michigan State University
+  image: static/images/committee/jiliang.jpeg
+  name: Jiliang Tang
+  role: Proceedings Chairs
+  pweb: http://www.cse.msu.edu/~tangjili/
+- aff: Vanderbilt University
+  image: static/images/committee/tyler.jpeg
+  name: Tyler Derr
+  role: Proceedings Chairs
+  pweb: http://tylersnetwork.github.io/
+- aff: PSU
+  image: static/images/committee/35_Kartik Talamadupula.jpg
+  name: Zhenhui Li
+  role: KDD Cup Chairs
+  pweb: https://researcher.watson.ibm.com/researcher/view.php?person=us-krtalamad
+- aff: DIDI
+  image: static/images/committee/36_Cynthia Matuszek.jpg
+  name: Jieping Ye
+  role: KDD Cup Chairs
+  pweb: https://www.csee.umbc.edu/people/faculty/cynthia-matuszek/
+- aff: GOOGLE
+  image: static/images/committee/37_Nicola Gatti.jpg
+  name: Alex Beutel
+  role: KDD Cup Chairs
+  pweb: https://www.gametheory.polimi.it/nicola-gatti.html
+- aff: NII
+  image: static/images/committee/38_Jana Doppa.jpg
+  name: Yi Yu
+  role: Poster Chairs
+  pweb: https://eecs.wsu.edu/~jana/
+- aff: Huazhong University of Science and Technology
+  image: static/images/committee/39_Shiwali Mohan.jpg
+  name: Wei Wei
+  role: Poster Chairs
+  pweb: https://www.shiwali.me/
+- aff: SMU
+  image: static/images/committee/40_Anna Reali.jpg
+  name: Yuan Fang
+  role: Registration Chairs
+  pweb: https://pcs.usp.br/anna/en/
+- aff: Michigan State University
+  image: static/images/committee/41_Jim Boerkoel.jpg
+  name: Yiqi Wang
+  role: Registration Chairs
+  pweb: https://www.cs.hmc.edu/~boerkoel/
+- aff: UNIVERSITY OF SOUTH CALIFORNIA
+  image: static/images/committee/Xiang_Ren.jpeg
+  name: Xiang Ren
+  role: Deep Learning Day
+  pweb: http://ink-ron.usc.edu/xiangren/
+- aff: HARVARD UNIVERSITY
+  image: static/images/committee/Himabindu_Lakkaraju.jpeg
+  name: Himabindu Lakkaraju
+  role: Deep Learning Day
+  pweb: https://himalakkaraju.github.io/
+- aff: UNIVERSITY OF CALIFORNIA, IRVINE
+  image: static/images/committee/Sameer_Singh.jpeg
+  name: Sameer Singh
+  role: Deep Learning Day
+  pweb: https://sameersingh.org/
+- aff: UNIVERSITY OF CALIFORNIA, LOS ANGELES
+  image: static/images/committee/Baharan_Mirzasoleiman.jpeg
+  name: Baharan Mirzasoleiman
+  role: Deep Learning Day
+  pweb: http://web.cs.ucla.edu/~baharan/index.htm
+- aff: Cornell University
+  image: static/images/committee/fei.jpeg
+  name: Fei Wang
+  role: Health Day Chairs
+  pweb: http://wcm-wanglab.github.io/index.html
+- aff: BEN GURION UNIVERSITY OF THE NEGEV. 
+  image: static/images/committee/robert.jpeg
+  name: Robert Moskovitch
+  role: Health Day Chairs
+  pweb: http://sites.google.com/site/robertmoskovitch/
+# - aff: University of Virginia, USA
+#   image: static/images/committee/49_Michael Albert.jpg
+#   name: Michael Albert
+#   role: Job Fair Cochairs
+#   pweb: https://www.darden.virginia.edu/faculty-research/directory/michael-albert
+# - aff: University of Alberta, Canada
+#   image: static/images/committee/50_Matthew E. Taylor.jpg
+#   name: Matthew E. Taylor
+#   role: Job Fair Cochairs
+#   pweb: https://drmatttaylor.net/
+# - aff: Northwestern Polytechnic University, China
+#   image: static/images/committee/51_Xuelong Li.jpg
+#   name: Xuelong Li
+#   role: Sponsor Chairs
+#   pweb: https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=en
+# - aff: University College Cork, Ireland
+#   image: "static/images/committee/52_Barry O\u2019Sullivan.jpg"
+#   name: "Barry O\u2019Sullivan"
+#   role: Sponsor Chairs
+#   pweb: http://osullivan.ucc.ie/
+# - aff: Nanjing University, China
+#   image: static/images/committee/53_Yang Yu.jpg
+#   name: Yang Yu
+#   role: Sponsor Chairs
+#   pweb: http://www.lamda.nju.edu.cn/yuy/default.aspx?AspxAutoDetectCookieSupport=1
+# - aff: University of Aizu, Japan
+#   image: static/images/committee/add_2_Victor Khaustov.JPG
+#   name: Victor Khaustov
+#   role: Volunteer Coordinator
+#   pweb: https://www.researchgate.net/profile/Victor_Khaustov

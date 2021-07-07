@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% set active_page = "Highlights Program" %}
+{% set page_title = "Highlights Program" %}
+
+{% block heading %}
+
+{{ components.section("AAAI New Faculty Highlights Program") }}
+
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    Congratulations to the selected participants in the AAAI New Faculty Highlights Program!
+    </p>
+    <p>
+    This year, AAAI launched a new invited speaker program highlighting AI researchers who have just begun careers as new faculty members or the equivalent in industry. Applications were adjudicated by a committee consisting of the AAAI-21 chairs and a diverse group of AAAI Fellows.
+    </p>
+    <p>
+    New Faculty Highlight participants have submitted prerecorded videos for viewing throughout the conference, which broadly survey the candidate’s research to date. Invited speakers will also be invited to contribute an article to a corresponding series in AI Magazine.
+    </p>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="tutorials">
+<div class="cards row">
+  {% for fh in tutorials_FH %}
+  <div class="col-md-6 col-sm-12 p-3">
+    <div class="card p-3 shadow p-3 mb-5 bg-light rounded"
+         style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); height:100%;">
+
+          <div class="text-center">
+            <h4>
+              <p>New Faculty Highlights Speaker:</p>
+              <a href="fh_{{fh.id}}.html" class="main-title" >
+                  <p>{{fh.authors[0].author_name}}</p>
+{#                  <p>{{fh.title}}</p>#}
+              </a>
+            </h4>
+          </div>
+
+          <div class="text-muted text-center">
+            <span class="card-title h3">
+              {{ fh.organizers }}
+            </span>
+          </div>
+        {% if fh.title %}
+          <div class="text-center" style="margin-top: 2rem;">
+            <span class="h5">
+                <b>{{ fh.title }}</b>
+            </span>
+          </div>
+        {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+</div>
+
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+</script>
+{% endblock %}

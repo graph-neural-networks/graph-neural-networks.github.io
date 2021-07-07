@@ -1,5 +1,110 @@
 FAQ:
-  - Section: Conference Advice
+  - Section: Getting Started
     QA:
-      - Question: What should I put on the paper pages?
-        Answer: "Depending on your conference, you might want to consider having embeded videos, chat rooms, or rendered posters. For ICLR, we used SlidesLive and Rocket.Chat. In another conference we used PDF.js to render posters."
+      - Question: What is the recommended way of using this site and navigating the conference?
+        Answer: "All of KDD 2021 will be accessed through this webpage: [https://virtual.2021.KDD.org/](https://virtual.2021.KDD.org/). You can access all parts of the conference using the top menu bar. Use the [Schedule](/schedule.html) to find live sessions (including [Plenary sessions](https://virtual.2021.KDD.org/plenary_sessions.html) and the [Poster sessions](https://virtual.2021.KDD.org/posters.html) for all talks) and set your timezone. You can navigate all the papers in the [Papers section](https://virtual.2021.KDD.org/papers.html): you can search for keywords, authors, or tracks, looking through all papers by skimming titles, or using the visualization tab at the top. We encourage everyone to visit the virtual sponsor exhibits, participate in many socials and use the chat section to interact with other attendees."
+      - Question: How can I best plan my time and engage with the conference?
+        Answer: "You should explore the papers using the [Schedule](/schedule.html) or [Papers](/papers.html) tab to find papers you want to watch the video of, send questions to, or discuss live during a poster session. Each paper has a calendar link that you can use to download a reminder to your Google, Office365, Outlook or iCal calendars, including a URL!"
+      - Question: How can I best engage from my timezone?
+#        Answer: "Participants and authors are spread out across the world, which adds a new challenge to enjoying the conference. The calendar displayed on the website is shown in your local time, and each event has a link for copying to your personal calendar. Start with the [Schedule](/schedule.html).\n\nHere is one hypothetical day for one hypothetical KDD member at the main conference:\n\nOn the first main conference day, Feb 4, as with every day, all videos for that day will have been released beforehand. For the first day, this includes the pre-recorded GC and PC welcome, the first plenary talk by Regina Barzilay, pre-recorded talks for the Business meeting, and the videos for the papers in the paper sessions for that day.\n\nA participant Maryam from Lagos (GMT+1) has bookmarked four talks she is particularly interested in today. She watches all 4 talks at 9am, and decides she would like to join the paper Q&A sessions for two of them, one at 10am and one at 2pm her time).
+#        For a paper on discourse, she asks a question of the author on the paper's RocketChat channel. At noon, she visits a sponsor booth for IBM since she is interested in an internship. At 1pm, the author of the discourse paper pops into the Rocket Chat channel and replies to Maryam's RocketChat question. At 3 pm, Maryam joins the plenary session, including watching Regina Barzilay's invited talk and participating in the live Q&A session, where she can post questions for Kathy via RocketChat that the moderator can ask live in the question session. At 7pm, she goes to a Birds of a Feather meeting."
+        Answer: "Participants and authors are spread out across the world, which adds a new challenge to enjoying the conference. The calendar displayed on the website is shown in PST and can be changed to your local time. Each event has a link for copying to your personal calendar. Start with the [Schedule](/schedule.html)."
+      - Question: What if I have a problem or have a question?  
+        Answer: "If you have any technical difficulties, please use [RocketChat](/chat.html) to contact the [#helpdesk](https://virtual.2021.KDD.org/help_desk.html). You can also email your questions to [virtual21@KDD.org](mailto:virtual21@KDD.org). If you have a problem with inappropriate conduct, please see the below about Accessibility and Safety."
+      - Question: After I login to the main site, if I click on the Login with KDD-2021 account button on any page (such as Chat), the circular spinner shows up but freezes and nothing else happens.
+        Answer: "Possible reasons: The pop-up windows are blocked or third party cookies are blocked. You might need to enable these. Disable your ad-blocker for this page. In Chrome, you need to certainly enable cookies on the right in the address bar (click on the crossed out eye)."
+
+  - Section: Website Navigation
+    QA:
+      - Question: What tools and logins do I need?
+        Answer: "The website uses RocketChat for chat, and you can directly use it only on [our website](chat.html).
+        For Zoom, you can create an account the first time you use it.
+        For more details on specific tools, see answers to the related questions below.
+         You will not need to download any special software other than a web browser."
+      - Question: How do I register for RocketChat?
+        Answer: "You will use your KDD-2021 virtual conference website account to log in to RocketChat. Do not create a new account for RocketChat, the text-chat tool that is embedded throughout the site. More specifically, once you have log in to the website for the first time, please click the button with **KDD-2021 login** in a RocketChat window, and then choose **Sign in as <email>** without any input. You will need to set your username for the first time."
+      #- Question: Which channel(s) should I join?
+      #  Answer: "Please see the explanation on the channels in [this document](static/pdf/rocketchat_channels.pdf)."
+      - Question: How can I find other people to chat with during the conference?
+        Answer: "The socials are one way to interact and discuss with others.
+         We will also allow participants to make channels on RocketChat.
+         You can create a channel about a topic, and post it to a [general channel](https://KDD-21.rocket.chat/channel/General), so that others who are interested in discussing can join the channel.
+         You can also privately message individuals, but please be advised to be careful about harassment and follow the [Code of Conduct](/about.html#tab-code-of-conduct).
+         In Virtual Chair on Gather.Town, you can talk to other conference participants, meet strangers and make friends."
+      #- Question: How do I use Zoom in the browser instead of the App?
+      #  Answer: "Zoom is used for the Q&A sessions for the individual papers, which you can join using the Zoom app or within the browser. Clicking on the link will ask you to open the video in the Zoom app. If you want to use Zoom in the browser, simply wait a few seconds after clicking the Video link and it will open a browser-based session."
+      - Question: What tools and systems requirements are needed?
+        Answer: "To access the site you will need a modern browser. This site has been tested with Chrome 80.0+, Brave 1.4.95, Firefox 73.0, and browsers built on Chromium 80.0+. **Currently the SlidesLive embedded video doesn't work well with Safari. This is because the cross-domain cookie is blocking the video. A workaround for Safari: right click on the blocked frame and select \"Open Frame in New Tab\".**"
+      - Question: If you're using the web browser Brave...
+        Answer: "Please turn down Shields for virtual.2021.KDD.org, since they interfere with the RocketChat integration."
+      - Question: If you're using the web browser Chrome...
+        Answer: "Please allow cookies, since they interfere with the RocketChat integration."
+
+  - Section: Live Interaction
+    QA:
+      - Question: What parts of KDD are live?
+        #Answer: "The individual Q&A sessions for each paper, the Q&A with Invited Speakers, Keynote Presentations, Award Sessions, Business Meetings, Tutorials, Workshops, Gather.Town and Sponsors Booth are live. These live sessions occur at specific times, so make sure you look at the Calendar to see what is live right now (see [Schedule](/schedule.html) in menu)."
+        #Answer: "The Plenary sessions, Poster sessions, Sponsors/Exhibitors/Job Fair, Workshops, Doctoral and Undergraduate Consortia, and Diversity Events are live. These live sessions occur at specific times, so make sure you look at the Calendar to see what is live right now (see [Schedule](/schedule.html) in menu)."
+        Answer: "The Plenary sessions, Poster sessions, Sponsors/Exhibitors/Job Fair, EAAI, Workshops, most Tutorials, Doctoral and Undergraduate Consortia, and Diversity Events are live. These live sessions occur at specific times, so make sure you look at the Calendar to see what is live right now (see [Schedule](/schedule.html) in menu)."
+      - Question: How do I talk to the author of a paper?
+        Answer: "Each paper is presented in a poster session in Virtual Chair on Gather.Town. You can certainly talk to the authors live during poster sessions. We also recommend that you watch the video for the paper first. We want to remind you to be respectful during these conversations and follow the [KDD Code of Conduct](/about.html#tab-code-of-conduct). You can also reach authors via their RocketChat channel that you find on the respective paper page."
+      #- Question: When I join a Zoom link for a paper, I am put into a waiting room instead of joining. What is wrong?
+      #  Answer: "If an moderator does not show up for their events, then there is no host for the Zoom link. All non-author participants are put in the waiting room until one of the authors opens the 'start' link. If this happens, please notify [#helpdesk](https://virtual.2021.KDD.org/help_desk.html)."
+      - Question: How do I ask questions of the invited speakers, offline before their live Q&A?
+        Answer: "Each invited speaker's talk has a RocketChat channel on the talk's page. Questions for the invited speaker can be posted there."
+      - Question: Can I ask questions of the invited speakers live on Zoom?
+        Answer: "No, you should ask questions of the invited speakers only by using the chat channel. The session chair will choose and read out questions to the speaker."
+      - Question: If I watch the pre-recorded talks of tutorials, do I still need to attend the live session? What will be different there?
+        Answer: "Live sessions will include discussions with tutorial teachers and other attendes. Please visit individual tutorial website to know more."
+      - Question: What will be included in the live sessions of workshops?
+        Answer: "Each workshop format is different. Please see the schedule of each workshop to know more. But generally, workshop live sessions will include Q&A with keynotes speakers and authors."
+
+  - Section: Virtual Chair on Gather.Town
+    QA:
+      - Question: What is Virtual Chair on Gather.Town?
+        #Answer: "It's a video-calling space that lets multiple people hold separate conversations in parallel and walk in, out, and around those conversations just as easily as they would in real life. You can also refer to the [Gather.Town introduction video](https://vimeo.com/448215557/4cc714e40d)"
+        Answer: "It's a video-calling space that lets multiple people hold separate conversations in parallel and walk in, out, and around those conversations just as easily as they would in real life. You can also refer to the [introduction video](https://vimeo.com/448215557/4cc714e40d)."
+      - Question: What events are taking place in Virtual Chair on Gather.Town?
+        #Answer: "We will host poster sessions for some papers in Gather.Town, many social events also take place there. Also, some workshops and tutorials will take place in Gather.Town. Please also visit our sponsors there. "
+        #Answer: "We will host poster sessions for most papers (except EAAI-21) in Virtual Chair on Gather.Town, many social events also take place there. Please also visit our sponsors there."
+        Answer: "We will host poster sessions for most papers (except EAAI-21) in Virtual Chair on Gather.Town, many social events also take place there. Please also visit the Sponsor/Exhibit Program and KDD/ACM SIGAI Job Fair there."
+      - Question: Can I hang out in Gather.Town even when there are no events scheduled?
+        Answer: "Yes, Gather.Town is available to you 24/7 during the conference. Please hang out there, talk to people like during a real conference."
+
+  - Section: Accessibility and Safety
+    QA:
+      - Question: How do you ensure safe online engagement?
+        Answer: "All participants are bound and expected to uphold the conference’s [Code of Conduct](/about.html#tab-code-of-conduct). We have taken several steps to safeguard against 'Zoom Bombing' by changing the permissions, types of calls we use, and having moderators with ability to evict participants, amongst others. For text chat, the authors, Workshop organisers, or other organisers are leaders of their chat and can take steps to prevent trolling, and ensure meaningful conversation. Individual chat entries can be reported as well within the RocketChat tool."
+      - Question: How do I report disrespectful engagement, trolling, or other breaches of the code of conduct?
+        Answer: "KDD is dedicated to providing a respectful and inclusive conference experience for everyone. Respectful behavior is always assumed and expected of community members during all conferences and events. Please contact [KDDethics@KDD.org](mailto: KDDethics@KDD.org) or [#helpdesk](https://virtual.2021.KDD.org/help_desk.html) channel for any violations. If the problem occurs in a zoom room, please raise the issue with the moderator of the session or the volunteers, and the volunteers will help notify the official."
+      - Question: Which countries is KDD accessible from?
+        Answer: "We have selected technologies we rely on to run the fully virtual KDD carefully in order to maximize its reachability. More specifically, we have used our large pool of volunteers from all over the world to check the accessibility of all three services, including Zoom, Slideslive, RocketChat and KDD Web Portal. From these tests, we have confirmed that these services largely work from any country across the globe, but as we are too well aware, the service status in each country may change overnight. If you have having difficulty accessing any of these services, please report it to us at [#helpdesk](https://virtual.2021.KDD.org/help_desk.html) channel."
+      - Question:  General Data Protection and Privacy
+        Answer: "This site records a very limited amount of data. Data as text in RocketChat is accessible only to registered conference attendees and will be removed after the conference. Zoom sessions for Workshops, Tutorials, Doctoral and Undergraduate Consortia, and Diversity Events will not be recorded (other than Q&A sessions with keynotes speakers). Videos are hosted by our video partner SlidesLive. For more information on privacy practices of all the conference software, we encourage all attendees to consult the statements from [Zoom](https://zoom.us/privacy), [SlidesLive](https://slideslive.com/privacy-policy), and [RocketChat](https://rocket.chat/privacy)."
+
+  - Section: For Authors
+    QA:
+      - Question: Where can I find my paper's talk?
+        Answer: "Each paper has a page of its own. You can find your pre-recorded talk on your paper's page. You can search for your paper by its title/author in the [Papers](/papers.html) section to get to your paper's page."
+      - Question: How can attendees ask questions about my paper?
+        Answer: "Attendees can ask you questions about your paper either offline using your paper's RocketChat channel (which can be found on your paper page), or using your paper's live poster sessions."
+      #- Question: What do I need to know to about my paper's live Q&A sessions?
+      #  Answer: "As a paper author, you will participant in the meeting of your paper's Q&A sessions. When you join, it will be moderated by a volunteer and it will allow others to join. Please join the link 5 minutes early, to be ready to start the session on time. We ask that you pay attention to Raised Hands, and try to discuss with people in the order that they raised their hand. This way they have a rough estimate of how long they might have to wait, and makes for respectful interaction."
+      - Question: What is KDD doing to mitigate Zoom bombing?
+        Answer: "All conference content is restricted to conference attendees and are not meant to be shared. We have changed all the defaults for Zoom to prevent disruption to video sessions. This involves changing several settings for greater control, including host-only screen sharing, disabling joining a session before a host, disabling file transfer, and disallowing removed participants to rejoin a video call. Also see answer to question on `How do you ensure safe online engagement?’"
+      - Question: How can I subscribe to the RocketChat channels for all my papers so I can see if someone asks a question about one of them?
+        Answer: "Search for your papers in [Paper](https://virtual.2021.KDD.org/papers.html) then visit each page and click Join on the Rocketchat window there."
+      #- Question: How can I present my poster in Gather.Town?
+      #  Answer: "When the time for your poster presentation has come, then you need to walk to your poster. Open Gather.Town, find in which room your poster session is and stand on the carpet. All people that also stand on the carpet then can talk to you. You can then share your screen if you want to show slides to your visitors."
+          
+  - Section: General
+    QA:
+      #- Question: "What happens to the recorded talks and Q&A sessions after the conference?"
+      #  Answer: "All talk recordings will be made publicly viewable at the ACL Anthology after the conference. Q&A sessions for individual papers are not recorded; we only record the Q&A sessions for the Invited Speakers."
+      - Question: "Will RocketChat discussions be archived?"
+        #Answer: "KDD will not be archiving any of the RocketChat threads, so if there is information there you want to keep, make sure to do so before the end of the conference. For the many good suggestions for conference organization that are coming up on RocketChat, we'll have a survey at the end of the conference, and you should give lots of feedback there to help inform the next virtual conference"
+        Answer: "KDD will not be archiving any of the RocketChat threads, so if there is information there you want to keep, make sure to do so before the end of the conference."
+      - Question: "Where can I obtain the certificate of attendance?"
+        Answer: "For certificates of attendance, paid-in-full invoices (to use as receipts), and related documents required by your home institutions, please contact [KDD21@KDD.org](mailto:KDD21@KDD.org)."
+      - Question: "Other Questions?"
+        Answer: "Contact the volunteers on the [#helpdesk](https://virtual.2021.KDD.org/help_desk.html) channel on RocketChat. Alternately, you can email your questions to [virtual21@KDD.org](mailto:virtual21@KDD.org)"

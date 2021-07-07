@@ -1,0 +1,178 @@
+{#{% set active_page = "Doctoral Consortium" %}#}
+{#{% extends "base.html" %}#}
+{##}
+{#{% block top %}#}
+{##}
+{#{% endblock %}#}
+{##}
+{#{% block content %}#}
+{##}
+{#<div class="row">#}
+{#  <div class="col-md-7 col-sm-12 pr-5 lead">#}
+{#    <p>Welcome to Doctoral Consortium!<br><br>#}
+{#      Here is nothing left.#}
+{#    </p>#}
+{#  </div>#}
+{#</div>#}
+{##}
+{#{% endblock %}#}
+{##}
+{#{% block footer %}#}
+{#{% endblock %}#}
+
+{% extends "base.html" %}
+{% set active_page = "Doctoral Consortium" %}
+{% set page_title = "Doctoral Consortium" %}
+
+{% block heading %}
+{{ components.section("Doctoral Consortium") }}
+
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <p>Welcome to the Twenty-Sixth AAAI/SIGAI Doctoral Consortium</p>
+        <p>February 2-3, 2021</p>
+        <p>Collocated with the Thirty-Fifth Conference on Artificial Intelligence (AAAI-21)</p>
+{#        <p>External site: https://aaaidc.github.io/dc2021/</p>#}
+        <p>The Twenty-Sixth AAAI/SIGAI Doctoral Consortium (DC) provides an opportunity for a group of Ph.D. students to discuss and explore their research interests and career objectives in an interdisciplinary workshop together with a panel of established researchers. The eighteen students accepted to participate in this program will also participate in the AAAI-21 Poster Sessions on Thursday, February 4. All interested AAAI-21 student registrants are invited to observe the presentations.</p>
+        <p>The full Doctoral Consortium schedule will be included below.</p>
+        <p>AAAI and SIGAI gratefully acknowledge the generous grant from the National Science Foundation, which makes this program possible.</p>
+        <p>Shiwali Mohan and Anna Reali</p>
+        <p>Doctoral Consortium Cochairs</p>
+    <div class="text-center p-3">
+    <a href="https://aaaidc.github.io/dc2021/" target="_blank"  class="card-link">
+        External Site
+    </a>
+    <a href="https://zoom.us/meeting/register/tJ0pceirqD0pE9ARE7LQ1KPvYP3bElyBBrVN" target="_blank"  class="card-link">
+        Join Zoom Meeting (Day1)
+    </a>
+    <a href="https://zoom.us/meeting/register/tJMocumspjsjGdQtMMM7hrki5974cuLGhxcB" target="_blank"  class="card-link">
+        Join Zoom Meeting (Day2)
+    </a>
+    </div>
+    </div>
+</div>
+
+<div id="schedule" aria-labelledby="schedule">
+  <h2 class="card-title main-title text-center" style="">
+      AAAI-21 Doctoral Consortium Schedule
+  </h2>
+  <h3 class="card-subtitle mb-2 text-muted text-center">
+      February 2-3, 2021
+  </h3>
+  <div class="card-body">
+    <table class="table table-bordered table-striped" style="font-size: small;">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 30%;">Time</th>
+          <th scope="col" style="width: 40%;">Event</th>
+          <th scope="col">Hosts</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for dc in doctoral_consortium %}
+        {% if dc.id == "Schedule" %}
+        {% for event in dc.sessions %}
+        {% if event.session_name == "Session 1" and event.day == "Feb 2" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 1</b><br /><a href="paper_DC-118.html">1. Effective Clustering of scRNA-seq Data to Identify Biomarkers without User Input</a><br /><a href="paper_DC-429.html">2. Safety Assurance for Systems with Machine Learning Components</a><br /><a href="paper_DC-317.html">3. Constraint-Driven Learning of Logic Programs</a></td>
+              <td style="white-space: pre-wrap;">1. Speaker: Hussain Chowdhury, Mentor: Jay Thiagrajan, Buddy: Rolf Morel <br />2. Speaker: Chelsea Sidrane, Mentor: Matthijs T. J. Spaan, Buddy: Puspita Mazumdar<br />3. Speaker: Rolf Morel, Mentor: Luc De Raedt, Buddy: Hussain Chowdhry
+              </td>
+            </tr>
+        {% elif event.session_name == "Session 2" and event.day == "Feb 2" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 2</b><br /><a href="paper_DC-281.html">1. Artificial Intelligence and Machine Learning for Autonomous Agents that Learn to Plan and Operatein Unpredictable Dynamic Environments</a><br /><a href="paper_DC-318.html">2. Screening for Depressed Individuals by Using Multimodal Social Media Data</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Leonardo Lamana, Mentor: Felipe Meneguzzi, Buddy: Sagir Muhammad Yusuf <br />2. Speaker: Paulo Mann, Mentor: Maria Chang, Buddy: Preeti Ramaraj</td>
+            </tr>
+        {% elif event.session_name == "Session 3" and event.day == "Feb 2" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 3</b><br /><a href="paper_DC-79.html">1. AI for Social Good: Between My Research and the Real World</a><br /><a href="paper_DC-304.html">2. How Human Centered AI Will Contribute Towards Intelligent Gaming Systems</a><br /><a href="paper_DC-311.html">3. Perception Beyond Sensors Under Uncertainty</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Zheyuan Ryan Shi, Mentor: Shiwali Mohan, Buddy: Dario Guidotti <br />2. Speaker: Yilei Zeng, Mentor: Mark O. Riedl, Buddy: Mehrnoosh Mirtaheri<br />3. Speaker: Masha Itkina, Mentor: Sven Koenig, Buddy: Ivan Stelmakh</td>
+            </tr>
+        {% elif event.session_name == "Session 1" and event.day == "Feb 3" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 1</b><br /><a href="paper_DC-260.html">1. On Learning Deep Models with Imbalanced Data Distribution</a><br /><a href="paper_DC-340.html">2. Multi-agent Reinforcement Learning for Decentralized Coalition Formation Games</a><br /><a href="paper_DC-246.html">3. Distributed Situation Awareness for Multi-agent Mission in Dynamic En-vironments: A Case Study of Multi-UAVs Wildfires Searching</a><br /><a href="paper_DC-415.html">4. Transfer Learning of Engagement Recognition within Robot-Assisted Therapy for Children with Autism</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Puspita Mazumdar, Mentor: Bhavya Kailkhura, Buddy: Chelsea Sidrane <br />2. Speaker: Kshitija Taywade, Mentor: Balaraman Ravindran, Buddy: Nazerke Rakhymbayeva<br />3. Speaker: Sagir Muhammad Yusuf, Mentor: Biplav Srivastava, Buddy: Leonardo Lamanna<br />4. Speaker: Nazerke Rakhymbayeva, Mentor: Maria Gini, Buddy: Kshitija Taywade</td>
+            </tr>
+        {% elif event.session_name == "Session 2" and event.day == "Feb 3" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 2</b><br /><a href="paper_DC-169.html">1. Towards Fair, Equitable, and Efficient Peer Review</a><br /><a href="paper_DC-127.html">2. Verification and Repair of Neural Networks</a><br /><a href="paper_DC-423.html">3. Relational Learning to Capture the Dynamics and Sparsity of Knowledge Graphs</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Ivan Stelmakh, Mentor: Ece Kamar, Buddy: Masha Itkina <br />2. Speaker: Dario Guidotti, Mentor: Eric Eaton, Buddy: Zheyuan Ryan Shi<br />3. Speaker: Mehrnoosh Mirtaheri, Mentor: Pin-Yu Chen, Buddy: Yilei Zeng</td>
+            </tr>
+        {% elif event.session_name == "Session 3" and event.day == "Feb 3" %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+                <td scope="row"><b>Session 3</b><br /><a href="paper_DC-276.html">1. A Computational Approach to Sign Language Understanding</a><br /><a href="paper_DC-200.html">2. Creating Interpretable Data-Driven Approaches for Remote Health Monitoring</a><br /><a href="paper_DC-314.html">3. Robots that Help Humans Build Better Mental Models of Robots</a></td>
+                <td style="white-space: pre-wrap;">1. Speaker: Tejaswini Ananthanarayana, Mentor: Shirin Sohrabi, Buddy: Alireza Ghods<br />2. Speaker: Alireza Ghods, Mentor: Rushil Anirudh, Buddy: Tejaswini Ananthanarayana<br />3. Speaker: Preeti Ramaraj, Mentor: Laura Hiatt, Buddy: Paulo Mann</td>
+            </tr>
+        {% else %}
+            <tr>
+                <td>
+                  {{event.day}}, <span class="session_times">{{event.time_string}}</span>
+                </td>
+              <td scope="row">{{event.session_name}}</td>
+              <td style="white-space: pre-wrap;">{{event.hosts}}</td>
+            </tr>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="row m-2">
+{#  <div class="col-md-7 col-xs-12 my-auto p-2">#}
+{#      <div class="text-muted text-center">#}
+{#        You can open <a href="https://{{config.chat_server}}/channel/Events_DoctoralConsortium" target="_blank">Doctoral Consortium</a>#}
+{#        channel in a separate window.#}
+{#      </div>#}
+{#  </div>#}
+
+  <div id="rocketchat_div" class="col-md-5 col-xs-12 p-2">
+      <div class="text-muted text-center">
+        You can open <a href="https://{{config.chat_server}}/channel/Events_DoctoralConsortium" target="_blank">Doctoral Consortium</a>
+        channel in a separate window.
+      </div>
+      <div id="gitter" class="slp">
+        <iframe frameborder="0" onload="change_col();return false;" src="https://aaai-21.rocket.chat/channel/Events_DoctoralConsortium?layout=embedded" height="700px" width="100%" ></iframe>
+      </div>
+  </div>
+</div>
+
+{#<div class="tutorials">#}
+{#    {{ components.uc_abstracts_group(tutorials_DC) }}#}
+{#</div>#}
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.session_times');
+  })
+function change_col(){
+      $("#rocketchat_div").removeClass("col-md-5");
+      $("#rocketchat_div").addClass("col-md-12");
+}
+</script>
+{% endblock %}

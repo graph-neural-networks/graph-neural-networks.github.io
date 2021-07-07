@@ -1,0 +1,254 @@
+{% extends "base.html" %}
+{% set page_title = sponsor.name %}
+{% block content %}
+
+<div class="tab-content pt-3 pb-5" id="nav-tabContent">
+  {% if sponsor.logoontop %}
+  <img class="rounded mx-auto d-block img-fluid" src="static/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}" style="max-width: 15em; max-height: 10em"  />
+  {% endif %}
+  {% if not sponsor.logoontop or sponsor.nameontop %}
+  {{ components.section(sponsor.name) }}
+  {% endif %}
+</div>
+
+<div class="row justify-content-md-center mt-n3 pb-3">
+  <div class="col-6 text-center lead">
+      <a href="{{sponsor.gather_link}}" target="_blank">Join the Sponsor/Exhibit Program</a>&ensp;
+      <a href="{{sponsor.website}}" target="_blank">Visit Website</a>
+  </div>
+</div>
+
+<!-- Description -->
+<div class="row justify-content-md-center">
+    <div class="col-10">
+        <span  class="lead">
+          {{ sponsor.description|markdown }}</span>
+    </div>
+</div>
+
+<!-- Youtube -->
+{% if sponsor.youtube is defined and sponsor.youtube %}
+<div class="row justify-content-md-center pt-3">
+  <iframe width="525" height="301" src="{{ sponsor.youtube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+{% endif %}
+
+<!-- Youtube -->
+{% if sponsor.youtubes is defined %}
+<div class="row justify-content-md-center pt-3">
+{% for yt in sponsor.youtubes %}
+  <div class="col-4">
+    <iframe width="320" height="240"   src="{{ yt }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+{% endfor %}
+</div>
+{% endif %}
+
+<!-- Google Drive Video -->
+{% if sponsor.gdrive is defined %}
+<div class="row justify-content-md-center pt-3">
+<iframe src="{{ sponsor.gdrive }}" width="640" height="480"></iframe>
+</div>
+{% endif %}
+
+<!-- Vimeo Video -->
+{% if sponsor.vimeo is defined %}
+<div class="row justify-content-md-center pt-3">
+  <iframe src="{{ sponsor.vimeo }}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+{% endif %}
+
+<!-- Video -->
+{% if sponsor.video is defined %}
+<div class="row justify-content-md-center pt-3">
+  <video width="525" controls preload="none">
+    <source src="{{ sponsor.video }}" type="video/mp4">
+  </video>
+</div>
+{% endif %}
+
+<div class="row justify-content-md-center py-5">
+<div id="accordion" class="col-10 ">
+  <!-- Zooms -->
+  {% if sponsor.zoom_times|length %}
+  <div class="card">
+    <div class="card-header" id="headingZooms">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseZooms" aria-expanded="true" aria-controls="collapseZooms">
+          <h5>Virtual Meeting Schedule</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseZooms" class="collapse show" aria-labelledby="headingZooms">
+      <div class="card-body">
+        {% for day, zooms in sponsor.zoom_times.items() %}
+        <h5>{{ day }}</h5>
+        <ul>
+            {% for (time_string, label) in zooms %}
+                <li> <span class="zoom_times">{{ time_string }}</span>: {{label|markdown }} </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+
+        {% if sponsor.zoom_link is defined %}
+        <a class="btn btn-primary" href="{{ sponsor.zoom_link }}" role="button" target="_blank">Join the event!</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  {% if sponsor.gather_times|length %}
+  <div class="card">
+    <div class="card-header" id="headingGathers">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseGathers" aria-expanded="true" aria-controls="collapseGathers">
+          <h5>Gather Schedule</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseGathers" class="collapse show" aria-labelledby="headingGathers" data-parent="#accordion">
+      <div class="card-body">
+        {% for day, zooms in sponsor.gather_times.items() %}
+        <h5>{{ day }}</h5>
+        <ul>
+            {% for (time_string, label) in zooms %}
+                <li> <span class="zoom_times">{{ time_string }}</span>: {{label|markdown }} </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+
+        <a class="btn btn-primary" href="{{ config.gather_town }}" role="button" target="_blank">Visit us in Gather.town!</a>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+    <!-- Publications -->
+  {% if sponsor.grouped_publications is defined %}
+  <div class="card">
+    <div class="card-header" id="headingPublications">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsePublications" aria-expanded="true" aria-controls="collapsePublications">
+          <h5>Accepted publications</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapsePublications" class="collapse show" aria-labelledby="headingPublications">
+      <div class="card-body">
+        <ul>
+        {% for paper_type, papers in sponsor.grouped_publications.items() %}
+          <h5>{{ paper_type}}</h5>
+          {% for paper in papers %}
+              <a class="text-dark" href="paper_{{paper.id}}.html" target="_blank">
+                <p class="font-weight-bold mb-n1">{{ paper.content.title }}</p>
+                <p >{{ paper.content.authors | join(", ") }}</p>
+              </a>
+          {% endfor %}
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Resources -->
+  {% if sponsor.resources is defined %}
+  <div class="card">
+    <div class="card-header" id="headingResources">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseResources" aria-expanded="true" aria-controls="collapseResources">
+          <h5>Resources</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseResources" class="collapse show" aria-labelledby="headingResources">
+      <div class="card-body">
+        <ul>
+        {% for resource in sponsor.resources %}
+            <li><a href="{{ resource.website }}" target="_blank">{{ resource.label }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Downloads -->
+  {% if sponsor.downloads is defined %}
+  <div class="card">
+    <div class="card-header" id="headingDownloads">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseDownloads" aria-expanded="true" aria-controls="collapseDownloads">
+          <h5>Downloads</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseDownloads" class="collapse show" aria-labelledby="headingDownloads">
+      <div class="card-body">
+        <ul>
+        {% for resource in sponsor.downloads%}
+            <li><a href="static/sponsordata/{{ resource.website }}" target="_blank">{{ resource.label }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Contact -->
+  {% if sponsor.contacts is defined %}
+  <div class="card">
+    <div class="card-header" id="headingContact">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseContact" aria-expanded="true" aria-controls="collapseContact">
+            <h5>Contact</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseContact" class="collapse show" aria-labelledby="headingContact">
+      <div class="card-body">
+        <ul class="list-unstyled px-4">
+        {% for contact in sponsor.contacts %}
+          <li>{{ contact.name }} &lt;<a href="mailto:{{ contact.email }}">{{ contact.email }}</a>&gt;</li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Chat -->
+  {% if sponsor.rocketchat_channel is defined %}
+  <div class="card">
+    <div class="card-header" id="headingChat">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseChat" aria-expanded="true" aria-controls="collapseChat">
+          <h5>Chat</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseChat" class="collapse show" aria-labelledby="headingChat">
+      <div class="card-body">
+        <div class="col-md-12 col-xs-12 p-2">
+          <h5 class="text-center">Click "Reply" in the chat window to start a private conversation with our sponsor</h5>
+          <div id="gitter" class="slp">
+            <iframe frameborder="0" src="https://{{config.chat_server}}/channel/{{ sponsor.rocketchat_channel }}?layout=embedded" height="700px" width="100%" ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+</div>
+</div>
+
+<script src="static/js/time-extend.js"></script>
+<script>
+  $(document).ready(()=>{
+    add_local_tz('.zoom_times');
+  });
+</script>
+
+{% endblock %}
