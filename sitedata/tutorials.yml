@@ -97,7 +97,7 @@
 
 - UID: Chapter5
   part: part2
-  title: 'Graph Representation Learning'
+  title: 'The Expressive Power of Graph Neural Networks'
   organizers: Pan Li, Jure Leskovec
   details: Pan Li, Purdue University, panli@purdue.edu<br>Jure Leskovec, Stanford University, jure@cs.stanford.edu
   abstract: |-
