@@ -69,22 +69,22 @@
     
 
     <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">
-    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">
-    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-
-
-
-
-
-
-
-
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">-->
+<!--    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">-->
+<!--    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">-->
+<!--    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">-->
+<!--    <meta name="msapplication-TileColor" content="#da532c">-->
+<!--    <meta name="theme-color" content="#ffffff">-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
   </head>
 
   <body>
@@ -187,7 +187,7 @@
               
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="teams.html">Teams</a>
+                  <a class="nav-link" href="teams.html">Editors</a>
                   
                 </li>
               
@@ -225,10 +225,16 @@
     <h3 class="card-subtitle mb-2 text-muted text-center">
       Xiaojie Guo, Shiyu Wang, Liang Zhao
     </h3>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+        Xiaojie Guo, George Mason University, xguo7@gmu.edu<br>Shiyu Wang, Emory University, shiyu.wang@emory.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu
+    </h3>
 
     <div class="text-center p-3">
     <a class="card-link" data-toggle="collapse" role="button" href="#details">
       Description
+    </a>
+    <a class="card-link" data-toggle="collapse" role="button" href="index.html">
+        PDF
     </a>
 
     
@@ -270,13 +276,58 @@
     <div id="details" class="pp-card m-3 collapse show">
     <div class="card-text">
       <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span>
+        <h2>Abstract:</h2>
         <p>
 Many problems regarding structured predictions are encountered in the process of “transforming” a graph in the source domain into another graph in target domain, which requires to learn a transformation mapping from the source to target domains. For example, it is important to study how structural connectivity influences functional connectivity in brain networks and traffic networks. It is also common to study how a protein (e.g., a network of atoms) folds, from its primary structure to tertiary structure. In this chapter, we focus on the transformation problem that involves graphs in the domain of deep graph neural networks. First, the problem of graph transformation in the domain of graph neural networks are formalized in Section 27.1. Considering the entities that are being transformed during the transformation process, the graph transformation problem is further divided into four categories, namely node-level transformation, edge-level transformation, node-edge co-transformation, as well as other graph-involved transformations (e.g., sequenceto- graph transformation and context-to-graph transformation), which are discussed in Section 24.2 to Section 20.5, respectively. In each subsection, the definition of each category and their unique challenges are provided. Then, several representative graph transformation models that address the challenges from different aspects for each category are introduced.
 </p>
+<h2>Contents</h2>
+<ul>
+<li>Problem Formulation of Graph Transformation</li>
+<li>Node-level Transformation</li>
+<ul>
+<li>Definition of Node-level Transformation</li>
+<li>Interaction Networks</li>
+<li>Spatio-Temporal Convolution Recurrent Neural Networks</li>
+</ul>
+<li>Edge-level Transformation</li>
+<ul>
+<li>Definition of Edge-level Transformation</li>
+<li>Graph Transformation Generative Adversarial Networks</li>
+<li>Multi-scale Graph Transformation Networks</li>
+<li>Graph Transformation Policy Networks</li>
+</ul>
+<li>Node-Edge Co-Transformation</li>
+<ul>
+<li>Definition of Node-Edge Co-Transformation</li>
+<li>Editing-based Node-Edge Co-Transformation</li>
+</ul>
+<li>Other Graph-based Transformation</li>
+<ul>
+<li>Sequence-to-Graph Transformation</li>
+<li>Graph-to-Sequence Transformation</li>
+<li>Context-to-Graph Transformation</li>
+</ul>
+<li>Summary</li>
+</ul>
       </div>
     </div>
     </div>
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Contents:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Citations:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <div id="author" class="pp-card m-3 collapse hide">
     <div class="card-text">
       <div id="authorExample">

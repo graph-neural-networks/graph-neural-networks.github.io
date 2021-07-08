@@ -69,22 +69,22 @@
     
 
     <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">
-    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">
-    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-
-
-
-
-
-
-
-
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">-->
+<!--    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">-->
+<!--    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">-->
+<!--    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">-->
+<!--    <meta name="msapplication-TileColor" content="#da532c">-->
+<!--    <meta name="theme-color" content="#ffffff">-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
   </head>
 
   <body>
@@ -187,7 +187,7 @@
               
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="teams.html">Teams</a>
+                  <a class="nav-link" href="teams.html">Editors</a>
                   
                 </li>
               
@@ -225,10 +225,16 @@
     <h3 class="card-subtitle mb-2 text-muted text-center">
       Pan Li, Jure Leskovec
     </h3>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+        Pan Li, Purdue University, panli@purdue.edu<br>Jure Leskovec, Stanford University, jure@cs.stanford.edu
+    </h3>
 
     <div class="text-center p-3">
     <a class="card-link" data-toggle="collapse" role="button" href="#details">
       Description
+    </a>
+    <a class="card-link" data-toggle="collapse" role="button" href="index.html">
+        PDF
     </a>
 
     
@@ -270,13 +276,49 @@
     <div id="details" class="pp-card m-3 collapse show">
     <div class="card-text">
       <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span>
+        <h2>Abstract:</h2>
         <p>
 The success of neural networks is based on their strong expressive power that allows them to approximate complex non-linear mappings from features to predictions. Since the universal approximation theorem by (Cybenko, 1989), many studies have proved that feed-forward neural networks can approximate any function of interest. However, these results have not been applied to graph neural networks (GNNs) due to the inductive bias imposed by additional constraints on the GNN parameter space. New theoretical studies are needed to better understand these constraints and characterize the expressive power of GNNs. In this chapter, we will review the recent progress on the expressive power of GNNs in graph representation learning. We will start by introducing the most widely-used GNN framework— message passing— and analyze its power and limitations. We will next introduce some recently proposed techniques to overcome these limitations, such as injecting random attributes, injecting deterministic distance attributes, and building higher-order GNNs. We will present the key insights of these techniques and highlight their advantages and disadvantages.
 </p>
+<h2>Contents</h2>
+<ul>
+<li>Introduction</li>
+<li>Graph Representation Learning and Problem Definition</li>
+<li>The Power of Message Passing Graph Neural Networks</li>
+<ul>
+<li>Preliminaries: Neural Networks for Sets</li>
+<li>Message Passing Graph Neural Networks</li>
+<li>The Expressive Power of MP-GNN</li>
+<li>MP-GNN with the Power of the 1-WL Test</li>
+</ul>
+<li>Graph Neural Network Architectures that are more Powerful than 1-WL Test</li>
+<ul>
+<li>Limitations of MP-GNN</li>
+<li>Injecting Random Attributes</li>
+<li>Injecting Deterministic Distance Attributes</li>
+<li>Higher-order GNNs</li>
+</ul>
+<li>Summary</li>
+</ul>
       </div>
     </div>
     </div>
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Contents:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Citations:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <div id="author" class="pp-card m-3 collapse hide">
     <div class="card-text">
       <div id="authorExample">

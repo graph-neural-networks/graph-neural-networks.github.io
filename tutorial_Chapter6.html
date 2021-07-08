@@ -69,22 +69,22 @@
     
 
     <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">
-    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">
-    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-
-
-
-
-
-
-
-
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">-->
+<!--    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">-->
+<!--    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">-->
+<!--    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">-->
+<!--    <meta name="msapplication-TileColor" content="#da532c">-->
+<!--    <meta name="theme-color" content="#ffffff">-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
   </head>
 
   <body>
@@ -187,7 +187,7 @@
               
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="teams.html">Teams</a>
+                  <a class="nav-link" href="teams.html">Editors</a>
                   
                 </li>
               
@@ -225,10 +225,16 @@
     <h3 class="card-subtitle mb-2 text-muted text-center">
       Hehuan Ma, Yu Rong, Junzhou Huang
     </h3>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+        Hehuan Ma, University of Texas at Arlington, hehuan.ma@mavs.uta.edu<br>Yu Rong, Tencent AI Lab, yu.rong@hotmail.com<br>Junzhou Huang, University of Texas at Arlington, jzhuang@uta.edu
+    </h3>
 
     <div class="text-center p-3">
     <a class="card-link" data-toggle="collapse" role="button" href="#details">
       Description
+    </a>
+    <a class="card-link" data-toggle="collapse" role="button" href="index.html">
+        PDF
     </a>
 
     
@@ -270,13 +276,46 @@
     <div id="details" class="pp-card m-3 collapse show">
     <div class="card-text">
       <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span>
+        <h2>Abstract:</h2>
         <p>
 Over the past decade, Graph Neural Networks have achieved remarkable success in modeling complex graph data. Nowadays, graph data is increasing exponentially in both magnitude and volume, e.g., a social network can be constituted by billions of users and relationships. Such circumstance leads to a crucial question, how to properly extend the scalability of Graph Neural Networks? There remain two major challenges while scaling the original implementation of GNN to large graphs. First, most of the GNN models usually compute the entire adjacency matrix and node embeddings of the graph, which demands a huge memory space. Second, training GNN requires recursively updating each node in the graph, which becomes infeasible and ineffective for large graphs. Current studies propose to tackle these obstacles mainly from three sampling paradigms: node-wise sampling, which is executed based on the target nodes in the graph; layer-wise sampling, which is implemented on the convolutional layers; and graph-wise sampling, which constructs sub-graphs for the model inference. In this chapter, we will introduce several representative research accordingly.
 </p>
+<h2>Contents</h2>
+<ul>
+<li>Introduction</li>
+<li>Preliminary</li>
+<li>Sampling Paradigms</li>
+<ul>
+<li>Node-wise Sampling</li>
+<li>Layer-wise Sampling</li>
+<li>Graph-wise Sampling</li>
+</ul>
+<li>Applications of Large-scale Graph Neural Networks on Recommendation Systems</li>
+<ul>
+<li>Item-item Recommendation</li>
+<li>User-item Recommendation</li>
+</ul>
+<li>Future Directions</li>
+</ul>
       </div>
     </div>
     </div>
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Contents:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Citations:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <div id="author" class="pp-card m-3 collapse hide">
     <div class="card-text">
       <div id="authorExample">

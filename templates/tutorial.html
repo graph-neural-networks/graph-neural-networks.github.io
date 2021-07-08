@@ -9,12 +9,18 @@
       {{tutorial.id}}: {{tutorial.title}}
     </h2>
     <h3 class="card-subtitle mb-2 text-muted text-center">
-      {{ tutorial.organizers }}
+      {{ tutorial.organizers|safe }}
+    </h3>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+        {{ tutorial.details|safe }}
     </h3>
 
     <div class="text-center p-3">
     <a class="card-link" data-toggle="collapse" role="button" href="#details">
       Description
+    </a>
+    <a class="card-link" data-toggle="collapse" role="button" href="index.html">
+        PDF
     </a>
 
     {% if tutorial.authors %}
@@ -78,11 +84,27 @@
     <div id="details" class="pp-card m-3 collapse show">
     <div class="card-text">
       <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span>
+        <h2>Abstract:</h2>
         {{tutorial.abstract|safe}}
       </div>
     </div>
     </div>
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Contents:</span>-->
+<!--                {{tutorial.contents|safe}}-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Citations:</span>-->
+<!--                {{tutorial.citations|safe}}-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <div id="author" class="pp-card m-3 collapse hide">
     <div class="card-text">
       <div id="authorExample">

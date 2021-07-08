@@ -69,22 +69,22 @@
     
 
     <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">
-    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">
-    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-
-
-
-
-
-
-
-
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">-->
+<!--    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">-->
+<!--    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">-->
+<!--    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">-->
+<!--    <meta name="msapplication-TileColor" content="#da532c">-->
+<!--    <meta name="theme-color" content="#ffffff">-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
   </head>
 
   <body>
@@ -187,7 +187,7 @@
               
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="teams.html">Teams</a>
+                  <a class="nav-link" href="teams.html">Editors</a>
                   
                 </li>
               
@@ -225,10 +225,16 @@
     <h3 class="card-subtitle mb-2 text-muted text-center">
       Kaixiong Zhou, Zirui Liu, Keyu Duan, Xia Hu
     </h3>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+        Kaixiong Zhou, Texas A&M University, zkxiong@tamu.edu<br>Zirui Liu, Texas A&M University, tradigrada@tamu.edu<br>Keyu Duan, Texas A&M University, k.duan@tamu.edu<br>Xia Hu, Texas A&M University, hu@cse.tamu.edu
+    </h3>
 
     <div class="text-center p-3">
     <a class="card-link" data-toggle="collapse" role="button" href="#details">
       Description
+    </a>
+    <a class="card-link" data-toggle="collapse" role="button" href="index.html">
+        PDF
     </a>
 
     
@@ -270,13 +276,53 @@
     <div id="details" class="pp-card m-3 collapse show">
     <div class="card-text">
       <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span>
+        <h2>Abstract:</h2>
         <p>
 Graph neural networks (GNNs) are efficient deep learning tools to analyze networked data. Being widely applied in graph analysis tasks, the rapid evolution of GNNs has led to a growing number of novel architectures. In practice, both neural architecture construction and training hyperparameter tuning are crucial to the node representation learning and the final model performance. However, as the graph data characteristics vary significantly in the real-world systems, given a specific scenario, rich human expertise and tremendous laborious trials are required to identify a suitable GNN architecture and training hyperparameters. Recently, automated machinelearning (AutoML) has shown its potential in finding the optimal solutions automatically for machine learning applications. While releasing the burden of the manual tuning process, AutoML could guarantee access of the optimal solution without extensive expert experience. Motivated from the previous successes of AutoML, there have been some preliminary automated GNN (AutoGNN) frameworks developed to tackle the problems of GNN neural architecture search (GNN-NAS) and training hyperparameter tuning. This chapter presents a comprehensive and up-to-date review of AutoGNN in terms of two perspectives, namely search space and search algorithm. Specifically, we mainly focus on the GNN-NAS problem and present the state-of-the-art techniques in these two perspectives. We further discuss the open problems related to the existing methods for the future research.
 </p>
+<h2>Contents</h2>
+<ul>
+<li>Background</li>
+<ul>
+<li>Notations of AutoGNN</li>
+<li>Problem Definition of AutoGNN</li>
+<li>Challenges in AutoGNN</li>
+</ul>
+<li>Search Space</li>
+<ul>
+<li>Architecture Search Space</li>
+<li>Training Hyperparameter Search Space</li>
+<li>Efficient Search Space</li>
+</ul>
+<li>Search Algorithms</li>
+<ul>
+<li>Random Search</li>
+<li>Evolutionary Search</li>
+<li>Reinforcement Learning Based Search</li>
+<li>Differentiable Search</li>
+<li>Efficient Performance Estimation</li>
+</ul>
+<li>Future Directions</li>
+</ul>
       </div>
     </div>
     </div>
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Contents:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Citations:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <div id="author" class="pp-card m-3 collapse hide">
     <div class="card-text">
       <div id="authorExample">

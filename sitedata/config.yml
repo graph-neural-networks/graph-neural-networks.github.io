@@ -1,5 +1,6 @@
 name: GNNBook@2021
-tagline: Graph Neural Networks <br> Foundations, Frontiers, and Applications
+tagline: Graph Neural Networks
+subtitle: Foundations, Frontiers, and Applications
 proceedings_title: Graph Neural Networks <br> Foundations, Frontiers, and Applications
 logo:
     image: static/images/G4L-logo.png
@@ -12,7 +13,7 @@ site_title: GNNBook@2021
 page_title:
   prefix: 'GNNBook@2021'
   separator: ': '
-background_image: static/images/aaai2021/AAAI-Banner-nocaption.jpg
+background_image: static/images/background.jpg
 organization: GNNBook@2021 Team
 
 # Path to the folder of paper images.

@@ -69,22 +69,22 @@
     
 
     <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">
-    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">
-    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-
-
-
-
-
-
-
-
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">-->
+<!--    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">-->
+<!--    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">-->
+<!--    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">-->
+<!--    <meta name="msapplication-TileColor" content="#da532c">-->
+<!--    <meta name="theme-color" content="#ffffff">-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
   </head>
 
   <body>
@@ -187,7 +187,7 @@
               
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="teams.html">Teams</a>
+                  <a class="nav-link" href="teams.html">Editors</a>
                   
                 </li>
               
@@ -225,10 +225,16 @@
     <h3 class="card-subtitle mb-2 text-muted text-center">
       Yu Wang, Wei Jin, Tyler Derr
     </h3>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+        Yu Wang, Vanderbilt University, yu.wang.1@vanderbilt.edu<br>Wei Jin, Michigan State University, jinwei2@msu.edu<br>Tyler Derr, Vanderbilt University, tyler.derr@vanderbilt.edu
+    </h3>
 
     <div class="text-center p-3">
     <a class="card-link" data-toggle="collapse" role="button" href="#details">
       Description
+    </a>
+    <a class="card-link" data-toggle="collapse" role="button" href="index.html">
+        PDF
     </a>
 
     
@@ -270,13 +276,55 @@
     <div id="details" class="pp-card m-3 collapse show">
     <div class="card-text">
       <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span>
+        <h2>Abstract:</h2>
         <p>
 Although deep learning has achieved state-of-the-art performance across numerous domains, these models generally require large annotated datasets to reach their full potential and avoid overfitting. However, obtaining such datasets can have high associated costs or even be impossible to procure. Self-supervised learning (SSL) seeks to create and utilize specific pretext tasks on unlabeled data to aid in alleviating this fundamental limitation of deep learning models. Although initially applied in the image and text domains, recent interest has been in leveraging SSL in the graph domain to improve the performance of graph neural networks (GNNs). For node-level tasks, GNNs can inherently incorporate unlabeled node data through the neighborhood aggregation unlike in the image or text domains; but they can still benefit by applying novel pretext tasks to encode richer information and numerous such methods have recently been developed. For GNNs solving graph-level tasks, applying SSL methods is more aligned with other traditional domains, but still presents unique challenges and has been the focus of a few works. In this chapter, we summarize recent developments in applying SSL to GNNs categorizing them via the different training strategies and types of data used to construct their pretext tasks, and finally discuss open challenges for future directions.
 </p>
+<h2>Contents</h2>
+<ul>
+<li>Introduction</li>
+<li>Self-supervised Learning</li>
+<li>Applying SSL to GNNs: Catogorizing Training Strategies, Loss Functions and Pretext Tasks</li>
+<ul>
+<li>Training Strategies</li>
+<li>Loss Functions</li>
+<li>Pretext Tasks</li>
+</ul>
+<li>Node-level SSL Pretext Tasks</li>
+<ul>
+<li>Structure-based Pretext Tasks</li>
+<li>Feature-based Pretext Tasks</li>
+<li>Hybrid Pretext Tasks</li>
+</ul>
+<li>Graph-level SSL Pretext Tasks</li>
+<ul>
+<li>Structure-based Pretext Tasks</li>
+<li>Feature-based Pretext Tasks</li>
+<li>Hybrid Pretext Tasks</li>
+</ul>
+<li>Node-graph-level SSL Pretext Tasks</li>
+<li>Discussion</li>
+<li>Future Directions</li>
+</ul>
       </div>
     </div>
     </div>
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Contents:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Citations:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <div id="author" class="pp-card m-3 collapse hide">
     <div class="card-text">
       <div id="authorExample">

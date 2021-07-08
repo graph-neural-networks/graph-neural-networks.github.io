@@ -361,6 +361,7 @@ class Tutorial:
     title: str
     organizers: List[str]
     abstract: str
+    details: str
 #    website: Optional[str]
 #    material: Optional[str]
 #    slides: Optional[str]

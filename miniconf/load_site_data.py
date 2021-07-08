@@ -294,9 +294,9 @@ def load_site_data(
     site_data["part2"] = build_tutorials(part2)
     site_data["part3"] = build_tutorials(part3)
     site_data["part4"] = build_tutorials(part4)
-    site_data["tutorials_UC"] = build_tutorials(tutorial_UC)
-    site_data["tutorials_FH"] = build_tutorials(tutorial_FH)
-    site_data["tutorials_OTHER"] = build_tutorials(tutorial_OTHER)
+#    site_data["tutorials_UC"] = build_tutorials(tutorial_UC)
+#    site_data["tutorials_FH"] = build_tutorials(tutorial_FH)
+#    site_data["tutorials_OTHER"] = build_tutorials(tutorial_OTHER)
     # tutorial_<uid>.html
     by_uid["tutorials"] = {tutorial.id: tutorial for tutorial in tutorials}
 
@@ -324,8 +324,8 @@ def load_site_data(
     site_data["doctoral_consortium"] = doctoral_consortium
 
     # Demonstrations
-    demonstrations=build_tutorials(site_data["demonstrations"])
-    site_data["demonstrations"] = demonstrations
+#    demonstrations=build_tutorials(site_data["demonstrations"])
+#    site_data["demonstrations"] = demonstrations
 
     # socials.html/diversity_programs.html
     diversity_programs = build_socials(site_data["socials"])
@@ -1521,13 +1521,13 @@ def build_tutorials(raw_tutorials: List[Dict[str, Any]]) -> List[Tutorial]:
                 )
             )
         return result
-
     return [
         Tutorial(
             id=item["UID"],
             title=item["title"],
             organizers=item["organizers"],
-            abstract=item["abstract"]
+            abstract=item["abstract"],
+            details=item["details"]
 #            website=item.get("website", None)
 #            sessions=[
 #                TutorialSessionInfo(
