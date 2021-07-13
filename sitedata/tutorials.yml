@@ -19,6 +19,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch1-zhao,<br>
+    author      = {Zhao, Liang and Wu, Lingfei and Cui, Peng and Pei, Jian},<br>
+    title       = {Representation Learning},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {3-15},<br>
+    chapter     = {1},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter2
   part: part1
@@ -42,6 +62,26 @@
         <li>Graph Neural Networks</li>
         <li>Summary</li>
       </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch2-cui,<br>
+    author      = {Cui, Peng and Wu, Lingfei and Zhao, Liang and Wang, Xiao},<br>
+    title       = {Graph Representation Learning},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {17-26},<br>
+    chapter     = {2},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter3
   part: part1
@@ -64,6 +104,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch3-wu,<br>
+    author      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    title       = {Graph Neural Networks},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {27-37},<br>
+    chapter     = {3},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter4
   part: part2
@@ -94,6 +154,26 @@
     <li>Over-smoothing Problem</li>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch4-tang,<br>
+    author      = {Tang, Jian and Liao, Renjie},<br>
+    title       = {Graph Neural Networks for Node Classification},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {41-61},<br>
+    chapter     = {4},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter5
   part: part2
@@ -124,6 +204,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch5-li,<br>
+    author      = {Li, Pan and Leskovec, Jure},<br>
+    title       = {The Expressive Power of Graph Neural Networks},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {63-98},<br>
+    chapter     = {5},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter6
   part: part2
@@ -151,6 +251,26 @@
     </ul>
     <li>Future Directions</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch6-ma,<br>
+    author      = {Ma, Hehuan and Rong, Yu and Huang, Junzhou},<br>
+    title       = {Graph Neural Networks for Node Classification},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {99-119},<br>
+    chapter     = {6},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter7
   part: part2
@@ -190,6 +310,26 @@
     </ul>
     <li>Future Directions</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch7-liu,<br>
+    author      = {Liu, Ninghao and Feng, Qizhang and Hu, Xia},<br>
+    title       = {Interpretability in Graph Neural Networks},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {121-147},<br>
+    chapter     = {7},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter8
   part: part2
@@ -224,6 +364,27 @@
     </ul>
     <li>Proper Evaluation in the View of Robustness</li>
     <li>Summary</li>
+    </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch8-gunnemann,<br>
+    author      = {Gunnemann, Stephan},<br>
+    title       = {Graph Neural Networks: Adversarial Robustness},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {149-176},<br>
+    chapter     = {8},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 
 - UID: Chapter9
@@ -261,6 +422,26 @@
     <li>Benchmark Datasets</li>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch9-morris,<br>
+    author      = {Morris, Christopher},<br>
+    title       = {Graph Neural Networks: Graph Classification},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {179-193},<br>
+    chapter     = {9},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter10
   part: part3
@@ -297,6 +478,26 @@
     <li>Designing More Powerful Labeling Tricks</li>
     <li>Understanding When to Use One-Hot Features</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch10-zhang,<br>
+    author      = {Zhang, Muhan},<br>
+    title       = {Graph Neural Networks: Link Prediction},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {195-223},<br>
+    chapter     = {10},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter11
   part: part3
@@ -324,6 +525,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch11-liao,<br>
+    author      = {Liao, Renjie},<br>
+    title       = {Graph Neural Networks: Graph Generation},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {225-250},<br>
+    chapter     = {11},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter12
   part: part3
@@ -363,6 +584,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch12-guo,<br>
+    author      = {Guo, Xiaojie and Wang, Shiyu and Zhao, Liang},<br>
+    title       = {Graph Neural Networks: Graph Transformation},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {251-275},<br>
+    chapter     = {12},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 
 - UID: Chapter13
@@ -391,6 +632,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch13-ling,<br>
+    author      = {Ling, Xiang and Wu, Lingfei and Wu, Chunming and Ji, Shouling},<br>
+    title       = {Graph Neural Networks: Graph Matching},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {277-295},<br>
+    chapter     = {13},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter14
   part: part3
@@ -422,6 +683,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch14-chen,<br>
+    author      = {Chen, Yu and Wu, Lingfei},<br>
+    title       = {Graph Neural Networks: Graph Structure Learning},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {297-321},<br>
+    chapter     = {14},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter15
   part: part3
@@ -461,6 +742,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch15-kazemi,<br>
+    author      = {Kazemi, M. Seyed},<br>
+    title       = {Dynamic Graph Neural Networks},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {323-349},<br>
+    chapter     = {15},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter16
   part: part3
@@ -499,6 +800,26 @@
     <li>Applications</li>
     </ul>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch16-shi,<br>
+    author      = {Shi, Chuan},<br>
+    title       = {Heterogeneous Graph Neural Networks},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {351-369},<br>
+    chapter     = {16},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter17
   part: part3
@@ -533,6 +854,26 @@
     </ul>
     <li>Future Directions</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch17-zhou,<br>
+    author      = {Zhou, Kaixiong and Liu, Zirui and Duan, Keyu and Hu, Xia},<br>
+    title       = {Graph Neural Network: AutoML},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {371-389},<br>
+    chapter     = {17},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter18
   part: part3
@@ -569,6 +910,26 @@
     <li>Discussion</li>
     <li>Future Directions</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch18-wang,<br>
+    author      = {Wang, Yu and Jin, Wei and Derr, Tyler},<br>
+    title       = {Graph Neural Networks: Self-supervised Learning },<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {391-419},<br>
+    chapter     = {18},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter19
   part: part4
@@ -602,6 +963,26 @@
     </ul>
     <li>Future Directions</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch19-chu,<br>
+    author      = {Chu, Yunfei and Yao, Jiangchao and Zhou, Chang and Yang, Hongxia},<br>
+    title       = {Graph Neural Network in Modern Recommender Systems},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {423-445},<br>
+    chapter     = {19},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter20
   part: part4
@@ -643,6 +1024,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch20-wu,<br>
+    author      = {Tang, Siliang and Zhang, Wenqiao and Mu, Zongshen and Shen, Kai and Li, Juncheng and Li, Jiacheng and Wu, Lingfei},<br>
+    title       = {Graph Neural Networks in Computer Vision},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {447-462},<br>
+    chapter     = {20},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter21
   part: part4
@@ -670,6 +1071,26 @@
     <li>Future Directions</li>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch21-liu,<br>
+    author      = {Liu, Bang and Wu, Lingfei},<br>
+    title       = {Graph Neural Networks in Natural Language Processing},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {463-481},<br>
+    chapter     = {21},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter22
   part: part4
@@ -690,6 +1111,26 @@
     <li>Case Study: Predicting Types in Dynamically Typed Languages</li>
     <li>Future Directions</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch22-allamanis,<br>
+    author      = {Allamanis, Miltiadis},<br>
+    title       = {Graph Neural Networks in Program Analysis},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {483-497},<br>
+    chapter     = {22},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter23
   part: part4
@@ -716,6 +1157,26 @@
     </ul>
     <li>Summary</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch23-mcmillan,<br>
+    author      = {McMillan, Collin},<br>
+    title       = {Graph Neural Networks in Software Mining},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {499-516},<br>
+    chapter     = {23},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter24
   part: part4
@@ -747,6 +1208,26 @@
     <li>Coupling KGs with other biomedical data</li>
     </ul>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch24-su,<br>
+    author      = {Su, Chang and Hou, Yu and Wang, Fei},<br>
+    title       = {GNN-based Biomedical Knowledge Graph Mining in Drug Development},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {517-539},<br>
+    chapter     = {24},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter25
   part: part4
@@ -774,6 +1255,26 @@
     </ul>
     <li>Future directions</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch25-kabir,<br>
+    author      = {Kabir, Anowarul and Shehu, Amarda},<br>
+    title       = {Graph Neural Networks in Predicting Protein Function and Interactions},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {541-556},<br>
+    chapter     = {25},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter26
   part: part4
@@ -811,6 +1312,26 @@
     </ul>
     <li>Future Directions</li>
     </ul>
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch26-wang,<br>
+    author      = {Wang, Shen and Yu, S. Philip},<br>
+    title       = {Graph Neural Networks in Anomaly Detection},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {557-578},<br>
+    chapter     = {26},<br>
+    }
+    </p>
+    </div>
+    </div>
 
 - UID: Chapter27
   part: part4
@@ -831,4 +1352,23 @@
     <li>Case Study: GNN in urban human behavior inference</li>
     <li>Future Directions</li>
     </ul>
-
+    <h2>
+    Citation
+    </h2>
+    <div class="pp-card m-3" style="">
+    <div class="card-header">
+    <p>
+    @incollection{GNNBook-ch27-li,<br>
+    author      = {Li, Yanhua and Zhou, Xun and Pan, Menghai},<br>
+    title       = {Graph Neural Networks in Urban Intelligence},<br>
+    editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
+    publisher   = {Springer International Publishing},<br>
+    address     = {Switzerland},<br>
+    year        = {2021},<br>
+    pages       = {579-592},<br>
+    chapter     = {27},<br>
+    }
+    </p>
+    </div>
+    </div>
