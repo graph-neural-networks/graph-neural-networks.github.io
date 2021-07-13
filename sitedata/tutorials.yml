@@ -30,8 +30,8 @@
     title       = {Representation Learning},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {3-15},<br>
     chapter     = {1},<br>
@@ -69,12 +69,12 @@
     <div class="card-header">
     <p>
     @incollection{GNNBook-ch2-cui,<br>
-    author      = {Cui, Peng and Wu, Lingfei and Zhao, Liang and Wang, Xiao},<br>
+    author      = {Cui, Peng and Wu, Lingfei and Pei, Jian and Zhao, Liang and Wang, Xiao},<br>
     title       = {Graph Representation Learning},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {17-26},<br>
     chapter     = {2},<br>
@@ -111,12 +111,12 @@
     <div class="card-header">
     <p>
     @incollection{GNNBook-ch3-wu,<br>
-    author      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
+    author      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang and Song, Le},<br>
     title       = {Graph Neural Networks},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {27-37},<br>
     chapter     = {3},<br>
@@ -165,8 +165,8 @@
     title       = {Graph Neural Networks for Node Classification},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {41-61},<br>
     chapter     = {4},<br>
@@ -215,8 +215,8 @@
     title       = {The Expressive Power of Graph Neural Networks},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {63-98},<br>
     chapter     = {5},<br>
@@ -262,8 +262,8 @@
     title       = {Graph Neural Networks for Node Classification},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {99-119},<br>
     chapter     = {6},<br>
@@ -321,8 +321,8 @@
     title       = {Interpretability in Graph Neural Networks},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {121-147},<br>
     chapter     = {7},<br>
@@ -376,8 +376,8 @@
     title       = {Graph Neural Networks: Adversarial Robustness},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {149-176},<br>
     chapter     = {8},<br>
@@ -433,8 +433,8 @@
     title       = {Graph Neural Networks: Graph Classification},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {179-193},<br>
     chapter     = {9},<br>
@@ -489,8 +489,8 @@
     title       = {Graph Neural Networks: Link Prediction},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {195-223},<br>
     chapter     = {10},<br>
@@ -536,8 +536,8 @@
     title       = {Graph Neural Networks: Graph Generation},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {225-250},<br>
     chapter     = {11},<br>
@@ -595,8 +595,8 @@
     title       = {Graph Neural Networks: Graph Transformation},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {251-275},<br>
     chapter     = {12},<br>
@@ -643,8 +643,8 @@
     title       = {Graph Neural Networks: Graph Matching},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {277-295},<br>
     chapter     = {13},<br>
@@ -694,8 +694,8 @@
     title       = {Graph Neural Networks: Graph Structure Learning},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {297-321},<br>
     chapter     = {14},<br>
@@ -753,8 +753,8 @@
     title       = {Dynamic Graph Neural Networks},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {323-349},<br>
     chapter     = {15},<br>
@@ -811,8 +811,8 @@
     title       = {Heterogeneous Graph Neural Networks},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {351-369},<br>
     chapter     = {16},<br>
@@ -865,8 +865,8 @@
     title       = {Graph Neural Network: AutoML},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {371-389},<br>
     chapter     = {17},<br>
@@ -921,8 +921,8 @@
     title       = {Graph Neural Networks: Self-supervised Learning },<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {391-419},<br>
     chapter     = {18},<br>
@@ -974,8 +974,8 @@
     title       = {Graph Neural Network in Modern Recommender Systems},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {423-445},<br>
     chapter     = {19},<br>
@@ -1035,8 +1035,8 @@
     title       = {Graph Neural Networks in Computer Vision},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {447-462},<br>
     chapter     = {20},<br>
@@ -1082,8 +1082,8 @@
     title       = {Graph Neural Networks in Natural Language Processing},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {463-481},<br>
     chapter     = {21},<br>
@@ -1122,8 +1122,8 @@
     title       = {Graph Neural Networks in Program Analysis},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {483-497},<br>
     chapter     = {22},<br>
@@ -1168,8 +1168,8 @@
     title       = {Graph Neural Networks in Software Mining},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {499-516},<br>
     chapter     = {23},<br>
@@ -1219,8 +1219,8 @@
     title       = {GNN-based Biomedical Knowledge Graph Mining in Drug Development},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {517-539},<br>
     chapter     = {24},<br>
@@ -1266,8 +1266,8 @@
     title       = {Graph Neural Networks in Predicting Protein Function and Interactions},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {541-556},<br>
     chapter     = {25},<br>
@@ -1323,8 +1323,8 @@
     title       = {Graph Neural Networks in Anomaly Detection},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {557-578},<br>
     chapter     = {26},<br>
@@ -1363,8 +1363,8 @@
     title       = {Graph Neural Networks in Urban Intelligence},<br>
     editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
     booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-    publisher   = {Springer International Publishing},<br>
-    address     = {Switzerland},<br>
+    publisher   = {Springer},<br>
+    address     = {Singapore},<br>
     year        = {2021},<br>
     pages       = {579-592},<br>
     chapter     = {27},<br>
