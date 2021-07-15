@@ -1527,7 +1527,8 @@ def build_tutorials(raw_tutorials: List[Dict[str, Any]]) -> List[Tutorial]:
             title=item["title"],
             organizers=item["organizers"],
             abstract=item["abstract"],
-            details=item["details"]
+            details=item["details"],
+            pdf=item["pdf"]
 #            website=item.get("website", None)
 #            sessions=[
 #                TutorialSessionInfo(

@@ -1,6 +1,7 @@
 - UID: Chapter1
   part: part1
   title: 'Representation Learning'
+  pdf: static/file/chapter1.pdf
   organizers: Liang Zhao, Lingfei Wu, Peng Cui, Jian Pei
   details: Liang Zhao, Emory University, liang.zhao@emory.edu <br> Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu
   abstract: |-
@@ -42,6 +43,7 @@
 
 - UID: Chapter2
   part: part1
+  pdf: static/file/chapter2.pdf
   title: 'Graph Representation Learning'
   organizers: Peng Cui, Lingfei Wu, Jian Pei, Liang Zhao, Xiao Wang
   details: Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Xiao Wang, Beijing University of Posts and Telecommunications, xiaowang@bupt.edu.cn
@@ -85,6 +87,7 @@
 
 - UID: Chapter3
   part: part1
+  pdf: static/file/chapter3.pdf
   title: 'Graph Neural Networks'
   organizers: Lingfei Wu, Peng Cui, Jian Pei, Liang Zhao, Le Song
   details: Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Le Song, Mohamed bin Zayed University of Artificial Intelligence, dasongle@gmail.com
@@ -127,6 +130,7 @@
 
 - UID: Chapter4
   part: part2
+  pdf: static/file/chapter4.pdf
   title: 'Graph Neural Networks for Node Classification'
   organizers: Jian Tang, Renjie Liao
   details: Jian Tang, Mila-Quebec AI Institute, jian.tange@hec.ca<br>Renjie Liao, University of Toronto, rjliao@cs.toronto.edu
@@ -177,6 +181,7 @@
 
 - UID: Chapter5
   part: part2
+  pdf: static/file/chapter5.pdf
   title: 'The Expressive Power of Graph Neural Networks'
   organizers: Pan Li, Jure Leskovec
   details: Pan Li, Purdue University, panli@purdue.edu<br>Jure Leskovec, Stanford University, jure@cs.stanford.edu
@@ -227,6 +232,7 @@
 
 - UID: Chapter6
   part: part2
+  pdf: static/file/chapter6.pdf
   title: 'Graph Neural Networks: Scalability'
   organizers: Hehuan Ma, Yu Rong, Junzhou Huang
   details: Hehuan Ma, University of Texas at Arlington, hehuan.ma@mavs.uta.edu<br>Yu Rong, Tencent AI Lab, yu.rong@hotmail.com<br>Junzhou Huang, University of Texas at Arlington, jzhuang@uta.edu
@@ -274,6 +280,7 @@
 
 - UID: Chapter7
   part: part2
+  pdf: static/file/chapter7.pdf
   title: 'Interpretability in Graph Neural Networks'
   organizers: Ninghao Liu, Qizhang Feng, Xia Hu
   details: Ninghao Liu, Texas A&M University, nhliu43@tamu.edu<br>Qizhang Feng, Texas A&M University, qf31@tamu.edu<br>Xia Hu, Texas A&M University, xiahu@tamu.edu
@@ -333,6 +340,7 @@
 
 - UID: Chapter8
   part: part2
+  pdf: static/file/chapter8.pdf
   title: 'Graph Neural Networks: Adversarial Robustness'
   organizers: Stephan Gunnemann
   details: Stephan Gunnemann, Technical University of Munich, guennemann@in.tum.de
@@ -389,6 +397,7 @@
 
 - UID: Chapter9
   part: part3
+  pdf: static/file/chapter9.pdf
   title: 'Graph Neural Networks: Graph Classification'
   organizers: Christopher Morris
   details: Christopher Morris, Polytechnique Montreal, chris@christophermorris.info
@@ -445,6 +454,7 @@
 
 - UID: Chapter10
   part: part3
+  pdf: static/file/chapter10.pdf
   title: 'Graph Neural Networks: Link Prediction'
   organizers: Muhan Zhang
   details: Muhan Zhang, Peking University, muhan@pku.edu.cn
@@ -501,6 +511,7 @@
 
 - UID: Chapter11
   part: part3
+  pdf: static/file/chapter11.pdf
   title: 'Graph Neural Networks: Graph Generation'
   organizers: Renjie Liao
   details: Renjie Liao, University of Toronto, rjliao@cs.toronto.edu
@@ -548,6 +559,7 @@
 
 - UID: Chapter12
   part: part3
+  pdf: static/file/chapter12.pdf
   title: 'Graph Neural Networks: Graph Transformation'
   organizers: Xiaojie Guo, Shiyu Wang, Liang Zhao
   details: Xiaojie Guo, George Mason University, xguo7@gmu.edu<br>Shiyu Wang, Emory University, shiyu.wang@emory.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu
@@ -608,6 +620,7 @@
 
 - UID: Chapter13
   part: part3
+  pdf: static/file/chapter13.pdf
   title: 'Graph Neural Networks: Graph Matching'
   organizers: Xiang Ling, Lingfei Wu, Chunming Wu, Shouling Ji
   details: Xiang Ling, Zhejiang University, lingxiang@zju.edu.cn<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Chunming Wu, Zhejiang University, wuchunming@zju.edu.cn<br>Shouling Ji, Zhejiang University, sji@zju.edu.cn
@@ -655,6 +668,7 @@
 
 - UID: Chapter14
   part: part3
+  pdf: static/file/chapter14.pdf
   title: 'Graph Neural Networks: Graph Structure Learning'
   organizers: Yu Chen, Lingfei Wu
   details: Yu Chen, Facebook AI, hugochan2013@gmail.com<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@emial.wm.edu
@@ -706,6 +720,7 @@
 
 - UID: Chapter15
   part: part3
+  pdf: static/file/chapter15.pdf
   title: 'Dynamic Graph Neural Networks'
   organizers: Seyed Mehran Kazemi
   details: Seyed Mehran Kazemi, Borealis AI, mehran.kazemi@borealisai.com
@@ -765,6 +780,7 @@
 
 - UID: Chapter16
   part: part3
+  pdf: static/file/chapter16.pdf
   title: 'Heterogeneous Graph Neural Networks'
   organizers: Chuan Shi
   details: Chuan Shi, Beijing University of Posts and Telecommunications, shichuan@bupt.edu.cn
@@ -823,6 +839,7 @@
 
 - UID: Chapter17
   part: part3
+  pdf: static/file/chapter17.pdf
   title: 'Graph Neural Networks: AutoML'
   organizers: Kaixiong Zhou, Zirui Liu, Keyu Duan, Xia Hu
   details: Kaixiong Zhou, Texas A&M University, zkxiong@tamu.edu<br>Zirui Liu, Texas A&M University, tradigrada@tamu.edu<br>Keyu Duan, Texas A&M University, k.duan@tamu.edu<br>Xia Hu, Texas A&M University, hu@cse.tamu.edu
@@ -877,6 +894,7 @@
 
 - UID: Chapter18
   part: part3
+  pdf: static/file/chapter18.pdf
   title: 'Graph Neural Networks: Self-supervised Learning'
   organizers: Yu Wang, Wei Jin, Tyler Derr
   details: Yu Wang, Vanderbilt University, yu.wang.1@vanderbilt.edu<br>Wei Jin, Michigan State University, jinwei2@msu.edu<br>Tyler Derr, Vanderbilt University, tyler.derr@vanderbilt.edu
@@ -933,6 +951,7 @@
 
 - UID: Chapter19
   part: part4
+  pdf: static/file/chapter19.pdf
   title: 'Graph Neural Networks in Modern Recommender Systems'
   organizers: Yunfei Chu, Jiangchao Yao, Chang Zhou, Hongxia Yang
   details: Yufei Chu, Alibaba Group, fay.cyf@alibaba-inc.com<br>Jiangchao Yao, Alibaba Group, jiangchao.yjc@alibaba-inc.com<br>Chang Zhou, Alibaba Group, ericzhou.zc@alibaba-inc.com<br>Hongxia Yang, Alibaba Group, yang.yhx@alibaba-inc.com
@@ -986,6 +1005,7 @@
 
 - UID: Chapter20
   part: part4
+  pdf: static/file/chapter20.pdf
   title: 'Graph Neural Networks in Computer Vision'
   organizers: Siliang Tang, Wenqiao Zhang, Zongshen Mu, Kai Shen, Juncheng Li, Jiacheng Li, Lingfei Wu
   details: Siliang Tang, Zhejiang University, siliang@zju.edu.cn<br>Wenqiao Zhang, Zhejiang University, wenqiaozhang@zju.edu.cn<br>Zongshen Mu, Zhejiang University, zongshen@zju.edu.cn<br>Kai Shen, Zhejiang University, shenkai@zju.edu.cn<br>Juncheng Li, Zhejiang University, junchengli@zju.edu.cn<br>Jiacheng Li, Zhejiang University, lijiacheng@zju.edu.cn<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu
@@ -1047,6 +1067,7 @@
 
 - UID: Chapter21
   part: part4
+  pdf: static/file/chapter21.pdf
   title: 'Graph Neural Networks in Natural Language Processing'
   organizers: Bang Liu, Lingfei Wu
   details: Bang Liu, University of Montreal, bang.liu@umontreal.ca<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu
@@ -1094,6 +1115,7 @@
 
 - UID: Chapter22
   part: part4
+  pdf: static/file/chapter22.pdf
   title: 'Graph Neural Networks in Program Analysis'
   organizers: Miltiadis Allamanis
   details: Miltiadis Allamanis, Microsoft Research, miallama@microsoft.com
@@ -1134,6 +1156,7 @@
 
 - UID: Chapter23
   part: part4
+  pdf: static/file/chapter23.pdf
   title: 'Graph Neural Networks in Software Mining'
   organizers: Collin McMillan
   details: Collin McMillan, University of Notre Dame, cmc@nd.edu
@@ -1180,6 +1203,7 @@
 
 - UID: Chapter24
   part: part4
+  pdf: static/file/chapter24.pdf
   title: 'GNN-based Biomedical Knowledge Graph Mining in Drug Development'
   organizers: Chang Su, Yu Hou, Fei Wang
   details: Chang Su, Weill Cornell Medicine, chs4002@med.cornell.edu<br>Yu Hou, Weill Cornell Medicine, yuh4001@med.cornell.edu<br>Fei Wang, Weill Cornell Medicine, few2001@med.cornell.edu
@@ -1231,6 +1255,7 @@
 
 - UID: Chapter25
   part: part4
+  pdf: static/file/chapter25.pdf
   title: 'Graph Neural Networks in Predicting Protein Function and Interactions'
   organizers: Anowarul Kabir, Amarda Shehu
   details: Anowarul Kabir, George Mason University, akabir4@gmu.edu <br> Amarda Shehu, George Mason University, amarda@gmu.edu
@@ -1278,6 +1303,7 @@
 
 - UID: Chapter26
   part: part4
+  pdf: static/file/chapter26.pdf
   title: 'Graph Neural Networks in Anomaly Detection'
   organizers: Shen Wang, Philip S. Yu
   details: Shen Wang, University of Illinois at Chicago, swang224@uic.edu <br>Philip S. Yu, University of Illinois at Chicago, psyu@uic.edu
@@ -1335,6 +1361,7 @@
 
 - UID: Chapter27
   part: part4
+  pdf: static/file/chapter27.pdf
   title: 'Graph Neural Networks in Urban Intelligence'
   organizers: Yanhua Li, Xun Zhou, Menghai Pan
   details: Yanhua Li, Worcester Polytechnic Institute, yli15@wpi.edu <br>Xun Zhou, University of Iowa, un-zhou@uiowa.edu<br>Menghai Pan, Worcester Polytechnic Institute, mpan@wpi.edu
