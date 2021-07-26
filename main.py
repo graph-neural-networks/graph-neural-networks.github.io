@@ -339,7 +339,7 @@ def teams():
 #    data["plenary_session"] = by_uid["plenary_sessions"]['opening_remarks_speaker_by_tuomas_sandholm']
 #    return render_template("plenary_session.html", **data)
 
-@app.route("/tutorial_<uid>.html")
+@app.route("/gnnbook_<uid>.html")
 def tutorial(uid):
     data = _data()
     data["tutorial"] = by_uid["tutorials"][uid]

@@ -351,7 +351,7 @@
     <h2>Contents</h2>
     <ul>
     <li>Motivation</li>
-    <li>Showcasing GNN Limitations via Adversarial Examples</li>
+    <li>Limitations of Graph Neural Networks: Adversarial Examples</li>
     <ul>
     <li>Categorization of Adversarial Attacks</li>
     <li>The Effect of Perturbations and Some Insights</li>
@@ -367,7 +367,7 @@
     <ul>
     <li>Improving the Graph</li>
     <li>Improving the Training Procedure</li>
-    <li>Improving the GNN Architecture</li>
+    <li>Improving the Graph Neural Networks' Architecture</li>
     <li>Discussion and Future Directions</li>
     </ul>
     <li>Proper Evaluation in the View of Robustness</li>

@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="static/css/lazy_load.css" />
     <link rel="stylesheet" href="static/css/typeahead.css" />
 
-    <title>GNNBook@2021: Graph Neural Networks: Adversarial Robustness</title>
+    <title>GNNBook@2021: Graph Neural Networks in Computer Vision</title>
     
 
     <!-- Favicon -->
@@ -214,20 +214,20 @@
 <div class="pp-card m-3" style="">
   <div class="card-header">
     <h2 class="card-title main-title text-center" style="">
-      Chapter8: Graph Neural Networks: Adversarial Robustness
+      Chapter20: Graph Neural Networks in Computer Vision
     </h2>
 <!--    <h3 class="card-subtitle mb-2 text-muted text-center">-->
-<!--      Stephan Günnemann-->
+<!--      Siliang Tang, Wenqiao Zhang, Zongshen Mu, Kai Shen, Juncheng Li, Jiacheng Li, Lingfei Wu-->
 <!--    </h3>-->
     <h3 class="card-subtitle mb-2 text-muted text-center">
-        Stephan Günnemann, Technical University of Munich, guennemann@in.tum.de
+        Siliang Tang, Zhejiang University, siliang@zju.edu.cn<br>Wenqiao Zhang, Zhejiang University, wenqiaozhang@zju.edu.cn<br>Zongshen Mu, Zhejiang University, zongshen@zju.edu.cn<br>Kai Shen, Zhejiang University, shenkai@zju.edu.cn<br>Juncheng Li, Zhejiang University, junchengli@zju.edu.cn<br>Jiacheng Li, Zhejiang University, lijiacheng@zju.edu.cn<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu
     </h3>
 
     <div class="text-center p-3">
     <a class="card-link" data-toggle="collapse" role="button" href="#details">
       Description
     </a>
-    <a class="card-link" href="static/file/chapter8.pdf">
+    <a class="card-link" href="static/file/chapter20.pdf">
         PDF
     </a>
 
@@ -272,31 +272,37 @@
       <div id="abstractExample">
         <h2>Abstract</h2>
         <p>
-Graph neural networks have achieved impressive results in various graph learning tasks and they have found their way into many applications such as molecular property prediction, cancer classification, fraud detection, or knowledge graph reasoning. With the increasing number of GNN models deployed in scientific applications, safety-critical environments, or decision-making contexts involving humans, it is crucial to ensure their reliability. In this chapter, we provide an overview of the current research on adversarial robustness of GNNs.We introduce the unique challenges and opportunities that come along with the graph setting and give an overview of works showing the limitations of classic GNNs via adversarial example generation. Building upon these insights we introduce and categorize methods that provide provable robustness guarantees for graph neural networks as well as principles for improving robustness of GNNs. We conclude with a discussion of proper evaluation practices taking robustness into account.
+Recently Graph Neural Networks (GNNs) have been incorporated into many Computer Vision (CV) models. They not only bring performance improvement to many CV-related tasks but also provide more explainable decomposition to these CV models. This chapter provides a comprehensive overview of how GNNs are applied to various CV tasks, ranging from single image classification to crossmedia understanding. It also provides a discussion of this rapidly growing field from a frontier perspective.
 </p>
 <h2>Contents</h2>
 <ul>
-<li>Motivation</li>
-<li>Showcasing GNN Limitations via Adversarial Examples</li>
+<li>Introduction</li>
+<li>Representing Visions as Graphs</li>
 <ul>
-<li>Categorization of Adversarial Attacks</li>
-<li>The Effect of Perturbations and Some Insights</li>
-<li>Discussion and Future Directions</li>
+<li>Visual Node representation</li>
+<li>Visual Edge representation</li>
 </ul>
-<li>Provable Robustness: Certificates for Graph Neural Networks</li>
+<li>Case Study 1: Image</li>
 <ul>
-<li>Model-Specific Certificates</li>
-<li>Model-Agnostic Certificates</li>
-<li>Advanced Certification and Discussion</li>
+<li>Object Detection</li>
+<li>Image Classification</li>
 </ul>
-<li>Improving Robustness of GNNs</li>
+<li>Case Study 2: Video</li>
 <ul>
-<li>Improving the Graph</li>
-<li>Improving the Training Procedure</li>
-<li>Improving the GNN Architecture</li>
-<li>Discussion and Future Directions</li>
+<li>Video Action Recognition</li>
+<li>Temporal Action Localization</li>
 </ul>
-<li>Proper Evaluation in the View of Robustness</li>
+<li>Other Related Work: Cross-media</li>
+<ul>
+<li>Vision Caption</li>
+<li>Visual Question Answering</li>
+<li>Cross-Media Retrieval</li>
+</ul>
+<li>Frontiers for GNNs on Computer Vision</li>
+<ul>
+<li>Advanced GNN Modeling Methods for Computer Vision</li>
+<li>Broader Area of GNNs on Computer Vision</li>
+</ul>
 <li>Summary</li>
 </ul>
 <h2>
@@ -305,16 +311,16 @@ Citation
 <div class="pp-card m-3" style="">
 <div class="card-header">
 <p>
-@incollection{GNNBook-ch8-gunnemann,<br>
-author      = {Günnemann, Stephan},<br>
-title       = {Graph Neural Networks: Adversarial Robustness},<br>
+@incollection{GNNBook-ch20-wu,<br>
+author      = {Tang, Siliang and Zhang, Wenqiao and Mu, Zongshen and Shen, Kai and Li, Juncheng and Li, Jiacheng and Wu, Lingfei},<br>
+title       = {Graph Neural Networks in Computer Vision},<br>
 editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
 booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
 publisher   = {Springer},<br>
 address     = {Singapore},<br>
 year        = {2021},<br>
-pages       = {149-176},<br>
-chapter     = {8},<br>
+pages       = {447-462},<br>
+chapter     = {20},<br>
 }
 </p>
 </div>
