@@ -54,104 +54,32 @@ def home():
     return render_template("index.html", **data)
 
 
-#@app.route("/invited_talks.html")
-#def invited_talks():
-#    data = _data()
-#    return render_template("invited_talks.html", **data)
-#
-#
-#@app.route("/awards.html")
-#def awards():
-#    data = _data()
-#    data['awards'] = site_data['awards']
-#    return render_template("awards.html", **data)
-#
-#
-#@app.route("/iaai.html")
-#def iaai():
-#    data = _data()
-#    data["IAAI_papers"] = site_data["IAAI_papers"]
-#    data["iaai_poster_schedule"] = site_data["iaai_poster_schedule"]
-#    data["iaai_poster_schedule_days"] = site_data["iaai_poster_schedule_days"]
-#    return render_template("iaai.html", **data)
-#
-#
-#@app.route("/eaai.html")
-#def eaai():
-#    data = _data()
-#    return render_template("eaai.html", **data)
-#
-#
-#@app.route("/doctoral_consortium.html")
-#def doctoral_consortium():
-#    data = _data()
-#    data["doctoral_consortium"] = site_data["doctoral_consortium"]
-#    return render_template("doctoral_consortium.html", **data)
-#
-#
-#@app.route("/undergraduate_consortium.html")
-#def undergraduate_consortium():
-#    data = _data()
-#    data["tutorials_UC"] = site_data["tutorials_UC"]
-#    data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
-#    return render_template("undergraduate_consortium.html", **data)
-#
-#@app.route("/student_abstract_program.html")
-#def student_abstract_program():
-#    data = _data()
-#    data["tutorials_UC"] = site_data["tutorials_UC"]
-#    data["tutorials_OTHER"] = site_data["tutorials_OTHER"]
-#    return render_template("student_abstract_program.html", **data)
-#
-#@app.route("/new_faculty_highlights_program.html")
-#def new_faculty_highlights_program():
-#    data = _data()
-#    data["tutorials_FH"] = site_data["tutorials_FH"]
-#    return render_template("new_faculty_highlights_program.html", **data)
-#
-#@app.route("/demonstrations.html")
-#def demonstrations():
-#    data = _data()
-#    data["demonstrations"] = site_data["demonstrations"]
-#    return render_template("demonstrations.html", **data)
-#
-#@app.route("/diversity_programs.html")
-#def diversity_programs():
-#    data = _data()
-#    data["diversity_programs"] = site_data["diversity_programs"]
-#    data["diversity_programs_days"] = site_data["diversity_programs_days"]
-#    return render_template("diversity_programs.html", **data)
-#
-#
-#@app.route("/meet_with_a_fellow.html")
-#def gathers():
-#    data = _data()
-#    return render_template("meet_with_a_fellow.html", **data)
-#
-#
-#@app.route("/ai_job_fair.html")
-#def ai_job_fail():
-#    data = _data()
-#    return render_template("ai_job_fair.html", **data)
-
-
-#@app.route("/reception.html")
-#def reception():
-#    data = _data()
-#    return render_template("reception.html", **data)
-
-
-#@app.route("/faq.html")
-#def faq():
-#    data = _data()
-#    return render_template("faq.html", **data)
-
-
 @app.route("/teams.html")
 def teams():
     data = _data()
     data["teams"] = site_data["teams"]
     return render_template("teams.html", **data)
+
+
+@app.route("/workshops.html")
+def workshops():
+    data = _data()
+    return render_template("workshops.html", **data)
+
+@app.route("/tutorials.html")
+def tutorials():
+    data = _data()
+    return render_template("tutorials.html", **data)
+
+@app.route("/slides.html")
+def slides():
+    data = _data()
+    return render_template("slides.html", **data)
+
+@app.route("/videos.html")
+def videos():
+    data = _data()
+    return render_template("videos.html", **data)
 
 
 #@app.route("/help_desk.html")

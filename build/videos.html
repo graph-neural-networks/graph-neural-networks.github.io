@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="static/css/lazy_load.css" />
     <link rel="stylesheet" href="static/css/typeahead.css" />
 
-    <title>GNNBook@2021: Graph Neural Networks in Natural Language Processing</title>
+    <title>GNNBook@2021</title>
     
 
     <!-- Favicon -->
@@ -133,7 +133,7 @@
             
             
               
-                <li class="nav-item ">
+                <li class="nav-item active">
                   
                   <a class="nav-link" href="index.html">Home</a>
                   
@@ -194,12 +194,81 @@
 
     
     <!-- User Overrides -->
-     
+    
+<style>
+  .back {
+    background: url("static/images/background.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .back h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+  }
+  .page__hero-caption {
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 2px 10px;
+    color: #fff;
+    font-family: Georgia,Times,serif;
+    font-size: 0.9em;
+    text-align: right;
+    z-index: 5;
+    opacity: 0.5;
+    border-radius: 4px 0 0 0;
+  }
+    .ctagcloud li {
+        display:inline-block;
+        text-transform:uppercase;
+        font-size:1rem;
+        font-weight:600;
+        margin:4px;
+        padding:8px 16px;
+        -webkit-border-radius:3px;
+        -moz-border-radius:3px;
+        border-radius:3px;
+        background:rgba(0,0,0,0.05);
+        -webkit-transition:all 0.2s ease-in-out;
+        -moz-transition:all 0.2s ease-in-out;
+        transition:all 0.2s ease-in-out
+    }
+</style>
+
+<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 5px;">
+  <div class="row header p-6 m-5">
+    <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+      <h1 class="p-1" style="font-size:5vw">
+        <b>Videos</b><br>
+      </h1>
+
+    </div>
+  </div>
+
+</div>
+
+
 
     <div class="container">
       <!-- Heading -->
       <div class="heading">
-         
+        
+
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <h5>
+            <a href="https://www.youtube.com/channel/UCcr2iGHVTV4sKmdPVulCWhw">Deep Learning on Graphs Channel</a>
+        </h5>
+        
+        <h5>
+            <a href="https://www.youtube.com/channel/UCHa1c-757WvG4iIRplBvtyQ">Deep Learning on Graphs for Natural Language Processing Channel</a>
+        </h5>
+        
+    </div>
+</div>
+
+
+
+
       </div>
       <div class="tabs pt-3">
       <!-- Tabs -->
@@ -208,139 +277,7 @@
       </div>
       <!-- Content -->
       <div class="content">
-        
-
-<!-- Title -->
-<div class="pp-card m-3" style="">
-  <div class="card-header">
-    <h2 class="card-title main-title text-center" style="">
-      Chapter21: Graph Neural Networks in Natural Language Processing
-    </h2>
-<!--    <h3 class="card-subtitle mb-2 text-muted text-center">-->
-<!--      Bang Liu, Lingfei Wu-->
-<!--    </h3>-->
-    <h3 class="card-subtitle mb-2 text-muted text-center">
-        Bang Liu, University of Montreal, bang.liu@umontreal.ca<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu
-    </h3>
-
-    <div class="text-center p-3">
-    <a class="card-link" data-toggle="collapse" role="button" href="#details">
-      Description
-    </a>
-    <a class="card-link" href="static/file/chapter21.pdf">
-        PDF
-    </a>
-
-    
-    
-    
-    
-
-
-
-
-
-
-
-    
-    
-    
-    </div>
-
-    
-
-<script src="static/js/add-to-calendar.js"></script>
-<script>
-
-  let ouicalData;
-  let targetNode;
-  let calendarNodeInner;
-  let calendarNodeSpan;
-  let parser = new DOMParser();
-  let calendarNames = Array("google", "off365", "outlook", "ical");
-
-  
-</script>
-
-  </div>
-</div>
-
-<div class="pp-card m-3">
-  <div class="card-body">
-    <div id="details" class="pp-card m-3 collapse show">
-    <div class="card-text">
-      <div id="abstractExample">
-        <h2>Abstract</h2>
-        <p>
-Natural language processing (NLP) and understanding aim to read from unformatted text to accomplish different tasks. While word embeddings learned by deep neural networks are widely used, the underlying linguistic and semantic structures of text pieces cannot be fully exploited in these representations. Graph is a natural way to capture the connections between different text pieces, such as entities, sentences, and documents. To overcome the limits in vector space models, researchers combine deep learning models with graph-structured representations for various tasks in NLP and text mining. Such combinations help to make full use of both the structural information in text and the representation learning ability of deep neural networks. In this chapter, we introduce the various graph representations that are extensively used in NLP, and show how different NLP tasks can be tackled from a graph perspective.We summarize recent research works on graph-based NLP, and discuss two case studies related to graph-based text clustering, matching, and multihop machine reading comprehension in detail. Finally, we provide a synthesis about the important open problems of this subfield.
-</p>
-<h2>Contents</h2>
-<ul>
-<li>Introduction</li>
-<li>Modeling Text as Graphs</li>
-<ul>
-<li>Graph Representations in Natural Language Processing</li>
-<li>Tackling Natural Language Processing Tasks from a Graph Perspective</li>
-</ul>
-<li>Case Study 1: Graph-based Text Clustering and Matching</li>
-<ul>
-<li>Graph-based Clustering for Hot Events Discovery and Organization</li>
-<li>Long Document Matching with Graph Decomposition and Convolution</li>
-</ul>
-<li>Case Study 2: Graph-based Multi-Hop Reading Comprehension</li>
-<li>Future Directions</li>
-<li>Summary</li>
-</ul>
-<h2>
-Citation
-</h2>
-<div class="pp-card m-3" style="">
-<div class="card-header">
-<p>
-@incollection{GNNBook-ch21-liu,<br>
-author      = {Liu, Bang and Wu, Lingfei},<br>
-title       = {Graph Neural Networks in Natural Language Processing},<br>
-editor      = {Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang},<br>
-booktitle   = {Graph Neural Networks: Foundations, Frontiers, and Applications},<br>
-publisher   = {Springer},<br>
-address     = {Singapore},<br>
-year        = {2021},<br>
-pages       = {463-481},<br>
-chapter     = {21},<br>
-}
-</p>
-</div>
-</div>
-      </div>
-    </div>
-    </div>
-<!--    <div id="details" class="pp-card m-3 collapse show">-->
-<!--        <div class="card-text">-->
-<!--            <div id="abstractExample">-->
-<!--                <span class="font-weight-bold">Contents:</span>-->
-<!--                -->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div id="details" class="pp-card m-3 collapse show">-->
-<!--        <div class="card-text">-->
-<!--            <div id="abstractExample">-->
-<!--                <span class="font-weight-bold">Citations:</span>-->
-<!--                -->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-    <div id="author" class="pp-card m-3 collapse hide">
-    <div class="card-text">
-      <div id="authorExample">
-        
-      </div>
-    </div>
-    </div>
-  </div>
-</div>
-
-
+         
       </div>
     </div>
     
