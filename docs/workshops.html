@@ -1,0 +1,349 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+
+    <!-- External Javascript libs  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <script src="static/js/popper.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+    <!-- https://developer.snapappointments.com/bootstrap-select/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    <script src="static/js/mousetrap.min.js?a4098"></script>
+
+
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+      href="static/css/Lato.css"
+      rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet" />
+    <link
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/chats-modal.css" />
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+
+    <title>GNNBook@2022</title>
+    
+
+    <!-- Favicon -->
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">-->
+<!--    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">-->
+<!--    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">-->
+<!--    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">-->
+<!--    <meta name="msapplication-TileColor" content="#da532c">-->
+<!--    <meta name="theme-color" content="#ffffff">-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+  </head>
+
+  <body>
+    <!-- NAV -->
+    
+    <!--    ('index.html','Blog'),-->
+<!--    ('socials.html', 'Socials'),-->
+<!--    ('http://' + config.chat_server, 'Chat'),-->
+<!--    ('https://2020.emnlp.org/organizers', 'Organizers'),-->
+
+    <!-- Add back ('livestream.html', 'Livestream'),
+    for a new conference
+    -->
+
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark  bg-emnlp mr-auto"
+      id="main-nav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+<!--          <img-->
+<!--             class="logo" src="static/images/G4L-logo.png"-->
+<!--             height="auto"-->
+<!--             width="200px"-->
+<!--          />-->
+        </a>
+        
+        <a class="navbar-brand" href="index.html">GNNBook@2022</a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-right flex-grow-1"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            
+            
+              
+                <li class="nav-item active">
+                  
+                  <a class="nav-link" href="index.html">Home</a>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="index.html">Book</a>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                        href="index.html" target="_blank" id="chatNavbarDropdown" role="button"
+                        data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="IENavbarDropdown">
+                        <a class="dropdown-item" href="workshops.html">
+                            Workshops
+                        </a>
+                        <a class="dropdown-item" href="tutorials.html">
+                            Tutorials
+                        </a>
+<!--                        <a class="dropdown-item" href="slides.html">-->
+<!--                            Slides-->
+<!--                        </a>-->
+                        <a class="dropdown-item" href="videos.html">
+                            Videos
+                        </a>
+                        <a class="dropdown-item" href="blogs.html">
+                            Blogs
+                        </a>
+                    </div>
+                </li>
+              
+            
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="teams.html">Editors</a>
+                  
+                </li>
+              
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    
+    <!-- User Overrides -->
+    
+<style>
+  .back {
+    background: url("static/images/background.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .back h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+  }
+  .page__hero-caption {
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 2px 10px;
+    color: #fff;
+    font-family: Georgia,Times,serif;
+    font-size: 0.9em;
+    text-align: right;
+    z-index: 5;
+    opacity: 0.5;
+    border-radius: 4px 0 0 0;
+  }
+    .ctagcloud li {
+        display:inline-block;
+        text-transform:uppercase;
+        font-size:1rem;
+        font-weight:600;
+        margin:4px;
+        padding:8px 16px;
+        -webkit-border-radius:3px;
+        -moz-border-radius:3px;
+        border-radius:3px;
+        background:rgba(0,0,0,0.05);
+        -webkit-transition:all 0.2s ease-in-out;
+        -moz-transition:all 0.2s ease-in-out;
+        transition:all 0.2s ease-in-out
+    }
+</style>
+
+<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 5px;">
+  <div class="row header p-6 m-5">
+    <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+      <h1 class="p-1" style="font-size:5vw">
+        <b>Workshops</b><br>
+      </h1>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+    <div class="container">
+      <!-- Heading -->
+      <div class="heading">
+        
+
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <ul>
+            <li>Lingfei Wu, Yinglong Xia, Jiliang Tang, Jian Pei, Xiaojie Guo, Yuanqi Du. <a href="https://deep-learning-graphs.bitbucket.io/dlg-kdd21/">The Sixth International Workshop on Deep Learning on Graphs (DLG-KDD'21) (co-located with KDD'21)</a></li>
+            <li>Lingfei Wu, Yinglong Xia, Jiliang Tang, Jian Pei, Dawei Zhou. <a href="https://deep-learning-graphs.bitbucket.io/dlg-aaai21/">The Fifth International Workshop on Deep Learning on Graphs (DLG-AAAI'21) (co-located with AAAI'21)</a></li>
+            <li>Michael Bronstein, Andreea Deac, William L. Hamilton, Jessica B. Hamrick, Milad Hashemi, Stefanie Jegelka, Jure Leskovec, Renjie Liao, Federico monti, Yizhou Sun, Kevin Swersky, Petar Veličković, Rex Ying, Marinka Žitnik. <a href="https://grlplus.github.io">Graph Representation Learnign and Beyond (co-located with ICML'20)
+            </a></li>
+            <li>Lingfei Wu, Yinglong Xia, Hongxia Yang, Jiezhong Qiu. <a href="https://deep-learning-graphs.bitbucket.io/dlg-kdd20/">The Fourth International Workshop on Deep Learning on Graphs (DLG-KDD'20) (co-located with KDD'20)
+            </a></li>
+            <li>Lingwei Wu, Jian Tang, Yinglong Xia, Charu Aggarwal, Jian Pan. <a href="https://deep-learning-graphs.bitbucket.io/dlg-aaai20/">The Third International Workshop on Deep Learning on Graphs (DLG-AAAI'20) (co-located with AAAI'20)</a></li>
+            <li>Jian Pei, Lingfei Wu, Yinglong Xia, Hongxia Yang. <a href="https://deep-learning-graphs.bitbucket.io/dlg-kdd19/">The First International Workshop on Deep Learning on Graphs (DLG-KDD'19) (co-located with KDD'19)</a></li>
+            <li>Ethan Fetaya, Zhiting Hu, Thomas Kipf, Yujia Li, Xiaodan Liang, Renjie Liao, Raquel Urtasun, Hao Wang, Max Welling, Eric P. Xing, Richard Zemel. <a href="https://graphreason.github.io">Learning and Reasoning with Graph-Structured Representations (co-located with ICML'19)</a></li>
+            <li>Adji Bousso Dieng, Yoon Kim, Siva Reddy, Kyunghyun Cho, Chris Dyer, Phil Blunsom, David Blei. <a href="https://deep-gen-struct.github.io/">Deep Generative Models for Highly Structured Data (co-located with ICLR'19)</a></li>
+            <li>Michael Bronstein, Taco Cohen, Jessica Hamrick, Drew Hudson, Jure Leskovec, Le Song. <a href="https://rlgm.github.io">Representation Learning on Graphs and Manifolds (co-located with ICLR'19)</a></li>
+            <li>Aditya Grover, Paroma Varma, Fred Sala, Steven Holtzen, Jennifer Neville, Stefano Ermon, Christopher Ré. <a href="https://r2learning.github.io">Relational Representation Learning (R2Learning'18) (co-located with NeurIPS'18)</a></li>
+            
+            <li>Lingfei Wu, Yinglong Xia, Hongxia Yang, Jiezhong Qiu. <a href="https://deep-learning-graphs.bitbucket.io/dlg-kdd20/">The Fourth International Workshop on Deep Learning on Graphs (DLG-KDD'20) (co-located with KDD'20)
+            </a></li>
+            <li>Lingwei Wu, Jian Tang, Yinglong Xia, Charu Aggarwal, Jian Pan. <a href="https://deep-learning-graphs.bitbucket.io/dlg-aaai20/">The Third International Workshop on Deep Learning on Graphs (DLG-AAAI'20) (co-located with AAAI'20)</a></li>
+            <li>Jian Pei, Lingfei Wu, Yinglong Xia, Hongxia Yang. <a href="https://deep-learning-graphs.bitbucket.io/dlg-kdd19/">The First International Workshop on Deep Learning on Graphs (DLG-KDD'19) (co-located with KDD'19)</li>
+            </ul>
+                
+    
+    </div>
+</div>
+
+
+
+
+      </div>
+      <div class="tabs pt-3">
+      <!-- Tabs -->
+      <div class="tabs pt-3">
+         
+      </div>
+      <!-- Content -->
+      <div class="content">
+         
+      </div>
+    </div>
+    
+    
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-179777566-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-179777566-1");
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+      <div class="container">
+        <p class="float-left">
+<!--          <img src="static/images/G4L-logo.png"-->
+<!--            height="auto"-->
+<!--            width="200px" align="center"-->
+<!--          >-->
+          <span class="lead">GNNBook 2022</span>
+        </p>
+        <p class="float-right"><a href="#" class="text-dark">Back to Top</a></p>
+        <p class="text-center">© GNNBook@2022 Team</p>
+      </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+    
+
+  </body>
+</html>
