@@ -21,9 +21,9 @@ run:
 	export FLASK_DEBUG=True; export FLASK_DEVELOPMENT=True; python3 main.py
 
 freeze:
-	rm -rf build/
+	rm -rf docs/
 	python3 main.py --build
-	python3 generate_version.py build/version.json
+	python3 generate_version.py docs/version.json
 
 # check code format
 format-check:

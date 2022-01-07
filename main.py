@@ -439,7 +439,7 @@ def parse_arguments():
         "-b",
         action="store_true",
         default=False,
-        dest="build",
+        dest="docs",
         help="Convert the site to static assets",
     )
 

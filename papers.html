@@ -281,14 +281,14 @@ Therefore, we feel the urgency to bridge the above gap and have a comprehensive 
 <script type="text/javascript">
   $(document).ready(function () {
     if (window.location.hash !== "") {
-      $(`a[href="${window.location.hash}"]`).tab("show");
+      $(`a[href="$"window.location.hash""]`).tab("show");
     }
 
     $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
       const hash = $(e.target).attr("href");
       if (hash.substr(0, 1) === "#") {
         const position = $(window).scrollTop();
-        window.location.replace(`#${hash.substr(1)}`);
+        window.location.replace(`#$"hash.substr(1)"`);
         $(window).scrollTop(position);
       }
     });

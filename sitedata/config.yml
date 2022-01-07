@@ -1,4 +1,4 @@
-name: GNNBook@2021
+name: GNNBook@2022
 tagline: Graph Neural Networks
 subtitle: Foundations, Frontiers, and Applications
 proceedings_title: Graph Neural Networks <br> Foundations, Frontiers, and Applications
@@ -6,15 +6,15 @@ logo:
     image: static/images/G4L-logo.png
     width: 200px
     height: auto
-citation_date: February 2021
+citation_date: January 2022
 analytics: UA-179777566-1
 site_url: https://aaai.org/Conferences/AAAI-21/
-site_title: GNNBook@2021
+site_title: GNNBook@2022
 page_title:
-  prefix: 'GNNBook@2021'
+  prefix: 'GNNBook@2022'
   separator: ': '
 background_image: static/images/background.jpg
-organization: GNNBook@2021 Team
+organization: GNNBook@2022 Team
 
 # Path to the folder of paper images.
 paper_images_path: static/images/papers
