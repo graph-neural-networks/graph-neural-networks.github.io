@@ -26,7 +26,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch1-zhao,<br>
+    @incollection{GNNBook-ch1-zhao,<br>
     author      = "Zhao, Liang and Wu, Lingfei and Cui, Peng and Pei, Jian",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Representation Learning",<br>
@@ -70,7 +70,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch2-cui,<br>
+    @incollection{GNNBook-ch2-cui,<br>
     author      = "Cui, Peng and Wu, Lingfei and Pei, Jian and Zhao, Liang and Wang, Xiao",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Representation Learning",<br>
@@ -113,7 +113,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch3-wu,<br>
+    @incollection{GNNBook-ch3-wu,<br>
     author      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang and Song, Le",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks",<br>
@@ -164,7 +164,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch4-tang,<br>
+    @incollection{GNNBook-ch4-tang,<br>
     author      = "Tang, Jian and Liao, Renjie",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks for Node Classification",<br>
@@ -215,7 +215,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch5-li,<br>
+    @incollection{GNNBook-ch5-li,<br>
     author      = "Li, Pan and Leskovec, Jure",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "The Expressive Power of Graph Neural Networks",<br>
@@ -263,7 +263,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch6-ma,<br>
+    @incollection{GNNBook-ch6-ma,<br>
     author      = "Ma, Hehuan and Rong, Yu and Huang, Junzhou",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks: Scalability",<br>
@@ -323,7 +323,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch7-liu,<br>
+    @incollection{GNNBook-ch7-liu,<br>
     author      = "Liu, Ninghao and Feng, Qizhang and Hu, Xia",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Interpretability in Graph Neural Networks",<br>
@@ -379,7 +379,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch8-gunnemann,<br>
+    @incollection{GNNBook-ch8-gunnemann,<br>
     author      = "Günnemann, Stephan",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks: Adversarial Robustness",<br>
@@ -437,7 +437,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch9-morris,<br>
+    @incollection{GNNBook-ch9-morris,<br>
     author      = "Morris, Christopher",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks: Graph Classification",<br>
@@ -495,7 +495,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch10-zhang,<br>
+    @incollection{GNNBook-ch10-zhang,<br>
     author      = "Zhang, Muhan",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks: Link Prediction",<br>
@@ -543,7 +543,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch11-liao,<br>
+    @incollection{GNNBook-ch11-liao,<br>
     author      = "Liao, Renjie",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks: Graph Generation",<br>
@@ -603,7 +603,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch12-guo,<br>
+    @incollection{GNNBook-ch12-guo,<br>
     author      = "Guo, Xiaojie and Wang, Shiyu and Zhao, Liang",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks: Graph Transformation",<br>
@@ -652,7 +652,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch13-ling,<br>
+    @incollection{GNNBook-ch13-ling,<br>
     author      = "Ling, Xiang and Wu, Lingfei and Wu, Chunming and Ji, Shouling",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks: Graph Matching",<br>
@@ -704,7 +704,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch14-chen,<br>
+    @incollection{GNNBook-ch14-chen,<br>
     author      = "Chen, Yu and Wu, Lingfei",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks: Graph Structure Learning",<br>
@@ -764,7 +764,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch15-kazemi,<br>
+    @incollection{GNNBook-ch15-kazemi,<br>
     author      = "Kazemi, M. Seyed",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Dynamic Graph Neural Networks",<br>
@@ -823,7 +823,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch16-shi,<br>
+    @incollection{GNNBook-ch16-shi,<br>
     author      = "Shi, Chuan",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Heterogeneous Graph Neural Networks",<br>
@@ -878,7 +878,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch17-zhou,<br>
+    @incollection{GNNBook-ch17-zhou,<br>
     author      = "Zhou, Kaixiong and Liu, Zirui and Duan, Keyu and Hu, Xia",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Network: AutoML",<br>
@@ -935,7 +935,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch18-wang,<br>
+    @incollection{GNNBook-ch18-wang,<br>
     author      = "Wang, Yu and Jin, Wei and Derr, Tyler",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks: Self-supervised Learning ",<br>
@@ -989,7 +989,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch19-chu,<br>
+    @incollection{GNNBook-ch19-chu,<br>
     author      = "Chu, Yunfei and Yao, Jiangchao and Zhou, Chang and Yang, Hongxia",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Network in Modern Recommender Systems",<br>
@@ -1051,7 +1051,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch20-wu,<br>
+    @incollection{GNNBook-ch20-wu,<br>
     author      = "Tang, Siliang and Zhang, Wenqiao and Mu, Zongshen and Shen, Kai and Li, Juncheng and Li, Jiacheng and Wu, Lingfei",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks in Computer Vision",<br>
@@ -1099,7 +1099,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch21-liu,<br>
+    @incollection{GNNBook-ch21-liu,<br>
     author      = "Liu, Bang and Wu, Lingfei",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks in Natural Language Processing",<br>
@@ -1140,7 +1140,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch22-allamanis,<br>
+    @incollection{GNNBook-ch22-allamanis,<br>
     author      = "Allamanis, Miltiadis",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks in Program Analysis",<br>
@@ -1187,7 +1187,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch23-mcmillan,<br>
+    @incollection{GNNBook-ch23-mcmillan,<br>
     author      = "McMillan, Collin",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks in Software Mining",<br>
@@ -1239,7 +1239,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch24-su,<br>
+    @incollection{GNNBook-ch24-su,<br>
     author      = "Su, Chang and Hou, Yu and Wang, Fei",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "GNN-based Biomedical Knowledge Graph Mining in Drug Development",<br>
@@ -1287,7 +1287,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch25-kabir,<br>
+    @incollection{GNNBook-ch25-kabir,<br>
     author      = "Kabir, Anowarul and Shehu, Amarda",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks in Predicting Protein Function and Interactions",<br>
@@ -1345,7 +1345,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch26-wang,<br>
+    @incollection{GNNBook-ch26-wang,<br>
     author      = "Wang, Shen and Yu, S. Philip",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks in Anomaly Detection",<br>
@@ -1386,7 +1386,7 @@
     <div class="pp-card m-3" style="">
     <div class="card-header">
     <p>
-    @Inbook{GNNBook-ch27-li,<br>
+    @incollection{GNNBook-ch27-li,<br>
     author      = "Li, Yanhua and Zhou, Xun and Pan, Menghai",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
     title       = "Graph Neural Networks in Urban Intelligence",<br>
