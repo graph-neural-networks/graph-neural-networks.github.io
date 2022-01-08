@@ -28,13 +28,13 @@
     <p>
     @Inbook{GNNBook-ch1-zhao,<br>
     author      = "Zhao, Liang and Wu, Lingfei and Cui, Peng and Pei, Jian",<br>
-    title       = "Representation Learning",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Representation Learning",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "3-15",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "3--15",<br>
     
     }
     </p>
@@ -72,13 +72,13 @@
     <p>
     @Inbook{GNNBook-ch2-cui,<br>
     author      = "Cui, Peng and Wu, Lingfei and Pei, Jian and Zhao, Liang and Wang, Xiao",<br>
-    title       = "Graph Representation Learning",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Representation Learning",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "17-26",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "17--26",<br>
     
     }
     </p>
@@ -115,13 +115,13 @@
     <p>
     @Inbook{GNNBook-ch3-wu,<br>
     author      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang and Song, Le",<br>
-    title       = "Graph Neural Networks",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "27-37",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "27--37",<br>
     
     }
     </p>
@@ -166,13 +166,13 @@
     <p>
     @Inbook{GNNBook-ch4-tang,<br>
     author      = "Tang, Jian and Liao, Renjie",<br>
-    title       = "Graph Neural Networks for Node Classification",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks for Node Classification",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "41-61",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "41--61",<br>
     
     }
     </p>
@@ -217,13 +217,13 @@
     <p>
     @Inbook{GNNBook-ch5-li,<br>
     author      = "Li, Pan and Leskovec, Jure",<br>
-    title       = "The Expressive Power of Graph Neural Networks",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "The Expressive Power of Graph Neural Networks",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "63-98",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "63--98",<br>
     
     }
     </p>
@@ -265,13 +265,13 @@
     <p>
     @Inbook{GNNBook-ch6-ma,<br>
     author      = "Ma, Hehuan and Rong, Yu and Huang, Junzhou",<br>
-    title       = "Graph Neural Networks: Scalability",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks: Scalability",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "99-119",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "99--119",<br>
     
     }
     </p>
@@ -325,13 +325,13 @@
     <p>
     @Inbook{GNNBook-ch7-liu,<br>
     author      = "Liu, Ninghao and Feng, Qizhang and Hu, Xia",<br>
-    title       = "Interpretability in Graph Neural Networks",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Interpretability in Graph Neural Networks",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "121-147",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "121--147",<br>
     
     }
     </p>
@@ -381,13 +381,13 @@
     <p>
     @Inbook{GNNBook-ch8-gunnemann,<br>
     author      = "Günnemann, Stephan",<br>
-    title       = "Graph Neural Networks: Adversarial Robustness",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks: Adversarial Robustness",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "149-176",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "149--176",<br>
     
     }
     </p>
@@ -439,13 +439,13 @@
     <p>
     @Inbook{GNNBook-ch9-morris,<br>
     author      = "Morris, Christopher",<br>
-    title       = "Graph Neural Networks: Graph Classification",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks: Graph Classification",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "179-193",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "179--193",<br>
     
     }
     </p>
@@ -497,13 +497,13 @@
     <p>
     @Inbook{GNNBook-ch10-zhang,<br>
     author      = "Zhang, Muhan",<br>
-    title       = "Graph Neural Networks: Link Prediction",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks: Link Prediction",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "195-223",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "195--223",<br>
     
     }
     </p>
@@ -545,13 +545,13 @@
     <p>
     @Inbook{GNNBook-ch11-liao,<br>
     author      = "Liao, Renjie",<br>
-    title       = "Graph Neural Networks: Graph Generation",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks: Graph Generation",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "225-250",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "225--250",<br>
     
     }
     </p>
@@ -605,13 +605,13 @@
     <p>
     @Inbook{GNNBook-ch12-guo,<br>
     author      = "Guo, Xiaojie and Wang, Shiyu and Zhao, Liang",<br>
-    title       = "Graph Neural Networks: Graph Transformation",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks: Graph Transformation",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "251-275",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "251--275",<br>
     
     }
     </p>
@@ -654,13 +654,13 @@
     <p>
     @Inbook{GNNBook-ch13-ling,<br>
     author      = "Ling, Xiang and Wu, Lingfei and Wu, Chunming and Ji, Shouling",<br>
-    title       = "Graph Neural Networks: Graph Matching",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks: Graph Matching",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "277-295",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "277--295",<br>
     
     }
     </p>
@@ -706,13 +706,13 @@
     <p>
     @Inbook{GNNBook-ch14-chen,<br>
     author      = "Chen, Yu and Wu, Lingfei",<br>
-    title       = "Graph Neural Networks: Graph Structure Learning",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks: Graph Structure Learning",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "297-321",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "297--321",<br>
     
     }
     </p>
@@ -766,13 +766,13 @@
     <p>
     @Inbook{GNNBook-ch15-kazemi,<br>
     author      = "Kazemi, M. Seyed",<br>
-    title       = "Dynamic Graph Neural Networks",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Dynamic Graph Neural Networks",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "323-349",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "323--349",<br>
     
     }
     </p>
@@ -825,13 +825,13 @@
     <p>
     @Inbook{GNNBook-ch16-shi,<br>
     author      = "Shi, Chuan",<br>
-    title       = "Heterogeneous Graph Neural Networks",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Heterogeneous Graph Neural Networks",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "351-369",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "351--369",<br>
     
     }
     </p>
@@ -880,13 +880,13 @@
     <p>
     @Inbook{GNNBook-ch17-zhou,<br>
     author      = "Zhou, Kaixiong and Liu, Zirui and Duan, Keyu and Hu, Xia",<br>
-    title       = "Graph Neural Network: AutoML",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Network: AutoML",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "371-389",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "371--389",<br>
     
     }
     </p>
@@ -937,13 +937,13 @@
     <p>
     @Inbook{GNNBook-ch18-wang,<br>
     author      = "Wang, Yu and Jin, Wei and Derr, Tyler",<br>
-    title       = "Graph Neural Networks: Self-supervised Learning ",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks: Self-supervised Learning ",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "391-420",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "391--420",<br>
     
     }
     </p>
@@ -991,13 +991,13 @@
     <p>
     @Inbook{GNNBook-ch19-chu,<br>
     author      = "Chu, Yunfei and Yao, Jiangchao and Zhou, Chang and Yang, Hongxia",<br>
-    title       = "Graph Neural Network in Modern Recommender Systems",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Network in Modern Recommender Systems",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "423-445",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "423--445",<br>
     
     }
     </p>
@@ -1053,13 +1053,13 @@
     <p>
     @Inbook{GNNBook-ch20-wu,<br>
     author      = "Tang, Siliang and Zhang, Wenqiao and Mu, Zongshen and Shen, Kai and Li, Juncheng and Li, Jiacheng and Wu, Lingfei",<br>
-    title       = "Graph Neural Networks in Computer Vision",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks in Computer Vision",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "447-462",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "447--462",<br>
     
     }
     </p>
@@ -1101,13 +1101,13 @@
     <p>
     @Inbook{GNNBook-ch21-liu,<br>
     author      = "Liu, Bang and Wu, Lingfei",<br>
-    title       = "Graph Neural Networks in Natural Language Processing",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks in Natural Language Processing",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "463-481",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "463--481",<br>
     
     }
     </p>
@@ -1142,13 +1142,13 @@
     <p>
     @Inbook{GNNBook-ch22-allamanis,<br>
     author      = "Allamanis, Miltiadis",<br>
-    title       = "Graph Neural Networks in Program Analysis",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks in Program Analysis",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "483-497",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "483--497",<br>
     
     }
     </p>
@@ -1189,13 +1189,13 @@
     <p>
     @Inbook{GNNBook-ch23-mcmillan,<br>
     author      = "McMillan, Collin",<br>
-    title       = "Graph Neural Networks in Software Mining",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks in Software Mining",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "499-516",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "499--516",<br>
     
     }
     </p>
@@ -1241,13 +1241,13 @@
     <p>
     @Inbook{GNNBook-ch24-su,<br>
     author      = "Su, Chang and Hou, Yu and Wang, Fei",<br>
-    title       = "GNN-based Biomedical Knowledge Graph Mining in Drug Development",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "GNN-based Biomedical Knowledge Graph Mining in Drug Development",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "517-540",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "517--540",<br>
     
     }
     </p>
@@ -1289,13 +1289,13 @@
     <p>
     @Inbook{GNNBook-ch25-kabir,<br>
     author      = "Kabir, Anowarul and Shehu, Amarda",<br>
-    title       = "Graph Neural Networks in Predicting Protein Function and Interactions",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks in Predicting Protein Function and Interactions",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "541-556",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "541--556",<br>
     
     }
     </p>
@@ -1347,13 +1347,13 @@
     <p>
     @Inbook{GNNBook-ch26-wang,<br>
     author      = "Wang, Shen and Yu, S. Philip",<br>
-    title       = "Graph Neural Networks in Anomaly Detection",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks in Anomaly Detection",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "557-578",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "557--578",<br>
     
     }
     </p>
@@ -1388,13 +1388,13 @@
     <p>
     @Inbook{GNNBook-ch27-li,<br>
     author      = "Li, Yanhua and Zhou, Xun and Pan, Menghai",<br>
-    title       = "Graph Neural Networks in Urban Intelligence",<br>
     editor      = "Wu, Lingfei and Cui, Peng and Pei, Jian and Zhao, Liang",<br>
+    title       = "Graph Neural Networks in Urban Intelligence",<br>
     booktitle   = "Graph Neural Networks: Foundations, Frontiers, and Applications",<br>
-    publisher   = "Springer, Singapore",<br>
-    address     = "Singapore",<br>
     year        = "2022",<br>
-    pages       = "579-593",<br>
+    publisher   = "Springer Singapore",<br>
+    address     = "Singapore",<br>
+    pages       = "579--593",<br>
     
     }
     </p>
