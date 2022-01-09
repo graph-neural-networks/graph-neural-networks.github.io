@@ -24,5 +24,13 @@ teams:
   name: Yuanqi Du
   role: Web Developer
   pweb: https://yuanqidu.github.io/
-
-
+- aff: JD.COM Silicon Valley Research Center
+  image: static/images/xiaojie.jpg
+  name: Xiaojie Guo
+  role: Web Developer
+  pweb: https://sites.google.com/view/xiaojie-guo-personal-site
+- aff: ''
+  image: ''
+  name: Xiao Liu
+  role: Web Developer
+  pweb: ''
