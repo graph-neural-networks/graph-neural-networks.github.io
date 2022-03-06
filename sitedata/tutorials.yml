@@ -38,7 +38,15 @@
     
     }
     </p>
+
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        L. Zhao, L. Wu, P. Cui, and J. Pei, “Representation learning,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 3–15.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter2
@@ -84,6 +92,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        P. Cui, L. Wu, J. Pei, L. Zhao, and X. Wang, “Graph representation learning,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 17–26.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter3
   part: part1
@@ -127,6 +142,14 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        L. Wu, P. Cui, J. Pei, L. Zhao, and L. Song, “Graph neural networks,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 27–37.
+        </p>
+      </div>
+    </div>
+    
 
 - UID: Chapter4
   part: part2
@@ -177,6 +200,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        J. Tang and R. Liao, “Graph neural networks for node classification,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 41–61.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter5
@@ -229,6 +259,14 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        P. Li and J. Leskovec, “The expressive power of graph neural networks,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 63–98.
+
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter6
   part: part2
@@ -276,6 +314,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        H. Ma, Y. Rong, and J. Huang, “Graph neural networks: Scalability,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 99–119.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter7
@@ -337,6 +382,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        N. Liu, Q. Feng, and X. Hu, “Interpretability in graph neural networks,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 121–147.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter8
   part: part2
@@ -392,6 +444,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        S. Günnemann, “Graph neural networks: Adversarial robustness,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 149–176.
+        </p>
+      </div>
     </div>
 
 
@@ -451,6 +510,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        C. Morris, “Graph neural networks: Graph classification,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Springer Singapore, 2022, pp. 179–193.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter10
   part: part3
@@ -509,6 +575,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        M. Zhang, “Graph neural networks: Link prediction,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Springer Singapore, 2022, pp. 195–223.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter11
   part: part3
@@ -556,6 +629,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        R. Liao, “Graph neural networks: Graph generation,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Springer Singapore, 2022, pp. 225–250.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter12
@@ -617,6 +697,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        X. Guo, S. Wang, and L. Zhao, “Graph neural networks: Graph transformation,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 251–275.
+        </p>
+      </div>
+    </div>
 
 
 - UID: Chapter13
@@ -665,6 +752,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        X. Ling, L. Wu, C. Wu, and S. Ji, “Graph neural networks: Graph matching,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 277–295.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter14
@@ -717,6 +811,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        Y. Chen and L. Wu, “Graph neural networks: Graph structure learning,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 297–321.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter15
@@ -778,6 +879,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        M. S. Kazemi, “Dynamic graph neural networks,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 323–349.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter16
   part: part3
@@ -837,6 +945,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        C. Shi, “Heterogeneous graph neural networks,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 351–369.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter17
   part: part3
@@ -891,6 +1006,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        K. Zhou, Z. Liu, K. Duan, and X. Hu, “Graph neural network: Automl,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 371–389.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter18
@@ -949,6 +1071,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        Y. Wang, W. Jin, and T. Derr, “Graph neural networks: Self-supervised learning,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 391–420.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter19
   part: part4
@@ -1002,6 +1131,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        Y. Chu, J. Yao, C. Zhou, and H. Yang, “Graph neural network in modern recommender systems,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 423–445.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter20
@@ -1065,6 +1201,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        S. Tang, W. Zhang, Z. Mu, K. Shen, J. Li, J. Li, and L. Wu, “Graph neural networks in computer vision,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 447–462.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter21
   part: part4
@@ -1113,6 +1256,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        B. Liu and L. Wu, “Graph neural networks in natural language processing,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 463–481.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter22
   part: part4
@@ -1153,6 +1303,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        M. Allamanis, “Graph neural networks in program analysis,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 483–497.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter23
@@ -1200,6 +1357,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        C. McMillan, “Graph neural networks in software mining,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 499–516.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter24
@@ -1253,6 +1417,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        C. Su, Y. Hou, and F. Wang, “Gnn-based biomedical knowledge graph mining in drug development,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 517–540.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter25
   part: part4
@@ -1300,6 +1471,13 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        A. Kabir and A. Shehu, “Graph neural networks in predicting protein function and interactions,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 541–556.
+        </p>
+      </div>
     </div>
 
 - UID: Chapter26
@@ -1359,6 +1537,13 @@
     </p>
     </div>
     </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        S. Wang and S. P. Yu, “Graph neural networks in anomaly detection,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 557–578.
+        </p>
+      </div>
+    </div>
 
 - UID: Chapter27
   part: part4
@@ -1399,4 +1584,11 @@
     }
     </p>
     </div>
+    </div>
+    <div class="pp-card m-3" style="">
+      <div class="card-header">
+        <p>
+        Y. Li, X. Zhou, and M. Pan, “Graph neural networks in urban intelligence,” in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, and L. Zhao, Eds. Singapore: Springer Singapore, 2022, pp. 579–593.
+        </p>
+      </div>
     </div>
