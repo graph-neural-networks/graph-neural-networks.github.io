@@ -1,0 +1,732 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+
+    <!-- External Javascript libs  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <script src="static/js/popper.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+    <!-- https://developer.snapappointments.com/bootstrap-select/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    <script src="static/js/mousetrap.min.js?a4098"></script>
+
+
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+      href="static/css/Lato.css"
+      rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet" />
+    <link
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/chats-modal.css" />
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+
+    <title>GNNBook@2022</title>
+    
+
+    <!-- Favicon -->
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">-->
+<!--    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">-->
+<!--    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">-->
+<!--    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">-->
+<!--    <meta name="msapplication-TileColor" content="#da532c">-->
+<!--    <meta name="theme-color" content="#ffffff">-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+  </head>
+
+  <body>
+    <!-- NAV -->
+    
+    <!--    ('index.html','Blog'),-->
+<!--    ('socials.html', 'Socials'),-->
+<!--    ('http://' + config.chat_server, 'Chat'),-->
+<!--    ('https://2020.emnlp.org/organizers', 'Organizers'),-->
+
+    <!-- Add back ('livestream.html', 'Livestream'),
+    for a new conference
+    -->
+
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark  bg-emnlp mr-auto"
+      id="main-nav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+<!--          <img-->
+<!--             class="logo" src="static/images/G4L-logo.png"-->
+<!--             height="auto"-->
+<!--             width="200px"-->
+<!--          />-->
+        </a>
+        
+        <a class="navbar-brand" href="index.html">GNNBook@2022</a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-right flex-grow-1"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="index.html">Home</a>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="tutorial_ijcai22.html">Tutorial</a>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="index.html">Book</a>
+                  
+                </li>
+              
+            
+            
+              
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                        href="index.html" target="_blank" id="chatNavbarDropdown" role="button"
+                        data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="IENavbarDropdown">
+                        <a class="dropdown-item" href="workshops.html">
+                            Workshops
+                        </a>
+                        <a class="dropdown-item" href="tutorials.html">
+                            Tutorials
+                        </a>
+<!--                        <a class="dropdown-item" href="slides.html">-->
+<!--                            Slides-->
+<!--                        </a>-->
+                        <a class="dropdown-item" href="videos.html">
+                            Videos
+                        </a>
+                        <a class="dropdown-item" href="blogs.html">
+                            Blogs
+                        </a>
+                    </div>
+                </li>
+              
+            
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="teams.html">Editors</a>
+                  
+                </li>
+              
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    
+    <!-- User Overrides -->
+     
+
+    <div class="container">
+      <!-- Heading -->
+      <div class="heading">
+         
+      </div>
+      <div class="tabs pt-3">
+      <!-- Tabs -->
+      <div class="tabs pt-3">
+         
+      </div>
+      <!-- Content -->
+      <div class="content">
+        
+
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+
+    <!-- External Javascript libs  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <script src="static/js/popper.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+    <!-- https://developer.snapappointments.com/bootstrap-select/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    <script src="static/js/mousetrap.min.js?a4098"></script>
+
+
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+      href="static/css/Lato.css"
+      rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet" />
+    <link
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/chats-modal.css" />
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+
+    <title>DLG4NLP@2022: DLG4NLP IJCAI 2022</title>
+    
+
+    <!-- Favicon -->
+<!--  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon-aaai2021/apple-touch-icon.png">-->
+<!--    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-aaai2021/favicon-32x32.png">-->
+<!--    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-aaai2021/favicon-16x16.png">-->
+<!--    <link rel="manifest" href="static/favicon-aaai2021/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="static/favicon-aaai2021/safari-pinned-tab.svg" color="#5bbad5">-->
+<!--    <meta name="msapplication-TileColor" content="#da532c">-->
+<!--    <meta name="theme-color" content="#ffffff">-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+  </head>
+
+  <body>
+    <!-- NAV -->
+    
+    <!--    ('index.html','Blog'),-->
+<!--    ('socials.html', 'Socials'),-->
+<!--    ('http://' + config.chat_server, 'Chat'),-->
+<!--    ('https://2020.emnlp.org/organizers', 'Organizers'),-->
+
+    <!-- Add back ('livestream.html', 'Livestream'),
+    for a new conference
+    -->
+    
+
+    
+    <!-- User Overrides -->
+     
+
+    <div class="container">
+      <!-- Heading -->
+      <div class="heading">
+         
+      </div>
+      <div class="tabs pt-3">
+      <!-- Tabs -->
+      <div class="tabs pt-3">
+         
+      </div>
+      <!-- Content -->
+      <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+    <h2 class="card-title main-title text-center" style="">
+      Deep Learning on Graphs for Natural Language Processing IJCAI 2022
+    </h2>
+<!--    <h3 class="card-subtitle mb-2 text-muted text-center">-->
+<!--      Lingfei Wu, Yu Chen, Heng Ji, Yunyao Li, Bang Liu-->
+<!--    </h3>-->
+<!-- start -->
+<div class="text-center p-3">
+<div class="row mb-5 mt-3">
+  <div class="col-md-3 col-xs-6">
+  <div class="card-title text-center shadow p-3 rounded h-100" id='pinfo'>
+  <div class="text-muted">
+  <img src=static/images/lingfei.jpeg }}" class="rounded" style="height: 150px;"/>
+  <h5 class="card-title" align="center"></h5>
+  <div>
+  <h6 class="card-subtitle text-muted">
+  <a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">Lingfei Wu</a>, JD.COM Silicon Valley Research Center <br>
+  </h6>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-3 col-xs-6">
+  <div class="card-title text-center shadow p-3 rounded h-100" id='pinfo'>
+  <div class="text-muted">
+  <img src=static/images/pengcui.jpeg }}" class="rounded" style="height: 150px;"/>
+  <h5 class="card-title" align="center"></h5>
+  <h6 class="card-subtitle text-muted">
+  <a href="">Peng Cui</a>, Tsinghua University <br>
+  </h6>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="row mb-5 mt-3">
+  <div class="col-md-3 col-xs-6">
+  <div class="card-title text-center shadow p-3 rounded h-100" id='pinfo'>
+  <div class="text-muted">
+  <img src=static/images/jian.jpeg }}" class="rounded" style="height: 150px;"/>
+  <h5 class="card-title" align="center"></h5>
+  <h6 class="card-subtitle text-muted">
+  <a href="">Jian Pei</a>, Simon Fraser University <br>
+  </h6>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-3 col-xs-6">
+  <div class="card-title text-center shadow p-3 rounded h-100" id='pinfo'>
+  <div class="text-muted">
+  <img src=static/images/liang.png }}" class="rounded" style="height: 150px;"/>
+  <h5 class="card-title" align="center"></h5>
+  <div>
+  <h6 class="card-subtitle text-muted">
+  <a href="">Liang Zhao</a>, Emory University<br>
+  </h6>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-3 col-xs-6">
+  <div class="card-title text-center shadow p-3 rounded h-100" id='pinfo'>
+  <div class="text-muted">
+  <img src=static/images/xiaojie.jpeg }}" class="rounded" style="height: 150px;"/>
+  <h5 class="card-title" align="center"></h5>
+  <div>
+  <h6 class="card-subtitle text-muted">
+  <a href="">Xiaojie Guo</a>, JD.COM Silicon Valley Research Center
+  </h6>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+<!-- end -->
+    <!-- <h3 class="card-subtitle mb-2 text-muted text-center">
+        Lingfei Wu, Yu Chen, Heng Ji, Yunyao Li, Bang Liu
+    </h3> -->
+    <div class="col-md-12 col-xs-12 my-auto p-2" >
+      <center>
+        <!-- video -->
+          <!-- <iframe width="1000" height="500" src="https://www.youtube.com/embed/QZEetG6YX-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+      </center>
+      </div>
+
+    <!-- <div class="text-center p-3">
+    <a class="card-link" href="#details">
+      Abstract
+    </a>
+    <a class="card-link" href="/">
+        Slides
+    </a>
+    
+    <a class="card-link" href="/">
+        Video
+    </a> -->
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+    
+    
+    
+    </div>
+
+    
+
+<script src="static/js/add-to-calendar.js"></script>
+<script>
+
+  let ouicalData;
+  let targetNode;
+  let calendarNodeInner;
+  let calendarNodeSpan;
+  let parser = new DOMParser();
+  let calendarNames = Array("google", "off365", "outlook", "ical");
+
+  
+</script>
+
+  </div>
+</div>
+
+<div class="pp-card m-3">
+  <!-- <div class="card-body"> -->
+    <!-- <div id="details" class="pp-card m-3 collapse show"> -->
+    <!-- <div class="card-text"> -->
+      <!-- <div id="abstractExample"> -->
+        <!-- <div class="pp-card m-1" style=""> -->
+<div class="card-header">
+<h2>Abstract</h2>
+<p>
+  The field of graph neural networks (GNNs) has seen rapid and incredible strides over the recent years. Graph neural networks, also known as deep learning on graphs, graph representation learning, or geometric deep learning, have become one of the fastest-growing research topics in machine learning, especially deep learning. This wave of research at the intersection of graph theory and deep learning has also influenced other fields of science, including recommendation systems, computer vision, natural language processing, inductive logic programming, program synthesis, software mining, automated planning, cybersecurity, and intelligent transportation. However, as the field rapidly grows, it has been extremely challenging to gain a global perspective of the developments of GNNs. Therefore, we feel the urgency to bridge the above gap and have a comprehensive tutorial on this fast-growing yet challenging topic.
+  <br>
+  <br>
+  This tutorial of Graph Neural Networks (GNNs): Foundation, Frontiers and Applications will cover a broad range of topics in graph neural networks, by reviewing and introducing the fundamental concepts and algorithms of GNNs, new research frontiers of GNNs, and broad and emerging applications with GNNs. In addition, rich tutorial materials wil be included and introduced to help the audience gain a systematic understanding by using our recently published book-Graph Neural Networks (GNN): Foundation, Frontiers and Applications, one of the most comprehensive book for researchers and practitioners for reading and studying in GNNs  
+</p>
+</div>
+</div>
+<div class="pp-card m-3" style="">
+<div class="card-header">
+<h2>Outline</h2>
+Introduction (20 mins)
+<ul>
+<li>Natural Language Processing: A Graph Perspective</li>
+<li>Graph Based Algorithms for Natural Language Processing</li>
+<li>Deep Learning on Graphs: Graph Neural Networks</li>
+<ul>
+<li>Foundations</li>
+<li>Methodologies</li>
+<li>Applications in Natural Language Processing: An Overview</li>
+</ul>
+</ul>
+Methodologies (60 mins)
+<ul>
+<li>Automatic Graph Construction for NLP</li>
+<ul>
+<li>Static Graph Construction</li>
+<li>Dynamic Graph Construction</li>
+</ul>
+<li>Graph Representation Learning for NLP</li>
+<ul>
+<li>Graph Neural Networks for Improved Text Representation</li>
+<li>Graph Neural Networks for Joint Text & Knowledge Representation</li>
+<li>Graph Neural Networks for Various Graph Types</li>
+</ul>
+<li>GNN Based Encoder-Decoder Models</li>
+<ul>
+<li>Graph-to-Seqeunce Models</li>
+<li>Graph-to-Tree Models</li>
+</ul>
+</ul>
+Applications (60 mins)
+<ul>
+<li>Machine Translation</li>
+<ul>
+<li>Methodologies</li>
+<li>Hands-on Demonstration</li>
+</ul>
+<li>Natural Language Generation</li>
+<ul>
+<li>Methodologies</li>
+<li>Hands-on Demonstration</li>
+</ul>
+<li>Machine Reading Comprehension</li>
+<ul>
+<li>Methodologies</li>
+<li>Hands-on Demonstration</li>
+</ul>
+<li>Information Extraction</li>
+<ul>
+<li>Methodologies</li>
+<li>Hands-on Demonstration</li>
+</ul>
+<li>Semantic Parsing</li>
+<ul>
+<li>Methodologies</li>
+<li>Hands-on Demonstration</li>
+</ul>
+</ul>
+Conclusion and Open Direction (10 mins)
+</div>
+</div>
+
+<div class="pp-card m-3" style="">
+<div class="card-header">
+<h2>Organizers</h2>
+<div class="text-muted">
+<img src=static/images/lingfei.jpeg }}" class="rounded" style="height: 150px;"/>
+<h5 class="card-title" align="center"></h5>
+<div>
+<h6 class="card-subtitle text-muted">
+<a href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">Lingfei Wu</a>, JD.COM Silicon Valley Research Center <br>
+</h6>
+Lingfei Wu earned his Ph.D. degree in computer science from the College of William and Mary in 2016. He currently serves as a Principal Scientist at JD.COM Silicon Valley Research Center. He has published more than 80 top-ranked conference and journal papers and is a co-inventor of more than 40 filed US patents. Because of the high commercial value of his patents, he has received several invention achievement awards and has been appointed as IBM Master Inventors, class of 2020. He was the recipients of the Best Paper Award and Best Student Paper Award of several conferences such as IEEE ICC’19, AAAI workshop on DLGMA’20 and KDD workshop on DLG’19. His research has been featured in numerous media outlets, including NatureNews, YahooNews, Venturebeat, and TechTalks. He has co-organized 10+ conferences (KDD, AAAI, IEEE BigData) and is the founding co-chair for Workshops of Deep Learning on Graphs (with AAAI’21, AAAI’20, KDD’20, KDD’19, and IEEE BigData’19). He has currently served as Associate Editor for IEEE Transactions on Neural Networks and Learning Systems, ACM Transactions on Knowledge Discovery from Data and International Journal of Intelligent Systems, and regularly served as a SPC/PC member of the following major AI/ML/NLP conferences including KDD, IJCAI, AAAI, NIPS, ICML, ICLR, and ACL. <br>
+<div class="text-muted">
+<img src=static/images/peng.jpeg }}" class="rounded" style="height: 150px;"/>
+<h5 class="card-title" align="center"></h5>
+<div>
+<h6 class="card-subtitle text-muted">
+<a href="">Peng Cui</a>, Tsinghua University <br>
+</h6>
+<!-- Yu Chen is a Research Scientist at Facebook AI. He got his PhD degree in Computer Science from Rensselaer Polytechnic Institute. His research interests lie at the intersection of Machine Learning (Deep Learning), and Natural Language Processing, with a particular emphasis on the fast-growing field of Graph Neural Networks and their applications in various domains. His work has been published in top-ranked conferences including but not limited to NeurIPS, ICML, ICLR, AAAI, IJCAI, NAACL, KDD, WSDM, ISWC, and AMIA. He was the recipient of the Best Student Paper Award of AAAI DLGMA’20. He has served as a PC member in many conferences (e.g., ACL, EMNLP, NAACL, EACL, AAAI, IJCAI and KDD) and journals (e.g., TNNLS, IJIS, TKDE, TKDD, DAMI and TASL). <br> -->
+<div class="text-muted">
+<img src=static/images/jian.jpeg }}" class="rounded" style="height: 150px;"/>
+<h5 class="card-title" align="center"></h5>
+<div>
+<h6 class="card-subtitle text-muted">
+<a href="">Jian Pei</a>, Simon Fraser University <br>
+</h6>
+<!-- Heng Ji is a professor at the Computer Science Department of University of Illinois at Urbana-Champaign. She is an Amazon Scholar. She was selected as "Young Scientist" and a member of the Global Future Council on the Future of Computing by theWorld Economic Forum in 2016 and 2017. She has received many awards including "AI’s 10 to Watch" Award by IEEE Intelligent Systems in 2013, NSF CAREER award in 2009, ACL2020 Best Demo award, PACLIC2012 Best paper runner-up, "Best of ICDM2013" paper award, and "Best of SDM2013" paper award. She has served as the Program Committee Co-Chair for many conferences including NAACL-HLT2018. She is elected as the North American Chapter of the Association for Computational Linguistics (NAACL) secretary 2020-2021. She has given a large number of keynotes/tutorials presentations in Event Extraction, Natural Language Understanding, and Knowledge Base Construction in many conferences including but not limited to ACL, COLING, EMNLP, NAACL, NeurIPS, SIGMOD, AAAI and KDD. <br> -->
+<div class="text-muted">
+<img src=static/images/liang.png }}" class="rounded" style="height: 150px;"/>
+<h5 class="card-title" align="center"></h5>
+<div>
+<h6 class="card-subtitle text-muted">
+<a href="">Liang Zhao</a>, Emory University
+</h6>
+<!-- Bang Liu is an Assistant Professor in the Department of Computer Science and Operations Research (DIRO) at the University of Montreal, as well as a member of Mila – Quebec Artificial Intelligence Institute. His research interests primarily lie in the areas of natural language processing (NLP), data mining, applied machine learning, and deep learning. He received his B.Engr. degree in 2013 from University of Science and Technology of China (USTC), as well as his M.S. degree and Ph.D. degree from University of Alberta in 2015 and 2020, respectively. He has served as PC members in many conferences (e.g., KDD, AAAI, ICML and WSDM). -->
+
+</p>
+<div class="text-muted">
+  <img src=static/images/xiaojie.jpeg }}" class="rounded" style="height: 150px;"/>
+  <h5 class="card-title" align="center"></h5>
+  <div>
+  <h6 class="card-subtitle text-muted">
+  <a href="">Xiaojie Guo</a>, JD.COM Silicon Valley Research Center
+  <br>
+  </h6>
+  <!-- Heng Ji is a professor at the Computer Science Department of University of Illinois at Urbana-Champaign. She is an Amazon Scholar. She was selected as "Young Scientist" and a member of the Global Future Council on the Future of Computing by theWorld Economic Forum in 2016 and 2017. She has received many awards including "AI’s 10 to Watch" Award by IEEE Intelligent Systems in 2013, NSF CAREER award in 2009, ACL2020 Best Demo award, PACLIC2012 Best paper runner-up, "Best of ICDM2013" paper award, and "Best of SDM2013" paper award. She has served as the Program Committee Co-Chair for many conferences including NAACL-HLT2018. She is elected as the North American Chapter of the Association for Computational Linguistics (NAACL) secretary 2020-2021. She has given a large number of keynotes/tutorials presentations in Event Extraction, Natural Language Understanding, and Knowledge Base Construction in many conferences including but not limited to ACL, COLING, EMNLP, NAACL, NeurIPS, SIGMOD, AAAI and KDD. <br> -->
+
+</div>
+</div>
+      </div>
+    </div>
+    </div>
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Contents:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="details" class="pp-card m-3 collapse show">-->
+<!--        <div class="card-text">-->
+<!--            <div id="abstractExample">-->
+<!--                <span class="font-weight-bold">Citations:</span>-->
+<!--                -->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div id="author" class="pp-card m-3 collapse hide">
+    <div class="card-text">
+      <div id="authorExample">
+        
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+    
+    
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-179777566-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-179777566-1");
+    </script>
+
+    <!-- Footer -->
+    <!-- <footer class="footer bg-light p-4">
+      <div class="container">
+        <p class="float-left">
+          <span class="lead">DLG4NLP@2022</span>
+        </p>
+        <p class="float-right"><a href="#" class="text-dark">Back to Top</a></p>
+        <p class="text-center">© 2022 DLG4NLP@2022 Team</p>
+      </div>
+    </footer> -->
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+  </div>
+
+  </body>
+
+      </div>
+    </div>
+    
+    
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-179777566-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-179777566-1");
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+      <div class="container">
+        <p class="float-left">
+          <span class="lead">GNNBook 2022</span>
+        </p>
+        <p class="float-right"><a href="#" class="text-dark">Back to Top</a></p>
+        <p class="text-center">© GNNBook@2022 Team</p>
+      </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+    
+
+  </body>
+</html>
