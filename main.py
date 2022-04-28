@@ -72,6 +72,11 @@ def tutorials():
     data = _data()
     return render_template("tutorials.html", **data)
 
+@app.route("/tutorial_ijcai22.html")
+def tutorial_bak():
+    data = _data()
+    return render_template("tutorial_ijcai22.html", **data)
+
 @app.route("/slides.html")
 def slides():
     data = _data()
