@@ -91,7 +91,7 @@
     {% block header %}
     {% set navigation_bar = [
     ('index.html', 'Home'),
-    ('tutorial_ijcai22.html', 'Tutorial'),
+    ('index.html', 'Tutorials'),
     ('index.html', 'Book'),
     ('index.html','Resources'),
     ('teams.html','Editors')
@@ -176,20 +176,20 @@
                         </a>
                     </div>
                 </li>
-              {% elif id == "IAAI/EAAI" %}
+              {% elif id == "Tutorials" %}
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle"
                       id="IENavbarDropdown" role="button"
                       data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
-                    IAAI/EAAI
+                    Tutorials
                   </a>
 
                   <div class="dropdown-menu" aria-labelledby="IENavbarDropdown">
-                   <a class="dropdown-item" href="iaai.html">
-                      IAAI
+                   <a class="dropdown-item" href="tutorial_ijcai22.html">
+                      IJCAI 2022
                     </a>
-                    <a class="dropdown-item" href="eaai.html">
-                      EAAI
+                    <a class="dropdown-item" href="tutorial_kdd22.html">
+                      KDD 2022
                     </a>
                   </div>
                 </li>
