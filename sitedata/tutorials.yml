@@ -4,7 +4,7 @@
   pdf: static/file/chapter1.pdf
   chinesepdf: static/file/chapter1_chinese.pdf
   organizers: Liang Zhao, Lingfei Wu, Peng Cui, Jian Pei
-  details: Liang Zhao, Emory University, liang.zhao@emory.edu <br> Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu
+  details: Liang Zhao, Emory University, liang.zhao@emory.edu <br> Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Duke University, jpei@cs.sfu.edu
   abstract: |-
     <p>
     In this chapter, we first describe what the representation learning is and why we need representation learning. Among the various ways of learning representations, this chapter focuses on deep learning methods: those that are formed by the composition of multiple non-linear transformations, with the goal of resulting in more abstract and ultimately more useful representations. We summarize the representation learning techniques in different domains, focusing on the unique challenges and models for different data types including images, natural languages, speech signals and networks. At last, we summarize this chapter and provide further reading on mutual information-based representation learning, which is a recently emerging representation technique via unsupervised learning.
@@ -56,7 +56,7 @@
   chinesepdf: static/file/chapter2_chinese.pdf
   title: 'Graph Representation Learning'
   organizers: Peng Cui, Lingfei Wu, Jian Pei, Liang Zhao, Xiao Wang
-  details: Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Xiao Wang, Beijing University of Posts and Telecommunications, xiaowang@bupt.edu.cn
+  details: Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Jian Pei, Duke University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Xiao Wang, Beijing University of Posts and Telecommunications, xiaowang@bupt.edu.cn
   abstract: |-
     <p>
     Graph representation learning aims at assigning nodes in a graph to low-dimensional representations and effectively preserving the graph structure. Recently, a significant amount of progresses have been made toward this emerging graph analysis paradigm. In this chapter, we first summarize the motivation of graph representation learning. Afterwards and primarily, we provide a comprehensive overview of a large number of graph representation learning methods in a systematic manner, covering the traditional graph representation learning, modern graph representation learning, and graph neural networks..
@@ -105,10 +105,10 @@
 - UID: Chapter3
   part: part1
   pdf: static/file/chapter3.pdf
-  chinesepdf: static/file/chapter1_chinese.pdf
+  chinesepdf: static/file/chapter3_chinese.pdf
   title: 'Graph Neural Networks'
   organizers: Lingfei Wu, Peng Cui, Jian Pei, Liang Zhao, Le Song
-  details: Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Le Song, Mohamed bin Zayed University of Artificial Intelligence, dasongle@gmail.com
+  details: Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Duke University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Le Song, Mohamed bin Zayed University of Artificial Intelligence, dasongle@gmail.com
   abstract: |-
     <p>
         Deep Learning has become one of the most dominant approaches in Artificial Intelligence research today. Although conventional deep learning techniques have achieved huge successes on Euclidean data such as images or sequence data such as text, there is a wide range of applications that are naturally or best represented with a graph structure. This gap has driven a tide in research for deep learning on graphs, among them Graph Neural Networks (GNNs) are the most successful in coping with various learning tasks across a large number of application domains. In this chapter, we will systematically organize existing research of GNNs along three axes: foundations, frontiers, and applications. We will introduce the fundamental aspects of GNNs ranging from the popular models and their expressive powers, to the scalability, interpretability and robustness of GNNs. Then we will discuss various frontier research, ranging from graph classification and link prediction, to graph generation and transformation, graph matching and graph structure learning. Based on them, we further summarize the basic procedures which exploit full use of various GNNs for a large number of applications. Finally, we provide the organization of our book and summarize the roadmap of the various research topics of GNNs.
