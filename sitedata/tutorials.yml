@@ -4,7 +4,7 @@
   pdf: static/file/chapter1.pdf
   chinesepdf: static/file/chapter1_chinese.pdf
   organizers: Liang Zhao, Lingfei Wu, Peng Cui, Jian Pei
-  details: Liang Zhao, Emory University, liang.zhao@emory.edu <br> Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu
+  details: Liang Zhao, Emory University, liang.zhao@emory.edu <br> Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu
   abstract: |-
     <p>
     In this chapter, we first describe what the representation learning is and why we need representation learning. Among the various ways of learning representations, this chapter focuses on deep learning methods: those that are formed by the composition of multiple non-linear transformations, with the goal of resulting in more abstract and ultimately more useful representations. We summarize the representation learning techniques in different domains, focusing on the unique challenges and models for different data types including images, natural languages, speech signals and networks. At last, we summarize this chapter and provide further reading on mutual information-based representation learning, which is a recently emerging representation technique via unsupervised learning.
@@ -56,7 +56,7 @@
   chinesepdf: static/file/chapter2_chinese.pdf
   title: 'Graph Representation Learning'
   organizers: Peng Cui, Lingfei Wu, Jian Pei, Liang Zhao, Xiao Wang
-  details: Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Xiao Wang, Beijing University of Posts and Telecommunications, xiaowang@bupt.edu.cn
+  details: Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Xiao Wang, Beijing University of Posts and Telecommunications, xiaowang@bupt.edu.cn
   abstract: |-
     <p>
     Graph representation learning aims at assigning nodes in a graph to low-dimensional representations and effectively preserving the graph structure. Recently, a significant amount of progresses have been made toward this emerging graph analysis paradigm. In this chapter, we first summarize the motivation of graph representation learning. Afterwards and primarily, we provide a comprehensive overview of a large number of graph representation learning methods in a systematic manner, covering the traditional graph representation learning, modern graph representation learning, and graph neural networks..
@@ -105,10 +105,10 @@
 - UID: Chapter3
   part: part1
   pdf: static/file/chapter3.pdf
-  chinesepdf: static/file/chapter3_chinese.pdf
+  chinesepdf: static/file/chapter1_chinese.pdf
   title: 'Graph Neural Networks'
   organizers: Lingfei Wu, Peng Cui, Jian Pei, Liang Zhao, Le Song
-  details: Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Le Song, Mohamed bin Zayed University of Artificial Intelligence, dasongle@gmail.com
+  details: Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Le Song, Mohamed bin Zayed University of Artificial Intelligence, dasongle@gmail.com
   abstract: |-
     <p>
         Deep Learning has become one of the most dominant approaches in Artificial Intelligence research today. Although conventional deep learning techniques have achieved huge successes on Euclidean data such as images or sequence data such as text, there is a wide range of applications that are naturally or best represented with a graph structure. This gap has driven a tide in research for deep learning on graphs, among them Graph Neural Networks (GNNs) are the most successful in coping with various learning tasks across a large number of application domains. In this chapter, we will systematically organize existing research of GNNs along three axes: foundations, frontiers, and applications. We will introduce the fundamental aspects of GNNs ranging from the popular models and their expressive powers, to the scalability, interpretability and robustness of GNNs. Then we will discuss various frontier research, ranging from graph classification and link prediction, to graph generation and transformation, graph matching and graph structure learning. Based on them, we further summarize the basic procedures which exploit full use of various GNNs for a large number of applications. Finally, we provide the organization of our book and summarize the roadmap of the various research topics of GNNs.
@@ -714,7 +714,7 @@
   pdf: static/file/chapter13.pdf
   title: 'Graph Neural Networks: Graph Matching'
   organizers: Xiang Ling, Lingfei Wu, Chunming Wu, Shouling Ji
-  details: Xiang Ling, Zhejiang University, lingxiang@zju.edu.cn<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Chunming Wu, Zhejiang University, wuchunming@zju.edu.cn<br>Shouling Ji, Zhejiang University, sji@zju.edu.cn
+  details: Xiang Ling, Zhejiang University, lingxiang@zju.edu.cn<br>Lingfei Wu, Pinterest, lwu@email.wm.edu<br>Chunming Wu, Zhejiang University, wuchunming@zju.edu.cn<br>Shouling Ji, Zhejiang University, sji@zju.edu.cn
   abstract: |-
     <p>
     The problem of graph matching that tries to establish some kind of structural correspondence between a pair of graph-structured objects is one of the key challenges in a variety of real-world applications. In general, the graph matching problem can be classified into two categories: i) the classic graph matching problem which finds an optimal node-to-node correspondence between nodes of a pair of input graphs and ii) the graph similarity problem which computes a similarity metric between two graphs. While recent years have witnessed the great success of GNNs in learning node representations of graphs, there is an increasing interest in exploring GNNs for the graph matching problem in an end-to-end manner. This chapter focuses on the state of the art of graph matching models based on GNNs. We start by introducing some backgrounds of the graph matching problem. Then, for each category of graph matching problem, we provide a formal definition and discuss state-of-the-art GNN-based models for both the classic graph matching problem and the graph similarity problem, respectively. Finally, this chapter is concluded by pointing out some possible future research directions.
@@ -769,7 +769,7 @@
   pdf: static/file/chapter14.pdf
   title: 'Graph Neural Networks: Graph Structure Learning'
   organizers: Yu Chen, Lingfei Wu
-  details: Yu Chen, Facebook AI, hugochan2013@gmail.com<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@emial.wm.edu
+  details: Yu Chen, Facebook AI, hugochan2013@gmail.com<br>Lingfei Wu, Pinterest, lwu@emial.wm.edu
   abstract: |-
     <p>
     Due to the excellent expressive power of Graph Neural Networks (GNNs) on modeling graph-structure data, GNNs have achieved great success in various applications such as Natural Language Processing, Computer Vision, recommender systems, drug discovery and so on. However, the great success of GNNs relies on the quality and availability of graph-structured data which can either be noisy or unavailable. The problem of graph structure learning aims to discover useful graph structures from data, which can help solve the above issue. This chapter attempts to provide a comprehensive introduction of graph structure learning through the lens of both traditional machine learning and GNNs. After reading this chapter, readers will learn how this problem has been tackled from different perspectives, for different purposes, via different techniques, as well as its great potential when combined with GNNs. Readers will also learn promising future directions in this research area.
@@ -1148,7 +1148,7 @@
   pdf: static/file/chapter20.pdf
   title: 'Graph Neural Networks in Computer Vision'
   organizers: Siliang Tang, Wenqiao Zhang, Zongshen Mu, Kai Shen, Juncheng Li, Jiacheng Li, Lingfei Wu
-  details: Siliang Tang, Zhejiang University, siliang@zju.edu.cn<br>Wenqiao Zhang, Zhejiang University, wenqiaozhang@zju.edu.cn<br>Zongshen Mu, Zhejiang University, zongshen@zju.edu.cn<br>Kai Shen, Zhejiang University, shenkai@zju.edu.cn<br>Juncheng Li, Zhejiang University, junchengli@zju.edu.cn<br>Jiacheng Li, Zhejiang University, lijiacheng@zju.edu.cn<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu
+  details: Siliang Tang, Zhejiang University, siliang@zju.edu.cn<br>Wenqiao Zhang, Zhejiang University, wenqiaozhang@zju.edu.cn<br>Zongshen Mu, Zhejiang University, zongshen@zju.edu.cn<br>Kai Shen, Zhejiang University, shenkai@zju.edu.cn<br>Juncheng Li, Zhejiang University, junchengli@zju.edu.cn<br>Jiacheng Li, Zhejiang University, lijiacheng@zju.edu.cn<br>Lingfei Wu, Pinterest, lwu@email.wm.edu
   abstract: |-
     <p>
     Recently Graph Neural Networks (GNNs) have been incorporated into many Computer Vision (CV) models. They not only bring performance improvement to many CV-related tasks but also provide more explainable decomposition to these CV models. This chapter provides a comprehensive overview of how GNNs are applied to various CV tasks, ranging from single image classification to crossmedia understanding. It also provides a discussion of this rapidly growing field from a frontier perspective.
@@ -1217,7 +1217,7 @@
   pdf: static/file/chapter21.pdf
   title: 'Graph Neural Networks in Natural Language Processing'
   organizers: Bang Liu, Lingfei Wu
-  details: Bang Liu, University of Montreal, bang.liu@umontreal.ca<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu
+  details: Bang Liu, University of Montreal, bang.liu@umontreal.ca<br>Lingfei Wu, Pinterest, lwu@email.wm.edu
   abstract: |-
     <p>
     Natural language processing (NLP) and understanding aim to read from unformatted text to accomplish different tasks. While word embeddings learned by deep neural networks are widely used, the underlying linguistic and semantic structures of text pieces cannot be fully exploited in these representations. Graph is a natural way to capture the connections between different text pieces, such as entities, sentences, and documents. To overcome the limits in vector space models, researchers combine deep learning models with graph-structured representations for various tasks in NLP and text mining. Such combinations help to make full use of both the structural information in text and the representation learning ability of deep neural networks. In this chapter, we introduce the various graph representations that are extensively used in NLP, and show how different NLP tasks can be tackled from a graph perspective.We summarize recent research works on graph-based NLP, and discuss two case studies related to graph-based text clustering, matching, and multihop machine reading comprehension in detail. Finally, we provide a synthesis about the important open problems of this subfield.
