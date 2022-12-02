@@ -22,6 +22,11 @@
     <a class="card-link" href="{{tutorial.pdf}}">
         PDF
     </a>
+    {% if tutorial.chinesepdf%}
+    <a class="card-link" href="{{tutorial.chinesepdf}}">
+      中文版
+    </a>
+    {% endif %}
 
     {% if tutorial.authors %}
     <a class="card-link" data-toggle="collapse" role="button" href="#author">

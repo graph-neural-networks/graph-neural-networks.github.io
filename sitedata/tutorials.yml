@@ -2,6 +2,7 @@
   part: part1
   title: 'Representation Learning'
   pdf: static/file/chapter1.pdf
+  chinesepdf: static/file/chapter1_chinese.pdf
   organizers: Liang Zhao, Lingfei Wu, Peng Cui, Jian Pei
   details: Liang Zhao, Emory University, liang.zhao@emory.edu <br> Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu
   abstract: |-
@@ -52,6 +53,7 @@
 - UID: Chapter2
   part: part1
   pdf: static/file/chapter2.pdf
+  chinesepdf: static/file/chapter2_chinese.pdf
   title: 'Graph Representation Learning'
   organizers: Peng Cui, Lingfei Wu, Jian Pei, Liang Zhao, Xiao Wang
   details: Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Xiao Wang, Beijing University of Posts and Telecommunications, xiaowang@bupt.edu.cn
@@ -103,6 +105,7 @@
 - UID: Chapter3
   part: part1
   pdf: static/file/chapter3.pdf
+  chinesepdf: static/file/chapter3_chinese.pdf
   title: 'Graph Neural Networks'
   organizers: Lingfei Wu, Peng Cui, Jian Pei, Liang Zhao, Le Song
   details: Lingfei Wu, JD.COM Silicon Valley Research Center, lwu@email.wm.edu<br>Peng Cui, Tsinghua University, cuip@tsinghua.edu.cn<br>Jian Pei, Simon Fraser University, jpei@cs.sfu.edu<br>Liang Zhao, Emory University, liang.zhao@emory.edu <br>Le Song, Mohamed bin Zayed University of Artificial Intelligence, dasongle@gmail.com

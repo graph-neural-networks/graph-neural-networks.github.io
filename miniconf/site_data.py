@@ -363,6 +363,7 @@ class Tutorial:
     abstract: str
     details: str
     pdf: str
+    chinesepdf: str
 #    website: Optional[str]
 #    material: Optional[str]
 #    slides: Optional[str]
