@@ -1,4 +1,4 @@
-name: GNNBook@2022
+name: GNNBook@2023
 tagline: Graph Neural Networks
 subtitle: Foundations, Frontiers, and Applications
 proceedings_title: Graph Neural Networks <br> Foundations, Frontiers, and Applications
@@ -9,12 +9,12 @@ logo:
 citation_date: January 2022
 analytics: UA-179777566-1
 site_url: https://aaai.org/Conferences/AAAI-21/
-site_title: GNNBook@2022
+site_title: GNNBook@2023
 page_title:
-  prefix: 'GNNBook@2022'
+  prefix: 'GNNBook@2023'
   separator: ': '
 background_image: static/images/background.jpg
-organization: GNNBook@2022 Team
+organization: GNNBook@2023 Team
 
 # Path to the folder of paper images.
 paper_images_path: static/images/papers

@@ -80,7 +80,12 @@ def tutorial_ijcai22():
 @app.route("/tutorial_kdd22.html")
 def tutorial_kdd22():
     data = _data()
-    return render_template("tutorial_kdd22.html", **data)
+    return render_template("tutorial_kdd22_backup.html", **data)
+
+@app.route("/tutorial_aaai23.html")
+def tutorial_aaai23():
+    data = _data()
+    return render_template("tutorial_aaai23.html", **data)
 
 @app.route("/slides.html")
 def slides():
