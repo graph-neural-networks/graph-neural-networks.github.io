@@ -92,6 +92,11 @@ def tutorial_kdd23():
     data = _data()
     return render_template("tutorial_kdd23.html", **data)
 
+@app.route("/tutorial_www23.html")
+def tutorial_www23():
+    data = _data()
+    return render_template("tutorial_www23.html", **data)
+
 @app.route("/slides.html")
 def slides():
     data = _data()
